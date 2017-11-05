@@ -6,23 +6,25 @@ Get the extension here: https://marketplace.visualstudio.com/items?itemName=Simo
 
 ###Javascript:
 #### Middleware Functions:
-ccSimpleGetById_MiddleWare_Express
-ccIsAuthenticated_MiddleWare_Express
+ccSimpleGetById_MiddleWare_Express,
+ccIsAuthenticated_MiddleWare_Express,
 ccHasAuthorized_MiddleWare_Express
+
 #### Express Controller Functions:
-ccGetErrorMessage_Function_Controller_Express
-ccSimpleCreate_Function_Controller_Express
-ccSimpleGetAll_Function_Controller_Express
+ccGetErrorMessage_Function_Controller_Express,
+ccSimpleCreate_Function_Controller_Express,
+ccSimpleGetAll_Function_Controller_Express,
 ccSimpleUpdate_Function_Controller_Express
 
 #### Express Routes:
-ccModuleExports_Function_Routes_Express
+ccModuleExports_Function_Routes_Express,
 ccSimpleAppRoute_Routes_Express
 
 #### mongoose Functions:
-ccExportsFunction
-ccNewSchema-mongoose
+ccExportsFunction,
+ccNewSchema-mongoose,
 ccprop-mongoose
+
 #### common usages:
 cclog, ccif, ccForEntityInModel, ccAnonymousFunction, ccStandardRequire, ccStandardFunction, 
 
