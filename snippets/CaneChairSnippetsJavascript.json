@@ -10,52 +10,61 @@
 	"if statement": {
 		"prefix": "ccif",
 		"body": [
-			"if (${1:condition}) {",
-			"${2:statement}",
+			"if (${1:__condition__}) {",
+			"${2:__statement__}",
+			"}"
+		],
+		"description": "example: if(condition) { statement }"
+	},
+	"if statement": {
+		"prefix": "ccForEntityInModel",
+		"body": [
+			"for (let ${1:__entityname__} in ${2:__modelName__}) {",
+			"	${3:__statement__}",
 			"}"
 		],
 		"description": "example: if(condition) { statement }"
 	},
 	"anonymous function": {
-		"prefix": "ccaf",
+		"prefix": "ccAnonymousFunction",
 		"body": [
-			"(${1:parameter})=>{",
-			"${2:statement}",
+			"(${1:__parameter__})=>{",
+			"${2:__statement__}",
 			"}"
 		],
 		"description": "example: (parameter)=>{ statement}"
 	},
 	"require": {
-		"prefix": "ccreq",
+		"prefix": "ccStandardRequire",
 		"body": [
-			"${2:moduleName}=require('${1:modulePath}')"
+			"${2:__moduleName__}=require('${1:__modulePath__}')"
 		],
 		"description": ""
 	},
 	"standard function": {
-		"prefix": "ccfunction",
+		"prefix": "ccStandardFunction",
 		"body": [
-			"function(${1:parameter}){",
-			"	${2:statement}",
+			"function(${1:__parameter__}){",
+			"	${2:__statement__}",
 			"};"
 		],
 		"description": ""
 	},
 	"mongoose: new Schema": {
-		"prefix": "ccnewschema",
+		"prefix": "ccNewSchema-mongoose",
 		"body": [
-			"${1:schemaName} = new Schema({",
-			"	${2:statement}",
+			"${1:__schemaName__} = new Schema({",
+			"	${2:__statement__}",
 			"});"
 		],
 		"description": ""
 	},
 	"mongoose: property": {
-		"prefix": "ccprop",
+		"prefix": "ccprop-mongoose",
 		"body": [
-			"${1:propertyname}: {",
-			"	type: ${2:dataType},",
-			"	default: ${3:defaultValue}"
+			"${1:__propertyname__}: {",
+			"	type: ${2:__dataType__},",
+			"	default: ${3:__defaultValue__}"
 			"}"
 		],
 		"description": ""
