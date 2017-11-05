@@ -1,13 +1,12 @@
 {
-	"Print to console": {
+	"NodeJs : Common : PrintToConsole": {
 		"prefix": "cclog",
 		"body": [
-			"console.log('$1');",
-			"$2"
+			"console.log('$1');"
 		],
 		"description": "Log output to console"
 	},
-	"if statement": {
+	"NodeJs : Common : IfStatement": {
 		"prefix": "ccif",
 		"body": [
 			"if (${1:__condition__}) {",
@@ -16,65 +15,208 @@
 		],
 		"description": "example: if(condition) { statement }"
 	},
-	"for entity in model": {
+	"NodeJs : Common : ForEntityInModel": {
 		"prefix": "ccForEntityInModel",
 		"body": [
 			"for (let ${1:__entityname__} in ${2:__modelName__}) {",
-			"	${3:__statement__}",
+			"${3:__statement__}",
 			"}"
 		],
 		"description": "example: if(condition) { statement }"
 	},
-	"anonymous function": {
+	"NodeJs : Common : AnonymousFunction": {
 		"prefix": "ccAnonymousFunction",
 		"body": [
 			"(${1:__parameter__})=>{",
-			"${2:__statement__}",
+			"\t${2:__statement__}",
 			"}"
 		],
 		"description": "example: (parameter)=>{ statement}"
 	},
-	"require": {
+	"NodeJs : Common : StandardRequire": {
 		"prefix": "ccStandardRequire",
 		"body": [
-			"${2:__moduleName__}=require('${1:__modulePath__}')"
+			"${2:__moduleName__}=require('${1:__modulePath__}');"
 		],
 		"description": ""
 	},
-	"standard function": {
+	"NodeJs : Common : StandardFunction": {
 		"prefix": "ccStandardFunction",
 		"body": [
 			"function(${1:__parameter__}){",
-			"	${2:__statement__}",
+			"\t${2:__statement__}",
 			"};"
 		],
 		"description": ""
 	},
-	"exports function": {
-		"prefix": "ccExportsFunction",
-		"body": [
-			"exports.${1:__functionName__} = function(${2:req}, ${3:res}, ${4:}){",
-			"	${5:__statement__}",
-			"};"
-		],
-		"description": ""
-	},
-	"mongoose: new Schema": {
+	"Mongoose : AddNewSchema": {
 		"prefix": "ccNewSchema-mongoose",
 		"body": [
 			"${1:__schemaName__} = new Schema({",
-			"	${2:__statement__}",
+			"\t${2:__statement__}",
 			"});"
 		],
 		"description": ""
 	},
-	"mongoose: property": {
+	"Mongoose : AddNewProperty": {
 		"prefix": "ccprop-mongoose",
 		"body": [
 			"${1:__propertyname__}: {",
-			"	type: ${2:__dataType__},",
-			"	default: ${3:__defaultValue__}"
+			"\ttype: ${2:__dataType__},",
+			"\tdefault: ${3:__defaultValue__}",
 			"}"
+		],
+		"description": ""
+	},
+	"Express : Controller : ExportsFunction": {
+		"prefix": "ccExportsFunction",
+		"body": [
+			"exports.${1:__functionName__} = function(${2:req}, ${3:res}, ${4:}){",
+			"\t${5:__statement__}",
+			"};"
+		],
+		"description": ""
+	},
+	"Express : Controller : Function : GetErrorMessage": {
+		"prefix": "ccGetErrorMessage_Function_Controller_Express",
+		"body": [
+			"function getErrorMessage(err) {",
+			"\tif (err.errors) {",
+			"\tfor (let errName in err.errors) {",
+			"\t\tif (err.errors[errName].message) {",
+			"\t\t\treturn err.errors[errName].message;",
+			"\t\t} else {",
+			"\t\t\treturn 'Unknow server error';",
+			"\t\t}",
+			"\t}",
+			"\t}",
+			"}"
+		],
+		"description": ""
+	},
+	"Express : Controller : Function : SimpleCreate": {
+		"prefix": "ccSimpleCreate_Function_Controller_Express",
+		"body": [
+			"exports.simpleCreate = function (req, res) {",
+			"\tconst ${1:entityName} = new ${2:modelName}(req.body);",
+			"",
+			"\t${1:entityName}.save((err) => {",
+			"\t\tif (err) {",
+			"\t\t\treturn res.status(400).send({",
+			"\t\t\t\tmessage: getErrorMessage(err)",
+			"\t\t\t});",
+			"\t\t} else {",
+			"\t\t\tres.status(200).json(${1:entityName});",
+			"\t\t}",
+			"\t})",
+			"};"
+		],
+		"description": ""
+	},
+	"Express : Controller : Function : SimpleGetAll": {
+		"prefix": "ccSimpleGetAll_Function_Controller_Express",
+		"body": [
+			"exports.getAll = function (req, res) {",
+			"\t${1:__modelName__}.find()",
+			"\t.exec((err, ${2:__entities__}) => {",
+			"\t\tif (err) {",
+			"\t\t\treturn res.status(400).send({",
+			"\t\t\tmessage: getErrorMessage(err)",
+			"\t\t\t});",
+			"\t\t} else {",
+			"\t\t\tres.status(200).json(${2:__entities__});",
+			"\t\t};",
+			"\t});",
+			"};"
+		],
+		"description": ""
+	},
+	"Express : Controller : Function :  SimpleUpdate": {
+		"prefix": "ccSimpleUpdate_Function_Controller_Express",
+		"body": [
+			"exports.simpleUpdate = function (req, res) {",
+			"\tconst ${1:__entity__} = req.${1:__entity__};",
+			"",
+			"\t${1:__entity__}.${2:__entityProperty__} = req.body.${2:__entityProperty__};",
+			"\t${1:__entity__}.save((err) => {",
+			"\t\tif (err) {",
+			"\t\t\treturn res.status(400).send({",
+			"\t\t\t\tmessage: getErrorMessage(err)",
+			"\t\t\t});",
+			"\t\t} else {",
+			"\t\t\tres.status(200).json(${1:__entity__});",
+			"\t\t}",
+			"\t});",
+			"};"
+		],
+		"description": "Assumption already obtained the object with getById middleware."
+	},
+	"Express : Middleware : simpleGetById": {
+		"prefix": "ccSimpleGetById_MiddleWare_Express",
+		"body": [
+			"exports.getById_middleWare = function (req, res, next, id) {",
+			"\t${1:__modelName__}.findById(id)",
+			"\t\t.exec((err, ${2:__entity__}) => {",
+			"\t\t\tif (err) {",
+			"\t\t\t\treturn next(err);",
+			"\t\t\t}",
+			"",
+			"\t\t\tif (!${2:__entity__}) {",
+			"\t\t\t\treturn next(new Error('Failed to get ${2:__entity__} ' + id));",
+			"\t\t\t}",
+			"",
+			"\t\t\treq.${2:__entity__} = ${2:__entity__};",
+			"\t\t\tnext();",
+			"\t\t});",
+			"};"
+		],
+		"description": ""
+	},
+	"Express : middleware : IsAuthenticated": {
+		"prefix": "ccIsAuthenticated_MiddleWare_Express",
+		"body": [
+			"exports.authenticate_middleware = function (req, res, next) {",
+			"\tif (!req.isAuthenticated()) {",
+			"\t\treturn res.status(401).send({",
+			"\t\t\tmessage: 'Unauthorized.'",
+			"\t\t});",
+			"\t}",
+			"\tnext();",
+			"};"
+		],
+		"description": ""
+	},
+	"Express : middleware : HasAuthorized": {
+		"prefix": "ccHasAuthorized_MiddleWare_Express",
+		"body": [
+			"exports.${1:hasAuthorizationFor...} = function (req, res, next) {",
+			"\tif (${2:__authorizationCondition__}) {",
+			"\t\treturn res.status(403).send({",
+			"\t\t\tmessage: 'Unauthorized.'",
+			"\t\t});",
+			"\t}",
+			"\tnext();",
+			"}"
+		],
+		"description": ""
+	},
+	"Express : Routes : Module :  function": {
+		"prefix": "ccModuleExports_Function_Routes_Express",
+		"body": [
+			"module.exports = function (app) {",
+			"\t${1:__routes__}",
+			"}"
+		],
+		"description": ""
+	},
+	"Express : Routes : SimpleAppRoute ": {
+		"prefix": "ccSimpleAppRoute_Routes_Express",
+		"body": [
+			"app.route('${1:__baseRoute__}')",
+			"\t.get(${2:__middleware__}, ${3:__controllerMethod__})",
+			"\t.post(${4:__middleware__}, ${5:__controllerMethod__})",
+			"\t.put(${6:__middleware__}, ${7:__controllerMethod__})",
+			"\t.delete(${8:__middleware__}, ${9:__controllerMethod__});"
 		],
 		"description": ""
 	}
