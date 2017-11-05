@@ -16,7 +16,7 @@
 		],
 		"description": "example: if(condition) { statement }"
 	},
-	"if statement": {
+	"for entity in model": {
 		"prefix": "ccForEntityInModel",
 		"body": [
 			"for (let ${1:__entityname__} in ${2:__modelName__}) {",
