@@ -14,7 +14,11 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/CaneChairSnippetsJavascript.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/CaneChairSnippetsTypescript.json"
             }
         ]
     }
