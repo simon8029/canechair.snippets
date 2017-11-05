@@ -26,5 +26,5 @@ ccprop-mongoose
 #### common usages:
 cclog, ccif, ccForEntityInModel, ccAnonymousFunction, ccStandardRequire, ccStandardFunction, 
 
-####Typescript:
+#### Typescript:
 cclog, ccif, ccimps
