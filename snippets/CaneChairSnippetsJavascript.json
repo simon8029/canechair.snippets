@@ -54,7 +54,7 @@
 		"prefix": "ccExportsFunction",
 		"body": [
 			"exports.${1:__functionName__} = function(${2:req}, ${3:res}, ${4:}){",
-			"	${2:__statement__}",
+			"	${5:__statement__}",
 			"};"
 		],
 		"description": ""
