@@ -1,4 +1,6 @@
-# CaneChairSnippets README
+# CaneChairSnippets 
+(It's time to lay down and rock)
+
 Snippets for javascript full stack development on VS Code.
 Currently focus on Node.js, MongoDB, Mongoose, Express, Angular (so called ME(A)N Stack. but anyway, others are on the road).
 
