@@ -50,6 +50,15 @@
 		],
 		"description": ""
 	},
+	"exports function": {
+		"prefix": "ccExportsFunction",
+		"body": [
+			"exports.${1:__functionName__} = function(${2:req}, ${3:res}, ${4:}){",
+			"	${2:__statement__}",
+			"};"
+		],
+		"description": ""
+	},
 	"mongoose: new Schema": {
 		"prefix": "ccNewSchema-mongoose",
 		"body": [
