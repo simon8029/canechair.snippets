@@ -69,7 +69,7 @@
 		"description": ""
 	},
 	"Express : Controller : ExportsFunction": {
-		"prefix": "ccExportsFunction",
+		"prefix": "ccExpress_Controller_Function_Exports",
 		"body": [
 			"exports.${1:__functionName__} = function(${2:req}, ${3:res}, ${4:}){",
 			"\t${5:__statement__}",
@@ -78,7 +78,7 @@
 		"description": ""
 	},
 	"Express : Controller : Function : GetErrorMessage": {
-		"prefix": "ccGetErrorMessage_Function_Controller_Express",
+		"prefix": "ccExpress_Controller_Function_GetErrorMessage",
 		"body": [
 			"function getErrorMessage(err) {",
 			"\tif (err.errors) {",
@@ -95,7 +95,7 @@
 		"description": ""
 	},
 	"Express : Controller : Function : SimpleCreate": {
-		"prefix": "ccSimpleCreate_Function_Controller_Express",
+		"prefix": "ccExpress_Controller_Function_SimpleCreate",
 		"body": [
 			"exports.simpleCreate = function (req, res) {",
 			"\tconst ${1:entityName} = new ${2:modelName}(req.body);",
@@ -114,7 +114,7 @@
 		"description": ""
 	},
 	"Express : Controller : Function : SimpleGetAll": {
-		"prefix": "ccSimpleGetAll_Function_Controller_Express",
+		"prefix": "ccExpress_Controller_Function_SimpleGetAll",
 		"body": [
 			"exports.getAll = function (req, res) {",
 			"\t${1:__modelName__}.find()",
@@ -132,7 +132,7 @@
 		"description": ""
 	},
 	"Express : Controller : Function :  SimpleUpdate": {
-		"prefix": "ccSimpleUpdate_Function_Controller_Express",
+		"prefix": "ccExpress_Controller_Function_SimpleUpdate",
 		"body": [
 			"exports.simpleUpdate = function (req, res) {",
 			"\tconst ${1:__entity__} = req.${1:__entity__};",
@@ -152,7 +152,7 @@
 		"description": "Assumption already obtained the object with getById middleware."
 	},
 	"Express : Middleware : simpleGetById": {
-		"prefix": "ccSimpleGetById_MiddleWare_Express",
+		"prefix": "ccExpress_MiddleWare_SimpleGetById",
 		"body": [
 			"exports.getById_middleWare = function (req, res, next, id) {",
 			"\t${1:__modelName__}.findById(id)",
@@ -173,7 +173,7 @@
 		"description": ""
 	},
 	"Express : middleware : IsAuthenticated": {
-		"prefix": "ccIsAuthenticated_MiddleWare_Express",
+		"prefix": "ccExpress_MiddleWare_IsAuthenticated",
 		"body": [
 			"exports.authenticate_middleware = function (req, res, next) {",
 			"\tif (!req.isAuthenticated()) {",
@@ -187,7 +187,7 @@
 		"description": ""
 	},
 	"Express : middleware : HasAuthorized": {
-		"prefix": "ccHasAuthorized_MiddleWare_Express",
+		"prefix": "ccExpress_MiddleWare_HasAuthorized",
 		"body": [
 			"exports.${1:hasAuthorizationFor...} = function (req, res, next) {",
 			"\tif (${2:__authorizationCondition__}) {",
@@ -201,7 +201,7 @@
 		"description": ""
 	},
 	"Express : Routes : Module :  function": {
-		"prefix": "ccModuleExports_Function_Routes_Express",
+		"prefix": "ccExpress_Routes_ModuleExports_Function",
 		"body": [
 			"module.exports = function (app) {",
 			"\t${1:__routes__}",
@@ -210,13 +210,34 @@
 		"description": ""
 	},
 	"Express : Routes : SimpleAppRoute ": {
-		"prefix": "ccSimpleAppRoute_Routes_Express",
+		"prefix": "ccExpress_Routes_SimpleAppRoute",
 		"body": [
 			"app.route('${1:__baseRoute__}')",
 			"\t.get(${2:__middleware__}, ${3:__controllerMethod__})",
 			"\t.post(${4:__middleware__}, ${5:__controllerMethod__})",
 			"\t.put(${6:__middleware__}, ${7:__controllerMethod__})",
 			"\t.delete(${8:__middleware__}, ${9:__controllerMethod__});"
+		],
+		"description": ""
+	},
+	"Express : Response : Status : 500 : Send ": {
+		"prefix": "ccExpress_Return_500_Send",
+		"body": [
+			"return ${1:res}.status(500).send({ message: '${2:message}' ${3} });"
+		],
+		"description": ""
+	},
+	"Express : Return : 200 : Send ": {
+		"prefix": "ccExpress_Return_200_Send",
+		"body": [
+			"return ${1:res}.status(200).send({ ${2} });"
+		],
+		"description": ""
+	},
+	"Express : Response : Status : 401 : Send": {
+		"prefix": "ccExpress_Return_401_Send",
+		"body": [
+			"return ${1:res}.status(401).send({ ${2} });"
 		],
 		"description": ""
 	}

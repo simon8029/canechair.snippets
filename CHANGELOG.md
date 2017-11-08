@@ -1,4 +1,8 @@
 # Change Log
+
+##### [0.1.1]
+- Add snippets for Express Response Status Send - (javascript)
+- Rename snippets format
 ##### [0.1.0] 
 - Add simple CRUD snippets for Express Controllers - (javascript)
 - Add middleware snippets for Express Controllers - (javascript)

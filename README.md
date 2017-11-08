@@ -1,5 +1,5 @@
 # CaneChairSnippets 
-##### (It's time to lay down and rock)
+##### (It's time to sit down and enjoy the rocking)
 
 ***
 
@@ -11,21 +11,29 @@ Currently focus on NodeJs, MongoDB, Mongoose, Express, Angular (so called ME(A)N
 
 Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace.visualstudio.com/items?itemName=Simon8029.canechairsnippets)
 
+GitHub: https://github.com/simon8029/CaneChair.Snippets.io
+
 #### Javascript:
 ##### Middleware Functions:
-* ccSimpleGetById_MiddleWare_Express
-* ccIsAuthenticated_MiddleWare_Express
-* ccHasAuthorized_MiddleWare_Express
+* ccExpress_MiddleWare_SimpleGetById
+* ccExpress_MiddleWare_IsAuthenticated
+* ccExpress_MiddleWare_HasAuthorized
 
 ##### Express Controller Functions:
-* ccGetErrorMessage_Function_Controller_Express
-* ccSimpleCreate_Function_Controller_Express
-* ccSimpleGetAll_Function_Controller_Express
-* ccSimpleUpdate_Function_Controller_Express
+* ccExpress_Controller_Function_Exports
+* ccExpress_Controller_Function_GetErrorMessage
+* ccExpress_Controller_Function_SimpleCreate
+* ccExpress_Controller_Function_SimpleGetAll
+* ccExpress_Controller_Function_SimpleUpdate
 
 ##### Express Routes:
-* ccModuleExports_Function_Routes_Express
-* ccSimpleAppRoute_Routes_Express
+* ccExpress_Routes_ModuleExports_Function
+* ccExpress_Routes_SimpleAppRoute
+
+##### Express Response Status Send:
+* ccExpress_Return_500_Send
+* ccExpress_Return_200_Send
+* ccExpress_Return_401_Send
 
 ##### mongoose Functions:
 * ccExportsFunction
