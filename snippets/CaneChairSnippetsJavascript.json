@@ -40,15 +40,15 @@
 		],
 		"description": ""
 	},
-	"NodeJs : Common : StandardFunction": {
-		"prefix": "ccStandardFunction",
-		"body": [
-			"function(${1:__parameter__}){",
-			"\t${2:__statement__}",
-			"};"
-		],
-		"description": ""
-	},
+	// "NodeJs : Common : StandardFunction": {
+	// 	"prefix": "ccStandardFunction",
+	// 	"body": [
+	// 		"function(${1:__parameter__}){",
+	// 		"\t${2:__statement__}",
+	// 		"};"
+	// 	],
+	// 	"description": ""
+	// },
 	"Mongoose : AddNewSchema": {
 		"prefix": "ccNewSchema-mongoose",
 		"body": [
@@ -68,12 +68,38 @@
 		],
 		"description": ""
 	},
+	"Mongoose : Controller : Function : FindOne": {
+		"prefix": "ccMongoose_Controller_Function_FindOne",
+		"body": [
+			"${1:modelName}.findOne({ ${2:condition} }, function (err, ${3:entityName}) {",
+			"\tif (err) {",
+			"\t\treturn res.status(500).send('${4:error message}');",
+			"\t}",
+			"",
+			"\tif (!${3:entityName}) {",
+			"\t\treturn res.status(404).send('${3:entityName} not found.');",
+			"\t}",
+			"",
+			"\tres.status(200).send({ auth: true, token: token });",
+			"});"
+		],
+		"description": ""
+	},
 	"Express : Controller : ExportsFunction": {
 		"prefix": "ccExpress_Controller_Function_Exports",
 		"body": [
 			"exports.${1:__functionName__} = function(${2:req}, ${3:res}, ${4:}){",
 			"\t${5:__statement__}",
 			"};"
+		],
+		"description": ""
+	},
+	"Express : Controller : Function :Default": {
+		"prefix": "ccExpress_Controller_Function_Default",
+		"body": [
+			"function ${1:__functionName__}(${2:__parameter__}){",
+			"\t${3:__statement__}",
+			"}"
 		],
 		"description": ""
 	},
@@ -200,6 +226,27 @@
 		],
 		"description": ""
 	},
+	"Express : MiddleWare : VerifyToken": {
+		"prefix": "ccExpress_MiddleWare_VerifyToken",
+		"body": [
+			"var jwt = require('jsonwebtoken');",
+			"function verifyToken(req, res, next) {",
+			"\tvar token = req.headers['${1}'];",
+			"\tif (!token)",
+			"\t\treturn res.status(403).send('No token.');",
+			"\tjwt.verify(token, config.secret, function (err, decoded) {",
+			"\t\tif (err) {",
+			"\t\t\treturn res.status(500).send('Invalid token.');",
+			"\t\t}",
+			"",
+			"\t\t${2:req.userId = decoded.id;}",
+			"\t\t",
+			"\t\tnext();",
+			"\t});",
+			"}"
+		],
+		"description": ""
+	},
 	"Express : Routes : Module :  function": {
 		"prefix": "ccExpress_Routes_ModuleExports_Function",
 		"body": [
@@ -220,24 +267,31 @@
 		],
 		"description": ""
 	},
-	"Express : Response : Status : 500 : Send ": {
-		"prefix": "ccExpress_Return_500_Send",
+	"Express : Response : Status : 200 : Send ": {
+		"prefix": "ccExpress_Response_Status_200_Send",
 		"body": [
-			"return ${1:res}.status(500).send({ message: '${2:message}' ${3} });"
-		],
-		"description": ""
-	},
-	"Express : Return : 200 : Send ": {
-		"prefix": "ccExpress_Return_200_Send",
-		"body": [
-			"return ${1:res}.status(200).send({ ${2} });"
+			"${1:res}.status(200).send(${2});"
 		],
 		"description": ""
 	},
 	"Express : Response : Status : 401 : Send": {
-		"prefix": "ccExpress_Return_401_Send",
+		"prefix": "ccExpress_Response_Status_401_Send",
 		"body": [
-			"return ${1:res}.status(401).send({ ${2} });"
+			"${1:res}.status(401).send(${2});"
+		],
+		"description": ""
+	},
+	"Express : Response : Status : 404 : Send": {
+		"prefix": "ccExpress_Response_Status_404_Send",
+		"body": [
+			"${1:res}.status(404).send('${2:Not found.}');"
+		],
+		"description": ""
+	},
+	"Express : Response : Status : 500 : Send ": {
+		"prefix": "ccExpress_Response_Status_500_Send",
+		"body": [
+			"${1:res}.status(500).send({ message: '${2:message}' ${3} });"
 		],
 		"description": ""
 	}

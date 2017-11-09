@@ -14,34 +14,38 @@ Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace
 GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
 #### Javascript:
-##### Middleware Functions:
-* ccExpress_MiddleWare_SimpleGetById
-* ccExpress_MiddleWare_IsAuthenticated
-* ccExpress_MiddleWare_HasAuthorized
-
 ##### Express Controller Functions:
+* ccExpress_Controller_Function_Default
 * ccExpress_Controller_Function_Exports
 * ccExpress_Controller_Function_GetErrorMessage
 * ccExpress_Controller_Function_SimpleCreate
 * ccExpress_Controller_Function_SimpleGetAll
 * ccExpress_Controller_Function_SimpleUpdate
 
+##### Middleware Functions:
+* ccExpress_MiddleWare_SimpleGetById
+* ccExpress_MiddleWare_IsAuthenticated
+* ccExpress_MiddleWare_HasAuthorized
+* ccExpress_MiddleWare_VerifyToken
+
 ##### Express Routes:
 * ccExpress_Routes_ModuleExports_Function
 * ccExpress_Routes_SimpleAppRoute
 
 ##### Express Response Status Send:
-* ccExpress_Return_500_Send
-* ccExpress_Return_200_Send
-* ccExpress_Return_401_Send
+* ccExpress_Response_Status_200_Send
+* ccExpress_Response_Status_401_Send
+* ccExpress_Response_Status_404_Send
+* ccExpress_Response_Status_500_Send
 
 ##### mongoose Functions:
+* ccMongoose_Controller_Function_FindOne
 * ccExportsFunction
 * ccNewSchema-mongoose
 * ccprop-mongoose
 
 ##### common usages:
-cclog, ccif, ccForEntityInModel, ccAnonymousFunction, ccStandardRequire, ccStandardFunction, 
+cclog, ccif, ccForEntityInModel, ccAnonymousFunction, ccStandardRequire, 
 
 ##### Typescript:
 cclog, ccif, ccimps

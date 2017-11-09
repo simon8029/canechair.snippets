@@ -1,5 +1,11 @@
 # Change Log
 
+##### [0.1.2]
+- Add ccMongoose_Controller_Function_FindOne - (javascript)
+- Add ccExpress_Controller_Function_Default - (javascript)
+- Add ccExpress_MiddleWare_VerifyToken - (javascript)
+- Add ccExpress_Response_Status_404_Send - (javascript)
+
 ##### [0.1.1]
 - Add snippets for Express Response Status Send - (javascript)
 - Rename snippets format
