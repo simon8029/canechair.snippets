@@ -2,8 +2,7 @@
 	"Print to console": {
 		"prefix": "cclog",
 		"body": [
-			"console.log('$1');",
-			"$2"
+			"console.log(`$1`);"
 		],
 		"description": "Log output to console"
 	},

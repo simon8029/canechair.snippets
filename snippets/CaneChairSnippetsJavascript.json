@@ -2,7 +2,7 @@
 	"NodeJs : Common : PrintToConsole": {
 		"prefix": "cclog",
 		"body": [
-			"console.log('$1');"
+			"console.log(`$1`);"
 		],
 		"description": "Log output to console"
 	},
@@ -49,8 +49,8 @@
 	// 	],
 	// 	"description": ""
 	// },
-	"Mongoose : AddNewSchema": {
-		"prefix": "ccNewSchema-mongoose",
+	"Mongoose : Model : AddNewSchema": {
+		"prefix": "ccMongoose_Model_NewSchema",
 		"body": [
 			"${1:__schemaName__} = new Schema({",
 			"\t${2:__statement__}",
@@ -58,12 +58,37 @@
 		],
 		"description": ""
 	},
-	"Mongoose : AddNewProperty": {
-		"prefix": "ccprop-mongoose",
+	"Mongoose : Model : AddNewModel": {
+		"prefix": "ccMongoose_Model_NewModel",
+		"body": [
+			"const mongoose = require('mongoose'),",
+			"\tSchema = mongoose.Schema,",
+			"\t${1:__ModelName__}Schema = new Schema({",
+			"\t\t${2:__property__}",
+			"\t}",
+			"});",
+			"",
+			"mongoose.model('${1:__ModelName__}', ${1:__ModelName__}Schema);"
+		],
+		"description": ""
+	},
+	"Mongoose : Model : AddNewProperty": {
+		"prefix": "ccMongoose_Model_AddNewProperty",
 		"body": [
 			"${1:__propertyname__}: {",
 			"\ttype: ${2:__dataType__},",
 			"\tdefault: ${3:__defaultValue__}",
+			"}"
+		],
+		"description": ""
+	},
+	"Mongoose :Model : AddNewProperty : Required": {
+		"prefix": "ccMongoose_Model_AddNewProperty",
+		"body": [
+			"${1:__propertyName__}: {",
+			"\ttype: ${2:__dataType__},",
+			"\tdefault: ${3:__defaultValue__}",
+			"\tRequired: ${1:__propertyName__} cannot be empty.",
 			"}"
 		],
 		"description": ""
@@ -106,24 +131,37 @@
 	"Express : Controller : Function : GetErrorMessage": {
 		"prefix": "ccExpress_Controller_Function_GetErrorMessage",
 		"body": [
-			"function getErrorMessage(err) {",
-			"\tif (err.errors) {",
-			"\tfor (let errName in err.errors) {",
-			"\t\tif (err.errors[errName].message) {",
-			"\t\t\treturn err.errors[errName].message;",
-			"\t\t} else {",
-			"\t\t\treturn 'Unknow server error';",
+			"let getErrorMessage = function (err) {",
+			"\tlet message = '';",
+			"\tconsole.log(\"err.code: \" + err.code);",
+			"\tif (err.code) {",
+			"",
+			"\t\tswitch (err.code) {",
+			"\t\t\tcase 11000:",
+			"\t\t\tcase 11001:",
+			"\t\t\t\tmessage = '${1:__entityName__} already exists';",
+			"\t\t\tbreak;",
+			"\t\t\tdefault:",
+			"\t\t\t\tmessage = 'Something went wrong';",
+			"\t\t\tbreak;",
 			"\t\t}",
-			"\t}",
-			"\t}",
-			"}"
+			"\t} else {",
+			"",
+			"\t\tfor (var errName in err.errors) {",
+			"\t\t\tif (err.errors[errName].message)",
+			"\t\t\t\tmessage += err.errors[errName].message;",
+			"",
+			"\t\t\t}",
+			"\t\t}",
+			"\treturn message;",
+			"};"
 		],
 		"description": ""
 	},
 	"Express : Controller : Function : SimpleCreate": {
 		"prefix": "ccExpress_Controller_Function_SimpleCreate",
 		"body": [
-			"exports.simpleCreate = function (req, res) {",
+			"exports.create = function (req, res) {",
 			"\tconst ${1:entityName} = new ${2:modelName}(req.body);",
 			"",
 			"\t${1:entityName}.save((err) => {",
@@ -143,8 +181,7 @@
 		"prefix": "ccExpress_Controller_Function_SimpleGetAll",
 		"body": [
 			"exports.getAll = function (req, res) {",
-			"\t${1:__modelName__}.find()",
-			"\t.exec((err, ${2:__entities__}) => {",
+			"\t${1:__modelName__}.find().exec((err, ${2:__entities__}) => {",
 			"\t\tif (err) {",
 			"\t\t\treturn res.status(400).send({",
 			"\t\t\tmessage: getErrorMessage(err)",
@@ -160,7 +197,7 @@
 	"Express : Controller : Function :  SimpleUpdate": {
 		"prefix": "ccExpress_Controller_Function_SimpleUpdate",
 		"body": [
-			"exports.simpleUpdate = function (req, res) {",
+			"exports.update = function (req, res) {",
 			"\tconst ${1:__entity__} = req.${1:__entity__};",
 			"",
 			"\t${1:__entity__}.${2:__entityProperty__} = req.body.${2:__entityProperty__};",
@@ -177,23 +214,38 @@
 		],
 		"description": "Assumption already obtained the object with getById middleware."
 	},
+	"Express : Controller : Function :  SimpleDelete": {
+		"prefix": "ccExpress_Controller_Function_SimpleDelete",
+		"body": [
+			"exports.delete = function (req, res) {",
+			"\tlet ${1:__entityName__} = req.${1:__entityName__};",
+			"\t${1:__entityName__}.remove((err) => {",
+			"\t\tif (err) {",
+			"\t\t\treturn res.status(400).send({ message: getErrorMessage(err) });",
+			"\t\t} else {",
+			"\t\t\tres.status(204).send({ message: ${1:__entityName__} deleted. });",
+			"\t\t}",
+			"\t})",
+			"}"
+		],
+		"description": ""
+	},
 	"Express : Middleware : simpleGetById": {
 		"prefix": "ccExpress_MiddleWare_SimpleGetById",
 		"body": [
 			"exports.getById_middleWare = function (req, res, next, id) {",
-			"\t${1:__modelName__}.findById(id)",
-			"\t\t.exec((err, ${2:__entity__}) => {",
-			"\t\t\tif (err) {",
-			"\t\t\t\treturn next(err);",
-			"\t\t\t}",
+			"\t${1:__modelName__}.findById(id).exec((err, ${2:__entity__}) => {",
+			"\t\tif (err) {",
+			"\t\t\treturn next(err);",
+			"\t\t}",
 			"",
-			"\t\t\tif (!${2:__entity__}) {",
-			"\t\t\t\treturn next(new Error('Failed to get ${2:__entity__} ' + id));",
-			"\t\t\t}",
+			"\t\tif (!${2:__entity__}) {",
+			"\t\t\treturn next(new Error('Failed to get ${2:__entity__} ' + id));",
+			"\t\t}",
 			"",
-			"\t\t\treq.${2:__entity__} = ${2:__entity__};",
-			"\t\t\tnext();",
-			"\t\t});",
+			"\t\treq.${2:__entity__} = ${2:__entity__};",
+			"\t\tnext();",
+			"\t});",
 			"};"
 		],
 		"description": ""

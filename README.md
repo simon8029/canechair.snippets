@@ -21,6 +21,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 * ccExpress_Controller_Function_SimpleCreate
 * ccExpress_Controller_Function_SimpleGetAll
 * ccExpress_Controller_Function_SimpleUpdate
+* ccExpress_Controller_Function_SimpleDelete
 
 ##### Middleware Functions:
 * ccExpress_MiddleWare_SimpleGetById
@@ -41,8 +42,9 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 ##### mongoose Functions:
 * ccMongoose_Controller_Function_FindOne
 * ccExportsFunction
-* ccNewSchema-mongoose
-* ccprop-mongoose
+* ccMongoose_Model_NewModel
+* ccMongoose_Model_NewProperty
+* ccMongoose_Model_NewProperty_Required
 
 ##### common usages:
 cclog, ccif, ccForEntityInModel, ccAnonymousFunction, ccStandardRequire, 

@@ -1,5 +1,10 @@
 # Change Log
 
+##### [0.1.3]
+ - Add ccMongoose_Model_AddNewModel - (javascript)
+ - Add ccMongoose_Model_AddNewProperty_Required - (javascript)
+ - Minor bugs fixed
+ 
 ##### [0.1.2]
 - Add ccMongoose_Controller_Function_FindOne - (javascript)
 - Add ccExpress_Controller_Function_Default - (javascript)
