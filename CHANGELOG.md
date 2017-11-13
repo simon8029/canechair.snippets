@@ -1,5 +1,8 @@
 # Change Log
 
+##### [0.1.4]
+ - Fix issues of Mongoose's new model and new property -(javascript).
+
 ##### [0.1.3]
  - Add ccMongoose_Model_AddNewModel - (javascript)
  - Add ccMongoose_Model_AddNewProperty_Required - (javascript)

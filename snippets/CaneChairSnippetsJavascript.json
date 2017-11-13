@@ -65,8 +65,7 @@
 			"\tSchema = mongoose.Schema,",
 			"\t${1:__ModelName__}Schema = new Schema({",
 			"\t\t${2:__property__}",
-			"\t}",
-			"});",
+			"\t});",
 			"",
 			"mongoose.model('${1:__ModelName__}', ${1:__ModelName__}Schema);"
 		],
@@ -88,7 +87,7 @@
 			"${1:__propertyName__}: {",
 			"\ttype: ${2:__dataType__},",
 			"\tdefault: ${3:__defaultValue__}",
-			"\tRequired: ${1:__propertyName__} cannot be empty.",
+			"\tRequired: '${1:__propertyName__} cannot be empty.'",
 			"}"
 		],
 		"description": ""
