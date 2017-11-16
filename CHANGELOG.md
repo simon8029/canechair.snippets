@@ -2,6 +2,7 @@
 
 ##### [0.1.6]
 - Add ccAngularNgIf - (HTML)
+- Add ccImportAs - (Angular)
 
 ##### [0.1.5]
 - Add ccSwitch, ccImportRedux, ccInterface, ccConstructor - (TypeScript)

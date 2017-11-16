@@ -6,21 +6,7 @@
 		],
 		"description": "Log output to console"
 	},
-	"Import Module": {
-		"prefix": "ccImportModule",
-		"body": [
-			"import { ${2:moduleName} } from '${1:modulePath}';"
-		],
-		"description": "example: import { NgModule } from '@angular/core';"
-	},
-	"Import Redux": {
-		"prefix": "ccImportRedux",
-		"body": [
-			"import * as Redux from 'redux';"
-		],
-		"description": "example: import * as Redux from 'redux';"
-	},
-	"if statement": {
+	"Angular : Component/Service : Method : If": {
 		"prefix": "ccif",
 		"body": [
 			"if (${1:condition}) {",
@@ -29,7 +15,7 @@
 		],
 		"description": "example: if(condition) { statement }"
 	},
-	"Switch Case": {
+	"Angular : Component/Service : Method : Switch Case": {
 		"prefix": "ccSwitch",
 		"body": [
 			"switch(${1:}) {",
@@ -41,23 +27,43 @@
 		],
 		"description": "Switch Case"
 	},
-	"Create Interface":{
-		"prefix":"ccInterface",
-		"body":[
+	"Angular : Component/Service : Create Interface": {
+		"prefix": "ccInterface",
+		"body": [
 			"export interface I${1:__interfaceName__} {",
 			"\t${2:__properties__}",
 			"}"
 		],
-		"description":"example: export interface IUser{}"
+		"description": "example: export interface IUser{}"
 	},
-	"Create Constructor":{
-		"prefix":"ccConstructor",
-		"body":[
+	"Angular : Component/Service : Create Constructor": {
+		"prefix": "ccConstructor",
+		"body": [
 			"constructor() {",
 			"\t${1:__statement__}",
 			"}"
 		],
-		"description":"example: export interface IUser{}"
+		"description": "example: export interface IUser{}"
+	},
+	"Angular : Component/Service : Import : Module": {
+		"prefix": "ccImportModule",
+		"body": [
+			"import { ${2:moduleName} } from '${1:modulePath}';"
+		],
+		"description": "example: import { NgModule } from '@angular/core';"
+	},
+	"Angular : Component/Service : Import : As": {
+		"prefix": "ccImportAs",
+		"body": [
+			"import * as ${2:__name__} from '${1:__path__}';"
+		],
+		"description": "example: import * as Redux from 'redux'"
+	},
+	"Angular : Component/Service : Import : Redux": {
+		"prefix": "ccImportRedux",
+		"body": [
+			"import * as Redux from 'redux';"
+		],
+		"description": "example: import * as Redux from 'redux';"
 	}
-	
 }

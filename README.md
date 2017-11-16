@@ -5,7 +5,7 @@
 
 Snippets for javascript full stack development on VS Code.
 
-Currently focus on NodeJs, MongoDB, Mongoose, Express, Angular (so called ME(A)N Stack. but anyway, others are on the road).
+Currently focus on Angular, Express, NodeJs, Mongoose, MongoDB, Mongoose (so called ME(A)N Stack. but anyway, others are on the road).
 
 
 
@@ -13,7 +13,13 @@ Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace
 
 GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
-#### Javascript:
+### Angular:
+##### HTML Template:
+ccAngularNgIf
+##### Component/Service:
+ccImportAs, ccImportModule, ccImportRedux, ccSwitch, ccInterface, ccConstructor
+
+### Express:
 ##### Express Controller Functions:
 * ccExpress_Controller_Function_Default
 * ccExpress_Controller_Function_Exports
@@ -23,7 +29,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 * ccExpress_Controller_Function_SimpleUpdate
 * ccExpress_Controller_Function_SimpleDelete
 
-##### Middleware Functions:
+##### Express Middleware Functions:
 * ccExpress_MiddleWare_SimpleGetById
 * ccExpress_MiddleWare_IsAuthenticated
 * ccExpress_MiddleWare_HasAuthorized
@@ -39,6 +45,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 * ccExpress_Response_Status_404_Send
 * ccExpress_Response_Status_500_Send
 
+### Mongoose
 ##### mongoose Functions:
 * ccMongoose_Controller_Function_FindOne
 * ccExportsFunction
@@ -46,11 +53,5 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 * ccMongoose_Model_NewProperty
 * ccMongoose_Model_NewProperty_Required
 
-##### common usages:
+##### GENERAL USAGE:
 cclog, ccif, ccForEntityInModel, ccAnonymousFunction, ccStandardRequire, 
-
-##### Typescript:
-cclog, ccif, ccImportModule, ccImportRedux, ccSwitch, ccInterface, ccConstructor
-
-#### HTML Angular:
-ccAngularNgIf,
