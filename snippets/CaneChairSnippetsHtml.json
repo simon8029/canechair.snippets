@@ -1,9 +1,16 @@
 {
-    "HTML : Angular": {
-        "prefix": "ccAngularHtmlNgIf",
+    "HTML : Angular : NgIf ": {
+        "prefix": "ccHtml_Angular_NgIf",
         "body": [
             "*ngIf=\"${1:}\""
         ],
         "description": "*ngIf=\"__conditions__\""
+    },
+    "HTML : Angular : NgFor": {
+        "prefix": "ccHtml_Angular_NgFor",
+        "body": [
+            "*ngFor=\"let ${2:__item__} of ${1:__collection__}\""
+        ],
+        "description": "*ngFor='let message of currentThread.messages'"
     }
 }

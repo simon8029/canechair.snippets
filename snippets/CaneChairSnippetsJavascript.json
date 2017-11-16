@@ -6,26 +6,26 @@
 		],
 		"description": "Log output to console"
 	},
-	"NodeJs : Common : IfStatement": {
-		"prefix": "ccif",
+	"NodeJs : Function : IfStatement": {
+		"prefix": "ccNodeJs_Function_If",
 		"body": [
 			"if (${1:__condition__}) {",
-			"${2:__statement__}",
+			"\t${2:__statement__}",
 			"}"
 		],
 		"description": "example: if(condition) { statement }"
 	},
-	"NodeJs : Common : ForEntityInModel": {
-		"prefix": "ccForEntityInModel",
+	"NodeJs : Function : For": {
+		"prefix": "ccNodeJs_Function_For",
 		"body": [
 			"for (let ${1:__entityname__} in ${2:__modelName__}) {",
-			"${3:__statement__}",
+			"\t${3:__statement__}",
 			"}"
 		],
 		"description": "example: if(condition) { statement }"
 	},
-	"NodeJs : Common : AnonymousFunction": {
-		"prefix": "ccAnonymousFunction",
+	"NodeJs : Function : AnonymousFunction": {
+		"prefix": "ccNodeJs_Function_Anonymous",
 		"body": [
 			"(${1:__parameter__})=>{",
 			"\t${2:__statement__}",
@@ -33,22 +33,22 @@
 		],
 		"description": "example: (parameter)=>{ statement}"
 	},
-	"NodeJs : Common : StandardRequire": {
-		"prefix": "ccStandardRequire",
+	"NodeJs : Require ": {
+		"prefix": "ccNodeJs_Require",
 		"body": [
 			"${2:__moduleName__}=require('${1:__modulePath__}');"
 		],
 		"description": ""
 	},
-	// "NodeJs : Common : StandardFunction": {
-	// 	"prefix": "ccStandardFunction",
-	// 	"body": [
-	// 		"function(${1:__parameter__}){",
-	// 		"\t${2:__statement__}",
-	// 		"};"
-	// 	],
-	// 	"description": ""
-	// },
+	"NodeJs : Function : New": {
+		"prefix": "ccNodeJs_Function_New",
+		"body": [
+			"function(${1:__parameter__}){",
+			"\t${2:__statement__}",
+			"};"
+		],
+		"description": ""
+	},
 	"Mongoose : Model : AddNewSchema": {
 		"prefix": "ccMongoose_Model_NewSchema",
 		"body": [
@@ -311,10 +311,10 @@
 		"prefix": "ccExpress_Routes_SimpleAppRoute",
 		"body": [
 			"app.route('${1:__baseRoute__}')",
-			"\t.get(${2:__middleware__}, ${3:__controllerMethod__})",
-			"\t.post(${4:__middleware__}, ${5:__controllerMethod__})",
-			"\t.put(${6:__middleware__}, ${7:__controllerMethod__})",
-			"\t.delete(${8:__middleware__}, ${9:__controllerMethod__});"
+			"\t.get(${2:__middleware__}, ${3:__controllerFunction__})",
+			"\t.post(${4:__middleware__}, ${5:__controllerFunction__})",
+			"\t.put(${6:__middleware__}, ${7:__controllerFunction__})",
+			"\t.delete(${8:__middleware__}, ${9:__controllerFunction__});"
 		],
 		"description": ""
 	},

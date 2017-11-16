@@ -15,7 +15,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
 ### Angular:
 ##### HTML Template:
-ccAngularNgIf
+ccAngularNgIf, ccAngularNgFor
 ##### Component/Service:
 ccImportAs, ccImportModule, ccImportRedux, ccSwitch, ccInterface, ccConstructor
 

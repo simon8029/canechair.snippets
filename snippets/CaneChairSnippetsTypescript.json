@@ -7,16 +7,16 @@
 		"description": "Log output to console"
 	},
 	"Angular : Component/Service : Method : If": {
-		"prefix": "ccif",
+		"prefix": "ccAngular_Component_Service_Method_If",
 		"body": [
 			"if (${1:condition}) {",
-			"${2:statement}",
+			"\t${2:statement}",
 			"}"
 		],
 		"description": "example: if(condition) { statement }"
 	},
 	"Angular : Component/Service : Method : Switch Case": {
-		"prefix": "ccSwitch",
+		"prefix": "ccAngular_Component_Service_Method_Switch",
 		"body": [
 			"switch(${1:}) {",
 			"\tcase ${2:statement}:",
@@ -27,8 +27,8 @@
 		],
 		"description": "Switch Case"
 	},
-	"Angular : Component/Service : Create Interface": {
-		"prefix": "ccInterface",
+	"Angular : Component/Service : Interface": {
+		"prefix": "ccAngular_Component_Service_Interface",
 		"body": [
 			"export interface I${1:__interfaceName__} {",
 			"\t${2:__properties__}",
@@ -36,8 +36,8 @@
 		],
 		"description": "example: export interface IUser{}"
 	},
-	"Angular : Component/Service : Create Constructor": {
-		"prefix": "ccConstructor",
+	"Angular : Component/Service : Constructor": {
+		"prefix": "ccAngular_Component_Service_Constructor",
 		"body": [
 			"constructor() {",
 			"\t${1:__statement__}",
@@ -46,21 +46,21 @@
 		"description": "example: export interface IUser{}"
 	},
 	"Angular : Component/Service : Import : Module": {
-		"prefix": "ccImportModule",
+		"prefix": "ccAngular_Component_Service_Import_Module",
 		"body": [
 			"import { ${2:moduleName} } from '${1:modulePath}';"
 		],
 		"description": "example: import { NgModule } from '@angular/core';"
 	},
 	"Angular : Component/Service : Import : As": {
-		"prefix": "ccImportAs",
+		"prefix": "ccAngular_Component_Service_Import_As",
 		"body": [
 			"import * as ${2:__name__} from '${1:__path__}';"
 		],
 		"description": "example: import * as Redux from 'redux'"
 	},
 	"Angular : Component/Service : Import : Redux": {
-		"prefix": "ccImportRedux",
+		"prefix": "ccAngular_Component_Service_Import_Redux",
 		"body": [
 			"import * as Redux from 'redux';"
 		],
