@@ -1,11 +1,13 @@
 # Change Log
 
+##### [0.1.7]
+- Add ccAngularNgIfThenElse - (HTML)
+- Refactor Angular_Html Snippets' naming conventions
 ##### [0.1.6]
 - Add ccAngularNgIf, ccAngularNgFor - (HTML)
 - Add ccImportAs - (Angular)
 - Refactor naming conventions
 - Minor bugs fixed
-
 ##### [0.1.5]
 - Add ccSwitch, ccImportRedux, ccInterface, ccConstructor - (TypeScript)
 ##### [0.1.4]

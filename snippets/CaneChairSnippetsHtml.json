@@ -12,5 +12,18 @@
             "*ngFor=\"let ${2:__item__} of ${1:__collection__}\""
         ],
         "description": "*ngFor='let message of currentThread.messages'"
+    },
+    "Angular : HTML : NgIfThenElse": {
+        "prefix": "ccAngular_Html_NgIfThenElse",
+        "body": [
+            "<div *ngIf=\"${1:__condition__}; then thenBlock else elseBlock\"></div>",
+            "<ng-template #thenBlock>",
+            "\t${2:__thenBlock__}",
+            "</ng-template>",
+            "<ng-template #elseBlock>",
+            "\t${3:__elseBlock__}",
+            "</ng-template>"
+        ],
+        "description": "<div *ngIf=\"__condition__; then thenBlock else elseBlock\"></div>"
     }
 }
