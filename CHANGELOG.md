@@ -1,5 +1,8 @@
 # Change Log
 
+##### [0.1.6]
+- Add ccAngularNgIf - (HTML)
+
 ##### [0.1.5]
 - Add ccSwitch, ccImportRedux, ccInterface, ccConstructor - (TypeScript)
 ##### [0.1.4]

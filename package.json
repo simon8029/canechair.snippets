@@ -2,7 +2,7 @@
     "name": "canechairsnippets",
     "displayName": "CaneChairSnippets",
     "description": "CaneChairSnippets",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "publisher": "Simon8029",
     "engines": {
         "vscode": "^1.17.0"
@@ -19,6 +19,10 @@
             {
                 "language": "typescript",
                 "path": "./snippets/CaneChairSnippetsTypescript.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/CaneChairSnippetsHtml.json"
             }
         ]
     }

@@ -1,0 +1,9 @@
+{
+    "HTML : Angular": {
+        "prefix": "ccAngularHtmlNgIf",
+        "body": [
+            "*ngIf=\"${1:}\""
+        ],
+        "description": "*ngIf=\"__conditions__\""
+    }
+}

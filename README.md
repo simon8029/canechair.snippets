@@ -51,3 +51,6 @@ cclog, ccif, ccForEntityInModel, ccAnonymousFunction, ccStandardRequire,
 
 ##### Typescript:
 cclog, ccif, ccImportModule, ccImportRedux, ccSwitch, ccInterface, ccConstructor
+
+#### HTML Angular:
+ccAngularNgIf,
