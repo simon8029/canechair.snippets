@@ -12,17 +12,17 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
 ### Angular:
 ##### HTML Template:
-ccAngular_Html_NgIf, 
-ccAngular_Html_NgIfThenElse,
-ccAngular_Html_NgFor, 
+* ccAngular_Html_NgIf, 
+* ccAngular_Html_NgIfThenElse,
+* ccAngular_Html_NgFor, 
 ##### Component/Service:
-ccAngular_Component_Service_Import_Module,
-ccAngular_Component_Service_Import_As,
-ccAngular_Component_Service_Import_Redux,
-ccAngular_Component_Service_Constructor,
-ccAngular_Component_Service_Interface,
-ccAngular_Component_Service_Method_If,
-ccAngular_Component_Service_Method_Switch
+* ccAngular_Component_Service_Import_Module,
+* ccAngular_Component_Service_Import_As,
+* ccAngular_Component_Service_Import_Redux,
+* ccAngular_Component_Service_Constructor,
+* ccAngular_Component_Service_Interface,
+* ccAngular_Component_Service_Method_If,
+* ccAngular_Component_Service_Method_Switch
 ### Express:
 ##### Express Controller Functions:
 * ccExpress_Controller_Function_Default
