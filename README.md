@@ -53,4 +53,8 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 * ccMongoose_Model_NewProperty
 * ccMongoose_Model_NewProperty_Required
 ##### GENERAL USAGE:
-cclog, ccif, ccForEntityInModel, ccAnonymousFunction, ccStandardRequire, 
+* cclog, 
+* ccif, 
+* ccForEntityInModel, 
+* ccAnonymousFunction, 
+* ccStandardRequire, 
