@@ -50,4 +50,4 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 cclog, ccif, ccForEntityInModel, ccAnonymousFunction, ccStandardRequire, 
 
 ##### Typescript:
-cclog, ccif, ccimps
+cclog, ccif, ccImportModule, ccImportRedux, ccSwitch, ccInterface, ccConstructor

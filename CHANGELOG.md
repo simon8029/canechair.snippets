@@ -1,32 +1,31 @@
 # Change Log
 
+##### [0.1.5]
+- Add ccSwitch, ccImportRedux, ccInterface, ccConstructor - (TypeScript)
 ##### [0.1.4]
- - Fix issues of Mongoose's new model and new property -(javascript).
-
+ - Fix issues of Mongoose's new model and new property -(JavaScript).
 ##### [0.1.3]
- - Add ccMongoose_Model_AddNewModel - (javascript)
- - Add ccMongoose_Model_AddNewProperty_Required - (javascript)
- - Minor bugs fixed
- 
+ - Add ccMongoose_Model_AddNewModel - (JavaScript)
+ - Add ccMongoose_Model_AddNewProperty_Required - (JavaScript)
+ - Minor bugs fixed 
 ##### [0.1.2]
-- Add ccMongoose_Controller_Function_FindOne - (javascript)
-- Add ccExpress_Controller_Function_Default - (javascript)
-- Add ccExpress_MiddleWare_VerifyToken - (javascript)
-- Add ccExpress_Response_Status_404_Send - (javascript)
-
+- Add ccMongoose_Controller_Function_FindOne - (JavaScript)
+- Add ccExpress_Controller_Function_Default - (JavaScript)
+- Add ccExpress_MiddleWare_VerifyToken - (JavaScript)
+- Add ccExpress_Response_Status_404_Send - (JavaScript)
 ##### [0.1.1]
-- Add snippets for Express Response Status Send - (javascript)
+- Add snippets for Express Response Status Send - (JavaScript)
 - Rename snippets format
 ##### [0.1.0] 
-- Add simple CRUD snippets for Express Controllers - (javascript)
-- Add middleware snippets for Express Controllers - (javascript)
-- Add snippets for Express Routes - (javascript)
+- Add simple CRUD snippets for Express Controllers - (JavaScript)
+- Add middleware snippets for Express Controllers - (JavaScript)
+- Add snippets for Express Routes - (JavaScript)
 ##### [0.0.6] 
-- Fix statement issue of exports.function - (javascript).
+- Fix statement issue of exports.function - (JavaScript).
 ##### [0.0.5] 
-- Fix duplicate object keys - (javascript).
+- Fix duplicate object keys - (JavaScript).
 ##### [0.0.4]
-- Add exports function - (javascript).
+- Add exports function - (JavaScript).
 ##### [0.0.2]
 - Refactor prefix
 ##### [0.0.1]

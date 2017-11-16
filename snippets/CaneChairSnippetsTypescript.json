@@ -6,12 +6,19 @@
 		],
 		"description": "Log output to console"
 	},
-	"import {} from ''": {
-		"prefix": "ccimps",
+	"Import Module": {
+		"prefix": "ccImportModule",
 		"body": [
-			"import { ${2:moduleName} } from \"${1:modulePath}\";"
+			"import { ${2:moduleName} } from '${1:modulePath}';"
 		],
-		"description": "example: import { NgModule } from \"@angular/core\";"
+		"description": "example: import { NgModule } from '@angular/core';"
+	},
+	"Import Redux": {
+		"prefix": "ccImportRedux",
+		"body": [
+			"import * as Redux from 'redux';"
+		],
+		"description": "example: import * as Redux from 'redux';"
 	},
 	"if statement": {
 		"prefix": "ccif",
@@ -21,5 +28,36 @@
 			"}"
 		],
 		"description": "example: if(condition) { statement }"
+	},
+	"Switch Case": {
+		"prefix": "ccSwitch",
+		"body": [
+			"switch(${1:}) {",
+			"\tcase ${2:statement}:",
+			"\tbreak;",
+			"\tdefault:",
+			"\tbreak;",
+			"}"
+		],
+		"description": "Switch Case"
+	},
+	"Create Interface":{
+		"prefix":"ccInterface",
+		"body":[
+			"export interface I${1:__interfaceName__} {",
+			"\t${2:__properties__}",
+			"}"
+		],
+		"description":"example: export interface IUser{}"
+	},
+	"Create Constructor":{
+		"prefix":"ccConstructor",
+		"body":[
+			"constructor() {",
+			"\t${1:__statement__}",
+			"}"
+		],
+		"description":"example: export interface IUser{}"
 	}
+	
 }
