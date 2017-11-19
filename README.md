@@ -1,4 +1,4 @@
-# Simon's CaneChair Snippets 
+# Simon's CaneChair - VS Code Snippets 
 ##### (It's time to sit down and enjoy the rocking)
 
 ***
