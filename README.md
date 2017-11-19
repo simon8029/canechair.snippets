@@ -1,4 +1,4 @@
-# CaneChairSnippets 
+# Simon's CaneChair Snippets 
 ##### (It's time to sit down and enjoy the rocking)
 
 ***
