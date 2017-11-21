@@ -9,20 +9,21 @@
 	"Angular : Component/Service : Method : If": {
 		"prefix": "ccAngular_Method_If",
 		"body": [
-			"if (${1:condition}) {",
-			"\t${2:statement}",
+			"if (${1:__condition__}) {",
+			"\t${2:__statement__}",
 			"}"
 		],
-		"description": "example: if(condition) { statement }"
+		"description": "example: if(condition) { __statement__ }"
 	},
-	"Angular : Component/Service : Method : Switch Case": {
+	"Angular : Component/Service : Method : SwitchCase": {
 		"prefix": "ccAngular_Method_Switch",
 		"body": [
 			"switch(${1:}) {",
-			"\tcase ${2:statement}:",
-			"\tbreak;",
+			"\tcase ${2:__case__}:",
+			"\t\t${3:__statement__}: ",
+			"\t\tbreak;",
 			"\tdefault:",
-			"\tbreak;",
+			"\t\tbreak;",
 			"}"
 		],
 		"description": "Switch Case"

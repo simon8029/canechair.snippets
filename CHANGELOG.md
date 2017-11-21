@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.1.9]
+- Refactor ccAngular_Method_Switch - (TypeScript)
 ##### [0.1.8]
 - Add ccNodeJs_Common_Export_* - (Javascript)
 - Add ccAngular_Component_Service_Export_Class - (TypeScript)
