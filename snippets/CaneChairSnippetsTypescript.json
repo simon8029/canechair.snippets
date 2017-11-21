@@ -40,15 +40,16 @@
 	"Angular : Component/Service : Service": {
 		"prefix": "ccAngular_Service",
 		"body": [
-			"import { Injectable } from '@angular/core'",
-			"import { HttpClient } from '@angular/common/http'",
+			"import { Injectable } from '@angular/core';",
+			"import { HttpClient } from '@angular/common/http';",
 			"",
 			"@Injectable()",
 			"export class ${1:__serviceName__}Service {",
-			"\tconstructor(private http:HttpClient) {}",
+			"\tconstructor(private http: HttpClient) { }",
 			"",
 			"\t${2:}",
-			"}"
+			"}",
+			""
 		],
 		"description": "Create a Simple Service class with HttpClient."
 	},

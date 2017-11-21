@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.1.12]
+- - Minor bug fixed.
 ##### [0.1.11]
 - Add ccAngular_Service - (TypeScript)
 ##### [0.1.10]
