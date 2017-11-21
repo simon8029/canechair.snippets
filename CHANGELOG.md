@@ -1,5 +1,9 @@
 # Change Log
 
+##### [0.1.8]
+- Add ccNodeJs_Common_Export_* - (Javascript)
+- Add ccAngular_Component_Service_Export_Class - (TypeScript)
+- Refactor ccAngular_Component_Service_ctor - (TypeScript)
 ##### [0.1.7]
 - Add ccAngularNgIfThenElse - (HTML)
 - Refactor Angular_Html Snippets' naming conventions

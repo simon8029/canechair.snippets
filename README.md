@@ -12,49 +12,58 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
 ### Angular:
 ##### HTML Template:
-* ccAngular_Html_NgIf, 
-* ccAngular_Html_NgIfThenElse,
-* ccAngular_Html_NgFor, 
+* Angular:Html:NgIf (Keyboard Shortcut: cc_Angular_Html_NgIf) 
+* Angular:Html:NgIfThenElse (Keyboard Shortcut: ccAngular_Html_NgFor)
+* Angular:Html:NgFor (Keyboard Shortcut: ccAngular_Html_NgIfThenElse) 
 ##### Component/Service:
-* ccAngular_Component_Service_Import_Module,
-* ccAngular_Component_Service_Import_As,
-* ccAngular_Component_Service_Import_Redux,
-* ccAngular_Component_Service_Constructor,
-* ccAngular_Component_Service_Interface,
-* ccAngular_Component_Service_Method_If,
-* ccAngular_Component_Service_Method_Switch
+* Angular:Component:Service:Import:Module  (Keyboard Shortcut: ccAngular_Import_Module)
+* Angular:Component:Service:Import:As (Keyboard Shortcut: ccAngular_Import_As)
+* Angular:Component:Service:Import:Redux (Keyboard Shortcut: ccAngular_Import_Redux)
+* Angular:Component:Service:Export:Class (Keyboard Shortcut: ccAngular_Export_Class)
+* Angular:Component:Service:Export:Function (Keyboard Shortcut: ccAngular_Export_Function)
+* Angular:Component:Service:Constructor (Keyboard Shortcut: ccAngular_ctor)
+* Angular:Component:Service:Interface (Keyboard Shortcut: ccAngular_Interface)
+* Angular:Component:Service:Method:If (Keyboard Shortcut: ccAngular_Method_If)
+* Angular:Component:Service:Method:Switch (Keyboard Shortcut: ccAngular_Method_Switch)
 ### Express:
-##### Express Controller Functions:
-* ccExpress_Controller_Function_Default
-* ccExpress_Controller_Function_Exports
-* ccExpress_Controller_Function_GetErrorMessage
-* ccExpress_Controller_Function_SimpleCreate
-* ccExpress_Controller_Function_SimpleGetAll
-* ccExpress_Controller_Function_SimpleUpdate
-* ccExpress_Controller_Function_SimpleDelete
-##### Express Middleware Functions:
-* ccExpress_MiddleWare_SimpleGetById
-* ccExpress_MiddleWare_IsAuthenticated
-* ccExpress_MiddleWare_HasAuthorized
-* ccExpress_MiddleWare_VerifyToken
-##### Express Routes:
-* ccExpress_Routes_ModuleExports_Function
-* ccExpress_Routes_SimpleAppRoute
-##### Express Response Status Send:
-* ccExpress_Response_Status_200_Send
-* ccExpress_Response_Status_401_Send
-* ccExpress_Response_Status_404_Send
-* ccExpress_Response_Status_500_Send
+##### Express Controller Functions: 
+* Express:Controller:Function:Default (Keyboard Shortcut:ccExpress_Controller_Function_Default)
+* Express:Controller:Function:Exports (Keyboard Shortcut: ccExpress_Controller_Function_Exports)
+* Express:Controller:Function:GetErrorMessage (Keyboard Shortcut: ccExpress_Controller_Function_GetErrorMessage)
+* Express:Controller:Function:SimpleCreate (Keyboard Shortcut: ccExpress_Controller_Function_SimpleCreate)
+* Express:Controller:Function:SimpleGetAll (Keyboard Shortcut: ccExpress_Controller_Function_SimpleGetAll)
+* Express:Controller:Function:SimpleUpdate (Keyboard Shortcut: ccExpress_Controller_Function_SimpleUpdate)
+* Express:Controller:Function:SimpleDelete (Keyboard Shortcut: ccExpress_Controller_Function_SimpleDelete)
+##### Express Middleware Functions: 
+* Express:MiddleWare:SimpleGetById (Keyboard Shortcut: ccExpress_MiddleWare_SimpleGetById)
+* Express:MiddleWare:IsAuthenticated (Keyboard Shortcut: ccExpress_MiddleWare_IsAuthenticated)
+* Express:MiddleWare:HasAuthorized (Keyboard Shortcut: ccExpress_MiddleWare_HasAuthorized)
+* Express:MiddleWare:VerifyToken (Keyboard Shortcut: ccExpress_MiddleWare_VerifyToken)
+##### Express Routes: 
+* Express:Routes:Module:Exports:Function (Keyboard Shortcut: ccExpress_Routes_Module_Exports_Function)
+* Express:Routes:SimpleAppRoute (Keyboard Shortcut: ccExpress_Routes_SimpleAppRoute)
+##### Express Response Status Send: 
+* Express:Response:Status:200:Send (Keyboard Shortcut: ccExpress_Response_Status_200_Send)
+* Express:Response:Status:401:Send (Keyboard Shortcut:ccExpress_Response_Status_401_Send)
+* Express:Response:Status:404:Send (Keyboard Shortcut: ccExpress_Response_Status_404_Send)
+* Express:Response:Status:500:Send (Keyboard Shortcut: ccExpress_Response_Status_500_Send)
 ### Mongoose
-##### mongoose Functions:
-* ccMongoose_Controller_Function_FindOne
-* ccExportsFunction
-* ccMongoose_Model_NewModel
-* ccMongoose_Model_NewProperty
-* ccMongoose_Model_NewProperty_Required
-##### GENERAL USAGE:
+##### mongoose Functions: 
+* Mongoose:Controller:Function:FindOne (Keyboard Shortcut: ccMongoose_Controller_Function_FindOne)
+* Mongoose:Model:AddNewSchema (Keyboard Shortcut: ccMongoose_Model_NewSchema)
+* Mongoose:Model:NewModel (Keyboard Shortcut: ccMongoose_Model_NewModel)
+* Mongoose:Model:NewProperty (Keyboard Shortcut: ccMongoose_Model_NewProperty)
+* Mongoose:Model:NewProperty:Required (Keyboard Shortcut: ccMongoose_Model_NewProperty_Required)
+### Node.js
+##### Common:
+* NodeJs:Common:Export:* (Keyboard Shortcut: ccNodeJs_Common_Export_*)
+##### Function:
+* NodeJs:Function:If (Keyboard Shortcut: ccNodeJs_Function_If)
+* NodeJs:Function:For (Keyboard Shortcut: ccNodeJs_Function_For)
+* NodeJs:Function:AnonymousFunction (Keyboard Shortcut: ccNodeJs_Function_Anonymous)
+* NodeJs:Require (Keyboard Shortcut: ccNodeJs_Require)
+* NodeJs:Function:NewFunction (Keyboard Shortcut: ccNodeJs_Function_NewFunction)
+
+### GENERAL USAGE:
 * cclog, 
-* ccif, 
-* ccForEntityInModel, 
-* ccAnonymousFunction, 
-* ccStandardRequire, 
+* ccif,  
