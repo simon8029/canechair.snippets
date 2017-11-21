@@ -23,6 +23,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 * Angular:Component:Service:Export:Function (Keyboard Shortcut: ccAngular_Export_Function)
 * Angular:Component:Service:Constructor (Keyboard Shortcut: ccAngular_ctor)
 * Angular:Component:Service:Interface (Keyboard Shortcut: ccAngular_Interface)
+* Angular:Component/Service:Service (Keyboard Shortcut: ccAngular_Service)
 * Angular:Component:Service:Method:If (Keyboard Shortcut: ccAngular_Method_If)
 * Angular:Component:Service:Method:Switch (Keyboard Shortcut: ccAngular_Method_Switch)
 ### Express:
