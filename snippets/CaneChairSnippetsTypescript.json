@@ -20,7 +20,7 @@
 		"body": [
 			"switch(${1:}) {",
 			"\tcase ${2:__case__}:",
-			"\t\t${3:__statement__}: ",
+			"\t\t${3:__statement__} ",
 			"\t\tbreak;",
 			"\tdefault:",
 			"\t\tbreak;",
