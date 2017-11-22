@@ -1,19 +1,19 @@
 {
-	"NodeJs : Common : PrintToConsole": {
+	"NodeJs:Common:PrintToConsole": {
 		"prefix": "cclog",
 		"body": [
 			"console.log(`$1`);"
 		],
 		"description": "Log output to console"
 	},
-	"NodeJs : Common : Export : *": {
+	"NodeJs:Common:Export:*": {
 		"prefix": "ccNodeJs_Common_Export_*",
 		"body": [
 			"export * from '${1:__modulePath__}';"
 		],
 		"description": "export * from '${1:__modulePath__}';"
 	},
-	"NodeJs : Function : If": {
+	"NodeJs:Function:If": {
 		"prefix": "ccNodeJs_Function_If",
 		"body": [
 			"if (${1:__condition__}) {",
@@ -22,7 +22,7 @@
 		],
 		"description": "example: if(condition) { statement }"
 	},
-	"NodeJs : Function : For": {
+	"NodeJs:Function:For": {
 		"prefix": "ccNodeJs_Function_For",
 		"body": [
 			"for (let ${1:__entityname__} in ${2:__modelName__}) {",
@@ -31,7 +31,7 @@
 		],
 		"description": "example: if(condition) { statement }"
 	},
-	"NodeJs : Function : AnonymousFunction": {
+	"NodeJs:Function:AnonymousFunction": {
 		"prefix": "ccNodeJs_Function_Anonymous",
 		"body": [
 			"(${1:__parameter__})=>{",
@@ -40,14 +40,14 @@
 		],
 		"description": "example: (parameter)=>{ statement}"
 	},
-	"NodeJs : Require ": {
+	"NodeJs:Require": {
 		"prefix": "ccNodeJs_Require",
 		"body": [
 			"${2:__moduleName__}=require('${1:__modulePath__}');"
 		],
 		"description": ""
 	},
-	"NodeJs : Function : NewFunction": {
+	"NodeJs:Function:NewFunction": {
 		"prefix": "ccNodeJs_Function_NewFunction",
 		"body": [
 			"function ${1:__functionName__}(${2:__parameter__}){",
@@ -56,7 +56,7 @@
 		],
 		"description": ""
 	},
-	"Mongoose : Model : AddNewSchema": {
+	"Mongoose:Model:AddNewSchema": {
 		"prefix": "ccMongoose_Model_NewSchema",
 		"body": [
 			"${1:__schemaName__} = new Schema({",
@@ -65,7 +65,7 @@
 		],
 		"description": ""
 	},
-	"Mongoose : Model : AddNewModel": {
+	"Mongoose:Model:AddNewModel": {
 		"prefix": "ccMongoose_Model_NewModel",
 		"body": [
 			"const mongoose = require('mongoose'),",
@@ -78,7 +78,7 @@
 		],
 		"description": ""
 	},
-	"Mongoose : Model : AddNewProperty": {
+	"Mongoose:Model:AddNewProperty": {
 		"prefix": "ccMongoose_Model_NewProperty",
 		"body": [
 			"${1:__propertyname__}: {",
@@ -88,7 +88,7 @@
 		],
 		"description": ""
 	},
-	"Mongoose :Model : AddNewProperty : Required": {
+	"Mongoose :Model:AddNewProperty:Required": {
 		"prefix": "ccMongoose_Model_NewProperty_Required",
 		"body": [
 			"${1:__propertyName__}: {",
@@ -99,7 +99,7 @@
 		],
 		"description": ""
 	},
-	"Mongoose : Controller : Function : FindOne": {
+	"Mongoose:Controller:Function:FindOne": {
 		"prefix": "ccMongoose_Controller_Function_FindOne",
 		"body": [
 			"${1:modelName}.findOne({ ${2:condition} }, function (err, ${3:entityName}) {",
@@ -116,7 +116,7 @@
 		],
 		"description": ""
 	},
-	"Express : Controller : Exports : Function": {
+	"Express:Controller:Exports:Function": {
 		"prefix": "ccExpress_Controller_Function_Exports",
 		"body": [
 			"exports.${1:__functionName__} = function(${2:req}, ${3:res}, ${4:}){",
@@ -125,7 +125,7 @@
 		],
 		"description": ""
 	},
-	"Express : Controller : Function :Default": {
+	"Express:Controller:Function :Default": {
 		"prefix": "ccExpress_Controller_Function_Default",
 		"body": [
 			"function ${1:__functionName__}(${2:__parameter__}){",
@@ -134,7 +134,7 @@
 		],
 		"description": ""
 	},
-	"Express : Controller : Function : GetErrorMessage": {
+	"Express:Controller:Function:GetErrorMessage": {
 		"prefix": "ccExpress_Controller_Function_GetErrorMessage",
 		"body": [
 			"let getErrorMessage = function (err) {",
@@ -164,7 +164,7 @@
 		],
 		"description": ""
 	},
-	"Express : Controller : Function : SimpleCreate": {
+	"Express:Controller:Function:SimpleCreate": {
 		"prefix": "ccExpress_Controller_Function_SimpleCreate",
 		"body": [
 			"exports.create = function (req, res) {",
@@ -183,7 +183,7 @@
 		],
 		"description": ""
 	},
-	"Express : Controller : Function : SimpleGetAll": {
+	"Express:Controller:Function:SimpleGetAll": {
 		"prefix": "ccExpress_Controller_Function_SimpleGetAll",
 		"body": [
 			"exports.getAll = function (req, res) {",
@@ -200,7 +200,7 @@
 		],
 		"description": ""
 	},
-	"Express : Controller : Function :  SimpleUpdate": {
+	"Express:Controller:Function: SimpleUpdate": {
 		"prefix": "ccExpress_Controller_Function_SimpleUpdate",
 		"body": [
 			"exports.update = function (req, res) {",
@@ -220,7 +220,7 @@
 		],
 		"description": "Assumption already obtained the object with getById middleware."
 	},
-	"Express : Controller : Function :  SimpleDelete": {
+	"Express:Controller:Function: SimpleDelete": {
 		"prefix": "ccExpress_Controller_Function_SimpleDelete",
 		"body": [
 			"exports.delete = function (req, res) {",
@@ -236,7 +236,7 @@
 		],
 		"description": ""
 	},
-	"Express : Middleware : simpleGetById": {
+	"Express:Middleware:simpleGetById": {
 		"prefix": "ccExpress_MiddleWare_SimpleGetById",
 		"body": [
 			"exports.getById_middleWare = function (req, res, next, id) {",
@@ -256,7 +256,7 @@
 		],
 		"description": ""
 	},
-	"Express : middleware : IsAuthenticated": {
+	"Express:middleware:IsAuthenticated": {
 		"prefix": "ccExpress_MiddleWare_IsAuthenticated",
 		"body": [
 			"exports.authenticate_middleware = function (req, res, next) {",
@@ -270,7 +270,7 @@
 		],
 		"description": ""
 	},
-	"Express : middleware : HasAuthorized": {
+	"Express:middleware:HasAuthorized": {
 		"prefix": "ccExpress_MiddleWare_HasAuthorized",
 		"body": [
 			"exports.${1:hasAuthorizationFor...} = function (req, res, next) {",
@@ -284,7 +284,7 @@
 		],
 		"description": ""
 	},
-	"Express : MiddleWare : VerifyToken": {
+	"Express:MiddleWare:VerifyToken": {
 		"prefix": "ccExpress_MiddleWare_VerifyToken",
 		"body": [
 			"var jwt = require('jsonwebtoken');",
@@ -305,7 +305,7 @@
 		],
 		"description": ""
 	},
-	"Express : Routes : Module : Exports : function": {
+	"Express:Routes:Module:Exports:function": {
 		"prefix": "ccExpress_Routes_Module_Exports_Function",
 		"body": [
 			"module.exports = function (app) {",
@@ -314,7 +314,7 @@
 		],
 		"description": ""
 	},
-	"Express : Routes : SimpleAppRoute ": {
+	"Express:Routes:SimpleAppRoute": {
 		"prefix": "ccExpress_Routes_SimpleAppRoute",
 		"body": [
 			"app.route('${1:__baseRoute__}')",
@@ -325,32 +325,76 @@
 		],
 		"description": ""
 	},
-	"Express : Response : Status : 200 : Send ": {
+	"Express:Response:Status:200:Send": {
 		"prefix": "ccExpress_Response_Status_200_Send",
 		"body": [
 			"${1:res}.status(200).send(${2});"
 		],
 		"description": ""
 	},
-	"Express : Response : Status : 401 : Send": {
+	"Express:Response:Status:401:Send": {
 		"prefix": "ccExpress_Response_Status_401_Send",
 		"body": [
 			"${1:res}.status(401).send(${2});"
 		],
 		"description": ""
 	},
-	"Express : Response : Status : 404 : Send": {
+	"Express:Response:Status:404:Send": {
 		"prefix": "ccExpress_Response_Status_404_Send",
 		"body": [
 			"${1:res}.status(404).send('${2:Not found.}');"
 		],
 		"description": ""
 	},
-	"Express : Response : Status : 500 : Send ": {
+	"Express:Response:Status:500:Send": {
 		"prefix": "ccExpress_Response_Status_500_Send",
 		"body": [
 			"${1:res}.status(500).send({ message: '${2:message}' ${3} });"
 		],
 		"description": ""
+	},
+	"React:Import:Module": {
+		"prefix": "ccReact_Import_Module",
+		"body": [
+			"import ${2:__moduleName__} from '${1:__modulePath__}';"
+		],
+		"description": "Import module."
+	},
+	"React:Class:Render": {
+		"prefix": "ccReact_Class_Render",
+		"body": [
+			"class ${1:__className__} extends Component {",
+			"\trender(){",
+			"\t\treturn(",
+			"\t\t\t${2}",
+			"\t\t)",
+			"\t}",
+			"}",
+			"",
+			"export default ${1:__className__};",
+			""
+		],
+		"description": "Create a React Class."
+	},
+	"React:ReactDom:Render": {
+		"prefix": "ccReact_ReactDom_Render",
+		"body": [
+			"ReactDOM.render(<${1:__componentName__}/>, document.getElementById('${2:__id__}'));"
+		],
+		"description": "Create ReactDOM.render() method."
+	},
+	"React:ReactDom:Div:ClassName": {
+		"prefix": "ccReact_ReactDom_Div_ClassName",
+		"body": [
+			"<div className=\"${1:__className__}\">${2}</div>"
+		],
+		"description": "Create a Div with className"
+	},
+	"React:ReactDom:Span:ClassName": {
+		"prefix": "ccReact_ReactDom_Span_ClassName",
+		"body": [
+			"<span className=\"${1:__className__}\">${2}</span>"
+		],
+		"description": "Create a Span with className"
 	}
 }

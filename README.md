@@ -5,7 +5,8 @@
 
 Snippets for javascript full stack development on VS Code.
 
-Currently focus on Angular, Express, NodeJs, Mongoose, MongoDB, Mongoose (so called ME(A)N Stack. but anyway, others are on the road).
+<del>Currently focus on Angular, Express, NodeJs, Mongoose, MongoDB, Mongoose (so called ME(A)N Stack. but anyway, others are on the road).
+React snippets are included, so it's MEAN/MERN stack now.
 
 Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace.visualstudio.com/items?itemName=Simon8029.canechairsnippets)
 GitHub: https://github.com/simon8029/CaneChair.Snippets.io
@@ -15,6 +16,12 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 * Angular:Html:NgIf (Keyboard Shortcut: cc_Angular_Html_NgIf) 
 * Angular:Html:NgIfThenElse (Keyboard Shortcut: ccAngular_Html_NgFor)
 * Angular:Html:NgFor (Keyboard Shortcut: ccAngular_Html_NgIfThenElse) 
+### React:
+* React:Import:Module (Keyboard Shortcut: ccReact_Import_Module)
+* React:Class:Render (Keyboard Shortcut: ccReact_Class_Render)
+* React:ReactDom:Render (Keyboard Shortcut: ccReact_ReactDom_Render)
+* React:ReactDom:Div:ClassName (Keyboard Shortcut: ccReact_ReactDom_Div_ClassName)
+* React:ReactDom:Span:ClassName (Keyboard Shortcut: ccReact_ReactDom_Span_ClassName)
 ##### Component/Service:
 * Angular:Component:Service:Import:Module  (Keyboard Shortcut: ccAngular_Import_Module)
 * Angular:Component:Service:Import:As (Keyboard Shortcut: ccAngular_Import_As)
