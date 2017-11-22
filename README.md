@@ -6,6 +6,7 @@
 Snippets for javascript full stack development on VS Code.
 
 <del>Currently focus on Angular, Express, NodeJs, Mongoose, MongoDB, Mongoose (so called ME(A)N Stack. but anyway, others are on the road).
+  
 React snippets are included, so it's MEAN/MERN stack now.
 
 Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace.visualstudio.com/items?itemName=Simon8029.canechairsnippets)
