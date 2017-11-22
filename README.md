@@ -17,12 +17,6 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 * Angular:Html:NgIf (Keyboard Shortcut: cc_Angular_Html_NgIf) 
 * Angular:Html:NgIfThenElse (Keyboard Shortcut: ccAngular_Html_NgFor)
 * Angular:Html:NgFor (Keyboard Shortcut: ccAngular_Html_NgIfThenElse) 
-### React:
-* React:Import:Module (Keyboard Shortcut: ccReact_Import_Module)
-* React:Class:Render (Keyboard Shortcut: ccReact_Class_Render)
-* React:ReactDom:Render (Keyboard Shortcut: ccReact_ReactDom_Render)
-* React:ReactDom:Div:ClassName (Keyboard Shortcut: ccReact_ReactDom_Div_ClassName)
-* React:ReactDom:Span:ClassName (Keyboard Shortcut: ccReact_ReactDom_Span_ClassName)
 ##### Component/Service:
 * Angular:Component:Service:Import:Module  (Keyboard Shortcut: ccAngular_Import_Module)
 * Angular:Component:Service:Import:As (Keyboard Shortcut: ccAngular_Import_As)
@@ -34,6 +28,12 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 * Angular:Component/Service:Service (Keyboard Shortcut: ccAngular_Service)
 * Angular:Component:Service:Method:If (Keyboard Shortcut: ccAngular_Method_If)
 * Angular:Component:Service:Method:Switch (Keyboard Shortcut: ccAngular_Method_Switch)
+### React:
+* React:Import:Module (Keyboard Shortcut: ccReact_Import_Module)
+* React:Class:Render (Keyboard Shortcut: ccReact_Class_Render)
+* React:ReactDom:Render (Keyboard Shortcut: ccReact_ReactDom_Render)
+* React:ReactDom:Div:ClassName (Keyboard Shortcut: ccReact_ReactDom_Div_ClassName)
+* React:ReactDom:Span:ClassName (Keyboard Shortcut: ccReact_ReactDom_Span_ClassName)
 ### Express:
 ##### Express Controller Functions: 
 * Express:Controller:Function:Default (Keyboard Shortcut:ccExpress_Controller_Function_Default)
