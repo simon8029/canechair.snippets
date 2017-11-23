@@ -1,11 +1,19 @@
 # Change Log
 
+##### [0.1.14]
+- Add ccReact_PureReact_Element - (JavaScript)
+- Add ccReact_PureReact_FunctionalComponent - (JavaScript)
+- Add ccReact_ReactDOM_StatelessFunctionalComponent - (JavaScript)
+- Add ccJavaScript_Array_Map - (JavaScript)
+- Add ccReact_ReactDom_Section - (JavaScript)
+- Add ccReact_ReactDom_Article - (JavaScript)
+
 ##### [0.1.13]
 - Add ccReact_Import_Module - (JavaScript)
 - Add ccReact_Class_Render - (JavaScript)
 - Add ccReact_ReactDom_Render - (JavaScript)
-- Add ccReact_ReactDom_Div_ClassName - (JavaScript)
-- Add ccReact_ReactDom_Span_ClassName - (JavaScript)
+- Add ccReact_ReactDom_Div - (JavaScript)
+- Add ccReact_ReactDom_Span - (JavaScript)
 ##### [0.1.12]
 - - Minor bug fixed.
 ##### [0.1.11]

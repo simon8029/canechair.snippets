@@ -363,7 +363,7 @@
 	"React:Class:Render": {
 		"prefix": "ccReact_Class_Render",
 		"body": [
-			"class ${1:__className__} extends Component {",
+			"class ${1:__className__} extends React.Component {",
 			"\trender(){",
 			"\t\treturn(",
 			"\t\t\t${2}",
@@ -376,25 +376,79 @@
 		],
 		"description": "Create a React Class."
 	},
+	"React:PureReact:Element": {
+		"prefix": "ccReact_PureReact_Element",
+		"body": [
+			"React.createElement(\"${1:__elementType__}\",${2:__elementProperties__},${3:__elementChildren__})"
+		],
+		"description": "Create a Pure React Element"
+	},
+	"React:PureReact:FunctionalComponent": {
+		"prefix": "ccReact_PureReact_FunctionalComponent",
+		"body": [
+			"const ${1:__componentName__} = (${2:__params__}) => React.createElement(\"${3:__elementType__}\",${4:__elementProperties__},${5:__elementChildren__})"
+		],
+		"description": "Create a Pure React Functional Component"
+	},
 	"React:ReactDom:Render": {
 		"prefix": "ccReact_ReactDom_Render",
 		"body": [
-			"ReactDOM.render(<${1:__componentName__}/>, document.getElementById('${2:__id__}'));"
+			"ReactDOM.render(${1:__componentName__}, document.getElementById('${2:__id__}'));"
 		],
 		"description": "Create ReactDOM.render() method."
 	},
-	"React:ReactDom:Div:ClassName": {
-		"prefix": "ccReact_ReactDom_Div_ClassName",
+	"React:ReactDom:Section": {
+		"prefix": "ccReact_ReactDom_Section",
 		"body": [
-			"<div className=\"${1:__className__}\">${2}</div>"
+			"<section id=\"${1:__id__}\" className=\"${2:__className__}\">${3}</section>"
 		],
-		"description": "Create a Div with className"
+		"description": "Create a ReactDOM <section> element"
 	},
-	"React:ReactDom:Span:ClassName": {
-		"prefix": "ccReact_ReactDom_Span_ClassName",
+	"React:ReactDom:Div": {
+		"prefix": "ccReact_ReactDom_Div",
 		"body": [
-			"<span className=\"${1:__className__}\">${2}</span>"
+			"<div id=\"${1:__id__}\" className=\"${2:__className__}\">${3}</div>"
 		],
-		"description": "Create a Span with className"
+		"description": "Create a ReactDOM <div> element"
+	},
+	"React:ReactDom:Span": {
+		"prefix": "ccReact_ReactDom_Span",
+		"body": [
+			"<span id=\"${1:__id__}\" className=\"${2:__className__}\">${3}</span>"
+		],
+		"description": "Create a ReactDOM <span> element"
+	},
+	"React:ReactDom:Article": {
+		"prefix": "ccReact_ReactDom_Article",
+		"body": [
+			"<article>",
+			"\t<header>",
+			"\t\t<${1:__elementType__}>${2:__articleTitle__}</${1:__elementType__}>",
+			"\t</header>",
+			"\t<div id=\"${3:__id__}\" className=\"${4:__className__}\">",
+			"\t\t${5}",
+			"\t</div>",
+			"</article>",
+			""
+		],
+		"description": "Create a ReactDOM <article> element"
+	},
+	"React:ReactDOM:FunctionalComponent": {
+		"prefix": "ccReact_ReactDOM_StatelessFunctionalComponent",
+		"body": [
+			"const ${1:__componentName__} = (${2:__params__}) => ",
+			"\t${3:__statement__}",
+			""
+		],
+		"description": "Create a JSX Stateless Functional Component"
+	},
+	"JavaScript:Array:Map": {
+		"prefix": "ccJavaScript_Array_Map",
+		"body": [
+			"${1:__arrayName__}.map((${2:__params__})=>",
+			"\t${3}",
+			")"
+		],
+		"description": "Create a Array.map() function."
 	}
 }

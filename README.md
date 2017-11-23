@@ -3,7 +3,7 @@
 
 ***
 
-Snippets for javascript full stack development on VS Code.
+Snippets for javascript full stack development with "VS Code".
 
 <del>Currently focus on Angular, Express, NodeJs, Mongoose, MongoDB, Mongoose (so called ME(A)N Stack. but anyway, others are on the road).
   
@@ -25,15 +25,20 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 * Angular:Component:Service:Export:Function (Keyboard Shortcut: ccAngular_Export_Function)
 * Angular:Component:Service:Constructor (Keyboard Shortcut: ccAngular_ctor)
 * Angular:Component:Service:Interface (Keyboard Shortcut: ccAngular_Interface)
-* Angular:Component/Service:Service (Keyboard Shortcut: ccAngular_Service)
+* Angular:Component:Service:Service (Keyboard Shortcut: ccAngular_Service)
 * Angular:Component:Service:Method:If (Keyboard Shortcut: ccAngular_Method_If)
 * Angular:Component:Service:Method:Switch (Keyboard Shortcut: ccAngular_Method_Switch)
 ### React:
 * React:Import:Module (Keyboard Shortcut: ccReact_Import_Module)
 * React:Class:Render (Keyboard Shortcut: ccReact_Class_Render)
+* React:PureReact:Element (Keyboard Shortcut: ccReact_React_Element)
+* React:PureReact:FunctionalComponent (Keyboard Shortcut: ccReact_React_FunctionalComponent)
 * React:ReactDom:Render (Keyboard Shortcut: ccReact_ReactDom_Render)
-* React:ReactDom:Div:ClassName (Keyboard Shortcut: ccReact_ReactDom_Div_ClassName)
-* React:ReactDom:Span:ClassName (Keyboard Shortcut: ccReact_ReactDom_Span_ClassName)
+* React:ReactDom:Div (Keyboard Shortcut: ccReact_ReactDom_Div)
+* React:ReactDom:Section (Keyboard Shortcut: ccReact_ReactDom_Section)
+* React:ReactDom:Span (Keyboard Shortcut: ccReact_ReactDom_Span)
+* React:ReactDom:Article (Keyboard Shortcut: ccReact_ReactDom_Article)
+* React:ReactDOM:FunctionalComponent (Keyboard Shortcut: ccReact_ReactDOM_StatelessFunctionalComponent)
 ### Express:
 ##### Express Controller Functions: 
 * Express:Controller:Function:Default (Keyboard Shortcut:ccExpress_Controller_Function_Default)
@@ -65,7 +70,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 * Mongoose:Model:NewProperty:Required (Keyboard Shortcut: ccMongoose_Model_NewProperty_Required)
 ### Node.js
 ##### Common:
-* NodeJs:Common:Export:* (Keyboard Shortcut: ccNodeJs_Common_Export_*)
+* NodeJs:Common:Export: (Keyboard Shortcut: ccNodeJs_Common_Export_*)
 ##### Function:
 * NodeJs:Function:If (Keyboard Shortcut: ccNodeJs_Function_If)
 * NodeJs:Function:For (Keyboard Shortcut: ccNodeJs_Function_For)
@@ -74,5 +79,6 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 * NodeJs:Function:NewFunction (Keyboard Shortcut: ccNodeJs_Function_NewFunction)
 
 ### GENERAL USAGE:
+* JavaScript:Array:Map (Keyboard Shortcut: ccJavaScript_Array_Map)
 * cclog, 
 * ccif,  
