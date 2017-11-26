@@ -2,7 +2,7 @@
     "name": "canechairsnippets",
     "displayName": "CaneChairSnippets",
     "description": "CaneChairSnippets",
-    "version": "0.1.14",
+    "version": "0.2.0",
     "publisher": "Simon8029",
     "engines": {
         "vscode": "^1.17.0"
@@ -14,15 +14,35 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/CaneChairSnippetsJavascript.json"
+                "path": "./snippets/CaneChairSnippets_Javascript_Common.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/CaneChairSnippets_Javascript_Express.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/CaneChairSnippets_Javascript_Mongoose.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/CaneChairSnippets_Javascript_NodeJs.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/CaneChairSnippets_Javascript_ReactJs.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/CaneChairSnippets_Javascript_JSX.json"
             },
             {
                 "language": "typescript",
-                "path": "./snippets/CaneChairSnippetsTypescript.json"
+                "path": "./snippets/CaneChairSnippets_Typescript_Angular.json"
             },
             {
                 "language": "html",
-                "path": "./snippets/CaneChairSnippetsHtml.json"
+                "path": "./snippets/CaneChairSnippets_Html_Angular.json"
             }
         ]
     }

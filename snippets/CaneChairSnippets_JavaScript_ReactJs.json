@@ -1,0 +1,67 @@
+{
+    "React:Import:Module": {
+		"prefix": "ccReact_Import_Module",
+		"body": [
+			"import ${2:__moduleName__} from '${1:__modulePath__}';"
+		],
+		"description": "Import module."
+	},
+	"React:Class:Render": {
+		"prefix": "ccReact_Class_Render",
+		"body": [
+			"class ${1:__className__} extends React.Component {",
+			"\trender(){",
+			"\t\treturn(",
+			"\t\t\t${2}",
+			"\t\t)",
+			"\t}",
+			"}",
+			"",
+			"export default ${1:__className__};",
+			""
+		],
+		"description": "Create a React Class."
+	},
+	"React:Class:Constructor": {
+		"prefix": "ccReact_Class_Constructor",
+		"body": [
+			"constructor(props) {",
+			"\tsuper(props);",
+			"\tthis.state = {",
+			"\t\t${1} ",
+			"\t}",
+			"}"
+		],
+		"description": "Create a React Class."
+	},
+	"React:PureReact:Element": {
+		"prefix": "ccReact_PureReact_Element",
+		"body": [
+			"React.createElement(\"${1:__elementType__}\",${2:__elementProperties__},${3:__elementChildren__})"
+		],
+		"description": "Create a Pure React Element"
+	},
+	"React:PureReact:FunctionalComponent": {
+		"prefix": "ccReact_PureReact_FunctionalComponent",
+		"body": [
+			"const ${1:__componentName__} = (${2:__params__}) => React.createElement(\"${3:__elementType__}\",${4:__elementProperties__},${5:__elementChildren__})"
+		],
+		"description": "Create a Pure React Functional Component"
+	},
+	"React:ReactDom:Render": {
+		"prefix": "ccReact_ReactDom_Render",
+		"body": [
+			"ReactDOM.render(${1:__componentName__}, document.getElementById('${2:__id__}'));"
+		],
+		"description": "Create ReactDOM.render() method."
+	},	
+	"React:ReactDOM:FunctionalComponent": {
+		"prefix": "ccReact_ReactDOM_StatelessFunctionalComponent",
+		"body": [
+			"const ${1:__componentName__} = (${2:__params__}) => ",
+			"\t${3:__statement__}",
+			""
+		],
+		"description": "Create a JSX Stateless Functional Component"
+	}
+}

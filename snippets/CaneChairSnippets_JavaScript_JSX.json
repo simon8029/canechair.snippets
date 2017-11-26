@@ -1,0 +1,38 @@
+{
+    "React:JSX:Element:Section": {
+		"prefix": "ccReact_JSX_Element_Section",
+		"body": [
+			"<section id=\"${1:__id__}\" className=\"${2:__className__}\">${3}</section>"
+		],
+		"description": "Create a JSX <section> element"
+	},
+	"React:JSX:Element:Div": {
+		"prefix": "ccReact_JSX_Element_Div",
+		"body": [
+			"<div id=\"${1:__id__}\" className=\"${2:__className__}\">${3}</div>"
+		],
+		"description": "Create a JSX <div> element"
+	},
+	"React:JSX:Element:Span": {
+		"prefix": "ccReact_JSX_Element_Span",
+		"body": [
+			"<span id=\"${1:__id__}\" className=\"${2:__className__}\">${3}</span>"
+		],
+		"description": "Create a JSX <span> element"
+	},
+	"React:JSX:Element:Article": {
+		"prefix": "ccReact_JSX_Element_Article",
+		"body": [
+			"<article>",
+			"\t<header>",
+			"\t\t<${1:__elementType__}>${2:__articleTitle__}</${1:__elementType__}>",
+			"\t</header>",
+			"\t<div id=\"${3:__id__}\" className=\"${4:__className__}\">",
+			"\t\t${5}",
+			"\t</div>",
+			"</article>",
+			""
+		],
+		"description": "Create a JSX <article> element"
+	},
+}

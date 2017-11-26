@@ -1,0 +1,27 @@
+{
+	"JavaScript:Array:Map": {
+		"prefix": "ccJavaScript_Array_Map",
+		"body": [
+			"${1:__arrayName__}.map((${2:__params__})=>",
+			"\t${3}",
+			")"
+		],
+		"description": "Create a Array.map() function."
+	},
+	"JavaScript:Function:If": {
+		"prefix": "ccJavaScript_Function_If",
+		"body": [
+			"if (${1:__condition__}) {",
+			"\t${2:__statement__}",
+			"}"
+		],
+		"description": "Create a standard If statement."
+	},
+	"JavaScript:Common:PrintToConsole": {
+		"prefix": "cclog",
+		"body": [
+			"console.log(`$1`);"
+		],
+		"description": "Log output to console"
+	}
+}

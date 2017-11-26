@@ -1,23 +1,25 @@
 # Change Log
 
-##### [0.1.14]
+##### [0.2.0]
+- Seperate concern of different languages and frameworks
+- Add ccReact_Class_Constructor - (JavaScript)
+- Add ccJavaScript_Function_If - (JavaScript)
+- Add cclog - (JavaScript)
+
+##### [0.1.11 - 0.1.14]
 - Add ccReact_PureReact_Element - (JavaScript)
 - Add ccReact_PureReact_FunctionalComponent - (JavaScript)
 - Add ccReact_ReactDOM_StatelessFunctionalComponent - (JavaScript)
 - Add ccJavaScript_Array_Map - (JavaScript)
 - Add ccReact_ReactDom_Section - (JavaScript)
 - Add ccReact_ReactDom_Article - (JavaScript)
-
-##### [0.1.13]
 - Add ccReact_Import_Module - (JavaScript)
 - Add ccReact_Class_Render - (JavaScript)
 - Add ccReact_ReactDom_Render - (JavaScript)
 - Add ccReact_ReactDom_Div - (JavaScript)
 - Add ccReact_ReactDom_Span - (JavaScript)
-##### [0.1.12]
-- - Minor bug fixed.
-##### [0.1.11]
 - Add ccAngular_Service - (TypeScript)
+- Minor bug fixed.
 ##### [0.1.5] - [0.1.10]
 - Add ccNodeJs_Common_Export_* - (Javascript)
 - Add ccAngular_Component_Service_Export_Class - (TypeScript)

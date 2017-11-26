@@ -31,14 +31,15 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 ### React:
 * React:Import:Module (Keyboard Shortcut: ccReact_Import_Module)
 * React:Class:Render (Keyboard Shortcut: ccReact_Class_Render)
+* React:Class:Constructor (Keyboard Shortcut: ccReact_Class_Constructor)
 * React:PureReact:Element (Keyboard Shortcut: ccReact_React_Element)
 * React:PureReact:FunctionalComponent (Keyboard Shortcut: ccReact_React_FunctionalComponent)
 * React:ReactDom:Render (Keyboard Shortcut: ccReact_ReactDom_Render)
-* React:ReactDom:Div (Keyboard Shortcut: ccReact_ReactDom_Div)
-* React:ReactDom:Section (Keyboard Shortcut: ccReact_ReactDom_Section)
-* React:ReactDom:Span (Keyboard Shortcut: ccReact_ReactDom_Span)
-* React:ReactDom:Article (Keyboard Shortcut: ccReact_ReactDom_Article)
 * React:ReactDOM:FunctionalComponent (Keyboard Shortcut: ccReact_ReactDOM_StatelessFunctionalComponent)
+* React:JSX:Element:Div (Keyboard Shortcut: ccReact_JSX_Element_Div)
+* React:JSX:Element:Section (Keyboard Shortcut: ccReact_JSX_Element_Section)
+* React:JSX:Element:Span (Keyboard Shortcut: ccReact_JSX_Element_Span)
+* React:JSX:Element:Article (Keyboard Shortcut: ccReact_JSX_Element_Article)
 ### Express:
 ##### Express Controller Functions: 
 * Express:Controller:Function:Default (Keyboard Shortcut:ccExpress_Controller_Function_Default)
@@ -78,7 +79,8 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 * NodeJs:Require (Keyboard Shortcut: ccNodeJs_Require)
 * NodeJs:Function:NewFunction (Keyboard Shortcut: ccNodeJs_Function_NewFunction)
 
-### GENERAL USAGE:
+### Common JavaScript:
+* JavaScript:Common:PrintToConsole (Keyboard Shortcut: cclog)
 * JavaScript:Array:Map (Keyboard Shortcut: ccJavaScript_Array_Map)
-* cclog, 
-* ccif,  
+* JavaScript:Function:If (Keyboard Shortcut: ccJavaScript_Function_If)
+ 
