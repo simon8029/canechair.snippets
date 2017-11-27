@@ -1,5 +1,13 @@
 # Change Log
 
+##### [0.2.1]
+- Add ccJavaScript_Object_Assign - (JavaScript)
+- Add ccReact_JSX_Element_Label - (JavaScript)
+- Add ccReact_JSX_Element_Icon - (JavaScript)
+- Add ccReact_JSX_Element_Input - (JavaScript)
+- Add ccReact_JSX_Element_Button - (JavaScript)
+- Refactor ccReact_JSX_Element_Div - (JavaScript)
+- Refactor readme.md with table
 ##### [0.2.0]
 - Seperate concern of different languages and frameworks
 - Add ccReact_Class_Constructor - (JavaScript)

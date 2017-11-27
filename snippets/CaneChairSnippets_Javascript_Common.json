@@ -1,12 +1,10 @@
 {
-	"JavaScript:Array:Map": {
-		"prefix": "ccJavaScript_Array_Map",
+	"JavaScript:Common:PrintToConsole": {
+		"prefix": "cclog",
 		"body": [
-			"${1:__arrayName__}.map((${2:__params__})=>",
-			"\t${3}",
-			")"
+			"console.log(`$1`);"
 		],
-		"description": "Create a Array.map() function."
+		"description": "Log output to console"
 	},
 	"JavaScript:Function:If": {
 		"prefix": "ccJavaScript_Function_If",
@@ -17,11 +15,20 @@
 		],
 		"description": "Create a standard If statement."
 	},
-	"JavaScript:Common:PrintToConsole": {
-		"prefix": "cclog",
+	"JavaScript:Object:Assign": {
+		"prefix": "ccJavaScript_Object_Assign",
 		"body": [
-			"console.log(`$1`);"
+			"Object.assign({}, ${1:__originalObject__}, { ${2:__Properties__} });"
 		],
-		"description": "Log output to console"
+		"description": "Create a Object.assign() statement."
+	},
+	"JavaScript:Array:Map": {
+		"prefix": "ccJavaScript_Array_Map",
+		"body": [
+			"${1:__arrayName__}.map((${2:__params__})=>",
+			"\t${3}",
+			")"
+		],
+		"description": "Create a Array.map() function."
 	}
 }

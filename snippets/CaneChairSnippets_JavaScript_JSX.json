@@ -1,26 +1,28 @@
 {
-    "React:JSX:Element:Section": {
+	"React : JSX : Element : Section": {
 		"prefix": "ccReact_JSX_Element_Section",
 		"body": [
 			"<section id=\"${1:__id__}\" className=\"${2:__className__}\">${3}</section>"
 		],
-		"description": "Create a JSX <section> element"
+		"description": "Create a JSX <section> element."
 	},
-	"React:JSX:Element:Div": {
+	"React : JSX : Element : Div": {
 		"prefix": "ccReact_JSX_Element_Div",
 		"body": [
-			"<div id=\"${1:__id__}\" className=\"${2:__className__}\">${3}</div>"
+			"<div id=\"${1:__id__}\" className=\"${2:__className__}\">",
+			"\t${3}",
+			"</div>"
 		],
 		"description": "Create a JSX <div> element"
 	},
-	"React:JSX:Element:Span": {
+	"React : JSX : Element : Span": {
 		"prefix": "ccReact_JSX_Element_Span",
 		"body": [
 			"<span id=\"${1:__id__}\" className=\"${2:__className__}\">${3}</span>"
 		],
-		"description": "Create a JSX <span> element"
+		"description": "Create a JSX <span> element."
 	},
-	"React:JSX:Element:Article": {
+	"React : JSX : Element : Article": {
 		"prefix": "ccReact_JSX_Element_Article",
 		"body": [
 			"<article>",
@@ -33,6 +35,34 @@
 			"</article>",
 			""
 		],
-		"description": "Create a JSX <article> element"
+		"description": "Create a JSX <article> element."
+	},
+	"React : JSX : Element : Label": {
+		"prefix": "ccReact_JSX_Element_Label",
+		"body": [
+			"<label id=\"${1:__id__}\" className=\"${2:__className__}\">${3}</label>"
+		],
+		"description": "Create a JSX <label> element."
+	},
+	"React : JSX : Element : Icon": {
+		"prefix": "ccReact_JSX_Element_Icon",
+		"body": [
+			"<i id=\"${1:__id__}\" className=\"${2:__className__}\" />"
+		],
+		"description": "Create a JSX <i> element"
+	},
+	"React : JSX : Element : Input": {
+		"prefix": "ccReact_JSX_Element_Input",
+		"body": [
+			"<input type=\"${1:__type__}\" id=\"${2:__id__}\" className=\"${3:__className__}\" defaultValue= ${4:__defaultValue__} />"
+		],
+		"description": "Create a JSX <input> element"
+	},
+	"React : JSX : Element : Button": {
+		"prefix": "ccReact_JSX_Element_Button",
+		"body": [
+			"<button id=\"${1:__id__}\" className=\"${2:__className__}\" >${3:__buttonText__}</button>"
+		],
+		"description": "Create a JSX <button> element"
 	}
 }
