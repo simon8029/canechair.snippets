@@ -52,6 +52,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | React : JSX : Element : Icon            | ccReact_JSX_Element_Icon                      |
 | React : JSX : Element : Input           | ccReact_JSX_Element_Input                     |
 | React : JSX : Element : Button          | ccReact_JSX_Element_Button                    |
+| React : JSX : Function                  | ccReact_JSX_Function                          |
 ### Express : 
 ##### Express Controller Functions :  
 |Snippet Name|Keyboard Shortcut|
