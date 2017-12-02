@@ -110,4 +110,5 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | JavaScript : Function : If           | ccJavaScript_Function_If   |
 | JavaScript : Object : Assign         | ccJavaScript_Object_Assign |
 | JavaScript : Array : Map             | ccJavaScript_Array_Map     |
+| JavaScript : Array : Filter          | ccJavaScript_Array_Filter  |
  
