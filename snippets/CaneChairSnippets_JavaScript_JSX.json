@@ -1,4 +1,13 @@
 {
+	"React : JSX : Comment": {
+		"prefix": "ccReact_JSX_Comment",
+		"body": [
+			"{/*",
+			"\t${1}",
+			"*/}"
+		],
+		"description": "Create a JSX Comment."
+	},
 	"React : JSX : Element : Section": {
 		"prefix": "ccReact_JSX_Element_Section",
 		"body": [
@@ -54,24 +63,59 @@
 	"React : JSX : Element : Input": {
 		"prefix": "ccReact_JSX_Element_Input",
 		"body": [
-			"<input type=\"${1:__type__}\" id=\"${2:__id__}\" className=\"${3:__className__}\" defaultValue= ${4:__defaultValue__} />"
+			"<input type=\"${1:__type__}\" id=\"${2:__id__}\" className=\"${3:__className__}\" placeholder=\"${4:__placeholder__}\" ref=\"${5:__referenceName__}\" />"
 		],
 		"description": "Create a JSX <input> element"
 	},
 	"React : JSX : Element : Button": {
 		"prefix": "ccReact_JSX_Element_Button",
 		"body": [
-			"<button id=\"${1:__id__}\" className=\"${2:__className__}\" >${3:__buttonText__}</button>"
+			"<button id=\"${1:__id__}\" className=\"${2:__className__}\" ${4:__buttonProperties__}>${3:__buttonText__}</button>"
 		],
 		"description": "Create a JSX <button> element"
 	},
-	"React : JSX : Function": {
-		"prefix": "ccReact_JSX_Function",
+	"React : JSX : Element : H1": {
+		"prefix": "ccReact_JSX_Element_H1",
 		"body": [
-			"${1:__functionName__} = (${2:__params__}) => {",
-			"\t${3}",
-			"};"
+			"<h1>${0}</h1>"
 		],
-		"description": "Create a JSX function."
+		"description": "Create a JSX <h1> element."
+	},
+	"React : JSX : Element : H2": {
+		"prefix": "ccReact_JSX_Element_H2",
+		"body": [
+			"<h2>${0}</h2>"
+		],
+		"description": "Create a JSX <h2> element."
+	},
+	"React : JSX : Element : H3": {
+		"prefix": "ccReact_JSX_Element_H3",
+		"body": [
+			"<h3>${0}</h3>"
+		],
+		"description": "Create a JSX <h3> element."
+	},
+	"React : JSX : Element : H4": {
+		"prefix": "ccReact_JSX_Element_H4",
+		"body": [
+			"<h4>${0}</h4>"
+		],
+		"description": "Create a JSX <h4> element."
+	},
+	"React : JSX : Element : H5": {
+		"prefix": "ccReact_JSX_Element_H5",
+		"body": [
+			"<h5>${0}</h5>"
+		],
+		"description": "Create a JSX <h5> element."
+	},
+	"React : JSX : Element : Form": {
+		"prefix": "ccReact_JSX_Element_Form",
+		"body": [
+			"<form onSubmit={this.onFormSubmit}>",
+			"\t${1}",
+			"</form>"
+		],
+		"description": "Create a JSX <form> element."
 	}
 }
