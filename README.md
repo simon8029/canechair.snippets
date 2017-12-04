@@ -44,6 +44,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | React : PureReact : FunctionalComponent | ccReact_React_FunctionalComponent             |
 | React : ReactDom : Render               | ccReact_ReactDom_Render                       |
 | React : ReactDOM : FunctionalComponent  | ccReact_ReactDOM_StatelessFunctionalComponent |
+| React : JSX : Function                  | ccReact_JSX_Function                          |
 | React : JSX : Element : Div             | ccReact_JSX_Element_Div                       |
 | React : JSX : Element : Section         | ccReact_JSX_Element_Section                   |
 | React : JSX : Element : Span            | ccReact_JSX_Element_Span                      |
@@ -58,7 +59,8 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | React : JSX : Element : H3              | ccReact_JSX_Element_H3                        |
 | React : JSX : Element : H4              | ccReact_JSX_Element_H4                        |
 | React : JSX : Element : H5              | ccReact_JSX_Element_H5                        |
-| React : JSX : Function                  | ccReact_JSX_Function                          |
+| React : JSX : Element : Ul              | ccReact_JSX_Element_Ul                        |
+| React : JSX : Element : Li              | ccReact_JSX_Element_Li                        |
 ### Express : 
 ##### Express Controller Functions :  
 |Snippet Name|Keyboard Shortcut|

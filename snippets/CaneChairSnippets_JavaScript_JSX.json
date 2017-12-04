@@ -8,6 +8,14 @@
 		],
 		"description": "Create a JSX Comment."
 	},
+	"React : JSX : Function": {
+		"prefix": "ccReact_JSX_Function",
+		"body": [
+			"${1:__functionName__} = (${2:__params__}) => {",
+			"\t${3}"
+		],
+		"description": "Create a JSX function."
+	},
 	"React : JSX : Element : Section": {
 		"prefix": "ccReact_JSX_Element_Section",
 		"body": [
@@ -108,6 +116,22 @@
 			"<h5>${0}</h5>"
 		],
 		"description": "Create a JSX <h5> element."
+	},
+	"React : JSX : Element : Ul": {
+		"prefix": "ccReact_JSX_Element_Ul",
+		"body": [
+			"<ul>",
+			"\t${0}",
+			"</ul>"
+		],
+		"description": "Create a JSX <ul> element."
+	},
+	"React : JSX : Element : Li": {
+		"prefix": "ccReact_JSX_Element_Li",
+		"body": [
+			"<li>${0}</li>"
+		],
+		"description": "Create a JSX <li> element."
 	},
 	"React : JSX : Element : Form": {
 		"prefix": "ccReact_JSX_Element_Form",
