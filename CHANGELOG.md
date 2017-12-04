@@ -1,4 +1,7 @@
 # Change Log
+##### [0.2.7]
+- Add ccReact_JSX_Function_SetState - (JavaScript)
+- Add ccReact_JSX_Function_PropTypes - (JavaScript)
 ##### [0.2.6]
 - Add ccReact_JSX_Element_Ul - (JavaScript)
 - Add ccReact_JSX_Element_Li - (JavaScript)

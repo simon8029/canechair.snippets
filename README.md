@@ -45,6 +45,8 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | React : ReactDom : Render               | ccReact_ReactDom_Render                       |
 | React : ReactDOM : FunctionalComponent  | ccReact_ReactDOM_StatelessFunctionalComponent |
 | React : JSX : Function                  | ccReact_JSX_Function                          |
+| React : JSX : Function : PropTypes      | ccReact_JSX_Function_PropTypes                |
+| React : JSX : Function : SetState       | ccReact_JSX_Function_SetState                 |
 | React : JSX : Element : Div             | ccReact_JSX_Element_Div                       |
 | React : JSX : Element : Section         | ccReact_JSX_Element_Section                   |
 | React : JSX : Element : Span            | ccReact_JSX_Element_Span                      |
