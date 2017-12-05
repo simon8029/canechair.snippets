@@ -36,33 +36,34 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | Angular : Component : Service : Method : Switch   | ccAngular_Method_Switch   |
 ### React:
 |Snippet Name|Keyboard Shortcut|
-|-----------------------------------------|-----------------------------------------------|
-| React : Import : Module                 | ccReact_Import_Module                         |
-| React : Class : Render                  | ccReact_Class_Render                          |
-| React : Class : Constructor             | ccReact_Class_Constructor                     |
-| React : PureReact : Element             | ccReact_React_Element                         |
-| React : PureReact : FunctionalComponent | ccReact_React_FunctionalComponent             |
-| React : ReactDom : Render               | ccReact_ReactDom_Render                       |
-| React : ReactDOM : FunctionalComponent  | ccReact_ReactDOM_StatelessFunctionalComponent |
-| React : JSX : Function                  | ccReact_JSX_Function                          |
-| React : JSX : Function : PropTypes      | ccReact_JSX_Function_PropTypes                |
-| React : JSX : Function : SetState       | ccReact_JSX_Function_SetState                 |
-| React : JSX : Element : Div             | ccReact_JSX_Element_Div                       |
-| React : JSX : Element : Section         | ccReact_JSX_Element_Section                   |
-| React : JSX : Element : Span            | ccReact_JSX_Element_Span                      |
-| React : JSX : Element : Article         | ccReact_JSX_Element_Article                   |
-| React : JSX : Element : Label           | ccReact_JSX_Element_Label                     |
-| React : JSX : Element : Icon            | ccReact_JSX_Element_Icon                      |
-| React : JSX : Element : Form            | ccReact_JSX_Element_Form                      |
-| React : JSX : Element : Input           | ccReact_JSX_Element_Input                     |
-| React : JSX : Element : Button          | ccReact_JSX_Element_Button                    |
-| React : JSX : Element : H1              | ccReact_JSX_Element_H1                        |
-| React : JSX : Element : H2              | ccReact_JSX_Element_H2                        |
-| React : JSX : Element : H3              | ccReact_JSX_Element_H3                        |
-| React : JSX : Element : H4              | ccReact_JSX_Element_H4                        |
-| React : JSX : Element : H5              | ccReact_JSX_Element_H5                        |
-| React : JSX : Element : Ul              | ccReact_JSX_Element_Ul                        |
-| React : JSX : Element : Li              | ccReact_JSX_Element_Li                        |
+|----------------------------------------------------|------------------------------------------------|
+| React : Import : Module                            | ccReact_Import_Module                          |
+| React : Class : Render                             | ccReact_Class_Render                           |
+| React : Class : Constructor                        | ccReact_Class_Constructor                      |
+| React : PureReact : Element                        | ccReact_React_Element                          |
+| React : PureReact : FunctionalComponent            | ccReact_React_FunctionalComponent              |
+| React : ReactDom : Render                          | ccReact_ReactDom_Render                        |
+| React : ReactDOM : FunctionalComponent             | ccReact_ReactDOM_StatelessFunctionalComponent  |
+| React : JSX : Function                             | ccReact_JSX_Function                           |
+| React : JSX : Function : PropTypes                 | ccReact_JSX_Function_PropTypes                 |
+| React : JSX : Function : SetState                  | ccReact_JSX_Function_SetState                  |
+| React : JSX : Function : ComponentWillReceiveProps | ccReact_JSX_Function_ComponentWillReceiveProps |
+| React : JSX : Element : Div                        | ccReact_JSX_Element_Div                        |
+| React : JSX : Element : Section                    | ccReact_JSX_Element_Section                    |
+| React : JSX : Element : Span                       | ccReact_JSX_Element_Span                       |
+| React : JSX : Element : Article                    | ccReact_JSX_Element_Article                    |
+| React : JSX : Element : Label                      | ccReact_JSX_Element_Label                      |
+| React : JSX : Element : Icon                       | ccReact_JSX_Element_Icon                       |
+| React : JSX : Element : Form                       | ccReact_JSX_Element_Form                       |
+| React : JSX : Element : Input                      | ccReact_JSX_Element_Input                      |
+| React : JSX : Element : Button                     | ccReact_JSX_Element_Button                     |
+| React : JSX : Element : H1                         | ccReact_JSX_Element_H1                         |
+| React : JSX : Element : H2                         | ccReact_JSX_Element_H2                         |
+| React : JSX : Element : H3                         | ccReact_JSX_Element_H3                         |
+| React : JSX : Element : H4                         | ccReact_JSX_Element_H4                         |
+| React : JSX : Element : H5                         | ccReact_JSX_Element_H5                         |
+| React : JSX : Element : Ul                         | ccReact_JSX_Element_Ul                         |
+| React : JSX : Element : Li                         | ccReact_JSX_Element_Li                         |
 ### Express : 
 ##### Express Controller Functions :  
 |Snippet Name|Keyboard Shortcut|

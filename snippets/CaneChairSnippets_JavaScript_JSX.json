@@ -26,6 +26,17 @@
 		],
 		"description": "Create propTypes."
 	},
+	"React : JSX : Function : ComponentWillReceiveProps": {
+		"prefix": "ccReact_JSX_Function_ComponentWillReceiveProps",
+		"body": [
+			"componentWillReceiveProps(update) {",
+			"\tthis.setState({",
+			"\t\t${0}",
+			"\t})",
+			"}"
+		],
+		"description": "Create componentWillReceiveProps method."
+	},
 	"React : JSX : Function : SetState": {
 		"prefix": "ccReact_JSX_Function_SetState",
 		"body": [
