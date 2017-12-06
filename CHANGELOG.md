@@ -1,4 +1,7 @@
 # Change Log
+##### [0.2.10]
+- Add cc_JavaScript_Gulp_Task - (JavaScript)
+- Add cc_JavaScript_Gulp_Src - (JavaScript)
 ##### [0.2.9]
 - Add ccHtml - (HTML)
 ##### [0.2.8]

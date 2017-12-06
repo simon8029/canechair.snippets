@@ -1,0 +1,19 @@
+{
+    "JavaScript : Gulp : Task": {
+		"prefix": "cc_JavaScript_Gulp_Task",
+		"body": [
+			"gulp.task('${1:__TaskName__}', function () {",
+			"\t${2:__Statement__}",
+			"});"
+		],
+		"description": "Create a gulp task."
+	},
+	"JavaScript : Gulp : Src": {
+		"prefix": "cc_JavaScript_Gulp_Src",
+		"body": [
+			"gulp.src(${1:__Resource__})",
+			"\t.pipe(${2:__Pipe__});"
+		],
+		"description": "Create a gulp task."
+	}
+}

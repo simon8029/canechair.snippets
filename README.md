@@ -115,7 +115,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | NodeJs : Function : AnonymousFunction | ccNodeJs_Function_Anonymous   |
 | NodeJs : Function : NewFunction       | ccNodeJs_Function_NewFunction |
 
-### Common JavaScript : 
+### JavaScript : Common
 |Snippet Name|Keyboard Shortcut|
 |--------------------------------------|----------------------------| 
 | JavaScript : Common : PrintToConsole | cclog                      |
@@ -123,4 +123,10 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | JavaScript : Object : Assign         | ccJavaScript_Object_Assign |
 | JavaScript : Array : Map             | ccJavaScript_Array_Map     |
 | JavaScript : Array : Filter          | ccJavaScript_Array_Filter  |
+
+### Gulp : 
+|Snippet Name|Keyboard Shortcut|
+|--------------------------|-------------------------| 
+| JavaScript : Gulp : Task | cc_JavaScript_Gulp_Task |
+| JavaScript : Gulp : Src  | cc_JavaScript_Gulp_Src  |
  
