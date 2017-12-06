@@ -126,7 +126,9 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
 ### Gulp : 
 |Snippet Name|Keyboard Shortcut|
-|--------------------------|-------------------------| 
-| JavaScript : Gulp : Task | cc_JavaScript_Gulp_Task |
-| JavaScript : Gulp : Src  | cc_JavaScript_Gulp_Src  |
+|---------------------------|--------------------------| 
+| JavaScript : Gulp : Task  | cc_JavaScript_Gulp_Task  |
+| JavaScript : Gulp : Src   | cc_JavaScript_Gulp_Src   |
+| JavaScript : Gulp : Watch | cc_JavaScript_Gulp_Watch |
+| JavaScript : Gulp : Dest  | cc_JavaScript_Gulp_Dest  |
  

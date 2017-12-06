@@ -14,6 +14,20 @@
 			"gulp.src(${1:__Resource__})",
 			"\t.pipe(${2:__Pipe__});"
 		],
-		"description": "Create a gulp task."
+		"description": "Create a gulp src statement."
+	},
+	"JavaScript : Gulp : Watch": {
+		"prefix": "cc_JavaScript_Gulp_Watch",
+		"body": [
+			"gulp.watch(${1:__Watch__});"
+		],
+		"description": "Create a gulp watch statement."
+	},
+	"JavaScript : Gulp : Dest": {
+		"prefix": "cc_JavaScript_Gulp_Dest",
+		"body": [
+			"gulp.dest(${1:__Destination__});"
+		],
+		"description": "Create a gulp dest statement."
 	}
 }

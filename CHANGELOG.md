@@ -1,5 +1,8 @@
 # Change Log
 ##### [0.2.10]
+- Add cc_JavaScript_Gulp_Watch - (JavaScript)
+- Add cc_JavaScript_Gulp_Dest - (JavaScript)
+##### [0.2.10]
 - Add cc_JavaScript_Gulp_Task - (JavaScript)
 - Add cc_JavaScript_Gulp_Src - (JavaScript)
 ##### [0.2.9]
