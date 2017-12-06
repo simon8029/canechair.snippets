@@ -1,4 +1,29 @@
 {
+    "Angular : HTML ": {
+        "prefix": "cc_Html",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "",
+            "<head>",
+            "\t<meta charset=\"utf-8\">",
+            "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">",
+            "\t<link rel=\"shortcut icon\" href=\"/favicon.ico\">",
+            "\t<title>${1:__title__}</title>",
+            "</head>",
+            "",
+            "<body>",
+            "\t<noscript>",
+            "\t\tYou need to enable JavaScript to run this app.",
+            "\t</noscript>",
+            "\t<div id=\"${2:__rootId__}\">",
+            "\t</div>",
+            "</body>",
+            "",
+            "</html>"
+        ],
+        "description": "Create a standard html page."
+    },
     "Angular : HTML : NgIf ": {
         "prefix": "cc_Angular_Html_NgIf",
         "body": [

@@ -16,7 +16,8 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 ### Angular:
 ##### HTML Template:
 |Snippet Name|Keyboard Shortcut|
-|------------------------------|---------------------------|
+|-------------------------------|----------------------------|
+| Angular : Html                | cc_Html                    | 
 | Angular : Html : NgIf         | cc_Angular_Html_NgIf       | 
 | Angular : Html : NgIfThenElse | ccAngular_Html_NgFor       |
 | Angular : Html : NgFor        | ccAngular_Html_NgIfThenElse| 
