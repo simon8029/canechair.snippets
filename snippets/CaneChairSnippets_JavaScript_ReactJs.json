@@ -38,7 +38,7 @@
 		"prefix": "ccReact_PureReact_Create_Class",
 		"body": [
 			"var ${1:__className__} = React.createClass({",
-			"\tender: function(){",
+			"\trender: function(){",
 			"\t\treturn (",
 			"\t\t${2:__statement__}",
 			"\t\t);",
