@@ -60,6 +60,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | React : JSX : Element : Label                      | ccReact_JSX_Element_Label                      |
 | React : JSX : Element : Icon                       | ccReact_JSX_Element_Icon                       |
 | React : JSX : Element : Form                       | ccReact_JSX_Element_Form                       |
+| React : JSX : Element : Link                       | ccReact_JSX_Element_Link                       |
 | React : JSX : Element : Input                      | ccReact_JSX_Element_Input                      |
 | React : JSX : Element : Button                     | ccReact_JSX_Element_Button                     |
 | React : JSX : Element : H1                         | ccReact_JSX_Element_H1                         |
