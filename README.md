@@ -41,7 +41,8 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | React : Import : Module                            | ccReact_Import_Module                          |
 | React : Class : Render                             | ccReact_Class_Render                           |
 | React : Class : Constructor                        | ccReact_Class_Constructor                      |
-| React : PureReact : Element                        | ccReact_React_Element                          |
+| React : PureReact : Create : Class                 | ccReact_React_Create_Class                     |
+| React : PureReact : Create : Element               | ccReact_React_Create_Element                   |
 | React : PureReact : FunctionalComponent            | ccReact_React_FunctionalComponent              |
 | React : ReactDom : Render                          | ccReact_ReactDom_Render                        |
 | React : ReactDOM : FunctionalComponent             | ccReact_ReactDOM_StatelessFunctionalComponent  |

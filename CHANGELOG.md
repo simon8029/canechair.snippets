@@ -1,4 +1,6 @@
 # Change Log
+##### [0.2.13]
+- Add ccReact_React_Create_Class   - (JavaScript)
 ##### [0.2.12]
 - Add ccReact_JSX_Element_Paragraph  - (JavaScript)
 - Add ccReact_JSX_Element_Nav - (JavaScript)
