@@ -1,6 +1,6 @@
 {
     "JavaScript : Gulp : Task": {
-		"prefix": "cc_JavaScript_Gulp_Task",
+		"prefix": "ccJavaScript_Gulp_Task",
 		"body": [
 			"gulp.task('${1:__TaskName__}', function () {",
 			"\t${2:__Statement__}",
@@ -9,7 +9,7 @@
 		"description": "Create a gulp task."
 	},
 	"JavaScript : Gulp : Src": {
-		"prefix": "cc_JavaScript_Gulp_Src",
+		"prefix": "ccJavaScript_Gulp_Src",
 		"body": [
 			"gulp.src(${1:__Resource__})",
 			"\t.pipe(${2:__Pipe__});"
@@ -17,14 +17,14 @@
 		"description": "Create a gulp src statement."
 	},
 	"JavaScript : Gulp : Watch": {
-		"prefix": "cc_JavaScript_Gulp_Watch",
+		"prefix": "ccJavaScript_Gulp_Watch",
 		"body": [
 			"gulp.watch(${1:__Watch__});"
 		],
 		"description": "Create a gulp watch statement."
 	},
 	"JavaScript : Gulp : Dest": {
-		"prefix": "cc_JavaScript_Gulp_Dest",
+		"prefix": "ccJavaScript_Gulp_Dest",
 		"body": [
 			"gulp.dest(${1:__Destination__});"
 		],

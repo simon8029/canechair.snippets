@@ -60,12 +60,35 @@
 		],
 		"description": "Create a JSX <div> element"
 	},
+	"React : JSX : Element : Nav": {
+		"prefix": "ccReact_JSX_Element_Nav",
+		"body": [
+			"<nav id=\"${1:__id__}\" className=\"${2:__className__}\">",
+			"\t${3}",
+			"</nav>"
+		],
+		"description": "Create a JSX <nav> element"
+	},
 	"React : JSX : Element : Span": {
 		"prefix": "ccReact_JSX_Element_Span",
 		"body": [
 			"<span id=\"${1:__id__}\" className=\"${2:__className__}\">${3}</span>"
 		],
 		"description": "Create a JSX <span> element."
+	},
+	"React : JSX : Element : A": {
+		"prefix": "ccReact_JSX_Element_A",
+		"body": [
+			"<a href=\"${1:__href__}\" id=\"${2:__id__}\" className=\"${3:__className__}\">${4:__linkText__}</a>"
+		],
+		"description": "Create a JSX <a> element."
+	},
+	"React : JSX : Element : Image": {
+		"prefix": "ccReact_JSX_Element_Image",
+		"body": [
+			"<img src=\"${1:__imagePath__}\" id=\"${2:__id__}\" className=\"${3:__className__}\"/>"
+		],
+		"description": "Create a JSX <img> element."
 	},
 	"React : JSX : Element : Article": {
 		"prefix": "ccReact_JSX_Element_Article",
@@ -148,7 +171,7 @@
 	"React : JSX : Element : Ul": {
 		"prefix": "ccReact_JSX_Element_Ul",
 		"body": [
-			"<ul>",
+			"<ul className=\"${1:__className__}\">",
 			"\t${0}",
 			"</ul>"
 		],
@@ -160,6 +183,13 @@
 			"<li>${0}</li>"
 		],
 		"description": "Create a JSX <li> element."
+	},
+	"React : JSX : Element : Paragraph": {
+		"prefix": "ccReact_JSX_Element_P",
+		"body": [
+			"<p>${0}</p>"
+		],
+		"description": "Create a JSX <p> element."
 	},
 	"React : JSX : Element : Form": {
 		"prefix": "ccReact_JSX_Element_Form",

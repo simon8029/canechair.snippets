@@ -1,12 +1,12 @@
 {
-	"JavaScript:Common:PrintToConsole": {
+	"JavaScript : Common : PrintToConsole": {
 		"prefix": "cclog",
 		"body": [
 			"console.log(`$1`);"
 		],
 		"description": "Log output to console"
 	},
-	"JavaScript:Function:If": {
+	"JavaScript : Function : If": {
 		"prefix": "ccJavaScript_Function_If",
 		"body": [
 			"if (${1:__condition__}) {",
@@ -15,14 +15,27 @@
 		],
 		"description": "Create a standard If statement."
 	},
-	"JavaScript:Object:Assign": {
+	"JavaScript : Function : Switch": {
+		"prefix": "ccJavaScript_Function_Switch",
+		"body": [
+			"switch (${1:__key__}) {",
+			"\tcase ${2:__value__}:",
+			"\t\t${3:__statement__}",
+			"\t\tbreak;",
+			"\tdefault:",
+			"\t\tbreak;",
+			"}"
+		],
+		"description": "Create a standard switch statement."
+	},
+	"JavaScript : Object : Assign": {
 		"prefix": "ccJavaScript_Object_Assign",
 		"body": [
 			"Object.assign({}, ${1:__originalObject__}, { ${2:__Properties__} });"
 		],
 		"description": "Create a Object.assign() statement."
 	},
-	"JavaScript:Array:Map": {
+	"JavaScript : Array : Map": {
 		"prefix": "ccJavaScript_Array_Map",
 		"body": [
 			"${1:__arrayName__}.map((${2:__params__})=>",
@@ -31,7 +44,7 @@
 		],
 		"description": "Create a Array.map() function."
 	},
-	"JavaScript:Array:Filter": {
+	"JavaScript : Array : Filter": {
 		"prefix": "ccJavaScript_Array_Filter",
 		"body": [
 			"${1:__arrayName__}.filter((${2:__params__})=>",

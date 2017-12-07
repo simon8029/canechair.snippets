@@ -17,8 +17,8 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 ##### HTML Template:
 |Snippet Name|Keyboard Shortcut|
 |-------------------------------|----------------------------|
-| Angular : Html                | cc_Html                    | 
-| Angular : Html : NgIf         | cc_Angular_Html_NgIf       | 
+| Angular : Html                | ccHtml                    | 
+| Angular : Html : NgIf         | ccAngular_Html_NgIf       | 
 | Angular : Html : NgIfThenElse | ccAngular_Html_NgFor       |
 | Angular : Html : NgFor        | ccAngular_Html_NgIfThenElse| 
 ##### Component/Service:
@@ -50,8 +50,11 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | React : JSX : Function : SetState                  | ccReact_JSX_Function_SetState                  |
 | React : JSX : Function : ComponentWillReceiveProps | ccReact_JSX_Function_ComponentWillReceiveProps |
 | React : JSX : Element : Div                        | ccReact_JSX_Element_Div                        |
+| React : JSX : Element : Nav                        | ccReact_JSX_Element_Nav                        |
 | React : JSX : Element : Section                    | ccReact_JSX_Element_Section                    |
 | React : JSX : Element : Span                       | ccReact_JSX_Element_Span                       |
+| React : JSX : Element : A                          | ccReact_JSX_Element_A                          |
+| React : JSX : Element : Image                      | ccReact_JSX_Element_Image                      |
 | React : JSX : Element : Article                    | ccReact_JSX_Element_Article                    |
 | React : JSX : Element : Label                      | ccReact_JSX_Element_Label                      |
 | React : JSX : Element : Icon                       | ccReact_JSX_Element_Icon                       |
@@ -65,6 +68,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | React : JSX : Element : H5                         | ccReact_JSX_Element_H5                         |
 | React : JSX : Element : Ul                         | ccReact_JSX_Element_Ul                         |
 | React : JSX : Element : Li                         | ccReact_JSX_Element_Li                         |
+| React : JSX : Element : Paragraph                  | ccReact_JSX_Element_P                         |
 ### Express : 
 ##### Express Controller Functions :  
 |Snippet Name|Keyboard Shortcut|
@@ -117,18 +121,19 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
 ### JavaScript : Common
 |Snippet Name|Keyboard Shortcut|
-|--------------------------------------|----------------------------| 
-| JavaScript : Common : PrintToConsole | cclog                      |
-| JavaScript : Function : If           | ccJavaScript_Function_If   |
-| JavaScript : Object : Assign         | ccJavaScript_Object_Assign |
-| JavaScript : Array : Map             | ccJavaScript_Array_Map     |
-| JavaScript : Array : Filter          | ccJavaScript_Array_Filter  |
+|--------------------------------------|------------------------------| 
+| JavaScript : Common : PrintToConsole | cclog                        |
+| JavaScript : Function : If           | ccJavaScript_Function_If     |
+| JavaScript : Function : Switch       | ccJavaScript_Function_Switch |
+| JavaScript : Object : Assign         | ccJavaScript_Object_Assign   |
+| JavaScript : Array : Map             | ccJavaScript_Array_Map       |
+| JavaScript : Array : Filter          | ccJavaScript_Array_Filter    |
 
 ### Gulp : 
 |Snippet Name|Keyboard Shortcut|
 |---------------------------|--------------------------| 
-| JavaScript : Gulp : Task  | cc_JavaScript_Gulp_Task  |
-| JavaScript : Gulp : Src   | cc_JavaScript_Gulp_Src   |
-| JavaScript : Gulp : Watch | cc_JavaScript_Gulp_Watch |
-| JavaScript : Gulp : Dest  | cc_JavaScript_Gulp_Dest  |
+| JavaScript : Gulp : Task  | ccJavaScript_Gulp_Task  |
+| JavaScript : Gulp : Src   | ccJavaScript_Gulp_Src   |
+| JavaScript : Gulp : Watch | ccJavaScript_Gulp_Watch |
+| JavaScript : Gulp : Dest  | ccJavaScript_Gulp_Dest  |
  

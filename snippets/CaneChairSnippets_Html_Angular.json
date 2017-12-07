@@ -1,6 +1,6 @@
 {
     "Angular : HTML ": {
-        "prefix": "cc_Html",
+        "prefix": "ccHtml",
         "body": [
             "<!DOCTYPE html>",
             "<html lang=\"en\">",
@@ -25,7 +25,7 @@
         "description": "Create a standard html page."
     },
     "Angular : HTML : NgIf ": {
-        "prefix": "cc_Angular_Html_NgIf",
+        "prefix": "ccAngular_Html_NgIf",
         "body": [
             "*ngIf=\"${1:}\""
         ],

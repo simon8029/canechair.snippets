@@ -1,44 +1,41 @@
 # Change Log
-##### [0.2.10]
-- Add cc_JavaScript_Gulp_Watch - (JavaScript)
-- Add cc_JavaScript_Gulp_Dest - (JavaScript)
-##### [0.2.10]
-- Add cc_JavaScript_Gulp_Task - (JavaScript)
-- Add cc_JavaScript_Gulp_Src - (JavaScript)
-##### [0.2.9]
-- Add ccHtml - (HTML)
-##### [0.2.8]
+##### [0.2.12]
+- Add ccReact_JSX_Element_Paragraph  - (JavaScript)
+- Add ccReact_JSX_Element_Nav - (JavaScript)
+- Add ccReact_JSX_Element_A- (JavaScript)
+- Add ccReact_JSX_Element_Image - (JavaScript)
+- Add ccJavaScript_Function_Switch  - (JavaScript)
+##### [0.2.11]
+- Add ccJavaScript_Gulp_Watch - (JavaScript)
+- Add ccJavaScript_Gulp_Dest - (JavaScript)
+##### [0.2.0 - 0.2.10]
 - Add ccReact_JSX_Function_ComponentWillReceiveProps - (JavaScript)
-##### [0.2.7]
 - Add ccReact_JSX_Function_SetState - (JavaScript)
 - Add ccReact_JSX_Function_PropTypes - (JavaScript)
-##### [0.2.6]
 - Add ccReact_JSX_Element_Ul - (JavaScript)
 - Add ccReact_JSX_Element_Li - (JavaScript)
-##### [0.2.5]
 - Add ccReact_JSX_Element_Form - (JavaScript)
 - Add ccReact_JSX_Element_H1 - (JavaScript)
 - Add ccReact_JSX_Element_H2 - (JavaScript)
 - Add ccReact_JSX_Element_H3 - (JavaScript)
 - Add ccReact_JSX_Element_H4 - (JavaScript)
 - Add ccReact_JSX_Element_H5 - (JavaScript)
-##### [0.2.3]
-- Add ccJavaScript_Array_Filter - (JavaScript)
-##### [0.2.2]
 - Add ccReact_JSX_Function - (JavaScript)
-##### [0.2.1]
-- Add ccJavaScript_Object_Assign - (JavaScript)
 - Add ccReact_JSX_Element_Label - (JavaScript)
 - Add ccReact_JSX_Element_Icon - (JavaScript)
 - Add ccReact_JSX_Element_Input - (JavaScript)
 - Add ccReact_JSX_Element_Button - (JavaScript)
-- Refactor ccReact_JSX_Element_Div - (JavaScript)
-- Refactor readme.md with table
-##### [0.2.0]
-- Seperate concern of different languages and frameworks
 - Add ccReact_Class_Constructor - (JavaScript)
 - Add ccJavaScript_Function_If - (JavaScript)
+- Add ccJavaScript_Array_Filter - (JavaScript)
+- Add ccJavaScript_Object_Assign - (JavaScript)
+- Add ccJavaScript_Gulp_Task - (JavaScript)
+- Add ccJavaScript_Gulp_Src - (JavaScript)
+- Add ccHtml - (HTML)
 - Add cclog - (JavaScript)
+- Refactor ccReact_JSX_Element_Div - (JavaScript)
+- Refactor readme.md with table
+- Seperate concern of different languages and frameworks
 
 ##### [0.1.11 - 0.1.14]
 - Add ccReact_PureReact_Element - (JavaScript)
