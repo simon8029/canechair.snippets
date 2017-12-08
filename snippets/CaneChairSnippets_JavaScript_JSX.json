@@ -20,7 +20,7 @@
 	"React : JSX : Function : PropTypes": {
 		"prefix": "ccReact_JSX_Function_PropTypes",
 		"body": [
-			"static propTypes = {",
+			"propTypes: {",
 			"\t${0}",
 			"}"
 		],

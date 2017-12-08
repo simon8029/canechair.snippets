@@ -1,4 +1,6 @@
 # Change Log
+##### [0.2.16]
+- fix bugs in React : JSX : Function : PropTypes - (JavaScript)
 ##### [0.2.15]
 - Add ccReact_JSX_Element_Link  - (JavaScript)
 ##### [0.2.14]
