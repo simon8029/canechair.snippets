@@ -1,4 +1,6 @@
 # Change Log
+##### [0.3.1] 
+- Add ccJavaScript_Array_ForEach - (JavaScript)
 ##### [0.3.0] 
 - Add Test Snippets -(Test)
 - Add ccTest_Describe - (Test)

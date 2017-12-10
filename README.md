@@ -128,6 +128,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | JavaScript : Object : Assign         | ccJavaScript_Object_Assign   |
 | JavaScript : Array : Map             | ccJavaScript_Array_Map       |
 | JavaScript : Array : Filter          | ccJavaScript_Array_Filter    |
+| JavaScript : Array : ForEach         | ccJavaScript_Array_ForEach   |
 ### Test : Chai
 |Snippet Name|Keyboard Shortcut|
 |--------------------------------------|------------------------------| 
