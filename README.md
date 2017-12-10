@@ -1,40 +1,22 @@
-# Simon's CaneChair - VS Code Snippets 
+# Simon's CaneChair - Javascript Full-Stack Development Snippets 
 ##### (It's time to sit down and enjoy the rocking)
-
+[![GitHub last commit](https://img.shields.io/github/last-commit/simon8029/CaneChair.Snippets.svg)]() [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/simon8029/CaneChair.Snippets.svg)]() [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/Simon8029.canechairsnippets.svg)]() [![GitHub issues](https://img.shields.io/github/issues/simon8029/CaneChair.Snippets.svg)]() [![GitHub closed issues](https://img.shields.io/github/issues-closed/simon8029/CaneChair.Snippets.svg?colorB=green)]() [![license](https://img.shields.io/github/license/simon8029/CaneChair.Snippets.svg)]() 
 ***
 
-Snippets for javascript full stack development with "VS Code".
+Snippets for Javascript Full-Stack Development using "VS Code", include:
+React, Angular, Express, NodeJs, Mongoose, MongoDB, Mocha, Chai
 
 <del>Currently focus on Angular, Express, NodeJs, Mongoose, MongoDB, Mongoose (so called ME(A)N Stack. but anyway, others are on the road).
   
-React snippets are included, so it's MEAN/MERN stack now.
+<del>React snippets are included, so it's MEAN/MERN stack now.
+
 
 Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace.visualstudio.com/items?itemName=Simon8029.canechairsnippets)
 
 GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
 ### Angular:
-##### HTML Template:
-|Snippet Name|Keyboard Shortcut|
-|-------------------------------|----------------------------|
-| Angular : Html                | ccHtml                    | 
-| Angular : Html : NgIf         | ccAngular_Html_NgIf       | 
-| Angular : Html : NgIfThenElse | ccAngular_Html_NgFor       |
-| Angular : Html : NgFor        | ccAngular_Html_NgIfThenElse| 
-##### Component/Service:
-|Snippet Name|Keyboard Shortcut|
-|-------------------------------------------------|---------------------------|
-| Angular : Component : Service : Import : Module   | ccAngular_Import_Module   |
-| Angular : Component : Service : Import : Module   | ccAngular_Import_Module   |
-| Angular : Component : Service : Import : As       | ccAngular_Import_As       |
-| Angular : Component : Service : Import : Redux    | ccAngular_Import_Redux    |
-| Angular : Component : Service : Export : Class    | ccAngular_Export_Class    |
-| Angular : Component : Service : Export : Function | ccAngular_Export_Function |
-| Angular : Component : Service : Constructor       | ccAngular_ctor            |
-| Angular : Component : Service : Interface         | ccAngular_Interface       |
-| Angular : Component : Service : Service           | ccAngular_Service         |
-| Angular : Component : Service : Method : If       | ccAngular_Method_If       |
-| Angular : Component : Service : Method : Switch   | ccAngular_Method_Switch   |
+
 ### React:
 |Snippet Name|Keyboard Shortcut|
 |----------------------------------------------------|------------------------------------------------|
@@ -70,7 +52,29 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | React : JSX : Element : H5                         | ccReact_JSX_Element_H5                         |
 | React : JSX : Element : Ul                         | ccReact_JSX_Element_Ul                         |
 | React : JSX : Element : Li                         | ccReact_JSX_Element_Li                         |
-| React : JSX : Element : Paragraph                  | ccReact_JSX_Element_P                         |
+| React : JSX : Element : Paragraph                  | ccReact_JSX_Element_P                          |
+
+##### HTML Template:
+|Snippet Name|Keyboard Shortcut|
+|-------------------------------|----------------------------|
+| Angular : Html                | ccHtml                    | 
+| Angular : Html : NgIf         | ccAngular_Html_NgIf       | 
+| Angular : Html : NgIfThenElse | ccAngular_Html_NgFor       |
+| Angular : Html : NgFor        | ccAngular_Html_NgIfThenElse| 
+##### Component/Service:
+|Snippet Name|Keyboard Shortcut|
+|-------------------------------------------------|---------------------------|
+| Angular : Component : Service : Import : Module   | ccAngular_Import_Module   |
+| Angular : Component : Service : Import : Module   | ccAngular_Import_Module   |
+| Angular : Component : Service : Import : As       | ccAngular_Import_As       |
+| Angular : Component : Service : Import : Redux    | ccAngular_Import_Redux    |
+| Angular : Component : Service : Export : Class    | ccAngular_Export_Class    |
+| Angular : Component : Service : Export : Function | ccAngular_Export_Function |
+| Angular : Component : Service : Constructor       | ccAngular_ctor            |
+| Angular : Component : Service : Interface         | ccAngular_Interface       |
+| Angular : Component : Service : Service           | ccAngular_Service         |
+| Angular : Component : Service : Method : If       | ccAngular_Method_If       |
+| Angular : Component : Service : Method : Switch   | ccAngular_Method_Switch   |
 ### Express : 
 ##### Express Controller Functions :  
 |Snippet Name|Keyboard Shortcut|
@@ -130,6 +134,13 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | JavaScript : Object : Assign         | ccJavaScript_Object_Assign   |
 | JavaScript : Array : Map             | ccJavaScript_Array_Map       |
 | JavaScript : Array : Filter          | ccJavaScript_Array_Filter    |
+### Test : Chai
+|Snippet Name|Keyboard Shortcut|
+|--------------------------------------|------------------------------| 
+| Test : Describe                      | ccTest_Describe              |
+| Test : It                            | ccTest_It                    |
+| Test : Chai : Assert : TypeOf        | ccTest_Chai_Assert_TypeOf    |
+
 
 ### Gulp : 
 |Snippet Name|Keyboard Shortcut|

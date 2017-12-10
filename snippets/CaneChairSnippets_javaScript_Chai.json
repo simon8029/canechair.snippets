@@ -1,0 +1,27 @@
+{
+    "Test : Describe": {
+        "prefix": "ccTest_Describe",
+        "body": [
+            "describe(\"${1:__describe__}\", () =>{",
+            "${2:__statement__}",
+            "});"
+        ],
+        "description": "Create a Chai describe block."
+    },
+    "Test : It": {
+        "prefix": "ccTest_It",
+        "body": [
+            "it(\"${1:__testCase__}\", (${2:__params__}) => {",
+            "\t${2:__statements__}",
+            "});"
+        ],
+        "description": "Create a Chai test case."
+    },
+    "Test : Chai : Assert : TypeOf": {
+        "prefix": "ccTest_Chai_Assert_TypeOf",
+        "body": [
+            "assert.typeOf(${1:__assert__}, '${2:__dataType__}','${3:__message__});"
+        ],
+        "description": "Create a Chai equal() statement"
+    }
+}

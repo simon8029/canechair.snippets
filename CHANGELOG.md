@@ -1,6 +1,10 @@
 # Change Log
+##### [0.2.17] 
+- Add ccTest_Describe - (Test)
+- Add ccTest_It - (Test)
+- Add ccTest_Chai_Assert_TypeOf - (Test)
 ##### [0.2.16]
-- fix bugs in React : JSX : Function : PropTypes - (JavaScript)
+- fix bugs in React_JSX_Function_PropTypes - (JavaScript)
 ##### [0.2.15]
 - Add ccReact_JSX_Element_Link  - (JavaScript)
 ##### [0.2.14]
