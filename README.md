@@ -1,6 +1,6 @@
-# Simon's CaneChair - Javascript Full-Stack Development Snippets 
+# Simon's CaneChair - Javascript Full-Stack Development Snippets (VS Code)
 ##### (It's time to sit down and enjoy the rocking)
-[![GitHub last commit](https://img.shields.io/github/last-commit/simon8029/CaneChair.Snippets.svg)]() [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/simon8029/CaneChair.Snippets.svg)]() [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/Simon8029.canechairsnippets.svg)]() [![GitHub issues](https://img.shields.io/github/issues/simon8029/CaneChair.Snippets.svg)]() [![GitHub closed issues](https://img.shields.io/github/issues-closed/simon8029/CaneChair.Snippets.svg?colorB=green)]() [![license](https://img.shields.io/github/license/simon8029/CaneChair.Snippets.svg)]() 
+[![GitHub last commit](https://img.shields.io/github/last-commit/simon8029/CaneChair.Snippets.svg)]() [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/4w/simon8029/CaneChair.Snippets.svg)]() [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/Simon8029.canechairsnippets.svg)]() [![GitHub issues](https://img.shields.io/github/issues/simon8029/CaneChair.Snippets.svg)]() [![GitHub closed issues](https://img.shields.io/github/issues-closed/simon8029/CaneChair.Snippets.svg?colorB=green)]() [![license](https://img.shields.io/github/license/simon8029/CaneChair.Snippets.svg)]() 
 ***
 
 Snippets for Javascript Full-Stack Development using "VS Code", include:

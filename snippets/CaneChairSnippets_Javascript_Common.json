@@ -57,7 +57,7 @@
 		"prefix": "ccJavaScript_Array_ForEach",
 		"body": [
 			"${1:__arrayName__}.forEach(${2:__element__} => {",
-			"\t$3:__statement__}",
+			"\t${3:__statement__}",
 			"});"
 		],
 		"description": "Create a Array.forEach() function."
