@@ -6,16 +6,10 @@
 Snippets for Javascript Full-Stack Development using "VS Code", include:
 React, Angular, Express, NodeJs, Mongoose, MongoDB, Mocha, Chai
 
-<del>Currently focus on Angular, Express, NodeJs, Mongoose, MongoDB, Mongoose (so called ME(A)N Stack. but anyway, others are on the road).
-  
-<del>React snippets are included, so it's MEAN/MERN stack now.
-
-
 Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace.visualstudio.com/items?itemName=Simon8029.canechairsnippets)
 
 GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
-### Angular:
 
 ### React:
 |Snippet Name|Keyboard Shortcut|
@@ -53,7 +47,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | React : JSX : Element : Ul                         | ccReact_JSX_Element_Ul                         |
 | React : JSX : Element : Li                         | ccReact_JSX_Element_Li                         |
 | React : JSX : Element : Paragraph                  | ccReact_JSX_Element_P                          |
-
+### Angular:
 ##### HTML Template:
 |Snippet Name|Keyboard Shortcut|
 |-------------------------------|----------------------------|
