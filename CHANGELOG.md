@@ -1,25 +1,20 @@
 # Change Log
-##### [0.2.17] 
+##### [0.3.0] 
+- Add Test Snippets -(Test)
 - Add ccTest_Describe - (Test)
 - Add ccTest_It - (Test)
 - Add ccTest_Chai_Assert_TypeOf - (Test)
-##### [0.2.16]
-- fix bugs in React_JSX_Function_PropTypes - (JavaScript)
-##### [0.2.15]
+##### [0.2.11 - 0.2.16]
 - Add ccReact_JSX_Element_Link  - (JavaScript)
-##### [0.2.14]
-minor bug fixed.
-##### [0.2.13]
 - Add ccReact_React_Create_Class   - (JavaScript)
-##### [0.2.12]
 - Add ccReact_JSX_Element_Paragraph  - (JavaScript)
 - Add ccReact_JSX_Element_Nav - (JavaScript)
 - Add ccReact_JSX_Element_A- (JavaScript)
 - Add ccReact_JSX_Element_Image - (JavaScript)
 - Add ccJavaScript_Function_Switch  - (JavaScript)
-##### [0.2.11]
 - Add ccJavaScript_Gulp_Watch - (JavaScript)
 - Add ccJavaScript_Gulp_Dest - (JavaScript)
+- Minor bugs fixed.
 ##### [0.2.0 - 0.2.10]
 - Add ccReact_JSX_Function_ComponentWillReceiveProps - (JavaScript)
 - Add ccReact_JSX_Function_SetState - (JavaScript)
