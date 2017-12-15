@@ -76,5 +76,12 @@
 			""
 		],
 		"description": "Create a JSX Stateless Functional Component"
+	},
+	"React : Route : AddRoute": {
+		"prefix": "ccReact_Route_AddRoute",
+		"body": [
+			"<Route path=\"${1:__path__}\" component={${2:__componentName__} />"
+		],
+		"description": "Create a Route."
 	}
 }

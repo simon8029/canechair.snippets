@@ -47,6 +47,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | React : JSX : Element : Ul                         | ccReact_JSX_Element_Ul                         |
 | React : JSX : Element : Li                         | ccReact_JSX_Element_Li                         |
 | React : JSX : Element : Paragraph                  | ccReact_JSX_Element_P                          |
+| React : Route : AddRoute                           | ccReact_Route_AddRoute                          |
 ### Angular:
 ##### HTML Template:
 |Snippet Name|Keyboard Shortcut|
