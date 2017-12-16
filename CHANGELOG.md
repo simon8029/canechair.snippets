@@ -1,4 +1,6 @@
 # Change Log
+##### [0.3.4] 
+- Refactor ccReact_JSX_Element_Input - (ReactJS)
 ##### [0.3.3] 
 - Add ccReact_Route_AddRoute - (ReactJS)
 ##### [0.3.2] 

@@ -122,7 +122,13 @@
 	"React : JSX : Element : Input": {
 		"prefix": "ccReact_JSX_Element_Input",
 		"body": [
-			"<input type=\"${1:__type__}\" id=\"${2:__id__}\" className=\"${3:__className__}\" placeholder=\"${4:__placeholder__}\" value=\"${5:__value__}\" />"
+			"<input",
+			"\ttype=\"${1:__type__}\"",
+			"\tid=\"${2:__id__}\"",
+			"\tclassName=\"${3:__className__}\"",
+			"\tplaceholder=\"${4:__placeholder__}\"",
+			"\tvalue=\"${5:__value__}\"",
+			"\tonChange = {this.${6:__onChangeFunctionName__}}/>"
 		],
 		"description": "Create a JSX <input> element"
 	},
