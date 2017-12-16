@@ -13,41 +13,41 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
 ### React:
 |Snippet Name|Keyboard Shortcut|
-|----------------------------------------------------|------------------------------------------------|
-| React : Import : Module                            | ccReact_Import_Module                          |
-| React : Class : Render                             | ccReact_Class_Render                           |
-| React : Class : Constructor                        | ccReact_Class_Constructor                      |
-| React : PureReact : Create : Class                 | ccReact_React_Create_Class                     |
-| React : PureReact : Create : Element               | ccReact_React_Create_Element                   |
-| React : PureReact : FunctionalComponent            | ccReact_React_FunctionalComponent              |
-| React : ReactDom : Render                          | ccReact_ReactDom_Render                        |
-| React : ReactDOM : FunctionalComponent             | ccReact_ReactDOM_StatelessFunctionalComponent  |
-| React : JSX : Function                             | ccReact_JSX_Function                           |
-| React : JSX : Function : PropTypes                 | ccReact_JSX_Function_PropTypes                 |
-| React : JSX : Function : SetState                  | ccReact_JSX_Function_SetState                  |
-| React : JSX : Function : ComponentWillReceiveProps | ccReact_JSX_Function_ComponentWillReceiveProps |
-| React : JSX : Element : Div                        | ccReact_JSX_Element_Div                        |
-| React : JSX : Element : Nav                        | ccReact_JSX_Element_Nav                        |
-| React : JSX : Element : Section                    | ccReact_JSX_Element_Section                    |
-| React : JSX : Element : Span                       | ccReact_JSX_Element_Span                       |
-| React : JSX : Element : A                          | ccReact_JSX_Element_A                          |
-| React : JSX : Element : Image                      | ccReact_JSX_Element_Image                      |
-| React : JSX : Element : Article                    | ccReact_JSX_Element_Article                    |
-| React : JSX : Element : Label                      | ccReact_JSX_Element_Label                      |
-| React : JSX : Element : Icon                       | ccReact_JSX_Element_Icon                       |
-| React : JSX : Element : Form                       | ccReact_JSX_Element_Form                       |
-| React : JSX : Element : Link                       | ccReact_JSX_Element_Link                       |
-| React : JSX : Element : Input                      | ccReact_JSX_Element_Input                      |
-| React : JSX : Element : Button                     | ccReact_JSX_Element_Button                     |
-| React : JSX : Element : H1                         | ccReact_JSX_Element_H1                         |
-| React : JSX : Element : H2                         | ccReact_JSX_Element_H2                         |
-| React : JSX : Element : H3                         | ccReact_JSX_Element_H3                         |
-| React : JSX : Element : H4                         | ccReact_JSX_Element_H4                         |
-| React : JSX : Element : H5                         | ccReact_JSX_Element_H5                         |
-| React : JSX : Element : Ul                         | ccReact_JSX_Element_Ul                         |
-| React : JSX : Element : Li                         | ccReact_JSX_Element_Li                         |
-| React : JSX : Element : Paragraph                  | ccReact_JSX_Element_P                          |
-| React : Route : AddRoute                           | ccReact_Route_AddRoute                          |
+|------------------------------------------------------|--------------------------------------------------|
+| ReactJS : Import : Module                            | ccReactjs_Import_Module                          |
+| ReactJS : Class : Render                             | ccReactjs_Class_Render                           |
+| ReactJS : Class : Constructor                        | ccReactjs_Class_Constructor                      |
+| ReactJS : PureReact : Create : Class                 | ccReactjs_React_Create_Class                     |
+| ReactJS : PureReact : Create : Element               | ccReactjs_React_Create_Element                   |
+| ReactJS : PureReact : FunctionalComponent            | ccReactjs_React_FunctionalComponent              |
+| ReactJS : ReactDom : Render                          | ccReactjs_ReactDom_Render                        |
+| ReactJS : ReactDOM : FunctionalComponent             | ccReactjs_ReactDOM_StatelessFunctionalComponent  |
+| ReactJS : JSX : Function                             | ccReactjs_JSX_Function                           |
+| ReactJS : JSX : Function : PropTypes                 | ccReactjs_JSX_Function_PropTypes                 |
+| ReactJS : JSX : Function : SetState                  | ccReactjs_JSX_Function_SetState                  |
+| ReactJS : JSX : Function : ComponentWillReceiveProps | ccReactjs_JSX_Function_ComponentWillReceiveProps |
+| ReactJS : JSX : Element : Div                        | ccReactjs_JSX_Element_Div                        |
+| ReactJS : JSX : Element : Nav                        | ccReactjs_JSX_Element_Nav                        |
+| ReactJS : JSX : Element : Section                    | ccReactjs_JSX_Element_Section                    |
+| ReactJS : JSX : Element : Span                       | ccReactjs_JSX_Element_Span                       |
+| ReactJS : JSX : Element : A                          | ccReactjs_JSX_Element_A                          |
+| ReactJS : JSX : Element : Image                      | ccReactjs_JSX_Element_Image                      |
+| ReactJS : JSX : Element : Article                    | ccReactjs_JSX_Element_Article                    |
+| ReactJS : JSX : Element : Label                      | ccReactjs_JSX_Element_Label                      |
+| ReactJS : JSX : Element : Icon                       | ccReactjs_JSX_Element_Icon                       |
+| ReactJS : JSX : Element : Form                       | ccReactjs_JSX_Element_Form                       |
+| ReactJS : JSX : Element : Link                       | ccReactjs_JSX_Element_Link                       |
+| ReactJS : JSX : Element : Input                      | ccReactjs_JSX_Element_Input                      |
+| ReactJS : JSX : Element : Button                     | ccReactjs_JSX_Element_Button                     |
+| ReactJS : JSX : Element : H1                         | ccReactjs_JSX_Element_H1                         |
+| ReactJS : JSX : Element : H2                         | ccReactjs_JSX_Element_H2                         |
+| ReactJS : JSX : Element : H3                         | ccReactjs_JSX_Element_H3                         |
+| ReactJS : JSX : Element : H4                         | ccReactjs_JSX_Element_H4                         |
+| ReactJS : JSX : Element : H5                         | ccReactjs_JSX_Element_H5                         |
+| ReactJS : JSX : Element : Ul                         | ccReactjs_JSX_Element_Ul                         |
+| ReactJS : JSX : Element : Li                         | ccReactjs_JSX_Element_Li                         |
+| ReactJS : JSX : Element : Paragraph                  | ccReactjs_JSX_Element_P                          |
+| ReactJS : Route : AddRoute                           | ccReactjs_Route_AddRoute                         |
 ### Angular:
 ##### HTML Template:
 |Snippet Name|Keyboard Shortcut|

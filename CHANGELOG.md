@@ -1,4 +1,6 @@
 # Change Log
+##### [0.4.4] 
+- Add ccReactjs_Class_Method - (ReactJS)
 ##### [0.3.4] 
 - Refactor ccReact_JSX_Element_Input - (ReactJS)
 ##### [0.3.3] 

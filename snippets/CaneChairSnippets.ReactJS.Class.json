@@ -1,12 +1,12 @@
 {
-	"React : Import : Module": {
+	"ReactJS : Import : Module": {
 		"prefix": "ccReact_Import_Module",
 		"body": [
 			"import ${2:__moduleName__} from '${1:__modulePath__}';"
 		],
 		"description": "Import module."
 	},
-	"React : Class : Render": {
+	"ReactJS : Class : Render": {
 		"prefix": "ccReact_Class_Render",
 		"body": [
 			"class ${1:__className__} extends React.Component {",
@@ -22,7 +22,7 @@
 		],
 		"description": "Create a React Class."
 	},
-	"React : Class : Constructor": {
+	"ReactJS : Class : Constructor": {
 		"prefix": "ccReact_Class_Constructor",
 		"body": [
 			"constructor(props) {",
@@ -34,7 +34,7 @@
 		],
 		"description": "Create a React Class."
 	},
-	"React : PureReact : Create : Class": {
+	"ReactJS : PureReactJS : Create : Class": {
 		"prefix": "ccReact_PureReact_Create_Class",
 		"body": [
 			"var ${1:__className__} = React.createClass({",
@@ -47,28 +47,28 @@
 		],
 		"description": "Create a Pure React Class"
 	},
-	"React : PureReact : Create : Element": {
+	"ReactJS : PureReactJS : Create : Element": {
 		"prefix": "ccReact_PureReact_Create_Element",
 		"body": [
 			"React.createElement(\"${1:__elementType__}\",${2:__elementProperties__},${3:__elementChildren__})"
 		],
 		"description": "Create a Pure React Element"
 	},
-	"React : PureReact : FunctionalComponent": {
+	"ReactJS : PureReactJS : FunctionalComponent": {
 		"prefix": "ccReact_PureReact_FunctionalComponent",
 		"body": [
 			"const ${1:__componentName__} = (${2:__params__}) => React.createElement(\"${3:__elementType__}\",${4:__elementProperties__},${5:__elementChildren__})"
 		],
 		"description": "Create a Pure React Functional Component"
 	},
-	"React : ReactDom : Render": {
+	"ReactJS : ReactDom : Render": {
 		"prefix": "ccReact_ReactDom_Render",
 		"body": [
 			"ReactDOM.render(${1:__componentName__}, document.getElementById('${2:__id__}'));"
 		],
 		"description": "Create ReactDOM.render() method."
 	},
-	"React : ReactDOM : FunctionalComponent": {
+	"ReactJS : ReactDOM : FunctionalComponent": {
 		"prefix": "ccReact_ReactDOM_StatelessFunctionalComponent",
 		"body": [
 			"const ${1:__componentName__} = (${2:__params__}) => ",
@@ -77,11 +77,56 @@
 		],
 		"description": "Create a JSX Stateless Functional Component"
 	},
-	"React : Route : AddRoute": {
+	"ReactJS : Route : AddRoute": {
 		"prefix": "ccReact_Route_AddRoute",
 		"body": [
 			"<Route path=\"${1:__path__}\" component={${2:__componentName__} />"
 		],
 		"description": "Create a Route."
+	},
+	"ReactJS : Function": {
+		"prefix": "ccReactjs_JSX_Function",
+		"body": [
+			"${1:__functionName__} = (${2:__params__}) => {",
+			"\t${3}",
+			"}"
+		],
+		"description": "Create a JSX function."
+	},
+	"ReactJS : Function : PropTypes": {
+		"prefix": "ccReactjs_JSX_Function_PropTypes",
+		"body": [
+			"propTypes: {",
+			"\t${0}",
+			"}"
+		],
+		"description": "Create propTypes."
+	},
+	"ReactJS : Function : ComponentWillReceiveProps": {
+		"prefix": "ccReactjs_JSX_Function_ComponentWillReceiveProps",
+		"body": [
+			"componentWillReceiveProps(update) {",
+			"\tthis.setState({",
+			"\t\t${0}",
+			"\t})",
+			"}"
+		],
+		"description": "Create componentWillReceiveProps method."
+	},
+	"ReactJS : Function : SetState": {
+		"prefix": "ccReactjs_JSX_Function_SetState",
+		"body": [
+			"this.setState({ ${1} });"
+		],
+		"description": "Create this.SetState() method."
+	},
+	"React : Method": {
+		"prefix": "ccReactjs_Class_Method",
+		"body": [
+			"function ${1:__functionName__}(){",
+			"\t${2:__statement__}",
+			"}"
+		],
+		"description": "Create a ReactJS method"
 	}
 }
