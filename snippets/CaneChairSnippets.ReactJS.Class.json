@@ -128,5 +128,44 @@
 			"}"
 		],
 		"description": "Create a ReactJS method"
+	},
+	"React : Class : Component": {
+		"prefix": "ccReactjs_Class_Component",
+		"body": [
+			"import React, { PropTypes } from 'react';",
+			"import { connect } from 'react-redux';",
+			"import { bindActionCreators } from 'redux';",
+			"import * as _actions from '${2:__filePathOfActions__}';",
+			"class ${1:__componentName__} extends React.Component {",
+			"\tconstructor(props, context) {",
+			"\t\tsuper(props, context);",
+			"\t}",
+			"",
+			"\trender() {",
+			"\t\treturn (",
+			"\t\t<div>",
+			"\t\t</div>",
+			"\t\t);",
+			"\t}",
+			"}",
+			"${1:__componentName__}.propTypes={",
+			"\tactions: PropTypes.object.isRequired",
+			"};",
+			"",
+			"function mapStateToProps(state,ownProps){",
+			"\treturn{",
+			"\t\tstate:state",
+			"\t};",
+			"}",
+			"",
+			"function mapDispatchToProps(dispatch){",
+			"\treturn {",
+			"\t\tactions:bindActionCreators(_actions,dispatch)",
+			"\t};",
+			"}",
+			"",
+			"export default connect(mapStateToProps, mapDispatchToProps)(${1:__componentName__});"
+		],
+		"description": "Create a ReactJS component"
 	}
 }
