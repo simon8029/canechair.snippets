@@ -1,4 +1,6 @@
 # Change Log
+##### [0.5.6] 
+- Refactor ccReactjs_Class_Component - (ReactJS)
 ##### [0.5.5] 
 - Minor bugs fixed.
 ##### [0.5.4] 
