@@ -129,8 +129,8 @@
 		],
 		"description": "Create a ReactJS method"
 	},
-	"React : Class : Component": {
-		"prefix": "ccReactjs_Class_Component",
+	"React : Class : Component : Container": {
+		"prefix": "ccReactjs_Class_Component_Container",
 		"body": [
 			"import React, { PropTypes } from 'react';",
 			"import { connect } from 'react-redux';",
@@ -166,6 +166,28 @@
 			"",
 			"export default connect(mapStateToProps, mapDispatchToProps)(${1:__componentName__});"
 		],
-		"description": "Create a ReactJS component"
+		"description": "Create a ReactJS container component"
+	},
+	"React : Class : Component : Presentational": {
+		"prefix": "ccReactjs_Class_Component_Presentational",
+		"body": [
+			"import React from 'react';",
+			"import PropTypes from 'prop-types';",
+			"",
+			"const ${1:__ComponentName__} = ({components}) => {",
+			"\treturn (",
+			"\t\t<div>",
+			"\t\t\t${0}",
+			"\t\t</div>",
+			"\t);",
+			"};",
+			"",
+			"${1:__ComponentName__}.propTypes = {",
+			"\t// components: PropTypes.array.isRequired",
+			"};",
+			"",
+			"export default ${1:__ComponentName__};"
+		],
+		"description": "Create a ReactJS Presentational Component"
 	}
 }
