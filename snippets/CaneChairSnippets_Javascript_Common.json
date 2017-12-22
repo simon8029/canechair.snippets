@@ -2,7 +2,8 @@
 	"JavaScript : Common : PrintToConsole": {
 		"prefix": "cclog",
 		"body": [
-			"console.log(`$1`);"
+			"console.log(`${1:__output__}:`);",
+			"console.log(${1:__output__});"
 		],
 		"description": "Log output to console"
 	},

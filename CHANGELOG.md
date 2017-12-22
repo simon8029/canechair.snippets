@@ -1,4 +1,7 @@
 # Change Log
+
+##### [0.5.8] 
+- Refact cclog - (JavaScript)
 ##### [0.5.7] 
 - Refactor ccReactjs_Class_Component_Container - (ReactJS)
 - Refactor ccReactjs_Class_Component_Presentational- (ReactJS)
