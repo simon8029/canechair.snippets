@@ -132,13 +132,16 @@
 	"React : Class : Component : Container": {
 		"prefix": "ccReactjs_Class_Component_Container",
 		"body": [
-			"import React, { PropTypes } from 'react';",
+			"import React from 'react';",
+			"import PropTypes from 'prop-types';",
 			"import { connect } from 'react-redux';",
 			"import { bindActionCreators } from 'redux';",
 			"import * as ${1:__componentName__}Actions from '${2:__filePathOfActions__}';",
 			"class ${1:__componentName__} extends React.Component {",
 			"\tconstructor(props, context) {",
 			"\t\tsuper(props, context);",
+			"\t\tthis.state = props.state;",
+			"\t\tthis.actions = props.actions;",
 			"\t}",
 			"",
 			"\trender() {",
@@ -152,9 +155,9 @@
 			"\tactions: PropTypes.object.isRequired",
 			"};",
 			"",
-			"function mapStateToProps(state,ownProps){",
+			"function mapStateToProps(store,ownProps){",
 			"\treturn{",
-			"\t\tstate:state",
+			"\t\tstate:store",
 			"\t};",
 			"}",
 			"",
@@ -189,5 +192,20 @@
 			"export default ${1:__ComponentName__};"
 		],
 		"description": "Create a ReactJS Presentational Component"
+	},
+	"React : Reducer : NewReducer": {
+		"prefix": "ccReactjs_Reducer_NewReducer",
+		"body": [
+			"const initialState = {}",
+			"export default function ${1:__reducerName__}(state = initialState, action) {",
+			"\tswitch (action.type) {",
+			"\t\tcase ${2:__actionType__}:",
+			"\t\t\tconst { ${3:__variables__} } = action;",
+			"\t\tdefault:",
+			"\t\t\treturn state;",
+			"\t}",
+			"}"
+		],
+		"description": "Create a ReactJS Reducer."
 	}
 }

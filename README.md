@@ -19,6 +19,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : Class : Constructor                        | ccReactjs_Class_Constructor                      |
 | ReactJS : Class : Component : Container              | ccReactjs_Class_Component_ Container             |
 | ReactJS : Class : Component : Presentational         | ccReactjs_Class_Component_ Presentational        |
+| ReactJS : Reducer : NewReducer                       | ccReactjs_Reducer_NewReducer                     |
 | ReactJS : PureReact : Create : Class                 | ccReactjs_React_Create_Class                     |
 | ReactJS : PureReact : Create : Element               | ccReactjs_React_Create_Element                   |
 | ReactJS : PureReact : FunctionalComponent            | ccReactjs_React_FunctionalComponent              |

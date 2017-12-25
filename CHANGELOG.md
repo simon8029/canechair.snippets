@@ -1,5 +1,8 @@
 # Change Log
 
+##### [0.6.9] 
+- Add ccReactjs_Reducer_NewReducer  - (ReactJS)
+- Refactor ccReactjs_Class_Component_Container - (ReactJS)
 ##### [0.5.8] 
 - Refact cclog - (JavaScript)
 ##### [0.5.7] 
