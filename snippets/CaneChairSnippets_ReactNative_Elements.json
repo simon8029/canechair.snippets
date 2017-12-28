@@ -1,5 +1,5 @@
 {
-    "React : Native : Element : TextInput": {
+    "ReactNative : Element : TextInput": {
         "prefix": "ccReactNative_Element_TextInput",
         "body": [
             "<TextInput",

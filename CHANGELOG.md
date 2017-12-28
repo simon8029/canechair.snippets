@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.7.1] 
+- Refactor snippets name - (ReactNative)
 ##### [0.7.0] 
 - Add ccReactNative_Element_TextInput - (ReactNative)
 ##### [0.6.9] 
