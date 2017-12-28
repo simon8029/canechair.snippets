@@ -4,7 +4,7 @@
 ***
 
 Snippets for Javascript Full-Stack Development using "VS Code", include:
-React, Angular, Express, NodeJs, Mongoose, MongoDB, Mocha, Chai
+React, ReactNative, Angular, Express, NodeJs, Mongoose, MongoDB, Mocha, Chai, Vanilla JavaScript
 
 Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace.visualstudio.com/items?itemName=Simon8029.canechairsnippets)
 
@@ -51,6 +51,11 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : JSX : Element : Li                         | ccReactjs_JSX_Element_Li                         |
 | ReactJS : JSX : Element : Paragraph                  | ccReactjs_JSX_Element_P                          |
 | ReactJS : Route : AddRoute                           | ccReactjs_Route_AddRoute                         |
+
+### ReactNative:
+|Snippet Name|Keyboard Shortcut|
+|------------------------------------------------------|--------------------------------------------------|
+| React : Native : Element : TextInput                 | ccReactNative_Element_TextInput                  |
 ### Angular:
 ##### HTML Template:
 |Snippet Name|Keyboard Shortcut|

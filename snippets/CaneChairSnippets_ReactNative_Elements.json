@@ -1,0 +1,15 @@
+{
+    "React : Native : Element : TextInput": {
+        "prefix": "ccReactNative_Element_TextInput",
+        "body": [
+            "<TextInput",
+            "\tautoCorrect={${1:false}}",
+            "\tplaceholder=\"${2:Input here...}\"",
+            "\tplaceholderTextColor=\"${3:__color__}\"",
+            "\tstyle={${4:__style__}}",
+            "\tclearButtonMode=\"${5:always}}\"",
+            "/>"
+        ],
+        "description": "Create a ReactNative TextInput Element."
+    }
+}

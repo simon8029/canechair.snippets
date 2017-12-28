@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.7.0] 
+- Add ccReactNative_Element_TextInput - (ReactNative)
 ##### [0.6.9] 
 - Add ccReactjs_Reducer_NewReducer  - (ReactJS)
 - Refactor ccReactjs_Class_Component_Container - (ReactJS)
