@@ -68,15 +68,6 @@
 		],
 		"description": "Create ReactDOM.render() method."
 	},
-	"ReactJS : ReactDOM : FunctionalComponent": {
-		"prefix": "ccReact_ReactDOM_StatelessFunctionalComponent",
-		"body": [
-			"const ${1:__componentName__} = (${2:__params__}) => ",
-			"\t${3:__statement__}",
-			""
-		],
-		"description": "Create a JSX Stateless Functional Component"
-	},
 	"ReactJS : Route : AddRoute": {
 		"prefix": "ccReact_Route_AddRoute",
 		"body": [
@@ -85,7 +76,7 @@
 		"description": "Create a Route."
 	},
 	"ReactJS : Function": {
-		"prefix": "ccReactjs_JSX_Function",
+		"prefix": "ccReactJS_Function",
 		"body": [
 			"${1:__functionName__} = (${2:__params__}) => {",
 			"\t${3}",
@@ -94,7 +85,7 @@
 		"description": "Create a JSX function."
 	},
 	"ReactJS : Function : PropTypes": {
-		"prefix": "ccReactjs_JSX_Function_PropTypes",
+		"prefix": "ccReactJS_Function_PropTypes",
 		"body": [
 			"propTypes: {",
 			"\t${0}",
@@ -103,7 +94,7 @@
 		"description": "Create propTypes."
 	},
 	"ReactJS : Function : ComponentWillReceiveProps": {
-		"prefix": "ccReactjs_JSX_Function_ComponentWillReceiveProps",
+		"prefix": "ccReactJS_Function_ComponentWillReceiveProps",
 		"body": [
 			"componentWillReceiveProps(update) {",
 			"\tthis.setState({",
@@ -114,14 +105,14 @@
 		"description": "Create componentWillReceiveProps method."
 	},
 	"ReactJS : Function : SetState": {
-		"prefix": "ccReactjs_JSX_Function_SetState",
+		"prefix": "ccReactJS_Function_SetState",
 		"body": [
 			"this.setState({ ${1} });"
 		],
 		"description": "Create this.SetState() method."
 	},
 	"React : Method": {
-		"prefix": "ccReactjs_Class_Method",
+		"prefix": "ccReactJS_Class_Method",
 		"body": [
 			"function ${1:__functionName__}(){",
 			"\t${2:__statement__}",
@@ -129,8 +120,8 @@
 		],
 		"description": "Create a ReactJS method"
 	},
-	"React : Class : Component : Container": {
-		"prefix": "ccReactjs_Class_Component_Container",
+	"React : Component : Container": {
+		"prefix": "ccReactJS_Component_Container",
 		"body": [
 			"import React from 'react';",
 			"import PropTypes from 'prop-types';",
@@ -171,8 +162,8 @@
 		],
 		"description": "Create a ReactJS container component"
 	},
-	"React : Class : Component : Presentational": {
-		"prefix": "ccReactjs_Class_Component_Presentational",
+	"React : Component : Presentational": {
+		"prefix": "ccReactJS_Component_Presentational",
 		"body": [
 			"import React from 'react';",
 			"import PropTypes from 'prop-types';",
@@ -193,8 +184,21 @@
 		],
 		"description": "Create a ReactJS Presentational Component"
 	},
+	"React : Component : Functional": {
+		"prefix": "ccReactJS_Component_Functional",
+		"body": [
+			"import React from 'react';",
+			"",
+			"export default function ${1:__componentName__}(${2:__destructureProps__}) {",
+			"\treturn (",
+			"\t\t${3:__statement__}",
+			"\t);",
+			"}"
+		],
+		"description": "Create a ReactJS Functional Component"
+	},
 	"React : Reducer : NewReducer": {
-		"prefix": "ccReactjs_Reducer_NewReducer",
+		"prefix": "ccReactJS_Reducer_NewReducer",
 		"body": [
 			"const initialState = {}",
 			"export default function ${1:__reducerName__}(state = initialState, action) {",

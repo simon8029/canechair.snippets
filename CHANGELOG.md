@@ -1,5 +1,8 @@
 # Change Log
 
+##### [0.9.1] 
+- Add ccReactjs_Component_Functional - (ReactJS)
+- Refactor snippets names - (ReactJS)
 ##### [0.8.0] 
 - Add ccReactNative_Element_Text - (ReactNative)
 - Add ccReactNative_Element_View - (ReactNative)

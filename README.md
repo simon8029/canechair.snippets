@@ -17,39 +17,39 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : Import : Module                            | ccReactjs_Import_Module                          |
 | ReactJS : Class : Render                             | ccReactjs_Class_Render                           |
 | ReactJS : Class : Constructor                        | ccReactjs_Class_Constructor                      |
-| ReactJS : Class : Component : Container              | ccReactjs_Class_Component_ Container             |
-| ReactJS : Class : Component : Presentational         | ccReactjs_Class_Component_ Presentational        |
+| ReactJS : Component : Container                      | ccReactjs_Component_ Container                   |
+| ReactJS : Component : Presentational                 | ccReactjs_Component_ Presentational              |
+| ReactJS : Component : Functional                     | ccReactjs_Component_Functional                   |
 | ReactJS : Reducer : NewReducer                       | ccReactjs_Reducer_NewReducer                     |
 | ReactJS : PureReact : Create : Class                 | ccReactjs_React_Create_Class                     |
 | ReactJS : PureReact : Create : Element               | ccReactjs_React_Create_Element                   |
 | ReactJS : PureReact : FunctionalComponent            | ccReactjs_React_FunctionalComponent              |
 | ReactJS : ReactDom : Render                          | ccReactjs_ReactDom_Render                        |
-| ReactJS : ReactDOM : FunctionalComponent             | ccReactjs_ReactDOM_StatelessFunctionalComponent  |
-| ReactJS : JSX : Function                             | ccReactjs_JSX_Function                           |
-| ReactJS : JSX : Function : PropTypes                 | ccReactjs_JSX_Function_PropTypes                 |
-| ReactJS : JSX : Function : SetState                  | ccReactjs_JSX_Function_SetState                  |
-| ReactJS : JSX : Function : ComponentWillReceiveProps | ccReactjs_JSX_Function_ComponentWillReceiveProps |
-| ReactJS : JSX : Element : Div                        | ccReactjs_JSX_Element_Div                        |
-| ReactJS : JSX : Element : Nav                        | ccReactjs_JSX_Element_Nav                        |
-| ReactJS : JSX : Element : Section                    | ccReactjs_JSX_Element_Section                    |
-| ReactJS : JSX : Element : Span                       | ccReactjs_JSX_Element_Span                       |
-| ReactJS : JSX : Element : A                          | ccReactjs_JSX_Element_A                          |
-| ReactJS : JSX : Element : Image                      | ccReactjs_JSX_Element_Image                      |
-| ReactJS : JSX : Element : Article                    | ccReactjs_JSX_Element_Article                    |
-| ReactJS : JSX : Element : Label                      | ccReactjs_JSX_Element_Label                      |
-| ReactJS : JSX : Element : Icon                       | ccReactjs_JSX_Element_Icon                       |
-| ReactJS : JSX : Element : Form                       | ccReactjs_JSX_Element_Form                       |
-| ReactJS : JSX : Element : Link                       | ccReactjs_JSX_Element_Link                       |
-| ReactJS : JSX : Element : Input                      | ccReactjs_JSX_Element_Input                      |
-| ReactJS : JSX : Element : Button                     | ccReactjs_JSX_Element_Button                     |
-| ReactJS : JSX : Element : H1                         | ccReactjs_JSX_Element_H1                         |
-| ReactJS : JSX : Element : H2                         | ccReactjs_JSX_Element_H2                         |
-| ReactJS : JSX : Element : H3                         | ccReactjs_JSX_Element_H3                         |
-| ReactJS : JSX : Element : H4                         | ccReactjs_JSX_Element_H4                         |
-| ReactJS : JSX : Element : H5                         | ccReactjs_JSX_Element_H5                         |
-| ReactJS : JSX : Element : Ul                         | ccReactjs_JSX_Element_Ul                         |
-| ReactJS : JSX : Element : Li                         | ccReactjs_JSX_Element_Li                         |
-| ReactJS : JSX : Element : Paragraph                  | ccReactjs_JSX_Element_P                          |
+| ReactJS : Function                                   | ccReactjs_Function                               |
+| ReactJS : Function : PropTypes                       | ccReactjs_Function_PropTypes                     |
+| ReactJS : Function : SetState                        | ccReactjs_Function_SetState                      |
+| ReactJS : Function : ComponentWillReceiveProps       | ccReactjs_Function_ComponentWillReceiveProps     |
+| ReactJS : Element : Div                              | ccReactjs_Element_Div                            |
+| ReactJS : Element : Nav                              | ccReactjs_Element_Nav                            |
+| ReactJS : Element : Section                          | ccReactjs_Element_Section                        |
+| ReactJS : Element : Span                             | ccReactjs_Element_Span                           |
+| ReactJS : Element : A                                | ccReactjs_Element_A                              |
+| ReactJS : Element : Image                            | ccReactjs_Element_Image                          |
+| ReactJS : Element : Article                          | ccReactjs_Element_Article                        |
+| ReactJS : Element : Label                            | ccReactjs_Element_Label                          |
+| ReactJS : Element : Icon                             | ccReactjs_Element_Icon                           |
+| ReactJS : Element : Form                             | ccReactjs_Element_Form                           |
+| ReactJS : Element : Link                             | ccReactjs_Element_Link                           |
+| ReactJS : Element : Input                            | ccReactjs_Element_Input                          |
+| ReactJS : Element : Button                           | ccReactjs_Element_Button                         |
+| ReactJS : Element : H1                               | ccReactjs_Element_H1                             |
+| ReactJS : Element : H2                               | ccReactjs_Element_H2                             |
+| ReactJS : Element : H3                               | ccReactjs_Element_H3                             |
+| ReactJS : Element : H4                               | ccReactjs_Element_H4                             |
+| ReactJS : Element : H5                               | ccReactjs_Element_H5                             |
+| ReactJS : Element : Ul                               | ccReactjs_Element_Ul                             |
+| ReactJS : Element : Li                               | ccReactjs_Element_Li                             |
+| ReactJS : Element : Paragraph                        | ccReactjs_Element_P                              |
 | ReactJS : Route : AddRoute                           | ccReactjs_Route_AddRoute                         |
 
 ### ReactNative:
@@ -63,8 +63,8 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 ##### HTML Template:
 |Snippet Name|Keyboard Shortcut|
 |-------------------------------|----------------------------|
-| Angular : Html                | ccHtml                    | 
-| Angular : Html : NgIf         | ccAngular_Html_NgIf       | 
+| Angular : Html                | ccHtml                     | 
+| Angular : Html : NgIf         | ccAngular_Html_NgIf        | 
 | Angular : Html : NgIfThenElse | ccAngular_Html_NgFor       |
 | Angular : Html : NgFor        | ccAngular_Html_NgIfThenElse| 
 ##### Component/Service:
