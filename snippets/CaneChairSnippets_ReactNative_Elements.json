@@ -32,7 +32,7 @@
             "\tplaceholder=\"${2:Input here...}\"",
             "\tplaceholderTextColor=\"${3:__color__}\"",
             "\tstyle={${4:__style__}}",
-            "\tclearButtonMode=\"${5:always}}\"",
+            "\tclearButtonMode=\"${5:always}\"",
             "/>"
         ],
         "description": "Create a ReactNative TextInput Element."

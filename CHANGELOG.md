@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.10.2] 
+- Fix bug in ccReactNative_Element_TextInput - (ReactNative)
 ##### [0.10.1] 
 - Add ccReactNative_Component_Functional - (ReactNative)
 - Fix bug in ccReactNative_Element_Text - (ReactNative)
