@@ -1,12 +1,23 @@
 {
     "name": "canechairsnippets",
     "displayName": "CaneChair Snippets - Full Stack JavaScript",
-    "description": "It's time to sit down and enjoy the rocking",
-    "version": "0.7.1",
+    "description": "It's time to sit down and enjoy the rocking...",
+    "version": "0.8.0",
     "publisher": "Simon8029",
     "engines": {
         "vscode": "^1.17.0"
     },
+    "keywords": [
+        "snippets",
+        "JavaScript",
+        "React",
+        "ReactNative",
+        "Nodejs",
+        "Express",
+        "Mongoose",
+        "Mongodb",
+        "Jest"
+    ],
     "categories": [
         "Snippets"
     ],

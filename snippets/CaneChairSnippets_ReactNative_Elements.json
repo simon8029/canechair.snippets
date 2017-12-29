@@ -1,4 +1,29 @@
 {
+    "ReactNative : Element : View": {
+        "prefix": "ccReactNative_Element_View",
+        "body": [
+            "<View style={${1:__style__}}>",
+            "\t${0}",
+            "</View>"
+        ],
+        "description": "Create a ReactNative View Element."
+    },
+    "ReactNative : Element : ScrollView": {
+        "prefix": "ccReactNative_Element_ScrollView",
+        "body": [
+            "<ScrollView style={${1:__style__}}>",
+            "\t${0}",
+            "</ScrollView>"
+        ],
+        "description": "Create a ReactNative ScrollView Element."
+    },
+    "ReactNative : Element : Text": {
+        "prefix": "ccReactNative_Element_Text",
+        "body": [
+            "<Text style={{${1:__style__}}}>${2}</Text>"
+        ],
+        "description": "Create a ReactNative Text Element."
+    },
     "ReactNative : Element : TextInput": {
         "prefix": "ccReactNative_Element_TextInput",
         "body": [

@@ -1,5 +1,9 @@
 # Change Log
 
+##### [0.8.0] 
+- Add ccReactNative_Element_Text - (ReactNative)
+- Add ccReactNative_Element_View - (ReactNative)
+- Add ccReactNative_Element_ScrollView - (ReactNative)
 ##### [0.7.1] 
 - Refactor snippets name - (ReactNative)
 ##### [0.7.0] 

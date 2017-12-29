@@ -55,7 +55,10 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 ### ReactNative:
 |Snippet Name|Keyboard Shortcut|
 |------------------------------------------------------|--------------------------------------------------|
-| ReactNative : Element : TextInput                 | ccReactNative_Element_TextInput                  |
+| ReactNative : Element : View                         | ccReactNative_Element_View                       |
+| ReactNative : Element : ScrollView                   | ccReactNative_Element_ScrollView                 |
+| ReactNative : Element : Text                         | ccReactNative_Element_Text                       |
+| ReactNative : Element : TextInput                    | ccReactNative_Element_TextInput                  |
 ### Angular:
 ##### HTML Template:
 |Snippet Name|Keyboard Shortcut|
