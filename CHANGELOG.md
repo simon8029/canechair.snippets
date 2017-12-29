@@ -1,5 +1,8 @@
 # Change Log
 
+##### [0.10.1] 
+- Add ccReactNative_Component_Functional - (ReactNative)
+- Fix bug in ccReactNative_Element_Text - (ReactNative)
 ##### [0.9.1] 
 - Add ccReactjs_Component_Functional - (ReactJS)
 - Refactor snippets names - (ReactJS)
