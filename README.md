@@ -55,6 +55,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 ### ReactNative:
 |Snippet Name|Keyboard Shortcut|
 |------------------------------------------------------|--------------------------------------------------|
+| ReactNative : Component : Container                  | ccReactNative_Component_Container                |
 | ReactNative : Component : Functional                 | ccReactNative_Component_Functional               |
 | ReactNative : Element : View                         | ccReactNative_Element_View                       |
 | ReactNative : Element : ScrollView                   | ccReactNative_Element_ScrollView                 |

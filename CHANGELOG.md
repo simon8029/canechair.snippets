@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.11.0] 
+- Refactor ccReactNative_Component_Container - (ReactNative)
 ##### [0.10.3] 
 - Refactor ccReactNative_Component_Functional - (ReactNative)
 ##### [0.10.2] 

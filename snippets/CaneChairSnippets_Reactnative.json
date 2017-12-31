@@ -1,4 +1,33 @@
 {
+    "ReactNative : Component : Container": {
+        "prefix": "ccReactNative_Component_Container",
+        "body": [
+            "import React from 'react';",
+            "import { View, Text, StyleSheet } from 'react-native';",
+            "",
+            "class ${__ComponentName__} extends React.Component {",
+            "\trender() {",
+            "\t\treturn (",
+            "\t\t\t<View style={styles.container}>",
+            "\t\t\t\t<Text >${__ComponentName__} is working.</Text>",
+            "\t\t\t</View>",
+            "\t\t)",
+            "\t}",
+            "}",
+            "",
+            "const styles = StyleSheet.create({",
+            "\tcontainer: {",
+            "\t\tflex: 1,",
+            "\t\tjustifyContent: 'center',",
+            "\t\talignItems: 'center',",
+            "\t\tbackgroundColor: 'lightgrey',",
+            "\t}",
+            "});",
+            "",
+            "export default ${__ComponentName__};"
+        ],
+        "description": "Create a ReactNative Container Component"
+    },
     "ReactNative : Component : Functional": {
         "prefix": "ccReactNative_Component_Functional",
         "body": [
