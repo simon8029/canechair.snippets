@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.13.4] 
+- Refactor Elements styles - (ReactNative)
 ##### [0.13.3] 
 - Refactor ccReactNative_Element_Button - disabled - (ReactNative)
 ##### [0.13.2] 

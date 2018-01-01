@@ -2,7 +2,7 @@
     "ReactNative : Element : View": {
         "prefix": "ccReactNative_Element_View",
         "body": [
-            "<View style={${1:__style__}}>",
+            "<View style={styles.${1:__style__}}>",
             "\t${0}",
             "</View>"
         ],
@@ -11,7 +11,7 @@
     "ReactNative : Element : ScrollView": {
         "prefix": "ccReactNative_Element_ScrollView",
         "body": [
-            "<ScrollView style={${1:__style__}}>",
+            "<ScrollView style={styles.${1:__style__}}>",
             "\t${0}",
             "</ScrollView>"
         ],
@@ -20,7 +20,7 @@
     "ReactNative : Element : Text": {
         "prefix": "ccReactNative_Element_Text",
         "body": [
-            "<Text style={${1:__style__}}>${2}</Text>"
+            "<Text style={styles.${1:__style__}}>${2}</Text>"
         ],
         "description": "Create a ReactNative Text Element."
     },
@@ -31,7 +31,7 @@
             "\tautoCorrect={${1:false}}",
             "\tplaceholder=\"${2:Input here...}\"",
             "\tplaceholderTextColor=\"${3:__color__}\"",
-            "\tstyle={${4:__style__}}",
+            "\tstyle={styles.${4:__style__}}",
             "\tclearButtonMode=\"${5:always}\"",
             "/>"
         ],
