@@ -60,7 +60,7 @@
             "\tonPress = { ${2:__onPressFunction__} }",
             "\tcolor = \"${__buttonColor__}\"",
             "\taccessibilityLabel = \"${1:__title__}\"",
-            "\tdisabled = false",
+            "\tdisabled = {false}",
             "/>"
         ],
         "description": "Create a ReactNative Button Element."
