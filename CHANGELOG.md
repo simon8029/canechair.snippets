@@ -1,5 +1,9 @@
 # Change Log
 
+##### [0.13.1] 
+- Add ccReactNative_Element_ListView - (ReactNative)
+- Add ccReactNative_Element_Button - (ReactNative)
+- Refactor ccReactNative_Component_Container - (ReactNative)
 ##### [0.12.2] 
 - Update README.md
 ##### [0.12.1] 
