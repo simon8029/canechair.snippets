@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.12.1] 
+- Refactor ccReactJS_Function_ArrowFunction - (ReactJS)
 ##### [0.12.0] 
 - Add ccJavaScript_Array_Find - (Javascript)
 - Add ccJavaScript_Array_FindIndex - (Javascript)
