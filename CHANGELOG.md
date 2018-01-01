@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.12.2] 
+- Update README.md
 ##### [0.12.1] 
 - Refactor ccReactJS_Function_ArrowFunction - (ReactJS)
 ##### [0.12.0] 
@@ -14,46 +16,28 @@
 ##### [0.10.1] 
 - Add ccReactNative_Component_Functional - (ReactNative)
 - Fix bug in ccReactNative_Element_Text - (ReactNative)
-##### [0.9.1] 
+##### [0.3.0 - 0.9.1] 
 - Add ccReactjs_Component_Functional - (ReactJS)
-- Refactor snippets names - (ReactJS)
-##### [0.8.0] 
 - Add ccReactNative_Element_Text - (ReactNative)
 - Add ccReactNative_Element_View - (ReactNative)
 - Add ccReactNative_Element_ScrollView - (ReactNative)
-##### [0.7.1] 
-- Refactor snippets name - (ReactNative)
-##### [0.7.0] 
 - Add ccReactNative_Element_TextInput - (ReactNative)
-##### [0.6.9] 
 - Add ccReactjs_Reducer_NewReducer  - (ReactJS)
-- Refactor ccReactjs_Class_Component_Container - (ReactJS)
-##### [0.5.8] 
-- Refact cclog - (JavaScript)
-##### [0.5.7] 
-- Refactor ccReactjs_Class_Component_Container - (ReactJS)
-- Refactor ccReactjs_Class_Component_Presentational- (ReactJS)
-##### [0.5.6] 
-- Refactor ccReactjs_Class_Component - (ReactJS)
-##### [0.5.5] 
-- Minor bugs fixed.
-##### [0.5.4] 
 - Add ccReactjs_Class_Component - (ReactJS)
-##### [0.4.4] 
 - Add ccReactjs_Class_Method - (ReactJS)
-##### [0.3.4] 
-- Refactor ccReact_JSX_Element_Input - (ReactJS)
-##### [0.3.3] 
 - Add ccReact_Route_AddRoute - (ReactJS)
-##### [0.3.2] 
-- bug fixed.
-##### [0.3.1] 
 - Add ccJavaScript_Array_ForEach - (JavaScript)
-##### [0.3.0] 
 - Add Test Snippets -(Test)
 - Add ccTest_Describe - (Test)
 - Add ccTest_It - (Test)
 - Add ccTest_Chai_Assert_TypeOf - (Test)
+- Refact cclog - (JavaScript)
+- Refactor ccReact_JSX_Element_Input - (ReactJS)
+- Refactor ccReactjs_Class_Component_Container - (ReactJS)
+- Refactor ccReactjs_Class_Component_Container - (ReactJS)
+- Refactor ccReactjs_Class_Component_Presentational- (ReactJS)
+- Refactor ccReactjs_Class_Component - (ReactJS)
+- Refactor snippets names - (ReactJS)
 ##### [0.2.0 - 0.2.16]
 - Add ccReact_JSX_Element_Link  - (ReactJS)
 - Add ccReact_React_Create_Class   - (ReactJS)

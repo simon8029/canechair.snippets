@@ -25,7 +25,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : PureReact : Create : Element               | ccReactjs_React_Create_Element                   |
 | ReactJS : PureReact : FunctionalComponent            | ccReactjs_React_FunctionalComponent              |
 | ReactJS : ReactDom : Render                          | ccReactjs_ReactDom_Render                        |
-| ReactJS : Function                                   | ccReactjs_Function                               |
+| ReactJS : Function : ArrowFunction                   | ccReactjs_Function_ArrowFunction                 |
 | ReactJS : Function : PropTypes                       | ccReactjs_Function_PropTypes                     |
 | ReactJS : Function : SetState                        | ccReactjs_Function_SetState                      |
 | ReactJS : Function : ComponentWillReceiveProps       | ccReactjs_Function_ComponentWillReceiveProps     |
