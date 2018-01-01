@@ -56,7 +56,7 @@
         "prefix": "ccReactNative_Element_Button",
         "body": [
             "<Button",
-            "\ttitle = ${1:__title__};",
+            "\ttitle = \"${1:__title__}\"",
             "\tonPress = { ${2:__onPressFunction__} }",
             "\tcolor = \"${__buttonColor__}\"",
             "\taccessibilityLabel = \"${1:__title__}\"",

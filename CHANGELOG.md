@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.13.2] 
+- Refactor ccReactNative_Element_Button - (ReactNative)
 ##### [0.13.1] 
 - Add ccReactNative_Element_ListView - (ReactNative)
 - Add ccReactNative_Element_Button - (ReactNative)
