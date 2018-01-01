@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.14.1] 
+- Refactor ccJavaScript_Function_AnonymousFunction - (Vanilla JavaScript)
 ##### [0.14.0] 
 - Add ccReactNative_Element_Slider - (ReactNative)
 - Add ccReactNative_Element_Switch - (ReactNative)
@@ -20,8 +22,8 @@
 ##### [0.12.1] 
 - Refactor ccReactJS_Function_ArrowFunction - (ReactJS)
 ##### [0.12.0] 
-- Add ccJavaScript_Array_Find - (Javascript)
-- Add ccJavaScript_Array_FindIndex - (Javascript)
+- Add ccJavaScript_Array_Find - (Vanilla Javascript)
+- Add ccJavaScript_Array_FindIndex - (Vanilla Javascript)
 ##### [0.11.0] 
 - Refactor ccReactNative_Component_Container - (ReactNative)
 ##### [0.10.3] 
@@ -41,12 +43,12 @@
 - Add ccReactjs_Class_Component - (ReactJS)
 - Add ccReactjs_Class_Method - (ReactJS)
 - Add ccReact_Route_AddRoute - (ReactJS)
-- Add ccJavaScript_Array_ForEach - (JavaScript)
+- Add ccJavaScript_Array_ForEach - (Vanilla JavaScript)
 - Add Test Snippets -(Test)
 - Add ccTest_Describe - (Test)
 - Add ccTest_It - (Test)
 - Add ccTest_Chai_Assert_TypeOf - (Test)
-- Refact cclog - (JavaScript)
+- Refact cclog - (Vanilla JavaScript)
 - Refactor ccReact_JSX_Element_Input - (ReactJS)
 - Refactor ccReactjs_Class_Component_Container - (ReactJS)
 - Refactor ccReactjs_Class_Component_Container - (ReactJS)
@@ -60,9 +62,9 @@
 - Add ccReact_JSX_Element_Nav - (ReactJS)
 - Add ccReact_JSX_Element_A- (ReactJS)
 - Add ccReact_JSX_Element_Image - (ReactJS)
-- Add ccJavaScript_Function_Switch  - (JavaScript)
-- Add ccJavaScript_Gulp_Watch - (JavaScript)
-- Add ccJavaScript_Gulp_Dest - (JavaScript)
+- Add ccJavaScript_Function_Switch  - (Vanilla JavaScript)
+- Add ccJavaScript_Gulp_Watch - (Vanilla JavaScript)
+- Add ccJavaScript_Gulp_Dest - (Vanilla JavaScript)
 - Add ccReact_JSX_Function_ComponentWillReceiveProps - (ReactJS)
 - Add ccReact_JSX_Function_SetState - (ReactJS)
 - Add ccReact_JSX_Function_PropTypes - (ReactJS)
@@ -80,13 +82,13 @@
 - Add ccReact_JSX_Element_Input - (ReactJS)
 - Add ccReact_JSX_Element_Button - (ReactJS)
 - Add ccReact_Class_Constructor - (ReactJS)
-- Add ccJavaScript_Function_If - (JavaScript)
-- Add ccJavaScript_Array_Filter - (JavaScript)
-- Add ccJavaScript_Object_Assign - (JavaScript)
-- Add ccJavaScript_Gulp_Task - (JavaScript)
-- Add ccJavaScript_Gulp_Src - (JavaScript)
+- Add ccJavaScript_Function_If - (Vanilla JavaScript)
+- Add ccJavaScript_Array_Filter - (Vanilla JavaScript)
+- Add ccJavaScript_Object_Assign - (Vanilla JavaScript)
+- Add ccJavaScript_Gulp_Task - (Vanilla JavaScript)
+- Add ccJavaScript_Gulp_Src - (Vanilla JavaScript)
 - Add ccHtml - (HTML)
-- Add cclog - (JavaScript)
+- Add cclog - (Vanilla JavaScript)
 - Refactor ccReact_JSX_Element_Div - (ReactJS)
 - Refactor readme.md with table
 - Seperate concern of different languages and frameworks
@@ -95,7 +97,7 @@
 - Add ccReact_PureReact_Element - (ReactJS)
 - Add ccReact_PureReact_FunctionalComponent - (ReactJS)
 - Add ccReact_ReactDOM_StatelessFunctionalComponent - (ReactJS)
-- Add ccJavaScript_Array_Map - (JavaScript)
+- Add ccJavaScript_Array_Map - (Vanilla JavaScript)
 - Add ccReact_ReactDom_Section - (ReactJS)
 - Add ccReact_ReactDom_Article - (ReactJS)
 - Add ccReact_Import_Module - (ReactJS)
@@ -104,7 +106,7 @@
 - Add ccReact_ReactDom_Div - (ReactJS)
 - Add ccReact_ReactDom_Span - (ReactJS)
 - Add ccAngular_Service - (TypeScript)
-- Add ccNodeJs_Common_Export_* - (Javascript)
+- Add ccNodeJs_Common_Export_* - (Vanilla Javascript)
 - Add ccAngular_Component_Service_Export_Class - (TypeScript)
 - Add ccAngularNgIfThenElse - (HTML)
 - Add ccAngularNgIf, ccAngularNgFor - (HTML)
@@ -128,9 +130,9 @@
 - Rename snippets format
 - Minor bugs fixed 
 ##### [0.0.1] - [0.0.6] 
-- Add exports function - (JavaScript).
-- Fix statement issue of exports.function - (JavaScript).
-- Fix duplicate object keys - (JavaScript).
+- Add exports function - (Vanilla JavaScript).
+- Fix statement issue of exports.function - (Vanilla JavaScript).
+- Fix duplicate object keys - (Vanilla JavaScript).
 - Refactor prefix
 - Initial release
 

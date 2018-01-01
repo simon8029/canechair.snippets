@@ -1,5 +1,5 @@
 {
-    "NodeJs:Common:Export:*": {
+	"NodeJs:Common:Export:*": {
 		"prefix": "ccNodeJs_Common_Export_*",
 		"body": [
 			"export * from '${1:__modulePath__}';"
@@ -14,15 +14,6 @@
 			"}"
 		],
 		"description": "example: if(condition) { statement }"
-	},
-	"NodeJs:Function:AnonymousFunction": {
-		"prefix": "ccNodeJs_Function_Anonymous",
-		"body": [
-			"(${1:__parameter__})=>{",
-			"\t${2:__statement__}",
-			"}"
-		],
-		"description": "example: (parameter)=>{ statement}"
 	},
 	"NodeJs:Require": {
 		"prefix": "ccNodeJs_Require",

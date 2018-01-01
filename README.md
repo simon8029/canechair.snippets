@@ -1,5 +1,5 @@
 # Simon's CaneChair - Javascript Full-Stack Development Snippets (VS Code)
-##### (It's time to sit down and enjoy the rocking)
+##### (It's time to sit down and enjoy the rocking...)
 [![GitHub last commit](https://img.shields.io/github/last-commit/simon8029/CaneChair.Snippets.svg)]() [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/4w/simon8029/CaneChair.Snippets.svg)]() [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/Simon8029.canechairsnippets.svg)]() [![GitHub issues](https://img.shields.io/github/issues/simon8029/CaneChair.Snippets.svg)]() [![GitHub closed issues](https://img.shields.io/github/issues-closed/simon8029/CaneChair.Snippets.svg?colorB=green)]() [![license](https://img.shields.io/github/license/simon8029/CaneChair.Snippets.svg)]() 
 ***
 
@@ -67,30 +67,41 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactNative : Element : Switch                       | ccReactNative_Element_Switch                     |
 | ReactNative : Element : Picker                       | ccReactNative_Element_Picker                     |
 | ReactNative : Element : DatePicker                   | ccReactNative_Element_DatePicker                 |
+
+### Vanilla JavaScript 
+|Snippet Name|Keyboard Shortcut|
+|-------------------------------------------|-----------------------------------------| 
+| JavaScript : Common : PrintToConsole      | cclog                                   |
+| JavaScript : Function : If                | ccJavaScript_Function_If                |
+| JavaScript : Function : AnonymousFunction | ccJavaScript_Function_AnonymousFunction |
+| JavaScript : Function : Switch            | ccJavaScript_Function_Switch            |
+| JavaScript : Object : Assign              | ccJavaScript_Object_Assign              |
+| JavaScript : Array : Map                  | ccJavaScript_Array_Map                  |
+| JavaScript : Array : Find                 | ccJavaScript_Array_Find                 |
+| JavaScript : Array : FindIndex            | ccJavaScript_Array_FindIndex            |
+| JavaScript : Array : Filter               | ccJavaScript_Array_Filter               |
+| JavaScript : Array : ForEach              | ccJavaScript_Array_ForEach              |
+
 ### Angular:
 ##### HTML Template:
 |Snippet Name|Keyboard Shortcut|
-|-------------------------------|----------------------------|
-| Angular : Html                | ccHtml                     | 
-| Angular : Html : NgIf         | ccAngular_Html_NgIf        | 
-| Angular : Html : NgIfThenElse | ccAngular_Html_NgFor       |
-| Angular : Html : NgFor        | ccAngular_Html_NgIfThenElse| 
-##### Component/Service:
-|Snippet Name|Keyboard Shortcut|
-|-------------------------------------------------|---------------------------|
-| Angular : Component : Service : Import : Module   | ccAngular_Import_Module   |
-| Angular : Component : Service : Import : Module   | ccAngular_Import_Module   |
-| Angular : Component : Service : Import : As       | ccAngular_Import_As       |
-| Angular : Component : Service : Import : Redux    | ccAngular_Import_Redux    |
-| Angular : Component : Service : Export : Class    | ccAngular_Export_Class    |
-| Angular : Component : Service : Export : Function | ccAngular_Export_Function |
-| Angular : Component : Service : Constructor       | ccAngular_ctor            |
-| Angular : Component : Service : Interface         | ccAngular_Interface       |
-| Angular : Component : Service : Service           | ccAngular_Service         |
-| Angular : Component : Service : Method : If       | ccAngular_Method_If       |
-| Angular : Component : Service : Method : Switch   | ccAngular_Method_Switch   |
+|---------------------------------------------------|----------------------------|
+| Angular : Html                                    | ccHtml                     | 
+| Angular : Html : NgIf                             | ccAngular_Html_NgIf        | 
+| Angular : Html : NgIfThenElse                     | ccAngular_Html_NgFor       |
+| Angular : Html : NgFor                            | ccAngular_Html_NgIfThenElse| 
+| Angular : Component : Service : Import : Module   | ccAngular_Import_Module    |
+| Angular : Component : Service : Import : Module   | ccAngular_Import_Module    |
+| Angular : Component : Service : Import : As       | ccAngular_Import_As        |
+| Angular : Component : Service : Import : Redux    | ccAngular_Import_Redux     |
+| Angular : Component : Service : Export : Class    | ccAngular_Export_Class     |
+| Angular : Component : Service : Export : Function | ccAngular_Export_Function  |
+| Angular : Component : Service : Constructor       | ccAngular_ctor             |
+| Angular : Component : Service : Interface         | ccAngular_Interface        |
+| Angular : Component : Service : Service           | ccAngular_Service          |
+| Angular : Component : Service : Method : If       | ccAngular_Method_If        |
+| Angular : Component : Service : Method : Switch   | ccAngular_Method_Switch    |
 ### Express : 
-##### Express Controller Functions :  
 |Snippet Name|Keyboard Shortcut|
 |---------------------------------------------------|-----------------------------------------------|
 | Express : Controller : Function : Default         | ccExpress_Controller_Function_Default         |
@@ -100,25 +111,16 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | Express : Controller : Function : SimpleGetAll    | ccExpress_Controller_Function_SimpleGetAll    |
 | Express : Controller : Function : SimpleUpdate    | ccExpress_Controller_Function_SimpleUpdate    |
 | Express : Controller : Function : SimpleDelete    | ccExpress_Controller_Function_SimpleDelete    |
-##### Express Middleware Functions :  
-|Snippet Name|Keyboard Shortcut|
-|----------------------------------------|--------------------------------------|
-| Express : MiddleWare : SimpleGetById   | ccExpress_MiddleWare_SimpleGetById   |
-| Express : MiddleWare : IsAuthenticated | ccExpress_MiddleWare_IsAuthenticated |
-| Express : MiddleWare : HasAuthorized   | ccExpress_MiddleWare_HasAuthorized   |
-| Express : MiddleWare : VerifyToken     | ccExpress_MiddleWare_VerifyToken     |
-##### Express Routes :  
-|Snippet Name|Keyboard Shortcut|
-|------------------------------------------------|------------------------------------------|
-| Express : Routes : Module : Exports : Function | ccExpress_Routes_Module_Exports_Function |
-| Express : Routes : SimpleAppRoute              | ccExpress_Routes_SimpleAppRoute          |
-##### Express Response Status Send :  
-|Snippet Name|Keyboard Shortcut|
-|------------------------------------------|-----------------------------------|
-| Express : Response : Status : 200 : Send | ccExpress_Response_Status_200_Send|
-| Express : Response : Status : 401 : Send | ccExpress_Response_Status_401_Send|
-| Express : Response : Status : 404 : Send | ccExpress_Response_Status_404_Send|
-| Express : Response : Status : 500 : Send | ccExpress_Response_Status_500_Send|
+| Express : MiddleWare : SimpleGetById              | ccExpress_MiddleWare_SimpleGetById            |
+| Express : MiddleWare : IsAuthenticated            | ccExpress_MiddleWare_IsAuthenticated          |
+| Express : MiddleWare : HasAuthorized              | ccExpress_MiddleWare_HasAuthorized            |
+| Express : MiddleWare : VerifyToken                | ccExpress_MiddleWare_VerifyToken              |
+| Express : Routes : Module : Exports : Function    | ccExpress_Routes_Module_Exports_Function      |
+| Express : Routes : SimpleAppRoute                 | ccExpress_Routes_SimpleAppRoute               |
+| Express : Response : Status : 200 : Send          | ccExpress_Response_Status_200_Send            |
+| Express : Response : Status : 401 : Send          | ccExpress_Response_Status_401_Send            |
+| Express : Response : Status : 404 : Send          | ccExpress_Response_Status_404_Send            |
+| Express : Response : Status : 500 : Send          | ccExpress_Response_Status_500_Send            |
 ### Mongoose
 ##### mongoose Functions : 
 |Snippet Name|Keyboard Shortcut|
@@ -136,21 +138,9 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | NodeJs : Common : Export :            | ccNodeJs_Common_Export_*      |
 | NodeJs : Function : If                | ccNodeJs_Function_If          |
 | NodeJs : Function : For               | ccNodeJs_Function_For         |
-| NodeJs : Function : AnonymousFunction | ccNodeJs_Function_Anonymous   |
 | NodeJs : Function : NewFunction       | ccNodeJs_Function_NewFunction |
 
-### JavaScript : Common
-|Snippet Name|Keyboard Shortcut|
-|--------------------------------------|------------------------------| 
-| JavaScript : Common : PrintToConsole | cclog                        |
-| JavaScript : Function : If           | ccJavaScript_Function_If     |
-| JavaScript : Function : Switch       | ccJavaScript_Function_Switch |
-| JavaScript : Object : Assign         | ccJavaScript_Object_Assign   |
-| JavaScript : Array : Map             | ccJavaScript_Array_Map       |
-| JavaScript : Array : Find            | ccJavaScript_Array_Find      |
-| JavaScript : Array : FindIndex       | ccJavaScript_Array_FindIndex |
-| JavaScript : Array : Filter          | ccJavaScript_Array_Filter    |
-| JavaScript : Array : ForEach         | ccJavaScript_Array_ForEach   |
+
 ### Test : Chai
 |Snippet Name|Keyboard Shortcut|
 |--------------------------------------|------------------------------| 

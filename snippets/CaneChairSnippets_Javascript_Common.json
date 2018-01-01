@@ -74,5 +74,12 @@
 			"});"
 		],
 		"description": "Create a Array.forEach() function."
+	},
+	"JavaScript : Function : AnonymousFunction": {
+		"prefix": "ccJavaScript_Function_AnonymousFunction",
+		"body": [
+			"(${1:__parameter__})=>{ ${2:__statement__} }"
+		],
+		"description": "Create an Anonymous Function"
 	}
 }
