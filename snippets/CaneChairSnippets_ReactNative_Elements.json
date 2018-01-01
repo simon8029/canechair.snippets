@@ -64,5 +64,53 @@
             "/>"
         ],
         "description": "Create a ReactNative Button Element."
+    },
+    "ReactNative : Element : Slider": {
+        "prefix": "ccReactNative_Element_Slider",
+        "body": [
+            "<Slider",
+            "\tstep={${1:1}}",
+            "\tvalue={this.state.${2:sliderValue}}",
+            "\tmaximumValue={${3:100}}",
+            "\tonValueChange={(${2:sliderValue}) => this.setState({ ${2:sliderValue} })}",
+            "\tstyle={styles.${4:__style__}}",
+            "/>"
+        ],
+        "description": "Create a ReactNative Slider Element."
+    },
+    "ReactNative : Element : Switch": {
+        "prefix": "ccReactNative_Element_Switch",
+        "body": [
+            "<Switch",
+            "\tvalue={this.state.${1:switchValue}}",
+            "\tonValueChange={() => { this.setState({ ${1:switchValue}: !this.state.${1:switchValue} }); }}",
+            "/>"
+        ],
+        "description": "Create a ReactNative Switch Element."
+    },
+    "ReactNative : Element : Picker": {
+        "prefix": "ccReactNative_Element_Picker",
+        "body": [
+            "<Picker",
+            "\tselectedValue={this.state.${1:pickerValue}}",
+            "\tonValueChange={(${1:pickerValue}) => { this.setState({ ${1:pickerValue} }); }}",
+            "\tstyle={styles.${2:__style__}}",
+            ">",
+            "\t<Picker.Item label=\"Option #1\" value=\"Option #1\" />",
+            "\t<Picker.Item label=\"Option #2\" value=\"Option #2\" />",
+            "\t<Picker.Item label=\"Option #3\" value=\"Option #3\" />",
+            "</Picker>"
+        ],
+        "description": "Create a ReactNative Picker Element."
+    },
+    "ReactNative : Element : DatePickerIOS": {
+        "prefix": "ccReactNative_Element_DatePickerIOS",
+        "body": [
+            "<DatePickerIOS",
+            "\tdate={this.state.${1:date}}",
+            "\tonDateChange={(${1:date}) => { this.setState({ ${1:date} }); }}",
+            "/>"
+        ],
+        "description": "Create a ReactNative DatePickerIOS Element."
     }
 }

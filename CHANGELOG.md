@@ -1,5 +1,10 @@
 # Change Log
 
+##### [0.14.0] 
+- Add ccReactNative_Element_Slider - (ReactNative)
+- Add ccReactNative_Element_Switch - (ReactNative)
+- Add ccReactNative_Element_Picker - (ReactNative)
+- Add ccReactNative_Element_DatePickerIOS - (ReactNative)
 ##### [0.13.4] 
 - Refactor Elements styles - (ReactNative)
 ##### [0.13.3] 
