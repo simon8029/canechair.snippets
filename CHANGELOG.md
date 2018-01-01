@@ -1,5 +1,8 @@
 # Change Log
 
+##### [0.12.0] 
+- Add ccJavaScript_Array_Find - (Javascript)
+- Add ccJavaScript_Array_FindIndex - (Javascript)
 ##### [0.11.0] 
 - Refactor ccReactNative_Component_Container - (ReactNative)
 ##### [0.10.3] 

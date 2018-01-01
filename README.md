@@ -141,6 +141,8 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | JavaScript : Function : Switch       | ccJavaScript_Function_Switch |
 | JavaScript : Object : Assign         | ccJavaScript_Object_Assign   |
 | JavaScript : Array : Map             | ccJavaScript_Array_Map       |
+| JavaScript : Array : Find            | ccJavaScript_Array_Find      |
+| JavaScript : Array : FindIndex       | ccJavaScript_Array_FindIndex |
 | JavaScript : Array : Filter          | ccJavaScript_Array_Filter    |
 | JavaScript : Array : ForEach         | ccJavaScript_Array_ForEach   |
 ### Test : Chai

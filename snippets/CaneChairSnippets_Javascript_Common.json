@@ -39,7 +39,7 @@
 	"JavaScript : Array : Map": {
 		"prefix": "ccJavaScript_Array_Map",
 		"body": [
-			"${1:__arrayName__}.map((${2:__params__})=>",
+			"${1:__arrayName__}.map((${2:__params__}) => ",
 			"\t${3}",
 			")"
 		],
@@ -48,11 +48,23 @@
 	"JavaScript : Array : Filter": {
 		"prefix": "ccJavaScript_Array_Filter",
 		"body": [
-			"${1:__arrayName__}.filter((${2:__params__})=>",
-			"\t${3}",
-			")"
+			"${1:__arrayName__}.filter((${2:__params__}) => ${3} );"
 		],
 		"description": "Create a Array.filter() function."
+	},
+	"JavaScript : Array : Find": {
+		"prefix": "ccJavaScript_Array_Find",
+		"body": [
+			"${1:__arrayName__}.find((${2:__params__}) => ${3} );"
+		],
+		"description": "Create a Array.find() function."
+	},
+	"JavaScript : Array : FindIndex": {
+		"prefix": "ccJavaScript_Array_FindIndex",
+		"body": [
+			"${1:__arrayName__}.findIndex((${2:__params__}) => ${3});"
+		],
+		"description": "Create a Array.findIndex() function."
 	},
 	"JavaScript : Array : ForEach": {
 		"prefix": "ccJavaScript_Array_ForEach",
