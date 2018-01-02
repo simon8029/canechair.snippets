@@ -82,14 +82,15 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | JavaScript : Array : ForEach              | ccJavaScript_Array_ForEach              |
 ### Test : Jest
 |Snippet Name|Keyboard Shortcut|
-|---------------------------------|-----------------------------------| 
-| Test : Jest : Describe          | ccTest_Jest_Describe              |
-| Test : Jest : It                | ccTest_Jest_It                    |
-| Test : Jest : Describe          | ccTest_Jest_Describe              |
-| Test : Jest : It                | ccTest_Jest_It                    |
-| Test : Jest : ToMatchSnapshot   | ccTest_Jest_Expect_ToMatchSnapshot|
-| Test : Jest : ToBe              | ccTest_Jest_Expect_ToBe           |
-| Test : Jest : ToEqual           | ccTest_Jest_Expect_ToEqual        |
+|------------------------------------|-----------------------------------------| 
+| Test : Jest : Describe             | ccTest_Jest_Describe                    |
+| Test : Jest : It                   | ccTest_Jest_It                          |
+| Test : Jest : ItAsync              | ccTest_Jest_ItAsync                     |
+| Test : Jest : ToMatchSnapshot      | ccTest_Jest_Expect_ToMatchSnapshot      |
+| Test : Jest : ToBe                 | ccTest_Jest_Expect_ToBe                 |
+| Test : Jest : ToEqual              | ccTest_Jest_Expect_ToEqual              |
+| Test : Jest : ToBeCalledWith       | ccTest_Jest_Expect_ToBeCalledWith       |
+| Test : Jest : ToHaveBeenCalledWith | ccTest_Jest_Expect_ToHaveBeenCalledWith |
 ### Angular:
 ##### HTML Template:
 |Snippet Name|Keyboard Shortcut|

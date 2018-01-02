@@ -17,6 +17,15 @@
         ],
         "description": "Create a Jest test case."
     },
+    "Test : Jest : ItAsync": {
+        "prefix": "ccTest_Jest_ItAsync",
+        "body": [
+            "it(\"${1:__testCase__}\", async () => {",
+            "\t${2:__statements__}",
+            "});"
+        ],
+        "description": "Create an async Jest test case."
+    },
     "Test : Jest : Expect : ToMatchSnapshot": {
         "prefix": "ccTest_Jest_Expect_ToMatchSnapshot",
         "body": [
@@ -37,5 +46,21 @@
             "expect(${1:__actual__}).toEqual(${2:__expect__});"
         ],
         "description": "Create a Jest ToEqual matcher."
+    },
+    "Test : Jest : Expect : ToHaveBeenCalledWith": {
+        "prefix": "ccTest_Jest_Expect_ToHaveBeenCalledWith",
+        "body": [
+            "const ${1:__function__} = jest.fn();",
+            "expect(${1:__function__}).toHaveBeenCalledWith(${2:__arguments__});"
+        ],
+        "description": "Create a Jest ToHaveBeenCalledWith matcher."
+    },
+    "Test : Jest : Expect : ToBeCalledWith": {
+        "prefix": "ccTest_Jest_Expect_ToBeCalledWith",
+        "body": [
+            "const ${1:__function__} = jest.fn();",
+            "expect(${1:__function__}).toBeCalledWith(${2:__arguments__});"
+        ],
+        "description": "Create a Jest ToBeCalledWith matcher."
     }
 }

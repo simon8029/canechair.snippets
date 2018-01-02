@@ -1,5 +1,9 @@
 # Change Log
 
+##### [0.16.0] 
+- Add ccTest_Jest_ItAsync - (Jest)
+- Add ccTest_Jest_Expect_ToBeCalledWith - (Jest)
+- Add ccTest_Jest_Expect_ToHaveBeenCalledWith - (Jest)
 ##### [0.15.0] 
 - Add ccTest_Jest_Describe - (Jest)
 - Add ccTest_Jest_It - (Jest)
