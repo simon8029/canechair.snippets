@@ -6,6 +6,7 @@
 Snippets for Javascript Full-Stack Development using "VS Code", include: Vanilla JavaScript, React, ReactNative, Jest, Angular, Express, NodeJs, Mongoose, MongoDB
 
 ###### (Keyboard shortcut works while entered enough characters to disambiguate the term, no fully input needed.)
+***
 
 Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace.visualstudio.com/items?itemName=Simon8029.canechairsnippets)
 
