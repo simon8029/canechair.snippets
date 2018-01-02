@@ -1,51 +1,63 @@
 # Change Log
 
-##### [0.17.0] 
+##### [0.18.0] 
+- Add ccTest_Jest_BeforeAll - (Jest)
+- Add ccTest_Jest_BeforeEach - (Jest)
+- Add ccTest_Jest_AfterAll - (Jest)
+- Add ccTest_Jest_AfterEach - (Jest)
+- Add ccTest_Jest_Expect_ToHaveBeenCalled - (Jest)
+- Add ccTest_Jest_Expect_ToBeCalled - (Jest)
+- Add ccTest_Jest_Expect_ToHaveBeenCalledTimes - (Jest)
+- Add ccTest_Jest_Expect_ToHaveBeenLastCalledWith - (Jest)
+- Add ccTest_Jest_Expect_LastCalledWith - (Jest)
+- Add ccTest_Jest_Expect_ToBeCloseTo - (Jest)
+- Add ccTest_Jest_Expect_ToBeDefined - (Jest)
+- Add ccTest_Jest_Expect_ToBeFalsy - (Jest)
+- Add ccTest_Jest_Expect_ToBeGreaterThan - (Jest)
+- Add ccTest_Jest_Expect_ToBeGreaterThanOrEqual - (Jest)
+- Add ccTest_Jest_Expect_ToBeLessThan - (Jest)
+- Add ccTest_Jest_Expect_ToBeLessThanOrEqual - (Jest)
+- Add ccTest_Jest_Expect_ToBeInstanceOf - (Jest)
+- Add ccTest_Jest_Expect_ToBeNull - (Jest)
+- Add ccTest_Jest_Expect_ToBeTruthy - (Jest)
+- Add ccTest_Jest_Expect_ToBeUndefined - (Jest)
+- Add ccTest_Jest_Expect_ToContain - (Jest)
+- Add ccTest_Jest_Expect_ToContainEqual - (Jest)
+- Add ccTest_Jest_Expect_ToHaveLength - (Jest)
+- Add ccTest_Jest_Expect_ToMatch - (Jest)
+- Add ccTest_Jest_Expect_ToMatchObject - (Jest)
+- Add ccTest_Jest_Expect_ToHaveProperty - (Jest)
+- Add ccTest_Jest_Expect_ToThrow - (Jest)
+- Add ccTest_Jest_Expect_ToThrowError - (Jest)
+- Add ccTest_Jest_Expect_ToThrowErrorMatchingSnapshot - (Jest)
+##### [0.10.0 - 0.17.0] 
 - Add ccTest_Jest_InitTestFile - (Jest)
-##### [0.16.1] 
-- update README.md
-##### [0.16.0] 
 - Add ccTest_Jest_ItAsync - (Jest)
 - Add ccTest_Jest_Expect_ToBeCalledWith - (Jest)
 - Add ccTest_Jest_Expect_ToHaveBeenCalledWith - (Jest)
-##### [0.15.0] 
 - Add ccTest_Jest_Describe - (Jest)
 - Add ccTest_Jest_It - (Jest)
 - Add ccTest_Jest_Expect_ToMatchSnapshot - (Jest)
 - Add ccTest_Jest_Expect_ToBe - (Jest)
 - Add ccTest_Jest_Expect_ToEqual - (Jest)
-##### [0.14.1] 
-- Refactor ccJavaScript_Function_AnonymousFunction - (Vanilla JavaScript)
-##### [0.14.0] 
 - Add ccReactNative_Element_Slider - (ReactNative)
 - Add ccReactNative_Element_Switch - (ReactNative)
 - Add ccReactNative_Element_Picker - (ReactNative)
 - Add ccReactNative_Element_DatePickerIOS - (ReactNative)
-##### [0.13.4] 
-- Refactor Elements styles - (ReactNative)
-##### [0.13.3] 
-- Refactor ccReactNative_Element_Button - disabled - (ReactNative)
-##### [0.13.2] 
-- Refactor ccReactNative_Element_Button - title - (ReactNative)
-##### [0.13.1] 
 - Add ccReactNative_Element_ListView - (ReactNative)
 - Add ccReactNative_Element_Button - (ReactNative)
-- Refactor ccReactNative_Component_Container - (ReactNative)
-##### [0.12.2] 
-- Update README.md
-##### [0.12.1] 
-- Refactor ccReactJS_Function_ArrowFunction - (ReactJS)
-##### [0.12.0] 
 - Add ccJavaScript_Array_Find - (Vanilla Javascript)
 - Add ccJavaScript_Array_FindIndex - (Vanilla Javascript)
-##### [0.11.0] 
-- Refactor ccReactNative_Component_Container - (ReactNative)
-##### [0.10.3] 
-- Refactor ccReactNative_Component_Functional - (ReactNative)
-##### [0.10.2] 
-- Fix bug in ccReactNative_Element_TextInput - (ReactNative)
-##### [0.10.1] 
 - Add ccReactNative_Component_Functional - (ReactNative)
+- Refactor ccJavaScript_Function_AnonymousFunction - (Vanilla JavaScript)
+- Refactor Elements styles - (ReactNative)
+- Refactor ccReactNative_Element_Button - disabled - (ReactNative)
+- Refactor ccReactNative_Element_Button - title - (ReactNative)
+- Refactor ccReactNative_Component_Container - (ReactNative)
+- Refactor ccReactJS_Function_ArrowFunction - (ReactJS)
+- Refactor ccReactNative_Component_Container - (ReactNative)
+- Refactor ccReactNative_Component_Functional - (ReactNative)
+- Fix bug in ccReactNative_Element_TextInput - (ReactNative)
 - Fix bug in ccReactNative_Element_Text - (ReactNative)
 ##### [0.3.0 - 0.9.1] 
 - Add ccReactjs_Component_Functional - (ReactJS)

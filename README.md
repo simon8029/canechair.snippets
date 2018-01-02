@@ -85,16 +85,45 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | JavaScript : Array : ForEach              | ccJavaScript_Array_ForEach              |
 ### Test : Jest
 |Snippet Name|Keyboard Shortcut|
-|------------------------------------|-----------------------------------------| 
-| Test : Jest : InitTestFile         | ccTest_Jest_InitTestFile                |
-| Test : Jest : Describe             | ccTest_Jest_Describe                    |
-| Test : Jest : It                   | ccTest_Jest_It                          |
-| Test : Jest : ItAsync              | ccTest_Jest_ItAsync                     |
-| Test : Jest : ToMatchSnapshot      | ccTest_Jest_Expect_ToMatchSnapshot      |
-| Test : Jest : ToBe                 | ccTest_Jest_Expect_ToBe                 |
-| Test : Jest : ToEqual              | ccTest_Jest_Expect_ToEqual              |
-| Test : Jest : ToBeCalledWith       | ccTest_Jest_Expect_ToBeCalledWith       |
-| Test : Jest : ToHaveBeenCalledWith | ccTest_Jest_Expect_ToHaveBeenCalledWith |
+|-----------------------------------------------------|-------------------------------------------------| 
+| Test : Jest : InitTestFile                          | ccTest_Jest_InitTestFile                        |
+| Test : Jest : Describe                              | ccTest_Jest_Describe                            |
+| Test : Jest : BeforeAll                             | ccTest_Jest_BeforeAll                           |    
+| Test : Jest : BeforeEach                            | ccTest_Jest_BeforeEach                          |     
+| Test : Jest : AfterAll                              | ccTest_Jest_AfterAll                            |   
+| Test : Jest : AfterEach                             | ccTest_Jest_AfterEach                           |    
+| Test : Jest : It                                    | ccTest_Jest_It                                  |
+| Test : Jest : ItAsync                               | ccTest_Jest_ItAsync                             |
+| Test : Jest : Expect : ToMatchSnapshot              | ccTest_Jest_Expect_ToMatchSnapshot              |
+| Test : Jest : Expect : ToBe                         | ccTest_Jest_Expect_ToBe                         |
+| Test : Jest : Expect : ToEqual                      | ccTest_Jest_Expect_ToEqual                      |
+| Test : Jest : Expect : ToBeCalledWith               | ccTest_Jest_Expect_ToBeCalledWith               |
+| Test : Jest : Expect : ToHaveBeenCalledWith         | ccTest_Jest_Expect_ToHaveBeenCalledWith         |
+| Test : Jest : Expect : ToHaveBeenCalled             | ccTest_Jest_Expect_ToHaveBeenCalled             |                  
+| Test : Jest : Expect : ToBeCalled                   | ccTest_Jest_Expect_ToBeCalled                   |            
+| Test : Jest : Expect : ToHaveBeenCalledTimes        | ccTest_Jest_Expect_ToHaveBeenCalledTimes        |                       
+| Test : Jest : Expect : ToHaveBeenLastCalledWith     | ccTest_Jest_Expect_ToHaveBeenLastCalledWith     |                          
+| Test : Jest : Expect : LastCalledWith               | ccTest_Jest_Expect_LastCalledWith               |                
+| Test : Jest : Expect : ToBeCloseTo                  | ccTest_Jest_Expect_ToBeCloseTo                  |             
+| Test : Jest : Expect : ToBeDefined                  | ccTest_Jest_Expect_ToBeDefined                  |             
+| Test : Jest : Expect : ToBeFalsy                    | ccTest_Jest_Expect_ToBeFalsy                    |           
+| Test : Jest : Expect : ToBeGreaterThan              | ccTest_Jest_Expect_ToBeGreaterThan              |                 
+| Test : Jest : Expect : ToBeGreaterThanOrEqual       | ccTest_Jest_Expect_ToBeGreaterThanOrEqual       |                        
+| Test : Jest : Expect : ToBeLessThan                 | ccTest_Jest_Expect_ToBeLessThan                 |              
+| Test : Jest : Expect : ToBeLessThanOrEqual          | ccTest_Jest_Expect_ToBeLessThanOrEqual          |                     
+| Test : Jest : Expect : ToBeInstanceOf               | ccTest_Jest_Expect_ToBeInstanceOf               |                
+| Test : Jest : Expect : ToBeNull                     | ccTest_Jest_Expect_ToBeNull                     |          
+| Test : Jest : Expect : ToBeTruthy                   | ccTest_Jest_Expect_ToBeTruthy                   |            
+| Test : Jest : Expect : ToBeUndefined                | ccTest_Jest_Expect_ToBeUndefined                |               
+| Test : Jest : Expect : ToContain                    | ccTest_Jest_Expect_ToContain                    |           
+| Test : Jest : Expect : ToContainEqual               | ccTest_Jest_Expect_ToContainEqual               |                
+| Test : Jest : Expect : ToHaveLength                 | ccTest_Jest_Expect_ToHaveLength                 |              
+| Test : Jest : Expect : ToMatch                      | ccTest_Jest_Expect_ToMatch                      |         
+| Test : Jest : Expect : ToMatchObject                | ccTest_Jest_Expect_ToMatchObject                |               
+| Test : Jest : Expect : ToHaveProperty               | ccTest_Jest_Expect_ToHaveProperty               |                
+| Test : Jest : Expect : ToThrow                      | ccTest_Jest_Expect_ToThrow                      |         
+| Test : Jest : Expect : ToThrowError                 | ccTest_Jest_Expect_ToThrowError                 |              
+| Test : Jest : Expect : ToThrowErrorMatchingSnapshot | ccTest_Jest_Expect_ToThrowErrorMatchingSnapshot |
 ### Angular:
 ##### HTML Template:
 |Snippet Name|Keyboard Shortcut|
