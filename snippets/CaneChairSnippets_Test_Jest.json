@@ -1,4 +1,20 @@
 {
+    "Test : Jest : InitTestFile": {
+        "prefix": "ccTest_Jest_InitTestFile",
+        "body": [
+            "import 'react-native';",
+            "import React from 'react';",
+            "import renderer from 'react-test-renderer';",
+            "import Enzyme, { shallow } from 'enzyme';",
+            "import Adapter from 'enzyme-adapter-react-16';",
+            "Enzyme.configure({ adapter: new Adapter() });",
+            "",
+            "describe(\"${1:__description__}\", () =>{",
+            "${2:__statement__}",
+            "});"
+        ],
+        "description": "Init a Jest test file."
+    },
     "Test : Jest : Describe": {
         "prefix": "ccTest_Jest_Describe",
         "body": [
