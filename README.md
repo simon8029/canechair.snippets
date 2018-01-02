@@ -3,7 +3,8 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/simon8029/CaneChair.Snippets.svg)]() [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/4w/simon8029/CaneChair.Snippets.svg)]() [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/Simon8029.canechairsnippets.svg)]() [![GitHub issues](https://img.shields.io/github/issues/simon8029/CaneChair.Snippets.svg)]() [![GitHub closed issues](https://img.shields.io/github/issues-closed/simon8029/CaneChair.Snippets.svg?colorB=green)]() [![license](https://img.shields.io/github/license/simon8029/CaneChair.Snippets.svg)]() 
 ***
 
-Snippets for Javascript Full-Stack Development using "VS Code", include: Vanilla JavaScript, React, ReactNative, Angular, Express, NodeJs, Mongoose, MongoDB, 
+Snippets for Javascript Full-Stack Development using "VS Code", include: Vanilla JavaScript, React, ReactNative, Angular, Express, NodeJs, Mongoose, MongoDB
+######*(Keyboard shortcut works while entered enough characters to disambiguate the term, no fully input needed.)*
 
 Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace.visualstudio.com/items?itemName=Simon8029.canechairsnippets)
 
