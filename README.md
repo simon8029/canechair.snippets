@@ -3,8 +3,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/simon8029/CaneChair.Snippets.svg)]() [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/4w/simon8029/CaneChair.Snippets.svg)]() [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/Simon8029.canechairsnippets.svg)]() [![GitHub issues](https://img.shields.io/github/issues/simon8029/CaneChair.Snippets.svg)]() [![GitHub closed issues](https://img.shields.io/github/issues-closed/simon8029/CaneChair.Snippets.svg?colorB=green)]() [![license](https://img.shields.io/github/license/simon8029/CaneChair.Snippets.svg)]() 
 ***
 
-Snippets for Javascript Full-Stack Development using "VS Code", include:
-React, ReactNative, Angular, Express, NodeJs, Mongoose, MongoDB, Mocha, Chai, Vanilla JavaScript
+Snippets for Javascript Full-Stack Development using "VS Code", include: Vanilla JavaScript, React, ReactNative, Angular, Express, NodeJs, Mongoose, MongoDB, 
 
 Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace.visualstudio.com/items?itemName=Simon8029.canechairsnippets)
 
@@ -81,7 +80,16 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | JavaScript : Array : FindIndex            | ccJavaScript_Array_FindIndex            |
 | JavaScript : Array : Filter               | ccJavaScript_Array_Filter               |
 | JavaScript : Array : ForEach              | ccJavaScript_Array_ForEach              |
-
+### Test : Jest
+|Snippet Name|Keyboard Shortcut|
+|---------------------------------|-----------------------------------| 
+| Test : Jest : Describe          | ccTest_Jest_Describe              |
+| Test : Jest : It                | ccTest_Jest_It                    |
+| Test : Jest : Describe          | ccTest_Jest_Describe              |
+| Test : Jest : It                | ccTest_Jest_It                    |
+| Test : Jest : ToMatchSnapshot   | ccTest_Jest_Expect_ToMatchSnapshot|
+| Test : Jest : ToBe              | ccTest_Jest_Expect_ToBe           |
+| Test : Jest : ToEqual           | ccTest_Jest_Expect_ToEqual        |
 ### Angular:
 ##### HTML Template:
 |Snippet Name|Keyboard Shortcut|
@@ -122,7 +130,6 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | Express : Response : Status : 404 : Send          | ccExpress_Response_Status_404_Send            |
 | Express : Response : Status : 500 : Send          | ccExpress_Response_Status_500_Send            |
 ### Mongoose
-##### mongoose Functions : 
 |Snippet Name|Keyboard Shortcut|
 |--------------------------------------------|----------------------------------------| 
 | Mongoose : Controller : Function : FindOne | ccMongoose_Controller_Function_FindOne |
@@ -131,7 +138,6 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | Mongoose : Model : NewProperty             | ccMongoose_Model_NewProperty           |
 | Mongoose : Model : NewProperty : Required  | ccMongoose_Model_NewProperty_Required  |
 ### Node.js
-##### Function : 
 |Snippet Name|Keyboard Shortcut|
 |---------------------------------------|-------------------------------| 
 | NodeJs : Require                      | ccNodeJs_Require              |
@@ -141,12 +147,6 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | NodeJs : Function : NewFunction       | ccNodeJs_Function_NewFunction |
 
 
-### Test : Chai
-|Snippet Name|Keyboard Shortcut|
-|--------------------------------------|------------------------------| 
-| Test : Describe                      | ccTest_Describe              |
-| Test : It                            | ccTest_It                    |
-| Test : Chai : Assert : TypeOf        | ccTest_Chai_Assert_TypeOf    |
 
 
 ### Gulp : 

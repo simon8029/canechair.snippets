@@ -1,5 +1,11 @@
 # Change Log
 
+##### [0.15.0] 
+- Add ccTest_Jest_Describe - (Jest)
+- Add ccTest_Jest_It - (Jest)
+- Add ccTest_Jest_Expect_ToMatchSnapshot - (Jest)
+- Add ccTest_Jest_Expect_ToBe - (Jest)
+- Add ccTest_Jest_Expect_ToEqual - (Jest)
 ##### [0.14.1] 
 - Refactor ccJavaScript_Function_AnonymousFunction - (Vanilla JavaScript)
 ##### [0.14.0] 
