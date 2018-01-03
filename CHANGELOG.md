@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.18.2] 
+- minor bus fixed - (ReactJS)
 ##### [0.18.1] 
 - Refactor ccReactJS_Component_Container - (ReactJS)
 ##### [0.18.0] 

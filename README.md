@@ -17,20 +17,20 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 |Snippet Name|Keyboard Shortcut|
 |------------------------------------------------------|--------------------------------------------------|
 | ReactJS : Import : Module                            | ccReactjs_Import_Module                          |
-| ReactJS : Class : Render                             | ccReactjs_Class_Render                           |
-| ReactJS : Class : Constructor                        | ccReactjs_Class_Constructor                      |
 | ReactJS : Component : Container                      | ccReactjs_Component_ Container                   |
 | ReactJS : Component : Presentational                 | ccReactjs_Component_ Presentational              |
 | ReactJS : Component : Functional                     | ccReactjs_Component_Functional                   |
-| ReactJS : Reducer : NewReducer                       | ccReactjs_Reducer_NewReducer                     |
-| ReactJS : PureReact : Create : Class                 | ccReactjs_React_Create_Class                     |
-| ReactJS : PureReact : Create : Element               | ccReactjs_React_Create_Element                   |
-| ReactJS : PureReact : FunctionalComponent            | ccReactjs_React_FunctionalComponent              |
-| ReactJS : ReactDom : Render                          | ccReactjs_ReactDom_Render                        |
 | ReactJS : Function : ArrowFunction                   | ccReactjs_Function_ArrowFunction                 |
 | ReactJS : Function : PropTypes                       | ccReactjs_Function_PropTypes                     |
 | ReactJS : Function : SetState                        | ccReactjs_Function_SetState                      |
 | ReactJS : Function : ComponentWillReceiveProps       | ccReactjs_Function_ComponentWillReceiveProps     |
+| ReactJS : Reducer : NewReducer                       | ccReactjs_Reducer_NewReducer                     |
+| ReactJS : ReactDom : Render                          | ccReactjs_ReactDom_Render                        |
+| ReactJS : Class : Render                             | ccReactjs_Class_Render                           |
+| ReactJS : Class : Constructor                        | ccReactjs_Class_Constructor                      |
+| ReactJS : PureReact : Create : Class                 | ccReactjs_React_Create_Class                     |
+| ReactJS : PureReact : Create : Element               | ccReactjs_React_Create_Element                   |
+| ReactJS : PureReact : FunctionalComponent            | ccReactjs_React_FunctionalComponent              |
 | ReactJS : Element : Div                              | ccReactjs_Element_Div                            |
 | ReactJS : Element : Nav                              | ccReactjs_Element_Nav                            |
 | ReactJS : Element : Section                          | ccReactjs_Element_Section                        |
