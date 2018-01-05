@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.20.0] Close issue #60
+- Add snippets of react/reactnative elements for TSX (TypeScriptReact)
 ##### [0.19.0] Close issue #57
 - Add common snippets for TypeScript and TypeScriptReact - (TypeScript),(TypeScriptReact)
 ##### [0.18.2] 
