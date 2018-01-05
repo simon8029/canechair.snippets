@@ -1,0 +1,85 @@
+{
+    "JavaScript : Common : PrintToConsole": {
+        "prefix": "cclog",
+        "body": [
+            "console.log(`${1:__output__}:`);",
+            "console.log(${1:__output__});"
+        ],
+        "description": "Log output to console"
+    },
+    "JavaScript : Function : If": {
+        "prefix": "ccJavaScript_Function_If",
+        "body": [
+            "if (${1:__condition__}) {",
+            "\t${2:__statement__}",
+            "}"
+        ],
+        "description": "Create a standard If statement."
+    },
+    "JavaScript : Function : Switch": {
+        "prefix": "ccJavaScript_Function_Switch",
+        "body": [
+            "switch (${1:__key__}) {",
+            "\tcase ${2:__value__}:",
+            "\t\t${3:__statement__}",
+            "\t\tbreak;",
+            "\tdefault:",
+            "\t\tbreak;",
+            "}"
+        ],
+        "description": "Create a standard switch statement."
+    },
+    "JavaScript : Object : Assign": {
+        "prefix": "ccJavaScript_Object_Assign",
+        "body": [
+            "Object.assign({}, ${1:__originalObject__}, { ${2:__Properties__} });"
+        ],
+        "description": "Create a Object.assign() statement."
+    },
+    "JavaScript : Array : Map": {
+        "prefix": "ccJavaScript_Array_Map",
+        "body": [
+            "${1:__arrayName__}.map((${2:__params__}) => ",
+            "\t${3}",
+            ")"
+        ],
+        "description": "Create a Array.map() function."
+    },
+    "JavaScript : Array : Filter": {
+        "prefix": "ccJavaScript_Array_Filter",
+        "body": [
+            "${1:__arrayName__}.filter((${2:__params__}) => ${3} );"
+        ],
+        "description": "Create a Array.filter() function."
+    },
+    "JavaScript : Array : Find": {
+        "prefix": "ccJavaScript_Array_Find",
+        "body": [
+            "${1:__arrayName__}.find((${2:__params__}) => ${3} );"
+        ],
+        "description": "Create a Array.find() function."
+    },
+    "JavaScript : Array : FindIndex": {
+        "prefix": "ccJavaScript_Array_FindIndex",
+        "body": [
+            "${1:__arrayName__}.findIndex((${2:__params__}) => ${3});"
+        ],
+        "description": "Create a Array.findIndex() function."
+    },
+    "JavaScript : Array : ForEach": {
+        "prefix": "ccJavaScript_Array_ForEach",
+        "body": [
+            "${1:__arrayName__}.forEach(${2:__element__} => {",
+            "\t${3:__statement__}",
+            "});"
+        ],
+        "description": "Create a Array.forEach() function."
+    },
+    "JavaScript : Function : AnonymousFunction": {
+        "prefix": "ccJavaScript_Function_AnonymousFunction",
+        "body": [
+            "(${1:__parameter__})=>{ ${2:__statement__} }"
+        ],
+        "description": "Create an Anonymous Function"
+    }
+}

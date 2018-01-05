@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.19.0] Close issue #57
+- Add common snippets for TypeScript and TypeScriptReact - (TypeScript),(TypeScriptReact)
 ##### [0.18.2] 
 - minor bus fixed - (ReactJS)
 ##### [0.18.1] 
