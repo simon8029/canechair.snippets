@@ -1,14 +1,20 @@
 # Change Log
 
-##### [0.20.0] Close issue #60
+##### [0.21.1] Close issue #62
+
+* Fix the bug of "common snippets not working for jsx"
+  ##### [0.21.0] Close issue #61
+
+- Add snippets link to jsx file
+  ##### [0.20.0] Close issue #60
 - Add snippets of react/reactnative elements for TSX (TypeScriptReact)
-##### [0.19.0] Close issue #57
+  ##### [0.19.0] Close issue #57
 - Add common snippets for TypeScript and TypeScriptReact - (TypeScript),(TypeScriptReact)
-##### [0.18.2] 
+  ##### [0.18.2]
 - minor bus fixed - (ReactJS)
-##### [0.18.1] 
+  ##### [0.18.1]
 - Refactor ccReactJS_Component_Container - (ReactJS)
-##### [0.18.0] 
+  ##### [0.18.0]
 - Add ccTest_Jest_BeforeAll - (Jest)
 - Add ccTest_Jest_BeforeEach - (Jest)
 - Add ccTest_Jest_AfterAll - (Jest)
@@ -38,7 +44,7 @@
 - Add ccTest_Jest_Expect_ToThrow - (Jest)
 - Add ccTest_Jest_Expect_ToThrowError - (Jest)
 - Add ccTest_Jest_Expect_ToThrowErrorMatchingSnapshot - (Jest)
-##### [0.10.0 - 0.17.0] 
+  ##### [0.10.0 - 0.17.0]
 - Add ccTest_Jest_InitTestFile - (Jest)
 - Add ccTest_Jest_ItAsync - (Jest)
 - Add ccTest_Jest_Expect_ToBeCalledWith - (Jest)
@@ -67,13 +73,13 @@
 - Refactor ccReactNative_Component_Functional - (ReactNative)
 - Fix bug in ccReactNative_Element_TextInput - (ReactNative)
 - Fix bug in ccReactNative_Element_Text - (ReactNative)
-##### [0.3.0 - 0.9.1] 
+  ##### [0.3.0 - 0.9.1]
 - Add ccReactjs_Component_Functional - (ReactJS)
 - Add ccReactNative_Element_Text - (ReactNative)
 - Add ccReactNative_Element_View - (ReactNative)
 - Add ccReactNative_Element_ScrollView - (ReactNative)
 - Add ccReactNative_Element_TextInput - (ReactNative)
-- Add ccReactjs_Reducer_NewReducer  - (ReactJS)
+- Add ccReactjs_Reducer_NewReducer - (ReactJS)
 - Add ccReactjs_Class_Component - (ReactJS)
 - Add ccReactjs_Class_Method - (ReactJS)
 - Add ccReact_Route_AddRoute - (ReactJS)
@@ -89,14 +95,14 @@
 - Refactor ccReactjs_Class_Component_Presentational- (ReactJS)
 - Refactor ccReactjs_Class_Component - (ReactJS)
 - Refactor snippets names - (ReactJS)
-##### [0.2.0 - 0.2.16]
-- Add ccReact_JSX_Element_Link  - (ReactJS)
-- Add ccReact_React_Create_Class   - (ReactJS)
-- Add ccReact_JSX_Element_Paragraph  - (ReactJS)
+  ##### [0.2.0 - 0.2.16]
+- Add ccReact_JSX_Element_Link - (ReactJS)
+- Add ccReact_React_Create_Class - (ReactJS)
+- Add ccReact_JSX_Element_Paragraph - (ReactJS)
 - Add ccReact_JSX_Element_Nav - (ReactJS)
 - Add ccReact_JSX_Element_A- (ReactJS)
 - Add ccReact_JSX_Element_Image - (ReactJS)
-- Add ccJavaScript_Function_Switch  - (Vanilla JavaScript)
+- Add ccJavaScript_Function_Switch - (Vanilla JavaScript)
 - Add ccJavaScript_Gulp_Watch - (Vanilla JavaScript)
 - Add ccJavaScript_Gulp_Dest - (Vanilla JavaScript)
 - Add ccReact_JSX_Function_ComponentWillReceiveProps - (ReactJS)
@@ -128,45 +134,45 @@
 - Seperate concern of different languages and frameworks
 
 ##### [0.1.0 - 0.1.14]
-- Add ccReact_PureReact_Element - (ReactJS)
-- Add ccReact_PureReact_FunctionalComponent - (ReactJS)
-- Add ccReact_ReactDOM_StatelessFunctionalComponent - (ReactJS)
-- Add ccJavaScript_Array_Map - (Vanilla JavaScript)
-- Add ccReact_ReactDom_Section - (ReactJS)
-- Add ccReact_ReactDom_Article - (ReactJS)
-- Add ccReact_Import_Module - (ReactJS)
-- Add ccReact_Class_Render - (ReactJS)
-- Add ccReact_ReactDom_Render - (ReactJS)
-- Add ccReact_ReactDom_Div - (ReactJS)
-- Add ccReact_ReactDom_Span - (ReactJS)
-- Add ccAngular_Service - (TypeScript)
-- Add ccNodeJs_Common_Export_* - (Vanilla Javascript)
-- Add ccAngular_Component_Service_Export_Class - (TypeScript)
-- Add ccAngularNgIfThenElse - (HTML)
-- Add ccAngularNgIf, ccAngularNgFor - (HTML)
-- Add ccImportAs - (Angular)
-- Add ccSwitch, ccImportRedux, ccInterface, ccConstructor - (TypeScript)
-- Add ccMongoose_Model_AddNewModel - (Mongoose)
-- Add ccMongoose_Model_AddNewProperty_Required - (Mongoose)
-- Add ccMongoose_Controller_Function_FindOne - (Mongoose)
-- Add ccExpress_Controller_Function_Default - (Express)
-- Add ccExpress_MiddleWare_VerifyToken - (Express)
-- Add ccExpress_Response_Status_404_Send - (Express)
-- Add snippets for Express Response Status Send - (Express)
-- Add simple CRUD snippets for Express Controllers - (Express)
-- Add middleware snippets for Express Controllers - (Express)
-- Add snippets for Express Routes - (Express)
-- Refactor ccAngular_Method_Switch - (Angular)
-- Refactor Angular_Html Snippets' naming conventions
-- Refactor ccAngular_Component_Service_ctor - (Angular)
-- Refactor naming conventions
-- Fix issues of Mongoose's new model and new property -(Mongoose).
-- Rename snippets format
-- Minor bugs fixed 
-##### [0.0.1] - [0.0.6] 
-- Add exports function - (Vanilla JavaScript).
-- Fix statement issue of exports.function - (Vanilla JavaScript).
-- Fix duplicate object keys - (Vanilla JavaScript).
-- Refactor prefix
-- Initial release
 
+* Add ccReact_PureReact_Element - (ReactJS)
+* Add ccReact_PureReact_FunctionalComponent - (ReactJS)
+* Add ccReact_ReactDOM_StatelessFunctionalComponent - (ReactJS)
+* Add ccJavaScript_Array_Map - (Vanilla JavaScript)
+* Add ccReact_ReactDom_Section - (ReactJS)
+* Add ccReact_ReactDom_Article - (ReactJS)
+* Add ccReact_Import_Module - (ReactJS)
+* Add ccReact_Class_Render - (ReactJS)
+* Add ccReact_ReactDom_Render - (ReactJS)
+* Add ccReact_ReactDom_Div - (ReactJS)
+* Add ccReact_ReactDom_Span - (ReactJS)
+* Add ccAngular_Service - (TypeScript)
+* Add ccNodeJs*Common_Export*\* - (Vanilla Javascript)
+* Add ccAngular_Component_Service_Export_Class - (TypeScript)
+* Add ccAngularNgIfThenElse - (HTML)
+* Add ccAngularNgIf, ccAngularNgFor - (HTML)
+* Add ccImportAs - (Angular)
+* Add ccSwitch, ccImportRedux, ccInterface, ccConstructor - (TypeScript)
+* Add ccMongoose_Model_AddNewModel - (Mongoose)
+* Add ccMongoose_Model_AddNewProperty_Required - (Mongoose)
+* Add ccMongoose_Controller_Function_FindOne - (Mongoose)
+* Add ccExpress_Controller_Function_Default - (Express)
+* Add ccExpress_MiddleWare_VerifyToken - (Express)
+* Add ccExpress_Response_Status_404_Send - (Express)
+* Add snippets for Express Response Status Send - (Express)
+* Add simple CRUD snippets for Express Controllers - (Express)
+* Add middleware snippets for Express Controllers - (Express)
+* Add snippets for Express Routes - (Express)
+* Refactor ccAngular_Method_Switch - (Angular)
+* Refactor Angular_Html Snippets' naming conventions
+* Refactor ccAngular_Component_Service_ctor - (Angular)
+* Refactor naming conventions
+* Fix issues of Mongoose's new model and new property -(Mongoose).
+* Rename snippets format
+* Minor bugs fixed
+  ##### [0.0.1] - [0.0.6]
+* Add exports function - (Vanilla JavaScript).
+* Fix statement issue of exports.function - (Vanilla JavaScript).
+* Fix duplicate object keys - (Vanilla JavaScript).
+* Refactor prefix
+* Initial release
