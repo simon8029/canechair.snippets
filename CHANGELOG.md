@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.21.2] Close issue #63
+* Fix the bug of "snippets for tsx file not working"
 ##### [0.21.1] Close issue #62
 
 * Fix the bug of "common snippets not working for jsx"
