@@ -1,0 +1,216 @@
+{
+	"ReactJS : Import : Module": {
+		"prefix": "ccReact_Import_Module",
+		"body": [
+			"import ${2:__moduleName__} from '${1:__modulePath__}';"
+		],
+		"description": "Import module."
+	},
+	"ReactJS : Class : Render": {
+		"prefix": "ccReact_Class_Render",
+		"body": [
+			"class ${1:__className__} extends React.Component {",
+			"\trender(){",
+			"\t\treturn(",
+			"\t\t\t${2}",
+			"\t\t)",
+			"\t}",
+			"}",
+			"",
+			"export default ${1:__className__};",
+			""
+		],
+		"description": "Create a React Class."
+	},
+	"ReactJS : Class : Constructor": {
+		"prefix": "ccReact_Class_Constructor",
+		"body": [
+			"constructor(props) {",
+			"\tsuper(props);",
+			"\tthis.state = {",
+			"\t\t${1} ",
+			"\t}",
+			"}"
+		],
+		"description": "Create a React Class."
+	},
+	"ReactJS : PureReactJS : Create : Class": {
+		"prefix": "ccReact_PureReact_Create_Class",
+		"body": [
+			"var ${1:__className__} = React.createClass({",
+			"\trender: function(){",
+			"\t\treturn (",
+			"\t\t${2:__statement__}",
+			"\t\t);",
+			"\t}",
+			"});"
+		],
+		"description": "Create a Pure React Class"
+	},
+	"ReactJS : PureReactJS : Create : Element": {
+		"prefix": "ccReact_PureReact_Create_Element",
+		"body": [
+			"React.createElement(\"${1:__elementType__}\",${2:__elementProperties__},${3:__elementChildren__})"
+		],
+		"description": "Create a Pure React Element"
+	},
+	"ReactJS : PureReactJS : FunctionalComponent": {
+		"prefix": "ccReact_PureReact_FunctionalComponent",
+		"body": [
+			"const ${1:__componentName__} = (${2:__params__}) => React.createElement(\"${3:__elementType__}\",${4:__elementProperties__},${5:__elementChildren__})"
+		],
+		"description": "Create a Pure React Functional Component"
+	},
+	"ReactJS : ReactDom : Render": {
+		"prefix": "ccReact_ReactDom_Render",
+		"body": [
+			"ReactDOM.render(${1:__componentName__}, document.getElementById('${2:__id__}'));"
+		],
+		"description": "Create ReactDOM.render() method."
+	},
+	"ReactJS : Route : AddRoute": {
+		"prefix": "ccReact_Route_AddRoute",
+		"body": [
+			"<Route path=\"${1:__path__}\" component={${2:__componentName__} />"
+		],
+		"description": "Create a Route."
+	},
+	"ReactJS : Function : ArrowFunction": {
+		"prefix": "ccReactJS_Function_ArrowFunction",
+		"body": [
+			"${1:__functionName__} = (${2:__params__}) => {",
+			"\t${3}",
+			"}"
+		],
+		"description": "Create a JSX arrow function."
+	},
+	"ReactJS : Function : PropTypes": {
+		"prefix": "ccReactJS_Function_PropTypes",
+		"body": [
+			"propTypes: {",
+			"\t${0}",
+			"}"
+		],
+		"description": "Create propTypes."
+	},
+	"ReactJS : Function : ComponentWillReceiveProps": {
+		"prefix": "ccReactJS_Function_ComponentWillReceiveProps",
+		"body": [
+			"componentWillReceiveProps(update) {",
+			"\tthis.setState({",
+			"\t\t${0}",
+			"\t})",
+			"}"
+		],
+		"description": "Create componentWillReceiveProps method."
+	},
+	"ReactJS : Function : SetState": {
+		"prefix": "ccReactJS_Function_SetState",
+		"body": [
+			"this.setState({ ${1} });"
+		],
+		"description": "Create this.SetState() method."
+	},
+	"React : Method": {
+		"prefix": "ccReactJS_Class_Method",
+		"body": [
+			"function ${1:__functionName__}(){",
+			"\t${2:__statement__}",
+			"}"
+		],
+		"description": "Create a ReactJS method"
+	},
+	"React : Component : Container": {
+		"prefix": "ccReactJS_Component_Container",
+		"body": [
+			"import React from 'react';",
+			"import PropTypes from 'prop-types';",
+			"import { connect } from 'react-redux';",
+			"import { bindActionCreators } from 'redux';",
+			"import * as ${1:__componentName__}Actions from '../actions/${1:__componentName__}Actions';",
+			"class ${1:__componentName__} extends React.Component {",
+			"\tconstructor(props, context) {",
+			"\t\tsuper(props, context);",
+			"\t\tthis.state = props.state;",
+			"\t\tthis.actions = props.actions;",
+			"\t}",
+			"",
+			"\trender() {",
+			"\t\treturn (",
+			"\t\t<div>",
+			"\t\t\t\"${1:__componentName__}\" is working!",
+			"\t\t</div>",
+			"\t\t);",
+			"\t}",
+			"}",
+			"${1:__componentName__}.propTypes={",
+			"\tactions: PropTypes.object.isRequired",
+			"};",
+			"",
+			"function mapStateToProps(store,ownProps){",
+			"\treturn{",
+			"\t\tstate:store",
+			"\t};",
+			"}",
+			"",
+			"function mapDispatchToProps(dispatch){",
+			"\treturn {",
+			"\t\tactions:bindActionCreators(${1:__componentName__}Actions, dispatch)",
+			"\t};",
+			"}",
+			"",
+			"export default connect(mapStateToProps, mapDispatchToProps)(${1:__componentName__});"
+		],
+		"description": "Create a ReactJS container component"
+	},
+	"React : Component : Presentational": {
+		"prefix": "ccReactJS_Component_Presentational",
+		"body": [
+			"import React from 'react';",
+			"import PropTypes from 'prop-types';",
+			"",
+			"const ${1:__ComponentName__} = ({components}) => {",
+			"\treturn (",
+			"\t\t<div>",
+			"\t\t\t${0}",
+			"\t\t</div>",
+			"\t);",
+			"};",
+			"",
+			"${1:__ComponentName__}.propTypes = {",
+			"\t// components: PropTypes.array.isRequired",
+			"};",
+			"",
+			"export default ${1:__ComponentName__};"
+		],
+		"description": "Create a ReactJS Presentational Component"
+	},
+	"React : Component : Functional": {
+		"prefix": "ccReactJS_Component_Functional",
+		"body": [
+			"import React from 'react';",
+			"",
+			"export default function ${1:__componentName__}(${2:__destructureProps__}) {",
+			"\treturn (",
+			"\t\t${3:__statement__}",
+			"\t);",
+			"}"
+		],
+		"description": "Create a ReactJS Functional Component"
+	},
+	"React : Reducer : NewReducer": {
+		"prefix": "ccReactJS_Reducer_NewReducer",
+		"body": [
+			"const initialState = {}",
+			"export default function ${1:__reducerName__}(state = initialState, action) {",
+			"\tswitch (action.type) {",
+			"\t\tcase ${2:__actionType__}:",
+			"\t\t\tconst { ${3:__variables__} } = action;",
+			"\t\tdefault:",
+			"\t\t\treturn state;",
+			"\t}",
+			"}"
+		],
+		"description": "Create a ReactJS Reducer."
+	}
+}

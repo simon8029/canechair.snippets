@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.22.0] Close issue #64
+* Add class snippets for tsx file.
 ##### [0.21.2] Close issue #63
 * Fix the bug of "snippets for tsx file not working"
 ##### [0.21.1] Close issue #62
