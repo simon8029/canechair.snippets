@@ -24,6 +24,9 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : Function : PropTypes                       | ccReactjs_Function_PropTypes                     |
 | ReactJS : Function : SetState                        | ccReactjs_Function_SetState                      |
 | ReactJS : Function : ComponentWillReceiveProps       | ccReactjs_Function_ComponentWillReceiveProps     |
+| ReactJS : Redux : Store                              | ccReactjs_Redux_Store                            |
+| ReactJS : Redux : RootReducer                        | ccReactjs_Redux_RootReducer                      |
+| ReactJS : Redux : Action                             | ccReactjs_Redux_Action                           |
 | ReactJS : Reducer : NewReducer                       | ccReactjs_Reducer_NewReducer                     |
 | ReactJS : ReactDom : Render                          | ccReactjs_ReactDom_Render                        |
 | ReactJS : Class : Render                             | ccReactjs_Class_Render                           |

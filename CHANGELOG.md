@@ -1,5 +1,9 @@
 # Change Log
 
+##### [0.22.0] Add snippets for issue #65
+* Add snippet for create store (ReactJS)
+* Add snippet for create rootReducer (ReactJS)
+* Add snippet for create action (ReactJS)
 ##### [0.22.0] Close issue #64
 * Add class snippets for tsx file.
 ##### [0.21.2] Close issue #63

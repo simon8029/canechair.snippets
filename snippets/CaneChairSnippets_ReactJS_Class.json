@@ -212,5 +212,38 @@
 			"}"
 		],
 		"description": "Create a ReactJS Reducer."
+	},
+	"React : Redux : Store": {
+		"prefix": "ccReactJS_Redux_Store",
+		"body": [
+			"import { createStore } from \"redux\";",
+			"import rootReducer from \"../reducers/rootReducer\";",
+			"",
+			"const store = createStore(rootReducer);",
+			"",
+			"export default store;",
+			""
+		],
+		"description": "Create a React Redux Store"
+	},
+	"React : Redux : RootReducer": {
+		"prefix": "ccReactJS_Redux_RootReducer",
+		"body": [
+			"import { combineReducers } from 'redux';",
+			"import userManagementReducer from './userManagementReducer';",
+			"",
+			"const rootReducer = combineReducers({ userManagementReducer })",
+			"",
+			"export default rootReducer;",
+			""
+		],
+		"description": "Create a React Redux Root Reducer"
+	},
+	"React : Redux : Action": {
+		"prefix": "ccReactJS_Redux_Action",
+		"body": [
+			"export const ${1:__ActionName__} = '${1:__ActionName__}';"
+		],
+		"description": "Create a Redux Action."
 	}
 }
