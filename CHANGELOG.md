@@ -1,6 +1,9 @@
 # Change Log
 
-##### [0.22.0] Add snippets for issue #65
+##### [0.24.1] Close issue #65
+* Add snippet for create action type (ReactJS)
+* Refactor ccReactJS_Reducer_NewReducer (ReactJS)
+##### [0.23.0] Add snippets for issue #65
 * Add snippet for create store (ReactJS)
 * Add snippet for create rootReducer (ReactJS)
 * Add snippet for create action (ReactJS)

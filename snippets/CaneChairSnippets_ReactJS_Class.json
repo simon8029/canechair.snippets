@@ -206,6 +206,7 @@
 			"\tswitch (action.type) {",
 			"\t\tcase ${2:__actionType__}:",
 			"\t\t\tconst { ${3:__variables__} } = action;",
+			"\t\t\treturn [...state, {${0}}];",
 			"\t\tdefault:",
 			"\t\t\treturn state;",
 			"\t}",
@@ -213,8 +214,8 @@
 		],
 		"description": "Create a ReactJS Reducer."
 	},
-	"React : Redux : Store": {
-		"prefix": "ccReactJS_Redux_Store",
+	"React : Redux : AddStore": {
+		"prefix": "ccReactJS_Redux_AddStore",
 		"body": [
 			"import { createStore } from \"redux\";",
 			"import rootReducer from \"../reducers/rootReducer\";",
@@ -226,8 +227,8 @@
 		],
 		"description": "Create a React Redux Store"
 	},
-	"React : Redux : RootReducer": {
-		"prefix": "ccReactJS_Redux_RootReducer",
+	"React : Redux : AddRootReducer": {
+		"prefix": "ccReactJS_Redux_AddRootReducer",
 		"body": [
 			"import { combineReducers } from 'redux';",
 			"import userManagementReducer from './userManagementReducer';",
@@ -239,11 +240,23 @@
 		],
 		"description": "Create a React Redux Root Reducer"
 	},
-	"React : Redux : Action": {
-		"prefix": "ccReactJS_Redux_Action",
+	"React : Redux : AddActionType": {
+		"prefix": "ccReactJS_Redux_AddActionType",
 		"body": [
-			"export const ${1:__ActionName__} = '${1:__ActionName__}';"
+			"export const ${1:__ActionType__} = '${1:__ActionType__}';"
 		],
-		"description": "Create a Redux Action."
+		"description": "Create a Redux Action Type."
+	},
+	"React : Redux : AddAction": {
+		"prefix": "ccReactJS_Redux_AddAction",
+		"body": [
+			"export const ${1:__ActionName__} = (${2:__PAYLOAD__}) => {",
+			"  return {",
+			"    type: ActionTypes.${3:__ActionType__},",
+			"    payload: ${2:__PAYLOAD__}",
+			"  }",
+			"}"
+		],
+		"description": "Create a Redux Action"
 	}
 }
