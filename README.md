@@ -4,7 +4,7 @@
 ***
 
 Snippets for Javascript Full-Stack Development using "VS Code", include: Vanilla JavaScript, TypeScript, React, ReactNative, Jest, Angular, Express, NodeJs, Mongoose, MongoDB
- 
+  
 ###### (Keyboard shortcut works while entered enough characters to disambiguate the term, no fully input needed.)
 ***
  
