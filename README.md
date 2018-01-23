@@ -7,7 +7,7 @@ Snippets for Javascript Full-Stack Development using "VS Code", include: Vanilla
  
 ###### (Keyboard shortcut works while entered enough characters to disambiguate the term, no fully input needed.)
 ***
-
+ 
 Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace.visualstudio.com/items?itemName=Simon8029.canechairsnippets)
 
 GitHub: https://github.com/simon8029/CaneChair.Snippets.io
