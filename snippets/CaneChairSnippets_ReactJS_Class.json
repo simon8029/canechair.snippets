@@ -217,13 +217,19 @@
 	"React : Redux : AddStore": {
 		"prefix": "ccReactJS_Redux_AddStore",
 		"body": [
-			"import { createStore } from \"redux\";",
+			"import { createStore, combineReducers, applyMiddleware, compose } from \"redux\";",
+			"import thunkMiddleware from 'redux-thunk';",
 			"import rootReducer from \"../reducers/rootReducer\";",
 			"",
-			"const store = createStore(rootReducer);",
+			"const middlwares = [thunkMiddleware];",
+			"const win = window;",
+			"const storeEnhancers = compose(",
+			"  applyMiddleware(...middlwares),",
+			"  (win && win.devToolsExtension) ? win.devToolsExtension() : (f) => f",
+			")",
+			"const store = createStore(rootReducer, {}, storeEnhancers);",
 			"",
-			"export default store;",
-			""
+			"export default store;"
 		],
 		"description": "Create a React Redux Store"
 	},

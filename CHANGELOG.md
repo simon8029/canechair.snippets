@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.24.2] Close issue #66
+* Add redux-thunk support to the ccReactJS_Redux_AddStore snippets
 ##### [0.24.1] Close issue #65
 * Add snippet for create action type (ReactJS)
 * Refactor ccReactJS_Reducer_NewReducer (ReactJS)
