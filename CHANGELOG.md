@@ -1,7 +1,9 @@
 # Change Log
 
+##### [0.25.0] Close issue #67
+* Add support for jsx file (ReactJS)
 ##### [0.24.2] Close issue #66
-* Add redux-thunk support to the ccReactJS_Redux_AddStore snippets
+* Add redux-thunk support to the ccReactJS_Redux_AddStore snippets (ReactJS)
 ##### [0.24.1] Close issue #65
 * Add snippet for create action type (ReactJS)
 * Refactor ccReactJS_Reducer_NewReducer (ReactJS)
