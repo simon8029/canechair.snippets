@@ -171,7 +171,7 @@
 		"description": "Create a JSX <form> element."
 	},
 	"ReactJS : Element : Link": {
-		"prefix": "ccReactJS_Element_Form",
+		"prefix": "ccReactJS_Element_Link",
 		"body": [
 			"<Link to=\"${1:__link__}\" className=\"${2:__className__}\">${3:__linkText__}</Link>"
 		],

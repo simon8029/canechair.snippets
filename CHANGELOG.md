@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.25.1] Close issue #68
+* Fix the bug of "ReactJS : Element : Link => snippet mis-use the shortcut for create Form" (ReactJS)
 ##### [0.25.0] Close issue #67
 * Add support for jsx file (ReactJS)
 ##### [0.24.2] Close issue #66
