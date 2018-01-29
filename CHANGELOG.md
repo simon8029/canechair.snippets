@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.25.2] Close issue #69
+* Fix the bug of "common javascript snippets not working inside the jsx render block." (ReactJS)
 ##### [0.25.1] Close issue #68
 * Fix the bug of "ReactJS : Element : Link => snippet mis-use the shortcut for create Form" (ReactJS)
 ##### [0.25.0] Close issue #67
@@ -31,7 +33,7 @@
 - minor bus fixed - (ReactJS)
   ##### [0.18.1]
 - Refactor ccReactJS_Component_Container - (ReactJS)
-  ##### [0.18.0]
+  ##### [0.10.0 - 0.18.0]
 - Add ccTest_Jest_BeforeAll - (Jest)
 - Add ccTest_Jest_BeforeEach - (Jest)
 - Add ccTest_Jest_AfterAll - (Jest)
@@ -61,7 +63,6 @@
 - Add ccTest_Jest_Expect_ToThrow - (Jest)
 - Add ccTest_Jest_Expect_ToThrowError - (Jest)
 - Add ccTest_Jest_Expect_ToThrowErrorMatchingSnapshot - (Jest)
-  ##### [0.10.0 - 0.17.0]
 - Add ccTest_Jest_InitTestFile - (Jest)
 - Add ccTest_Jest_ItAsync - (Jest)
 - Add ccTest_Jest_Expect_ToBeCalledWith - (Jest)
