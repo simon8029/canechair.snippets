@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.25.3] Close issue #70
+* Refactor the ccReactJS_Component_Presentational (ReactJS)
 ##### [0.25.2] Close issue #69
 * Fix the bug of "common javascript snippets not working inside the jsx render block." (ReactJS)
 ##### [0.25.1] Close issue #68
