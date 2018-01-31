@@ -163,8 +163,8 @@
 		],
 		"description": "Create a ReactJS container component"
 	},
-	"React : Component : Presentational": {
-		"prefix": "ccReactJS_Component_Presentational",
+	"React : Component : Stateless": {
+		"prefix": "ccReactJS_Component_Stateless",
 		"body": [
 			"import React from 'react';",
 			"import PropTypes from 'prop-types';",
@@ -184,20 +184,7 @@
 			"export default ${1:__ComponentName__};",
 			""
 		],
-		"description": "Create a ReactJS Presentational Component"
-	},
-	"React : Component : Functional": {
-		"prefix": "ccReactJS_Component_Functional",
-		"body": [
-			"import React from 'react';",
-			"",
-			"export default function ${1:__componentName__}(${2:__destructureProps__}) {",
-			"\treturn (",
-			"\t\t${3:__statement__}",
-			"\t);",
-			"}"
-		],
-		"description": "Create a ReactJS Functional Component"
+		"description": "Create a ReactJS Stateless Component"
 	},
 	"React : Reducer : NewReducer": {
 		"prefix": "ccReactJS_Reducer_NewReducer",

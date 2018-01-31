@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.25.4] Close issue #72
+* Combine "funtional component" and "presentational component" to "stateless component" (ReactJS)
 ##### [0.25.3] Close issue #70
 * Refactor the ccReactJS_Component_Presentational (ReactJS)
 ##### [0.25.2] Close issue #69

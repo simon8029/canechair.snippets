@@ -16,46 +16,45 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 ### React:
 |Snippet Name|Keyboard Shortcut|
 |------------------------------------------------------|--------------------------------------------------|
-| ReactJS : Import : Module                            | ccReactjs_Import_Module                          |
-| ReactJS : Component : Container                      | ccReactjs_Component_ Container                   |
-| ReactJS : Component : Presentational                 | ccReactjs_Component_ Presentational              |
-| ReactJS : Component : Functional                     | ccReactjs_Component_Functional                   |
-| ReactJS : Function : ArrowFunction                   | ccReactjs_Function_ArrowFunction                 |
-| ReactJS : Function : PropTypes                       | ccReactjs_Function_PropTypes                     |
-| ReactJS : Function : SetState                        | ccReactjs_Function_SetState                      |
-| ReactJS : Function : ComponentWillReceiveProps       | ccReactjs_Function_ComponentWillReceiveProps     |
-| ReactJS : Redux : Store                              | ccReactjs_Redux_Store                            |
-| ReactJS : Redux : RootReducer                        | ccReactjs_Redux_RootReducer                      |
-| ReactJS : Redux : Action                             | ccReactjs_Redux_Action                           |
-| ReactJS : Reducer : NewReducer                       | ccReactjs_Reducer_NewReducer                     |
-| ReactJS : ReactDom : Render                          | ccReactjs_ReactDom_Render                        |
-| ReactJS : Class : Render                             | ccReactjs_Class_Render                           |
-| ReactJS : Class : Constructor                        | ccReactjs_Class_Constructor                      |
-| ReactJS : PureReact : Create : Class                 | ccReactjs_React_Create_Class                     |
-| ReactJS : PureReact : Create : Element               | ccReactjs_React_Create_Element                   |
-| ReactJS : PureReact : FunctionalComponent            | ccReactjs_React_FunctionalComponent              |
-| ReactJS : Element : Div                              | ccReactjs_Element_Div                            |
-| ReactJS : Element : Nav                              | ccReactjs_Element_Nav                            |
-| ReactJS : Element : Section                          | ccReactjs_Element_Section                        |
-| ReactJS : Element : Span                             | ccReactjs_Element_Span                           |
-| ReactJS : Element : A                                | ccReactjs_Element_A                              |
-| ReactJS : Element : Image                            | ccReactjs_Element_Image                          |
-| ReactJS : Element : Article                          | ccReactjs_Element_Article                        |
-| ReactJS : Element : Label                            | ccReactjs_Element_Label                          |
-| ReactJS : Element : Icon                             | ccReactjs_Element_Icon                           |
-| ReactJS : Element : Form                             | ccReactjs_Element_Form                           |
-| ReactJS : Element : Link                             | ccReactjs_Element_Link                           |
-| ReactJS : Element : Input                            | ccReactjs_Element_Input                          |
-| ReactJS : Element : Button                           | ccReactjs_Element_Button                         |
-| ReactJS : Element : H1                               | ccReactjs_Element_H1                             |
-| ReactJS : Element : H2                               | ccReactjs_Element_H2                             |
-| ReactJS : Element : H3                               | ccReactjs_Element_H3                             |
-| ReactJS : Element : H4                               | ccReactjs_Element_H4                             |
-| ReactJS : Element : H5                               | ccReactjs_Element_H5                             |
-| ReactJS : Element : Ul                               | ccReactjs_Element_Ul                             |
-| ReactJS : Element : Li                               | ccReactjs_Element_Li                             |
-| ReactJS : Element : Paragraph                        | ccReactjs_Element_P                              |
-| ReactJS : Route : AddRoute                           | ccReactjs_Route_AddRoute                         |
+| ReactJS : Import : Module                            | ccReactJS_Import_Module                          |
+| ReactJS : Component : Container                      | ccReactJS_Component_ Container                   |
+| ReactJS : Component : Stateless                      | ccReactJS_Component_Stateless                    |
+| ReactJS : Function : ArrowFunction                   | ccReactJS_Function_ArrowFunction                 |
+| ReactJS : Function : PropTypes                       | ccReactJS_Function_PropTypes                     |
+| ReactJS : Function : SetState                        | ccReactJS_Function_SetState                      |
+| ReactJS : Function : ComponentWillReceiveProps       | ccReactJS_Function_ComponentWillReceiveProps     |
+| ReactJS : Redux : Store                              | ccReactJS_Redux_Store                            |
+| ReactJS : Redux : RootReducer                        | ccReactJS_Redux_RootReducer                      |
+| ReactJS : Redux : Action                             | ccReactJS_Redux_Action                           |
+| ReactJS : Reducer : NewReducer                       | ccReactJS_Reducer_NewReducer                     |
+| ReactJS : ReactDom : Render                          | ccReactJS_ReactDom_Render                        |
+| ReactJS : Class : Render                             | ccReactJS_Class_Render                           |
+| ReactJS : Class : Constructor                        | ccReactJS_Class_Constructor                      |
+| ReactJS : PureReact : Create : Class                 | ccReactJS_React_Create_Class                     |
+| ReactJS : PureReact : Create : Element               | ccReactJS_React_Create_Element                   |
+| ReactJS : PureReact : FunctionalComponent            | ccReactJS_React_FunctionalComponent              |
+| ReactJS : Element : Div                              | ccReactJS_Element_Div                            |
+| ReactJS : Element : Nav                              | ccReactJS_Element_Nav                            |
+| ReactJS : Element : Section                          | ccReactJS_Element_Section                        |
+| ReactJS : Element : Span                             | ccReactJS_Element_Span                           |
+| ReactJS : Element : A                                | ccReactJS_Element_A                              |
+| ReactJS : Element : Image                            | ccReactJS_Element_Image                          |
+| ReactJS : Element : Article                          | ccReactJS_Element_Article                        |
+| ReactJS : Element : Label                            | ccReactJS_Element_Label                          |
+| ReactJS : Element : Icon                             | ccReactJS_Element_Icon                           |
+| ReactJS : Element : Form                             | ccReactJS_Element_Form                           |
+| ReactJS : Element : Link                             | ccReactJS_Element_Link                           |
+| ReactJS : Element : Input                            | ccReactJS_Element_Input                          |
+| ReactJS : Element : Button                           | ccReactJS_Element_Button                         |
+| ReactJS : Element : H1                               | ccReactJS_Element_H1                             |
+| ReactJS : Element : H2                               | ccReactJS_Element_H2                             |
+| ReactJS : Element : H3                               | ccReactJS_Element_H3                             |
+| ReactJS : Element : H4                               | ccReactJS_Element_H4                             |
+| ReactJS : Element : H5                               | ccReactJS_Element_H5                             |
+| ReactJS : Element : Ul                               | ccReactJS_Element_Ul                             |
+| ReactJS : Element : Li                               | ccReactJS_Element_Li                             |
+| ReactJS : Element : Paragraph                        | ccReactJS_Element_P                              |
+| ReactJS : Route : AddRoute                           | ccReactJS_Route_AddRoute                         |
 
 ### ReactNative:
 |Snippet Name|Keyboard Shortcut|
