@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.26.0] Close issue #73
+* Add test snippets for tsx file (TSX)
 ##### [0.25.4] Close issue #72
 * Combine "funtional component" and "presentational component" to "stateless component" (ReactJS)
 ##### [0.25.3] Close issue #70
