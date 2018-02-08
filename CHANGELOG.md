@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.28.0] (#75)
+* Add ccReactJS_TSX_Component_Container (TSX)
 ##### [0.27.0] (#75)
 * Add ccReactJS_TSX_PresentationalComponent (TSX)
 ##### [0.26.0] Close issue #73
