@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.27.0] (#75)
+* Add ccReactJS_TSX_PresentationalComponent (TSX)
 ##### [0.26.0] Close issue #73
 * Add test snippets for tsx file (TSX)
 ##### [0.25.4] Close issue #72

@@ -1,0 +1,25 @@
+{
+    "ReactJS : TSX : PresentationalComponent": {
+        "prefix": "ccReactJS_TSX_PresentationalComponent",
+        "body": [
+            "import * as React from 'react';\r",
+            "import { ${1:__ComponentName__}Model } from 'types/modelTypes/${1:__ComponentName__}Model';\r",
+            "\r",
+            "type ${1:__ComponentName__}Props = {\r",
+            "  ${2:__prop__}\r",
+            "};\r",
+            "\r",
+            "const ${1:__ComponentName__} = (props: ${1:__ComponentName__}Props) => {\r",
+            "  return (\r",
+            "    <div>\r",
+            "      ${1:__ComponentName__} working.\r",
+            "    </div>\r",
+            "  );\r",
+            "};\r",
+            "\r",
+            "export default ${1:__ComponentName__};\r",
+            ""
+        ],
+        "description": "Import module."
+    }
+}

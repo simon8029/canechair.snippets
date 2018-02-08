@@ -55,6 +55,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : Element : Li                               | ccReactJS_Element_Li                             |
 | ReactJS : Element : Paragraph                        | ccReactJS_Element_P                              |
 | ReactJS : Route : AddRoute                           | ccReactJS_Route_AddRoute                         |
+| ReactJS : TSX : PresentationalComponent              | ccReactJS_TSX_PresentationalComponent            |
 
 ### ReactNative:
 |Snippet Name|Keyboard Shortcut|
