@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.28.3] 
+* refactor the "ThisPropsType" in the TSX component container snippets (TSX)
 ##### [0.28.2] 
 * reFormat the TSX component container snippets (TSX)
 ##### [0.28.1] (#76)
