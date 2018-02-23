@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.30.0] (#78)
+* Add ccReactJS_Action_NewAction snippet (ReactJS TypeScript)
 ##### [0.29.0] (#77)
 * Add ccReactJS_Action_Interface snippet (ReactJS TypeScript)
 ##### [0.28.4] 
