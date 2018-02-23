@@ -111,7 +111,7 @@
 		],
 		"description": "Create this.SetState() method."
 	},
-	"React : Method": {
+	"ReactJS : Method": {
 		"prefix": "ccReactJS_Class_Method",
 		"body": [
 			"function ${1:__functionName__}(){",
@@ -120,7 +120,7 @@
 		],
 		"description": "Create a ReactJS method"
 	},
-	"React : Component : Container": {
+	"ReactJS : Component : Container": {
 		"prefix": "ccReactJS_Component_Container",
 		"body": [
 			"import React from 'react';",
@@ -163,7 +163,7 @@
 		],
 		"description": "Create a ReactJS container component"
 	},
-	"React : Component : Presentational": {
+	"ReactJS : Component : Presentational": {
 		"prefix": "ccReactJS_Component_Presentational",
 		"body": [
 			"import React from 'react';",
@@ -185,7 +185,7 @@
 		],
 		"description": "Create a ReactJS Presentational Component"
 	},
-	"React : Component : Functional": {
+	"ReactJS : Component : Functional": {
 		"prefix": "ccReactJS_Component_Functional",
 		"body": [
 			"import React from 'react';",
@@ -198,7 +198,7 @@
 		],
 		"description": "Create a ReactJS Functional Component"
 	},
-	"React : Reducer : NewReducer": {
+	"ReactJS : Reducer : NewReducer": {
 		"prefix": "ccReactJS_Reducer_NewReducer",
 		"body": [
 			"const initialState = {}",
@@ -212,5 +212,48 @@
 			"}"
 		],
 		"description": "Create a ReactJS Reducer."
+	},
+	"ReactJS : Action : Interface": {
+		"prefix": "ccReactJS_Action_Interface",
+		"body": [
+			"import * as ActionTypes from 'types/actionTypes';\r",
+			"import { ${1:__ComponentName__}Model } from 'types/modelTypes/${1:__ComponentName__}Model';\r",
+			"\r",
+			"export interface IGetAll${1:__ComponentName__}Success {\r",
+			"  type: ActionTypes.${1:__ComponentName__}_GET_ALL_SUCCESS;\r",
+			"  ${1:__ComponentName__}Array: ${1:__ComponentName__}Model[];\r",
+			"}\r",
+			"\r",
+			"export interface IGet${1:__ComponentName__}ByIdSuccess {\r",
+			"  type: ActionTypes.${1:__ComponentName__}_GET_BY_ID_SUCCESS;\r",
+			"  ${1:__ComponentName__}: ${1:__ComponentName__}Model;\r",
+			"}\r",
+			"\r",
+			"export interface IAddNew${1:__ComponentName__}Success {\r",
+			"  type: ActionTypes.${1:__ComponentName__}_ADD_SUCCESS;\r",
+			"  ${1:__ComponentName__}: ${1:__ComponentName__}Model;\r",
+			"}\r",
+			"\r",
+			"export interface IUpdate${1:__ComponentName__}Success {\r",
+			"  type: ActionTypes.${1:__ComponentName__}_UPDATE_SUCCESS;\r",
+			"  ${1:__ComponentName__}: ${1:__ComponentName__}Model;\r",
+			"}\r",
+			"\r",
+			"export interface IDelete${1:__ComponentName__}Success {\r",
+			"  type: ActionTypes.${1:__ComponentName__}_DELETE_SUCCESS;\r",
+			"  ${1:__ComponentName__}: ${1:__ComponentName__}Model;\r",
+			"}\r",
+			"\r",
+			"export type I${1:__ComponentName__}Action =\r",
+			"  IGetAll${1:__ComponentName__}Success\r",
+			"  | IGet${1:__ComponentName__}ByIdSuccess\r",
+			"  | IAddNew${1:__ComponentName__}Success\r",
+			"  | IUpdate${1:__ComponentName__}Success\r",
+			"  | IDelete${1:__ComponentName__}Success;\r",
+			"\r",
+			"export default I${1:__ComponentName__}Action;\r",
+			""
+		],
+		"description": "Create an action interface"
 	}
 }

@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.29.0] (#77)
+* Add ccReactJS_Action_Interface snippet (ReactJS TypeScript)
 ##### [0.28.4] 
 * refactor the ccReactJS_TSX_Component_Container snippet (TSX)
 ##### [0.28.3] 
