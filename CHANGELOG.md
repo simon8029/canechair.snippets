@@ -1,5 +1,10 @@
 # Change Log
 
+##### [0.31.1] (#79)
+* Add ReactJS_Type_ActionType snippet (ReactJS TypeScript) (#79)
+* Add ccReactJS_Service_NewService snippet (ReactJS TypeScript) (#79)
+* Fix issue of actionName not found in create new NewAction snippet (ReactJS TypeScript) (#79)
+* Fix issue of actionName not found in create new Action Interface snippet (ReactJS TypeScript) (#79)
 ##### [0.30.1] (#80)
 * Fix the unavaliable issue of ReactJS Typescript related snippets (ReactJS TypeScript)
 ##### [0.30.0] (#78)

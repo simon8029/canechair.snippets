@@ -1,11 +1,12 @@
-# CaneChair.Snippets - React, Angular, ReactNative, Jest, Express, Mongoose, MongoDB (for VS Code)
+# [Simon's CaneChair] Snippets - React, Angular, ReactNative, Jest, Express, Mongoose, MongoDB (for VS Code)
 ##### (It's time to sit down and enjoy the rocking...)
 [![GitHub last commit](https://img.shields.io/github/last-commit/simon8029/CaneChair.Snippets.svg)]() [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/4w/simon8029/CaneChair.Snippets.svg)]() [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/Simon8029.canechairsnippets.svg)]() [![GitHub issues](https://img.shields.io/github/issues/simon8029/CaneChair.Snippets.svg)]() [![GitHub closed issues](https://img.shields.io/github/issues-closed/simon8029/CaneChair.Snippets.svg?colorB=green)]() [![license](https://img.shields.io/github/license/simon8029/CaneChair.Snippets.svg)]() 
 ***
 
 Snippets for Javascript Full-Stack Development using "VS Code", include: Vanilla JavaScript, TypeScript, React, ReactNative, Jest, Angular, Express, NodeJs, Mongoose, MongoDB
   
-###### (Keyboard shortcut works while entered enough characters to disambiguate the term, no fully input needed.)
+#### (Keyboard shortcut works while entered enough characters to disambiguate the term, no fully input needed.)
+#### (All snippets start with "cc" for convinence, stands for "CaneChair")
 ***
  
 Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace.visualstudio.com/items?itemName=Simon8029.canechairsnippets)
@@ -25,6 +26,8 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : Function : ComponentWillReceiveProps       | ccReactJS_Function_ComponentWillReceiveProps     |
 | ReactJS : Action : Interface                         | ccReactJS_Action_Interface                       |
 | ReactJS : Action : NewAction                         | ccReactJS_Action_NewAction                       |
+| ReactJS : Type : ActionType                          | ccReactJS_Type_ActionType                        |
+| ReactJS : Service : NewService                       | ccReactJS_Service_NewService                     |
 | ReactJS : Redux : Store                              | ccReactJS_Redux_Store                            |
 | ReactJS : Redux : RootReducer                        | ccReactJS_Redux_RootReducer                      |
 | ReactJS : Redux : Action                             | ccReactJS_Redux_Action                           |
