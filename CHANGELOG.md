@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.30.1] (#80)
+* Fix the unavaliable issue of ReactJS Typescript related snippets (ReactJS TypeScript)
 ##### [0.30.0] (#78)
 * Add ccReactJS_Action_NewAction snippet (ReactJS TypeScript)
 ##### [0.29.0] (#77)

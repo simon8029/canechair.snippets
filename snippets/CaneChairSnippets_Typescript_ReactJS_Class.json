@@ -257,7 +257,7 @@
 		"description": "Create an action interface"
 	},
 	"ReactJS : Action : NewAction": {
-		"prefix": "ReactJS_Action_NewAction",
+		"prefix": "ccReactJS_Action_NewAction",
 		"body": [
 			"import * as ${1:__ComponentName__}ActionTypes from 'types/actionTypes/${1:__ComponentName__}ActionTypes';\r",
 			"import { ${1:__ComponentName__}Model } from 'types/modelTypes/${1:__ComponentName__}Model';\r",
