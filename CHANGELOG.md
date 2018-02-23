@@ -1,16 +1,18 @@
 # Change Log
 
+##### [0.31.2] (#81)
+* Refactor tsx container snippets: storeStateType, nextProps type. (ReactJS TSX) (#81)
 ##### [0.31.1] (#79)
-* Add ReactJS_Type_ActionType snippet (ReactJS TypeScript) (#79)
-* Add ccReactJS_Service_NewService snippet (ReactJS TypeScript) (#79)
-* Fix issue of actionName not found in create new NewAction snippet (ReactJS TypeScript) (#79)
-* Fix issue of actionName not found in create new Action Interface snippet (ReactJS TypeScript) (#79)
+* Add ReactJS_Type_ActionType snippet (ReactJS TS) (#79)
+* Add ccReactJS_Service_NewService snippet (ReactJS TS) (#79)
+* Fix issue of actionName not found in create new NewAction snippet (ReactJS TS) (#79)
+* Fix issue of actionName not found in create new Action Interface snippet (ReactJS TS) (#79)
 ##### [0.30.1] (#80)
-* Fix the unavaliable issue of ReactJS Typescript related snippets (ReactJS TypeScript)
+* Fix the unavaliable issue of ReactJS Typescript related snippets (ReactJS TS)
 ##### [0.30.0] (#78)
-* Add ccReactJS_Action_NewAction snippet (ReactJS TypeScript)
+* Add ccReactJS_Action_NewAction snippet (ReactJS TS)
 ##### [0.29.0] (#77)
-* Add ccReactJS_Action_Interface snippet (ReactJS TypeScript)
+* Add ccReactJS_Action_Interface snippet (ReactJS TS)
 ##### [0.28.4] 
 * refactor the ccReactJS_TSX_Component_Container snippet (TSX)
 ##### [0.28.3] 
