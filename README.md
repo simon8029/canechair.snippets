@@ -1,9 +1,9 @@
-# [Simon's CaneChair] Snippets - React, Angular, ReactNative, Jest, Express, Mongoose, MongoDB (for VS Code)
+# [Simon's CaneChair] Snippets for ReactJS (TypeScripted), ReactNative, and more... (for VS Code in ES6)
 ##### (It's time to sit down and enjoy the rocking...)
 [![GitHub last commit](https://img.shields.io/github/last-commit/simon8029/CaneChair.Snippets.svg)]() [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/4w/simon8029/CaneChair.Snippets.svg)]() [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/Simon8029.canechairsnippets.svg)]() [![GitHub issues](https://img.shields.io/github/issues/simon8029/CaneChair.Snippets.svg)]() [![GitHub closed issues](https://img.shields.io/github/issues-closed/simon8029/CaneChair.Snippets.svg?colorB=green)]() [![license](https://img.shields.io/github/license/simon8029/CaneChair.Snippets.svg)]() 
 ***
 
-Snippets for Javascript Full-Stack Development using "VS Code", include: Vanilla JavaScript, TypeScript, React, ReactNative, Jest, Angular, Express, NodeJs, Mongoose, MongoDB
+Snippets for Javascript Full-Stack Development using "VS Code", include: ReactJS, TypeScript, React, ReactNative, Vanilla JavaScript, Jest, Express, NodeJs, Mongoose, MongoDB, and more...
   
 #### (Keyboard shortcut works while entered enough characters to disambiguate the term, no fully input needed.)
 #### (All snippets start with "cc" for convinence, stands for "CaneChair")
@@ -14,55 +14,56 @@ Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace
 GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
 
-### React:
+### ReactJS (TypeScripted):
 |Snippet Name|Keyboard Shortcut|
 |------------------------------------------------------|--------------------------------------------------|
-| ReactJS : Import : Module                            | ccReactJS_Import_Module                          |
-| ReactJS : Component : Container                      | ccReactJS_Component_ Container                   |
-| ReactJS : Component : Stateless                      | ccReactJS_Component_Stateless                    |
-| ReactJS : Function : ArrowFunction                   | ccReactJS_Function_ArrowFunction                 |
-| ReactJS : Function : PropTypes                       | ccReactJS_Function_PropTypes                     |
-| ReactJS : Function : SetState                        | ccReactJS_Function_SetState                      |
-| ReactJS : Function : ComponentWillReceiveProps       | ccReactJS_Function_ComponentWillReceiveProps     |
-| ReactJS : Action : Interface                         | ccReactJS_Action_Interface                       |
-| ReactJS : Action : NewAction                         | ccReactJS_Action_NewAction                       |
-| ReactJS : Type : ActionType                          | ccReactJS_Type_ActionType                        |
-| ReactJS : Service : NewService                       | ccReactJS_Service_NewService                     |
-| ReactJS : Redux : Store                              | ccReactJS_Redux_Store                            |
-| ReactJS : Redux : RootReducer                        | ccReactJS_Redux_RootReducer                      |
-| ReactJS : Redux : Action                             | ccReactJS_Redux_Action                           |
-| ReactJS : Reducer : NewReducer                       | ccReactJS_Reducer_NewReducer                     |
-| ReactJS : ReactDom : Render                          | ccReactJS_ReactDom_Render                        |
-| ReactJS : Class : Render                             | ccReactJS_Class_Render                           |
-| ReactJS : Class : Constructor                        | ccReactJS_Class_Constructor                      |
-| ReactJS : PureReact : Create : Class                 | ccReactJS_React_Create_Class                     |
-| ReactJS : PureReact : Create : Element               | ccReactJS_React_Create_Element                   |
-| ReactJS : PureReact : FunctionalComponent            | ccReactJS_React_FunctionalComponent              |
-| ReactJS : Element : Div                              | ccReactJS_Element_Div                            |
-| ReactJS : Element : Nav                              | ccReactJS_Element_Nav                            |
-| ReactJS : Element : Section                          | ccReactJS_Element_Section                        |
-| ReactJS : Element : Span                             | ccReactJS_Element_Span                           |
-| ReactJS : Element : A                                | ccReactJS_Element_A                              |
-| ReactJS : Element : Image                            | ccReactJS_Element_Image                          |
-| ReactJS : Element : Article                          | ccReactJS_Element_Article                        |
-| ReactJS : Element : Label                            | ccReactJS_Element_Label                          |
-| ReactJS : Element : Icon                             | ccReactJS_Element_Icon                           |
-| ReactJS : Element : Form                             | ccReactJS_Element_Form                           |
-| ReactJS : Element : Link                             | ccReactJS_Element_Link                           |
-| ReactJS : Element : Input                            | ccReactJS_Element_Input                          |
-| ReactJS : Element : Button                           | ccReactJS_Element_Button                         |
-| ReactJS : Element : H1                               | ccReactJS_Element_H1                             |
-| ReactJS : Element : H2                               | ccReactJS_Element_H2                             |
-| ReactJS : Element : H3                               | ccReactJS_Element_H3                             |
-| ReactJS : Element : H4                               | ccReactJS_Element_H4                             |
-| ReactJS : Element : H5                               | ccReactJS_Element_H5                             |
-| ReactJS : Element : Ul                               | ccReactJS_Element_Ul                             |
-| ReactJS : Element : Li                               | ccReactJS_Element_Li                             |
-| ReactJS : Element : Paragraph                        | ccReactJS_Element_P                              |
-| ReactJS : Route : AddRoute                           | ccReactJS_Route_AddRoute                         |
+| ReactJS : TS : Function : SetState                   | ccReactJS_TS_Function_SetState                   |
+| ReactJS : TS : Redux : Action : Interface            | ccReactJS_TS_Action_Interface                    |
+| ReactJS : TS : Redux : Action : NewAction            | ccReactJS_TS_Action_NewAction                    |
+| ReactJS : TS : Redux : Reducer : NewReducer          | ccReactJS_TS_Reducer_NewReducer                  |
+| ReactJS : TS : Service : NewService                  | ccReactJS_TS_Service_NewService                  |
+| ReactJS : TS : Route : NewRoute                      | ccReactJS_TS_Route_NewRoute                      |
+| ReactJS : TS : Type : ActionType                     | ccReactJS_TS_Type_ActionType                     |
 | ReactJS : TSX : Component : Container                | ccReactJS_TSX_Component_Container                |
 | ReactJS : TSX : Component : Presentational           | ccReactJS_TSX_Component_Presentational           |
+| ReactJS : TSX : Component : ListComponent            | ccReactJS_TSX_Component_ListComponent            |
+| ReactJS : TSX : Element : Div                        | ccReactJS_TSX_Element_Div                        |
+| ReactJS : TSX : Element : Nav                        | ccReactJS_TSX_Element_Nav                        |
+| ReactJS : TSX : Element : Section                    | ccReactJS_TSX_Element_Section                    |
+| ReactJS : TSX : Element : Span                       | ccReactJS_TSX_Element_Span                       |
+| ReactJS : TSX : Element : A                          | ccReactJS_TSX_Element_A                          |
+| ReactJS : TSX : Element : Image                      | ccReactJS_TSX_Element_Image                      |
+| ReactJS : TSX : Element : Article                    | ccReactJS_TSX_Element_Article                    |
+| ReactJS : TSX : Element : Label                      | ccReactJS_TSX_Element_Label                      |
+| ReactJS : TSX : Element : Icon                       | ccReactJS_TSX_Element_Icon                       |
+| ReactJS : TSX : Element : Form                       | ccReactJS_TSX_Element_Form                       |
+| ReactJS : TSX : Element : Link                       | ccReactJS_TSX_Element_Link                       |
+| ReactJS : TSX : Element : Input                      | ccReactJS_TSX_Element_Input                      |
+| ReactJS : TSX : Element : Button                     | ccReactJS_TSX_Element_Button                     |
+| ReactJS : TSX : Element : H1                         | ccReactJS_TSX_Element_H1                         |
+| ReactJS : TSX : Element : H2                         | ccReactJS_TSX_Element_H2                         |
+| ReactJS : TSX : Element : H3                         | ccReactJS_TSX_Element_H3                         |
+| ReactJS : TSX : Element : H4                         | ccReactJS_TSX_Element_H4                         |
+| ReactJS : TSX : Element : H5                         | ccReactJS_TSX_Element_H5                         |
+| ReactJS : TSX : Element : Ul                         | ccReactJS_TSX_Element_Ul                         |
+| ReactJS : TSX : Element : Li                         | ccReactJS_TSX_Element_Li                         |
+| ReactJS : TSX : Element : Paragraph                  | ccReactJS_TSX_Element_P                          |
 
+### Vanilla JavaScript 
+|Snippet Name|Keyboard Shortcut|
+|----------------------------------------|-----------------------------------------| 
+| Common : PrintToConsole                | cclog                                   |
+| Common : Import : Module               | ccCommon_Import_Module                  |
+| Common : Class : Constructor           | ccCommon_Class_Constructor              |
+| Common : Function : ArrowFunction      | ccCommon_Function_ArrowFunction         |
+| Common : Function : If                 | ccCommon_Function_If                    |
+| Common : Function : Switch             | ccCommon_Function_Switch                |
+| Common : Object : Assign               | ccCommon_Object_Assign                  |
+| Common : Array : Map                   | ccCommon_Array_Map                      |
+| Common : Array : Find                  | ccCommon_Array_Find                     |
+| Common : Array : FindIndex             | ccCommon_Array_FindIndex                |
+| Common : Array : Filter                | ccCommon_Array_Filter                   |
+| Common : Array : ForEach               | ccCommon_Array_ForEach                  |
 ### ReactNative:
 |Snippet Name|Keyboard Shortcut|
 |------------------------------------------------------|--------------------------------------------------|
@@ -78,20 +79,6 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactNative : Element : Switch                       | ccReactNative_Element_Switch                     |
 | ReactNative : Element : Picker                       | ccReactNative_Element_Picker                     |
 | ReactNative : Element : DatePicker                   | ccReactNative_Element_DatePicker                 |
-
-### Vanilla JavaScript 
-|Snippet Name|Keyboard Shortcut|
-|-------------------------------------------|-----------------------------------------| 
-| JavaScript : Common : PrintToConsole      | cclog                                   |
-| JavaScript : Function : If                | ccJavaScript_Function_If                |
-| JavaScript : Function : AnonymousFunction | ccJavaScript_Function_AnonymousFunction |
-| JavaScript : Function : Switch            | ccJavaScript_Function_Switch            |
-| JavaScript : Object : Assign              | ccJavaScript_Object_Assign              |
-| JavaScript : Array : Map                  | ccJavaScript_Array_Map                  |
-| JavaScript : Array : Find                 | ccJavaScript_Array_Find                 |
-| JavaScript : Array : FindIndex            | ccJavaScript_Array_FindIndex            |
-| JavaScript : Array : Filter               | ccJavaScript_Array_Filter               |
-| JavaScript : Array : ForEach              | ccJavaScript_Array_ForEach              |
 ### Test : Jest
 |Snippet Name|Keyboard Shortcut|
 |-----------------------------------------------------|-------------------------------------------------| 
@@ -111,7 +98,6 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | Test : Jest : Expect : ToHaveBeenCalled             | ccTest_Jest_Expect_ToHaveBeenCalled             |                  
 | Test : Jest : Expect : ToBeCalled                   | ccTest_Jest_Expect_ToBeCalled                   |            
 | Test : Jest : Expect : ToHaveBeenCalledTimes        | ccTest_Jest_Expect_ToHaveBeenCalledTimes        |                       
-| Test : Jest : Expect : ToHaveBeenLastCalledWith     | ccTest_Jest_Expect_ToHaveBeenLastCalledWith     |                          
 | Test : Jest : Expect : LastCalledWith               | ccTest_Jest_Expect_LastCalledWith               |                
 | Test : Jest : Expect : ToBeCloseTo                  | ccTest_Jest_Expect_ToBeCloseTo                  |             
 | Test : Jest : Expect : ToBeDefined                  | ccTest_Jest_Expect_ToBeDefined                  |             
@@ -133,25 +119,6 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | Test : Jest : Expect : ToThrow                      | ccTest_Jest_Expect_ToThrow                      |         
 | Test : Jest : Expect : ToThrowError                 | ccTest_Jest_Expect_ToThrowError                 |              
 | Test : Jest : Expect : ToThrowErrorMatchingSnapshot | ccTest_Jest_Expect_ToThrowErrorMatchingSnapshot |
-### Angular:
-##### HTML Template:
-|Snippet Name|Keyboard Shortcut|
-|---------------------------------------------------|----------------------------|
-| Angular : Html                                    | ccHtml                     | 
-| Angular : Html : NgIf                             | ccAngular_Html_NgIf        | 
-| Angular : Html : NgIfThenElse                     | ccAngular_Html_NgFor       |
-| Angular : Html : NgFor                            | ccAngular_Html_NgIfThenElse| 
-| Angular : Component : Service : Import : Module   | ccAngular_Import_Module    |
-| Angular : Component : Service : Import : Module   | ccAngular_Import_Module    |
-| Angular : Component : Service : Import : As       | ccAngular_Import_As        |
-| Angular : Component : Service : Import : Redux    | ccAngular_Import_Redux     |
-| Angular : Component : Service : Export : Class    | ccAngular_Export_Class     |
-| Angular : Component : Service : Export : Function | ccAngular_Export_Function  |
-| Angular : Component : Service : Constructor       | ccAngular_ctor             |
-| Angular : Component : Service : Interface         | ccAngular_Interface        |
-| Angular : Component : Service : Service           | ccAngular_Service          |
-| Angular : Component : Service : Method : If       | ccAngular_Method_If        |
-| Angular : Component : Service : Method : Switch   | ccAngular_Method_Switch    |
 ### Express : 
 |Snippet Name|Keyboard Shortcut|
 |---------------------------------------------------|-----------------------------------------------|
@@ -188,10 +155,6 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | NodeJs : Function : If                | ccNodeJs_Function_If          |
 | NodeJs : Function : For               | ccNodeJs_Function_For         |
 | NodeJs : Function : NewFunction       | ccNodeJs_Function_NewFunction |
-
-
-
-
 ### Gulp : 
 |Snippet Name|Keyboard Shortcut|
 |---------------------------|--------------------------| 

@@ -21,7 +21,31 @@
     "snippets": [
       {
         "language": "typescriptreact",
-        "path": "./snippets/CaneChairSnippets_TSX.json"
+        "path": "./snippets/CaneChairSnippets_ReactJS_TSX.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/CaneChairSnippets_javascript_Common.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/CaneChairSnippets_ReactNative_Elements.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/CaneChairSnippets_javascript_Common.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/CaneChairSnippets_ReactJS_TS.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/CaneChairSnippets_Test_Jest.json"
       },
       {
         "language": "javascript",
@@ -40,100 +64,8 @@
         "path": "./snippets/CaneChairSnippets_Javascript_Common.json"
       },
       {
-        "language": "jsx",
-        "path": "./snippets/CaneChairSnippets_Javascript_Common.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_ReactJS_Class.json"
-      },
-      {
-        "language": "jsx",
-        "path": "./snippets/CaneChairSnippets_ReactJS_Class.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
-      },
-      {
-        "language": "jsx",
-        "path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_ReactNative.json"
-      },
-      {
-        "language": "jsx",
-        "path": "./snippets/CaneChairSnippets_ReactNative.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_ReactNative_Elements.json"
-      },
-      {
-        "language": "jsx",
-        "path": "./snippets/CaneChairSnippets_ReactNative_Elements.json"
-      },
-      {
         "language": "javascript",
         "path": "./snippets/CaneChairSnippets_Javascript_Gulp.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_Test_Jest.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CaneChairSnippets_Typescript_Common.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CaneChairSnippets_Typescript_Angular.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CaneChairSnippets_Typescript_ReactJS_Class.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/CaneChairSnippets_Typescript_Common.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/CaneChairSnippets_Typescript_ReactJS_Class.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/CaneChairSnippets_ReactNative_Elements.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/CaneChairSnippets_Test_Jest.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/CaneChairSnippets_Javascript_Common.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/CaneChairSnippets_ReactJS_Class.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/CaneChairSnippets_ReactNative_Elements.json"
-      },
-      {
-        "language": "html",
-        "path": "./snippets/CaneChairSnippets_Html_Angular.json"
       }
     ]
   }

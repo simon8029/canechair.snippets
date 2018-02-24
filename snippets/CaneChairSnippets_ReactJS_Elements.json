@@ -1,6 +1,6 @@
 {
-	"ReactJS : Comment": {
-		"prefix": "ccReactJS_Comment",
+	"ReactJS : TSX : Comment": {
+		"prefix": "ccReactJS_TSX_Comment",
 		"body": [
 			"{/*",
 			"\t${1}",
@@ -8,15 +8,15 @@
 		],
 		"description": "Create a JSX Comment."
 	},
-	"ReactJS : Element : Section": {
-		"prefix": "ccReactJS_Element_Section",
+	"ReactJS : TSX : Element : Section": {
+		"prefix": "ccReactJS_TSX_Element_Section",
 		"body": [
 			"<section id=\"${1:__id__}\" className=\"${2:__className__}\">${3}</section>"
 		],
 		"description": "Create a JSX <section> element."
 	},
-	"ReactJS : Element : Div": {
-		"prefix": "ccReactJS_Element_Div",
+	"ReactJS : TSX : Element : Div": {
+		"prefix": "ccReactJS_TSX_Element_Div",
 		"body": [
 			"<div id=\"${1:__id__}\" className=\"${2:__className__}\">",
 			"\t${3}",
@@ -24,8 +24,8 @@
 		],
 		"description": "Create a JSX <div> element"
 	},
-	"ReactJS : Element : Nav": {
-		"prefix": "ccReactJS_Element_Nav",
+	"ReactJS : TSX : Element : Nav": {
+		"prefix": "ccReactJS_TSX_Element_Nav",
 		"body": [
 			"<nav id=\"${1:__id__}\" className=\"${2:__className__}\">",
 			"\t${3}",
@@ -33,29 +33,29 @@
 		],
 		"description": "Create a JSX <nav> element"
 	},
-	"ReactJS : Element : Span": {
-		"prefix": "ccReactJS_Element_Span",
+	"ReactJS : TSX : Element : Span": {
+		"prefix": "ccReactJS_TSX_Element_Span",
 		"body": [
 			"<span id=\"${1:__id__}\" className=\"${2:__className__}\">${3}</span>"
 		],
 		"description": "Create a JSX <span> element."
 	},
-	"ReactJS : Element : A": {
-		"prefix": "ccReactJS_Element_A",
+	"ReactJS : TSX : Element : A": {
+		"prefix": "ccReactJS_TSX_Element_A",
 		"body": [
 			"<a href=\"${1:__href__}\" id=\"${2:__id__}\" className=\"${3:__className__}\">${4:__linkText__}</a>"
 		],
 		"description": "Create a JSX <a> element."
 	},
-	"ReactJS : Element : Image": {
-		"prefix": "ccReactJS_Element_Image",
+	"ReactJS : TSX : Element : Image": {
+		"prefix": "ccReactJS_TSX_Element_Image",
 		"body": [
 			"<img src=\"${1:__imagePath__}\" id=\"${2:__id__}\" className=\"${3:__className__}\"/>"
 		],
 		"description": "Create a JSX <img> element."
 	},
-	"ReactJS : Element : Article": {
-		"prefix": "ccReactJS_Element_Article",
+	"ReactJS : TSX : Element : Article": {
+		"prefix": "ccReactJS_TSX_Element_Article",
 		"body": [
 			"<article>",
 			"\t<header>",
@@ -69,22 +69,22 @@
 		],
 		"description": "Create a JSX <article> element."
 	},
-	"ReactJS : Element : Label": {
-		"prefix": "ccReactJS_Element_Label",
+	"ReactJS : TSX : Element : Label": {
+		"prefix": "ccReactJS_TSX_Element_Label",
 		"body": [
 			"<label id=\"${1:__id__}\" className=\"${2:__className__}\">${3}</label>"
 		],
 		"description": "Create a JSX <label> element."
 	},
-	"ReactJS : Element : Icon": {
-		"prefix": "ccReactJS_Element_Icon",
+	"ReactJS : TSX : Element : Icon": {
+		"prefix": "ccReactJS_TSX_Element_Icon",
 		"body": [
 			"<i id=\"${1:__id__}\" className=\"${2:__className__}\" />"
 		],
 		"description": "Create a JSX <i> element"
 	},
-	"ReactJS : Element : Input": {
-		"prefix": "ccReactJS_Element_Input",
+	"ReactJS : TSX : Element : Input": {
+		"prefix": "ccReactJS_TSX_Element_Input",
 		"body": [
 			"<input",
 			"\ttype=\"${1:__type__}\"",
@@ -96,50 +96,50 @@
 		],
 		"description": "Create a JSX <input> element"
 	},
-	"ReactJS : Element : Button": {
-		"prefix": "ccReactJS_Element_Button",
+	"ReactJS : TSX : Element : Button": {
+		"prefix": "ccReactJS_TSX_Element_Button",
 		"body": [
 			"<button id=\"${1:__id__}\" className=\"${2:__className__}\" ${4:__buttonProperties__}>${3:__buttonText__}</button>"
 		],
 		"description": "Create a JSX <button> element"
 	},
-	"ReactJS : Element : H1": {
-		"prefix": "ccReactJS_Element_H1",
+	"ReactJS : TSX : Element : H1": {
+		"prefix": "ccReactJS_TSX_Element_H1",
 		"body": [
 			"<h1>${0}</h1>"
 		],
 		"description": "Create a JSX <h1> element."
 	},
-	"ReactJS : Element : H2": {
-		"prefix": "ccReactJS_Element_H2",
+	"ReactJS : TSX : Element : H2": {
+		"prefix": "ccReactJS_TSX_Element_H2",
 		"body": [
 			"<h2>${0}</h2>"
 		],
 		"description": "Create a JSX <h2> element."
 	},
-	"ReactJS : Element : H3": {
-		"prefix": "ccReactJS_Element_H3",
+	"ReactJS : TSX : Element : H3": {
+		"prefix": "ccReactJS_TSX_Element_H3",
 		"body": [
 			"<h3>${0}</h3>"
 		],
 		"description": "Create a JSX <h3> element."
 	},
-	"ReactJS : Element : H4": {
-		"prefix": "ccReactJS_Element_H4",
+	"ReactJS : TSX : Element : H4": {
+		"prefix": "ccReactJS_TSX_Element_H4",
 		"body": [
 			"<h4>${0}</h4>"
 		],
 		"description": "Create a JSX <h4> element."
 	},
-	"ReactJS : Element : H5": {
-		"prefix": "ccReactJS_Element_H5",
+	"ReactJS : TSX : Element : H5": {
+		"prefix": "ccReactJS_TSX_Element_H5",
 		"body": [
 			"<h5>${0}</h5>"
 		],
 		"description": "Create a JSX <h5> element."
 	},
-	"ReactJS : Element : Ul": {
-		"prefix": "ccReactJS_Element_Ul",
+	"ReactJS : TSX : Element : Ul": {
+		"prefix": "ccReactJS_TSX_Element_Ul",
 		"body": [
 			"<ul className=\"${1:__className__}\">",
 			"\t${0}",
@@ -147,22 +147,22 @@
 		],
 		"description": "Create a JSX <ul> element."
 	},
-	"ReactJS : Element : Li": {
-		"prefix": "ccReactJS_Element_Li",
+	"ReactJS : TSX : Element : Li": {
+		"prefix": "ccReactJS_TSX_Element_Li",
 		"body": [
 			"<li>${0}</li>"
 		],
 		"description": "Create a JSX <li> element."
 	},
-	"ReactJS : Element : Paragraph": {
-		"prefix": "ccReactJS_Element_P",
+	"ReactJS : TSX : Element : Paragraph": {
+		"prefix": "ccReactJS_TSX_Element_P",
 		"body": [
 			"<p>${0}</p>"
 		],
 		"description": "Create a JSX <p> element."
 	},
-	"ReactJS : Element : Form": {
-		"prefix": "ccReactJS_Element_Form",
+	"ReactJS : TSX : Element : Form": {
+		"prefix": "ccReactJS_TSX_Element_Form",
 		"body": [
 			"<form onSubmit={this.onFormSubmit}>",
 			"\t${1}",
@@ -170,8 +170,8 @@
 		],
 		"description": "Create a JSX <form> element."
 	},
-	"ReactJS : Element : Link": {
-		"prefix": "ccReactJS_Element_Link",
+	"ReactJS : TSX : Element : Link": {
+		"prefix": "ccReactJS_TSX_Element_Link",
 		"body": [
 			"<Link to=\"${1:__link__}\" className=\"${2:__className__}\">${3:__linkText__}</Link>"
 		],

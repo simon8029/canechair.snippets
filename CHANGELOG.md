@@ -1,5 +1,9 @@
 # Change Log
 
+##### [0.32.2] (#75)(#82)(#83)
+* Add snippet for create list component (ReactJS TSX) (#82)
+* Consolidate TSX related snippets to one place (ReactJS TSX) (#75)
+* Rename ReactJS Typescript related snippets for better grouping (ReactJS TS) (#83)
 ##### [0.31.2] (#81)
 * Refactor tsx container snippets: storeStateType, nextProps type. (ReactJS TSX) (#81)
 ##### [0.31.1] (#79)
