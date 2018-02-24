@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.33.1] 
+* update README.md
 ##### [0.33.0] (#91)
 * Add ccReactJS_TSX_Component_DetailComponent snippet for TSX (ReactJS TSX)(#91)
 ##### [0.32.9] (#90)

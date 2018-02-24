@@ -27,6 +27,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : TSX : Component : Container                | ccReactJS_TSX_Component_Container                |
 | ReactJS : TSX : Component : Presentational           | ccReactJS_TSX_Component_Presentational           |
 | ReactJS : TSX : Component : ListComponent            | ccReactJS_TSX_Component_ListComponent            |
+| ReactJS : TSX : Component : DetailComponent          | ccReactJS_TSX_Component_DetailComponent          |
 | ReactJS : TSX : Element : Div                        | ccReactJS_TSX_Element_Div                        |
 | ReactJS : TSX : Element : Nav                        | ccReactJS_TSX_Element_Nav                        |
 | ReactJS : TSX : Element : Section                    | ccReactJS_TSX_Element_Section                    |
