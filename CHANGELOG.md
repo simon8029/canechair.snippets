@@ -1,5 +1,9 @@
 # Change Log
 
+##### [0.32.6] (#85)(#86)(#87)
+* Refactor ReactJS Service snippet: set Id to ComponentNameID (ReactJS TS) (#86)
+* Update new reducer snippet to typescripted (ReactJS TS) (#87)
+* Refactor TSX Component Container snippet: move render() block up right below the constructor block (ReactJS TSX) (#85)
 ##### [0.32.3] (#84)
 * Update package.json 
 ##### [0.32.2] (#75)(#82)(#83)
