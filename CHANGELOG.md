@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.32.3] (#84)
+* Update package.json 
 ##### [0.32.2] (#75)(#82)(#83)
 * Add snippet for create list component (ReactJS TSX) (#82)
 * Consolidate TSX related snippets to one place (ReactJS TSX) (#75)
