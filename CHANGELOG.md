@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.32.9] (#89)
+* Add delete method to reactjs component container snippet (ReactJS TSX)(#90)
 ##### [0.32.8] (#89)
 * change all modelId back to id to fit current json-server's id issue. (REactJS TSX TS) (#89)
 ##### [0.32.7] (#88)
