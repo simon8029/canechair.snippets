@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.32.7] (#88)
+* update ccReactJS_TSX_Component_ListComponent snippet's d.original.id to model's id name (ReactJS TSX) (#88)
 ##### [0.32.6] (#85)(#86)(#87)
 * Refactor ReactJS Service snippet: set Id to ComponentNameID (ReactJS TS) (#86)
 * Update new reducer snippet to typescripted (ReactJS TS) (#87)

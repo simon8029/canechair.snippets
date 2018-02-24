@@ -126,7 +126,7 @@
             "    {",
             "      Header: '',",
             "      id: 'btn_details',",
-            "      Cell: (d: any) => <Link to={`/${1:__ComponentName__}/${d.original.id}`} className=\"btn btn-outline-success btn-sm mx-1\" > Details</Link>,",
+            "      Cell: (d: any) => <Link to={`/${1:__ComponentName__}/${d.original.${1:__ComponentName__}Id}`} className=\"btn btn-outline-success btn-sm mx-1\" > Details</Link>,",
             "      filterable: false,",
             "      maxWidth: 75",
             "    },",
