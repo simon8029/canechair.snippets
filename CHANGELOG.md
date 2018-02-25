@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.33.2] (#92)
+* fix the issue in ccReactJS_TSX_Component_Container: wrong close bracket (ReactJS TSX) (#92)
 ##### [0.33.1] 
 * update README.md
 ##### [0.33.0] (#91)
