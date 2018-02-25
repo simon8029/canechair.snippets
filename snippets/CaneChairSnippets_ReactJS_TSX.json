@@ -55,7 +55,7 @@
             "  //",
             "}",
             "",
-            "function mapStateToProps(storeState: StoreStateType): StateToPropsType {",
+            "function mapStateToProps(storeState: StoreStateType, ownProps: OwnProps): StateToPropsType {",
             "  return {",
             "    ${2:__ModelName__}Array: storeState.${2:__ModelName__}Array",
             "  };",
