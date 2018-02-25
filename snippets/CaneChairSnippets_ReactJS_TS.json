@@ -6,13 +6,6 @@
 		],
 		"description": "Create a Route (TypeScript)"
 	},
-	"ReactJS : TS : Function : SetState": {
-		"prefix": "ccReactJS_TS_Function_SetState",
-		"body": [
-			"this.setState({ ${1} });"
-		],
-		"description": "Create this.SetState() method (TypeScript)"
-	},
 	"ReactJS : TS : Reducer : NewReducer": {
 		"prefix": "ccReactJS_TS_Reducer_NewReducer",
 		"body": [

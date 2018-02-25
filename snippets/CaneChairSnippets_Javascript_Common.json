@@ -57,6 +57,13 @@
 		],
 		"description": "Create a JSX arrow function."
 	},
+	"ReactJS : Function : SetState": {
+		"prefix": "ccCommon_Function_SetState",
+		"body": [
+			"this.setState({ ${1} });"
+		],
+		"description": "Create this.SetState() method (TypeScript)"
+	},
 	"Common : Object : Assign": {
 		"prefix": "ccCommon_Object_Assign",
 		"body": [

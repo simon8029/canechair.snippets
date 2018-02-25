@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.33.4] 
+* Move setState snippet to Common group (JavaScript)
 ##### [0.33.3] (#93)
 * add ownProps: OwnProps to ReactJS component container snippet. (ReactJS TSX)(#93)
 ##### [0.33.2] (#92)
