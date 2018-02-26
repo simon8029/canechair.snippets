@@ -262,7 +262,7 @@
             "  }",
             "",
             "  componentWillMount() {",
-            "    // Store.dispatch(${1:__ModelName__}Actions.getAll${1:__ModelName__}s());",
+            "    // Store.dispatch(${1:__ModelName__}Actions.getAll${1:__ModelName__}());",
             "  }",
             "",
             "  componentDidMount() {",

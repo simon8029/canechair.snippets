@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.33.7] (#100)
+* Refactor TSX DetailComponent snippets: remove 's' from getAll() function. (ReactJS TS) (#100)
 ##### [0.33.6] (#99)
 * Refactor service snippet: remove 's' from getAll function (ReactJS TS) (#99)
 ##### [0.33.5] (#94)
