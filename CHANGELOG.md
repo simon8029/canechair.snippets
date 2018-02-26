@@ -1,7 +1,9 @@
 # Change Log
 
+##### [0.33.8] (#101)
+* Refactor TSX DetailComponent snippets: move add/update button to top-right #101 (ReactJS TSX) (#101)
 ##### [0.33.7] (#100)
-* Refactor TSX DetailComponent snippets: remove 's' from getAll() function. (ReactJS TS) (#100)
+* Refactor TSX DetailComponent snippets: remove 's' from getAll() function. (ReactJS TSX) (#100)
 ##### [0.33.6] (#99)
 * Refactor service snippet: remove 's' from getAll function (ReactJS TS) (#99)
 ##### [0.33.5] (#94)

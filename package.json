@@ -2,7 +2,7 @@
   "name": "canechairsnippets",
   "displayName": "CaneChair.Snippets - TypeScripted ReactJS, ReactNative, MERN Stack in ES6",
   "description": "It's time to sit down and enjoy the rocking...",
-  "version": "0.33.7",
+  "version": "0.33.8",
   "publisher": "Simon8029",
   "engines": {
     "vscode": "^1.17.0"
