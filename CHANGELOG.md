@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.33.6] (#99)
+* Refactor service snippet: remove 's' from getAll function (ReactJS TS) (#99)
 ##### [0.33.5] (#94)
 * Refactor TSX Component Container snippet: constructor()'s props type. (ReactJS TSX) (#94)
 ##### [0.33.4] 
