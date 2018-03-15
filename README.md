@@ -25,6 +25,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : TS : Route : NewRoute                      | ccReactJS_TS_Route_NewRoute                      |
 | ReactJS : TS : Type : ActionType                     | ccReactJS_TS_Type_ActionType                     |
 | ReactJS : TSX : Component : Container                | ccReactJS_TSX_Component_Container                |
+| ReactJS : TSX : Component : Container : WithStyles   | ccReactJS_TSX_Component_Container_WithStyles     |
 | ReactJS : TSX : Component : Presentational           | ccReactJS_TSX_Component_Presentational           |
 | ReactJS : TSX : Component : ListComponent            | ccReactJS_TSX_Component_ListComponent            |
 | ReactJS : TSX : Component : DetailComponent          | ccReactJS_TSX_Component_DetailComponent          |
