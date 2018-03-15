@@ -1,72 +1,72 @@
 {
-    "name": "canechairsnippets",
-    "displayName": "CaneChair.Snippets - TypeScripted ReactJS, ReactNative, MERN Stack in ES6",
-    "description": "It's time to sit down and enjoy the rocking...",
-    "version": "0.34.0",
-    "publisher": "Simon8029",
-    "engines": {
-        "vscode": "^1.17.0"
-    },
-    "keywords": [
-        "Reactjs",
-        "JavaScript",
-        "React",
-        "React Native",
-        "typescript"
-    ],
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/CaneChairSnippets_ReactJS_TSX.json"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/CaneChairSnippets_javascript_Common.json"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
-            },
-            {
-                "language": "typescriptreact",
-                "path": "./snippets/CaneChairSnippets_ReactNative_Elements.json"
-            },
-            {
-                "language": "typescript",
-                "path": "./snippets/CaneChairSnippets_javascript_Common.json"
-            },
-            {
-                "language": "typescript",
-                "path": "./snippets/CaneChairSnippets_ReactJS_TS.json"
-            },
-            {
-                "language": "typescript",
-                "path": "./snippets/CaneChairSnippets_Test_Jest.json"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/CaneChairSnippets_Javascript_Express.json"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/CaneChairSnippets_Javascript_Mongoose.json"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/CaneChairSnippets_Javascript_NodeJs.json"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/CaneChairSnippets_Javascript_Common.json"
-            },
-            {
-                "language": "javascript",
-                "path": "./snippets/CaneChairSnippets_Javascript_Gulp.json"
-            }
-        ]
-    }
+  "name": "canechairsnippets",
+  "displayName": "CaneChair.Snippets - TypeScripted ReactJS, ReactNative, MERN Stack in ES6",
+  "description": "It's time to sit down and enjoy the rocking...",
+  "version": "0.34.0",
+  "publisher": "Simon8029",
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "keywords": [
+    "Reactjs",
+    "JavaScript",
+    "React",
+    "React Native",
+    "typescript"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/CaneChairSnippets_ReactJS_TSX.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/CaneChairSnippets_javascript_Common.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/CaneChairSnippets_ReactNative_Elements.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/CaneChairSnippets_javascript_Common.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/CaneChairSnippets_ReactJS_TS.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/CaneChairSnippets_Test_Jest.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/CaneChairSnippets_Javascript_Express.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/CaneChairSnippets_Javascript_Mongoose.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/CaneChairSnippets_Javascript_NodeJs.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/CaneChairSnippets_Javascript_Common.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/CaneChairSnippets_Javascript_Gulp.json"
+      }
+    ]
+  }
 }

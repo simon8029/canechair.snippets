@@ -2,6 +2,8 @@
 
 ##### [0.34.0] (#103)
 * Add snippet for container with WithStyles for MaterialUI (ReactJS TSX) (#103)
+##### [0.33.9] (#102)
+* Change ccReactJS_TS_Service_NewService's axios timeout to 3000 (ReactJS TS) (#102)
 ##### [0.33.8] (#101)
 * Refactor TSX DetailComponent snippets: move add/update button to top-right #101 (ReactJS TSX) (#101)
 ##### [0.33.7] (#100)

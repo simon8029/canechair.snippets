@@ -195,7 +195,7 @@
 			"\r",
 			"let httpRequest = axios.create({\r",
 			"  baseURL: BaseUrl,\r",
-			"  timeout: 1000\r",
+			"  timeout: 3000\r",
 			"});\r",
 			"\r",
 			"class ${1:__ComponentName__}Service {\r",
