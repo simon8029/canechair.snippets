@@ -1,9 +1,9 @@
-# [Simon's CaneChair] Snippets for ReactJS (TypeScripted), ReactNative, and more... (for VS Code in ES6)
+# [Simon's CaneChair] Snippets of Full-Stack Javascript. (for VS Code)
 ##### (It's time to sit down and enjoy the rocking...)
 [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/Simon8029.canechairsnippets.svg)]() [![GitHub last commit](https://img.shields.io/github/last-commit/simon8029/CaneChair.Snippets.svg)]() [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/4w/simon8029/CaneChair.Snippets.svg)]()  [![GitHub issues](https://img.shields.io/github/issues/simon8029/CaneChair.Snippets.svg)]() [![GitHub closed issues](https://img.shields.io/github/issues-closed/simon8029/CaneChair.Snippets.svg?colorB=green)]() [![license](https://img.shields.io/github/license/simon8029/CaneChair.Snippets.svg)]() 
 ***
 
-Snippets for Javascript Full-Stack Development using "VS Code", include: ReactJS, TypeScript, React, ReactNative, Vanilla JavaScript, Jest, Express, NodeJs, Mongoose, MongoDB, and more...
+Snippets for Javascript Full-Stack Development using "VS Code", include: ReactJS, Vue, TypeScript, React, ReactNative, Vanilla JavaScript, Jest, Express, NodeJs, Mongoose, MongoDB, and more...
   
 #### (Keyboard shortcut works while entered enough characters to disambiguate the term, no fully input needed.)
 #### (All snippets start with "cc" for convinence, stands for "CaneChair")
@@ -49,6 +49,11 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : TSX : Element : Ul                         | ccReactJS_TSX_Element_Ul                         |
 | ReactJS : TSX : Element : Li                         | ccReactJS_TSX_Element_Li                         |
 | ReactJS : TSX : Element : Paragraph                  | ccReactJS_TSX_Element_P                          |
+
+### Vue 
+|Snippet Name                            |Keyboard Shortcut|
+|----------------------------------------|-----------------------------------------| 
+| Vue : Component                        | ccVue_Component                         |
 
 ### Vanilla JavaScript 
 |Snippet Name|Keyboard Shortcut|

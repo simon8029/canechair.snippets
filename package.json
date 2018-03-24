@@ -1,16 +1,16 @@
 {
   "name": "canechairsnippets",
-  "displayName": "CaneChair.Snippets - TypeScripted ReactJS, ReactNative, MERN Stack in ES6",
+  "displayName": "CaneChair.Snippets - Snippets for Full-Stack Javascript.",
   "description": "It's time to sit down and enjoy the rocking...",
-  "version": "0.33.9",
+  "version": "0.34.0",
   "publisher": "Simon8029",
   "engines": {
     "vscode": "^1.17.0"
   },
   "keywords": [
     "Reactjs",
+    "Vue",
     "JavaScript",
-    "React",
     "React Native",
     "typescript"
   ],
@@ -66,6 +66,10 @@
       {
         "language": "javascript",
         "path": "./snippets/CaneChairSnippets_Javascript_Gulp.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/CaneChairSnippets_Vue.json"
       }
     ]
   }

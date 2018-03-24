@@ -1,5 +1,7 @@
 # Change Log
 
+##### [0.34.0] (#105)
+* Add Snippet for Vue Component #105 (Vue)
 ##### [0.33.9] (#102)
 * Change ccReactJS_TS_Service_NewService's axios timeout to 3000 (ReactJS TS) (#102)
 ##### [0.33.8] (#101)

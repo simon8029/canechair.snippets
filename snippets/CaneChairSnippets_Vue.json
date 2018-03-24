@@ -1,0 +1,23 @@
+{
+	"Vue : Component": {
+		"prefix": "ccVue_Component",
+		"body": [
+			"<template>",
+			"    <div>",
+			"      ${1:__ComponentName__} works",
+			"    </div>",
+			"</template>",
+			"",
+			"<script>",
+			"export default {",
+			"  name: \"${1:__ComponentName__}\"",
+			"};",
+			"</script>",
+			"",
+			"<style>",
+			"",
+			"</style>"
+		],
+		"description": "Create a Vue component."
+	}
+}
