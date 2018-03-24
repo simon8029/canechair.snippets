@@ -1,7 +1,10 @@
 # Change Log
-
-##### [0.34.0] (#105)
+##### [0.35.0] (#105)
 * Add Snippet for Vue Component #105 (Vue)
+##### [0.34.1] (#104)
+* Add withTheme to the snippet of "ReactJS : TSX : Component : Container : WithStyles" (ReactJS TSX) (#104)
+##### [0.34.0] (#103)
+* Add snippet for container with WithStyles for MaterialUI (ReactJS TSX) (#103)
 ##### [0.33.9] (#102)
 * Change ccReactJS_TS_Service_NewService's axios timeout to 3000 (ReactJS TS) (#102)
 ##### [0.33.8] (#101)
