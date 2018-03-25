@@ -1,4 +1,6 @@
 # Change Log
+##### [0.35.1] (#106)
+* Add icon. #106 (General)
 ##### [0.35.0] (#105)
 * Add Snippet for Vue Component #105 (Vue)
 ##### [0.34.1] (#104)
