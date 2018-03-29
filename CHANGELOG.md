@@ -1,5 +1,7 @@
 # Change Log
-##### [0.35.1] (#106)
+##### [0.35.2] (#107)
+* Support test-jest snippets in js file #107 (Javascript)
+##### [0.35.] (#106)
 * Add icon. #106 (General)
 ##### [0.35.0] (#105)
 * Add Snippet for Vue Component #105 (Vue)
