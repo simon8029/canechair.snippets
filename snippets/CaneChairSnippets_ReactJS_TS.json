@@ -252,5 +252,42 @@
 			""
 		],
 		"description": "Create a new ReactJS Service (TypeScript)"
+	},
+	"ReactJS : TS : Store : NewStore": {
+		"prefix": "ccReactJS_TS_Store_NewStore",
+		"body": [
+			"import rootReducer from 'reducers';\r",
+			"import { createStore, applyMiddleware } from 'redux';\r",
+			"import Thunk from 'redux-thunk';\r",
+			"import { composeWithDevTools } from 'redux-devtools-extension';\r",
+			"import createHistory from 'history/createBrowserHistory';\r",
+			"import { routerMiddleware } from 'react-router-redux';\r",
+			"\r",
+			"export const history = createHistory();\r",
+			"\r",
+			"const Store = createStore(\r",
+			"  rootReducer,\r",
+			"  composeWithDevTools(\r",
+			"    applyMiddleware(Thunk, routerMiddleware(history))\r",
+			"  )\r",
+			");\r",
+			"\r",
+			"export default Store; "
+		],
+		"description": "Create New Store (TypeScript)"
+	},
+	"ReactJS : TS : Type : StoreStateType": {
+		"prefix": "ccReactJS_TS_Type_StoreStateType",
+		"body": [
+			"import ${1:__ModelName__}}Model from 'types/modelTypes/${1:__ModelName__}}Model';\r",
+			"\r",
+			"export type StoreState = {\r",
+			"  ${1:__ModelName__}}: ${1:__ModelName__}}Model;\r",
+			"};\r",
+			"\r",
+			"export default StoreState;\r",
+			""
+		],
+		"description": "Create New Store State Type (TypeScript)"
 	}
 }

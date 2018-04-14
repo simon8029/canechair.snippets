@@ -18,11 +18,13 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 |Snippet Name|Keyboard Shortcut|
 |------------------------------------------------------|--------------------------------------------------|
 | ReactJS : TS : Function : SetState                   | ccReactJS_TS_Function_SetState                   |
+| ReactJS : TS : Store : NewStore                      | ccReactJS_TS_Store_NewStore                      |
 | ReactJS : TS : Redux : Action : Interface            | ccReactJS_TS_Action_Interface                    |
 | ReactJS : TS : Redux : Action : NewAction            | ccReactJS_TS_Action_NewAction                    |
 | ReactJS : TS : Redux : Reducer : NewReducer          | ccReactJS_TS_Reducer_NewReducer                  |
 | ReactJS : TS : Service : NewService                  | ccReactJS_TS_Service_NewService                  |
 | ReactJS : TS : Route : NewRoute                      | ccReactJS_TS_Route_NewRoute                      |
+| ReactJS : TS : Type : StoreStateType                 | ccReactJS_TS_Type_StoreStateType                 |
 | ReactJS : TS : Type : ActionType                     | ccReactJS_TS_Type_ActionType                     |
 | ReactJS : TSX : Component : Container                | ccReactJS_TSX_Component_Container                |
 | ReactJS : TSX : Component : Container : WithStyles   | ccReactJS_TSX_Component_Container_WithStyles     |

@@ -1,4 +1,7 @@
 # Change Log
+##### [0.36.0] (#108 #109)
+* Add ccReactJS_TS_Type_StoreStateType snippet (TypeScript)
+* Add ccReactJS_TS_Store_NewStore snippet (TypeScript)
 ##### [0.35.2] (#107)
 * Support test-jest snippets in js file #107 (Javascript)
 ##### [0.35.] (#106)
