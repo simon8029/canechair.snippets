@@ -53,9 +53,10 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : TSX : Element : Li                         | ccReactJS_TSX_Element_Li                         |
 | ReactJS : TSX : Element : Paragraph                  | ccReactJS_TSX_Element_P                          |
 
-### Vue 
+### VueJS
 |Snippet Name                            |Keyboard Shortcut|
 |----------------------------------------|-----------------------------------------| 
+| Vue : Module                           | ccVue_Module_NewModule                  |
 | Vue : Component                        | ccVue_Component                         |
 
 ### Vanilla JavaScript 

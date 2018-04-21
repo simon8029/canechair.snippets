@@ -1,4 +1,6 @@
 # Change Log
+##### [1.0.0] (#110)
+* Add ccVue_Module_NewModule snippet (VueJS)
 ##### [0.36.0] (#108 #109)
 * Add ccReactJS_TS_Type_StoreStateType snippet (TypeScript)
 * Add ccReactJS_TS_Store_NewStore snippet (TypeScript)

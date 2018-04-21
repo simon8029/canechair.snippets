@@ -1,4 +1,23 @@
 {
+	"Vue : Module": {
+		"prefix": "ccVue_Module_NewModule",
+		"body": [
+			"const state = {};",
+			"const mutations = {};",
+			"const actions = {};",
+			"const getters = {};",
+			"",
+			"const ${1:__ModuleName__}Module = {",
+			"  state,",
+			"  mutations,",
+			"  actions,",
+			"  getters",
+			"}",
+			"export default ${1:__ModuleName__}Module;",
+			""
+		],
+		"description": "Create new Vue module."
+	},
 	"Vue : Component": {
 		"prefix": "ccVue_Component",
 		"body": [
