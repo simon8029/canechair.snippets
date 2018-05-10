@@ -16,10 +16,10 @@
 		"description": "Init a Jest test file for ReactJS."
 	},
 	"Test : Jest : InitTestFile : VueJS": {
-		"prefix": "ccTest_Jest_InitTestFile_React",
+		"prefix": "ccTest_Jest_InitTestFile_Vue",
 		"body": [
 			"import { shallow } from '@vue/test-utils';",
-			"import ${1:__ComponentName__} from '../../src/components/Table/${1:__ComponentName__}';",
+			"import ${1:__ComponentName__} from '../src/components/${1:__ComponentName__}';",
 			"",
 			"describe('${1:__ComponentName__}', () => {",
 			"\tlet wrapper;",
