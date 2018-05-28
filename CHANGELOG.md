@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.1.3]
+
+*   Refactor ccTest_Jest_It (Jest)
+
 ##### [1.1.2](#112)
 
 *   Refactor ccTest_Jest_InitTestFile_VueJS (Jest)

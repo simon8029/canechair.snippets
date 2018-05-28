@@ -79,7 +79,7 @@
 		"prefix": "ccTest_Jest_It",
 		"body": [
 			"it(\"${1:__testCase__}\", () => {",
-			"\t${2:__statements__}",
+			"\t // TODO: ${1:__testCase__}",
 			"});"
 		],
 		"description": "Create a Jest test case."
