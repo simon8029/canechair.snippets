@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.2.1]
+
+*   bug fix - unity - class init (Unity)
+
 ##### [1.2.0]
 
 *   Add Unity snippets - Class init (Unity)
