@@ -1,0 +1,25 @@
+{
+	"Unity : Class : Init": {
+		"prefix": "ccUnity_Class_Init",
+		"body": [
+			"using System.Collections;\r",
+			"using System.Collections.Generic;\r",
+			"using UnityEngine;\r",
+			"\r",
+			"public class ${1:__ClassName__} : MonoBehaviour {\r",
+			"\r",
+			"\\t// Use this for initialization\r",
+			"\\tvoid Start () {\r",
+			"\\t\\t\r",
+			"\\t}\r",
+			"\\t\r",
+			"\\t// Update is called once per frame\r",
+			"\\tvoid Update () {\r",
+			"\\t\\t\r",
+			"\\t}\r",
+			"}\r",
+			""
+		],
+		"description": "Initiate a Unity standard class."
+	}
+}

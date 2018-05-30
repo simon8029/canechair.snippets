@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.2.0]
+
+*   Add Unity snippets - Class init (Unity)
+
 ##### [1.1.3]
 
 *   Refactor ccTest_Jest_It (Jest)
