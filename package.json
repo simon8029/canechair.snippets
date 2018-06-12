@@ -20,7 +20,6 @@
 	],
 	"contributes": {
 		"snippets": [
-			// React TypeScript File (.tsx)
 			{
 				"language": "typescriptreact",
 				"path": "./snippets/CaneChairSnippets_ReactJS_TSX.json"
@@ -37,7 +36,6 @@
 				"language": "typescriptreact",
 				"path": "./snippets/CaneChairSnippets_ReactNative_Elements.json"
 			},
-			// TypeScript File (.ts)
 			{
 				"language": "typescript",
 				"path": "./snippets/CaneChairSnippets_javascript_Common.json"
@@ -50,7 +48,6 @@
 				"language": "typescript",
 				"path": "./snippets/CaneChairSnippets_Test_Jest.json"
 			},
-			// Javascript File
 			{
 				"language": "javascript",
 				"path": "./snippets/CaneChairSnippets_Javascript_Common.json"
@@ -83,7 +80,6 @@
 				"language": "javascript",
 				"path": "./snippets/CaneChairSnippets_Javascript_Gulp.json"
 			},
-			// Vue File
 			{
 				"language": "javascript",
 				"path": "./snippets/CaneChairSnippets_Vue.json"
