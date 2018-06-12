@@ -2,7 +2,7 @@
 	"name": "canechairsnippets",
 	"displayName": "CaneChair.Snippets - Snippets for Full-Stack Javascript.",
 	"description": "It's time to sit down and enjoy the rocking...",
-	"version": "1.2.4",
+	"version": "1.3.0",
 	"publisher": "Simon8029",
 	"icon": "images/canechair-icon-128.png",
 	"engines": {
@@ -20,6 +20,7 @@
 	],
 	"contributes": {
 		"snippets": [
+			// React TypeScript File (.tsx)
 			{
 				"language": "typescriptreact",
 				"path": "./snippets/CaneChairSnippets_ReactJS_TSX.json"
@@ -36,6 +37,7 @@
 				"language": "typescriptreact",
 				"path": "./snippets/CaneChairSnippets_ReactNative_Elements.json"
 			},
+			// TypeScript File (.ts)
 			{
 				"language": "typescript",
 				"path": "./snippets/CaneChairSnippets_javascript_Common.json"
@@ -48,6 +50,19 @@
 				"language": "typescript",
 				"path": "./snippets/CaneChairSnippets_Test_Jest.json"
 			},
+			// Javascript File
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_Javascript_Common.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_ReactJS_Middleware.json"
+			},			
 			{
 				"language": "javascript",
 				"path": "./snippets/CaneChairSnippets_Test_Jest.json"
@@ -66,12 +81,9 @@
 			},
 			{
 				"language": "javascript",
-				"path": "./snippets/CaneChairSnippets_Javascript_Common.json"
-			},
-			{
-				"language": "javascript",
 				"path": "./snippets/CaneChairSnippets_Javascript_Gulp.json"
 			},
+			// Vue File
 			{
 				"language": "javascript",
 				"path": "./snippets/CaneChairSnippets_Vue.json"

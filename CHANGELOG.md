@@ -1,235 +1,153 @@
 # Change Log
 
+##### [1.3.0] (#113 #114)
+-  Add snippet of Create New Middleware . (ReactJS)
+-  Add snippets of ReactJS_Elements for js file. (Javascript)
 ##### [1.2.4]
-
 -   Refactor cclog. (Javascript)
-
 ##### [1.2.1]
-
 -   bug fix - unity - class init (Unity)
-
 ##### [1.2.0]
-
 -   Add Unity snippets - Class init (Unity)
-
 ##### [1.1.3]
-
 -   Refactor ccTest_Jest_It (Jest)
-
 ##### [1.1.2](#112)
-
 -   Refactor ccTest_Jest_InitTestFile_VueJS (Jest)
-
 ##### [1.1.0](#111)
-
--   Add ccTest_Jest_InitTestFile_VueJS (Jest)
-
-##### [1.0.0](#110)
-
+-   Add ccTest_Jest_InitTestFile_VueJS (Jest)##### [1.0.0](#110)
 -   Add ccVue_Module_NewModule snippet (VueJS)
-
 ##### [0.36.0] (#108 #109)
-
 -   Add ccReactJS_TS_Type_StoreStateType snippet (TypeScript)
 -   Add ccReactJS_TS_Store_NewStore snippet (TypeScript)
-
 ##### [0.35.2](#107)
-
 -   Support test-jest snippets in js file #107 (Javascript)
-
 ##### [0.35.](#106)
-
 -   Add icon. #106 (General)
-
 ##### [0.35.0](#105)
-
 -   Add Snippet for Vue Component #105 (Vue)
-
 ##### [0.34.1](#104)
-
 -   Add withTheme to the snippet of "ReactJS : TSX : Component : Container : WithStyles" (ReactJS TSX) (#104)
-
 ##### [0.34.0](#103)
-
 -   Add snippet for container with WithStyles for MaterialUI (ReactJS TSX) (#103)
-
 ##### [0.33.9](#102)
-
 -   Change ccReactJS_TS_Service_NewService's axios timeout to 3000 (ReactJS TS) (#102)
-
 ##### [0.33.8](#101)
-
 -   Refactor TSX DetailComponent snippets: move add/update button to top-right #101 (ReactJS TSX) (#101)
-
 ##### [0.33.7](#100)
-
 -   Refactor TSX DetailComponent snippets: remove 's' from getAll() function. (ReactJS TSX) (#100)
-
 ##### [0.33.6](#99)
-
 -   Refactor service snippet: remove 's' from getAll function (ReactJS TS) (#99)
-
 ##### [0.33.5](#94)
-
 -   Refactor TSX Component Container snippet: constructor()'s props type. (ReactJS TSX) (#94)
-
 ##### [0.33.4]
-
 -   Move setState snippet to Common group (JavaScript)
-
 ##### [0.33.3](#93)
-
 -   add ownProps: OwnProps to ReactJS component container snippet. (ReactJS TSX) (#93)
-
 ##### [0.33.2](#92)
-
 -   fix the issue in ccReactJS_TSX_Component_Container: wrong close bracket (ReactJS TSX) (#92)
-
 ##### [0.33.1]
-
 -   update README.md
-
 ##### [0.33.0](#91)
-
 -   Add ccReactJS_TSX_Component_DetailComponent snippet for TSX (ReactJS TSX)(#91)
-
 ##### [0.32.9](#90)
-
 -   Add delete method to reactjs component container snippet (ReactJS TSX)(#90)
-
 ##### [0.32.8](#89)
-
 -   change all modelId back to id to fit current json-server's id issue. (REactJS TSX TS) (#89)
-
 ##### [0.32.7](#88)
-
 -   update ccReactJS_TSX_Component_ListComponent snippet's d.original.id to model's id name (ReactJS TSX) (#88)
-
 ##### [0.32.6](#85)(#86)(#87)
-
 -   Refactor ReactJS Service snippet: set Id to ComponentNameID (ReactJS TS) (#86)
 -   Update new reducer snippet to typescripted (ReactJS TS) (#87)
 -   Refactor TSX Component Container snippet: move render() block up right below the constructor block (ReactJS TSX) (#85)
-
 ##### [0.32.3](#84)
-
 -   Update package.json
-
 ##### [0.32.2](#75)(#82)(#83)
-
 -   Add snippet for create list component (ReactJS TSX) (#82)
 -   Consolidate TSX related snippets to one place (ReactJS TSX) (#75)
 -   Rename ReactJS Typescript related snippets for better grouping (ReactJS TS) (#83)
-
 ##### [0.31.2](#81)
-
 -   Refactor tsx container snippets: storeStateType, nextProps type. (ReactJS TSX) (#81)
-
 ##### [0.31.1](#79)
-
 -   Add ReactJS_Type_ActionType snippet (ReactJS TS) (#79)
 -   Add ccReactJS_Service_NewService snippet (ReactJS TS) (#79)
 -   Fix issue of actionName not found in create new NewAction snippet (ReactJS TS) (#79)
 -   Fix issue of actionName not found in create new Action Interface snippet (ReactJS TS) (#79)
-
 ##### [0.30.1](#80)
-
 -   Fix the unavaliable issue of ReactJS Typescript related snippets (ReactJS TS)
-
 ##### [0.30.0](#78)
-
 -   Add ccReactJS_Action_NewAction snippet (ReactJS TS)
-
 ##### [0.29.0](#77)
-
 -   Add ccReactJS_Action_Interface snippet (ReactJS TS)
 
 ##### [0.28.4]
-
 -   refactor the ccReactJS_TSX_Component_Container snippet (TSX)
 
 ##### [0.28.3]
-
 -   refactor the "ThisPropsType" in the TSX component container snippets (TSX)
 
 ##### [0.28.2]
-
 -   reFormat the TSX component container snippets (TSX)
 
 ##### [0.28.1](#76)
-
 -   Add ThisStateType type to the TSX component container snippets (TSX)
 
 ##### [0.28.0](#75)
-
 -   Add ccReactJS_TSX_Component_Container (TSX)
 
 ##### [0.27.0](#75)
-
 -   Add ccReactJS_TSX_PresentationalComponent (TSX)
 
 ##### [0.26.0] Close issue #73
-
 -   Add test snippets for tsx file (TSX)
 
 ##### [0.25.4] Close issue #72
-
 -   Combine "funtional component" and "presentational component" to "stateless component" (ReactJS)
 
 ##### [0.25.3] Close issue #70
-
 -   Refactor the ccReactJS_Component_Presentational (ReactJS)
 
 ##### [0.25.2] Close issue #69
-
 -   Fix the bug of "common javascript snippets not working inside the jsx render block." (ReactJS)
 
 ##### [0.25.1] Close issue #68
-
 -   Fix the bug of "ReactJS : Element : Link => snippet mis-use the shortcut for create Form" (ReactJS)
 
 ##### [0.25.0] Close issue #67
-
 -   Add support for jsx file (ReactJS)
 
 ##### [0.24.2] Close issue #66
-
 -   Add redux-thunk support to the ccReactJS_Redux_AddStore snippets (ReactJS)
 
 ##### [0.24.1] Close issue #65
-
--   Add snippet for create action type (ReactJS)
+-   Add snippet for create action type (ReactJS
 -   Refactor ccReactJS_Reducer_NewReducer (ReactJS)
 
 ##### [0.23.0] Add snippets for issue #65
-
 -   Add snippet for create store (ReactJS)
 -   Add snippet for create rootReducer (ReactJS)
 -   Add snippet for create action (ReactJS)
 
 ##### [0.22.0] Close issue #64
-
 -   Add class snippets for tsx file.
 
 ##### [0.21.2] Close issue #63
-
 -   Fix the bug of "snippets for tsx file not working"
 
 ##### [0.21.1] Close issue #62
-
 -   Fix the bug of "common snippets not working for jsx"
-    ##### [0.21.0] Close issue #61
+
+##### [0.21.0] Close issue #61
 
 *   Add snippets link to jsx file
-    ##### [0.20.0] Close issue #60
+##### [0.20.0] Close issue #60
 *   Add snippets of react/reactnative elements for TSX (TypeScriptReact)
-    ##### [0.19.0] Close issue #57
+##### [0.19.0] Close issue #57
 *   Add common snippets for TypeScript and TypeScriptReact - (TypeScript),(TypeScriptReact)
-    ##### [0.18.2]
+##### [0.18.2]
 *   minor bus fixed - (ReactJS)
-    ##### [0.18.1]
+##### [0.18.1]
 *   Refactor ccReactJS_Component_Container - (ReactJS)
-    ##### [0.10.0 - 0.18.0]
+##### [0.10.0 - 0.18.0]
 *   Add ccTest_Jest_BeforeAll - (Jest)
 *   Add ccTest_Jest_BeforeEach - (Jest)
 *   Add ccTest_Jest_AfterAll - (Jest)

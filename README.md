@@ -18,6 +18,7 @@ Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace
 
 GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
+
 ### ReactJS (TypeScripted):
 
 | Snippet Name                                       | Keyboard Shortcut                            |
@@ -57,6 +58,13 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : TSX : Element : Ul                       | ccReactJS_TSX_Element_Ul                     |
 | ReactJS : TSX : Element : Li                       | ccReactJS_TSX_Element_Li                     |
 | ReactJS : TSX : Element : Paragraph                | ccReactJS_TSX_Element_P                      |
+
+
+### ReactJS (Javascript):
+| Snippet Name                                       | Keyboard Shortcut                            |
+| -------------------------------------------------- | -------------------------------------------- |
+| ReactJS : Middleware : NewMiddleware               | ccReactJS_Middleware_NewMiddleware           |
+
 
 ### VueJS
 
