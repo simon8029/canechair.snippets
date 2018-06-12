@@ -3,8 +3,7 @@
 		"prefix": "cclog",
 		"body": [
 			"console.group(${1:__GroupName__})",
-			"console.log(`${2:__output__}:`);",
-			"console.log(${2:__output__});",
+			"console.log(`${2:__output__}:`, ${2:__output__});",
 			"console.groupEnd(${1:__GroupName__})"
 		],
 		"description": "Log output to console"
