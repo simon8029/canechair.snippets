@@ -2,16 +2,16 @@
 	"Common : PrintToConsole": {
 		"prefix": "cclog",
 		"body": [
-			"console.log(`${1:__output__}:`);",
-			"console.log(${1:__output__});"
+			"console.group(${1:__GroupName__})",
+			"console.log(`${2:__output__}:`);",
+			"console.log(${2:__output__});",
+			"console.groupEnd(${1:__GroupName__})"
 		],
 		"description": "Log output to console"
 	},
 	"Common : Import : Module": {
 		"prefix": "ccCommon_Import_Module",
-		"body": [
-			"import ${2:__moduleName__} from '${1:__modulePath__}';"
-		],
+		"body": ["import ${2:__moduleName__} from '${1:__modulePath__}';"],
 		"description": "Import module."
 	},
 	"Common : Class : Constructor": {
@@ -28,11 +28,7 @@
 	},
 	"Common : Function : If": {
 		"prefix": "ccCommon_Function_If",
-		"body": [
-			"if (${1:__condition__}) {",
-			"\t${2:__statement__}",
-			"}"
-		],
+		"body": ["if (${1:__condition__}) {", "\t${2:__statement__}", "}"],
 		"description": "Create a standard If statement."
 	},
 	"Common : Function : Switch": {
@@ -59,9 +55,7 @@
 	},
 	"ReactJS : Function : SetState": {
 		"prefix": "ccCommon_Function_SetState",
-		"body": [
-			"this.setState({ ${1} });"
-		],
+		"body": ["this.setState({ ${1} });"],
 		"description": "Create this.SetState() method (TypeScript)"
 	},
 	"Common : Object : Assign": {
@@ -73,32 +67,22 @@
 	},
 	"Common : Array : Map": {
 		"prefix": "ccCommon_Array_Map",
-		"body": [
-			"${1:__arrayName__}.map((${2:__params__}) => ",
-			"\t${3}",
-			")"
-		],
+		"body": ["${1:__arrayName__}.map((${2:__params__}) => ", "\t${3}", ")"],
 		"description": "Create a Array.map() function."
 	},
 	"Common : Array : Filter": {
 		"prefix": "ccCommon_Array_Filter",
-		"body": [
-			"${1:__arrayName__}.filter((${2:__params__}) => ${3} );"
-		],
+		"body": ["${1:__arrayName__}.filter((${2:__params__}) => ${3} );"],
 		"description": "Create a Array.filter() function."
 	},
 	"Common : Array : Find": {
 		"prefix": "ccCommon_Array_Find",
-		"body": [
-			"${1:__arrayName__}.find((${2:__params__}) => ${3} );"
-		],
+		"body": ["${1:__arrayName__}.find((${2:__params__}) => ${3} );"],
 		"description": "Create a Array.find() function."
 	},
 	"Common : Array : FindIndex": {
 		"prefix": "ccCommon_Array_FindIndex",
-		"body": [
-			"${1:__arrayName__}.findIndex((${2:__params__}) => ${3});"
-		],
+		"body": ["${1:__arrayName__}.findIndex((${2:__params__}) => ${3});"],
 		"description": "Create a Array.findIndex() function."
 	},
 	"Common : Array : ForEach": {
