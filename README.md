@@ -18,7 +18,6 @@ Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace
 
 GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
-
 ### ReactJS (TypeScripted):
 
 | Snippet Name                                       | Keyboard Shortcut                            |
@@ -59,12 +58,11 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : TSX : Element : Li                       | ccReactJS_TSX_Element_Li                     |
 | ReactJS : TSX : Element : Paragraph                | ccReactJS_TSX_Element_P                      |
 
-
 ### ReactJS (Javascript):
-| Snippet Name                                       | Keyboard Shortcut                            |
-| -------------------------------------------------- | -------------------------------------------- |
-| ReactJS : Middleware : NewMiddleware               | ccReactJS_Middleware_NewMiddleware           |
 
+| Snippet Name                         | Keyboard Shortcut                  |
+| ------------------------------------ | ---------------------------------- |
+| ReactJS : Middleware : NewMiddleware | ccReactJS_Middleware_NewMiddleware |
 
 ### VueJS
 
@@ -78,6 +76,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | Snippet Name                      | Keyboard Shortcut               |
 | --------------------------------- | ------------------------------- |
 | Common : PrintToConsole           | cclog                           |
+| Common : PrintToConsole : Group   | cclog_group                     |
 | Common : Import : Module          | ccCommon_Import_Module          |
 | Common : Class : Constructor      | ccCommon_Class_Constructor      |
 | Common : Function : ArrowFunction | ccCommon_Function_ArrowFunction |
