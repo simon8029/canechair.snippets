@@ -1,8 +1,8 @@
 # Change Log
 
-##### [1.3.1](#115)
+##### [1.4.0](#116)
 
--   Add snippet for print to console by group. (Javascript)
+-   Add ReactJS Elements Snippets for JS/JSX #116
 
 ##### [1.3.0] (#113 #114)
 

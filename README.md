@@ -36,27 +36,32 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : TSX : Component : Presentational         | ccReactJS_TSX_Component_Presentational       |
 | ReactJS : TSX : Component : ListComponent          | ccReactJS_TSX_Component_ListComponent        |
 | ReactJS : TSX : Component : DetailComponent        | ccReactJS_TSX_Component_DetailComponent      |
-| ReactJS : TSX : Element : Div                      | ccReactJS_TSX_Element_Div                    |
-| ReactJS : TSX : Element : Nav                      | ccReactJS_TSX_Element_Nav                    |
-| ReactJS : TSX : Element : Section                  | ccReactJS_TSX_Element_Section                |
-| ReactJS : TSX : Element : Span                     | ccReactJS_TSX_Element_Span                   |
-| ReactJS : TSX : Element : A                        | ccReactJS_TSX_Element_A                      |
-| ReactJS : TSX : Element : Image                    | ccReactJS_TSX_Element_Image                  |
-| ReactJS : TSX : Element : Article                  | ccReactJS_TSX_Element_Article                |
-| ReactJS : TSX : Element : Label                    | ccReactJS_TSX_Element_Label                  |
-| ReactJS : TSX : Element : Icon                     | ccReactJS_TSX_Element_Icon                   |
-| ReactJS : TSX : Element : Form                     | ccReactJS_TSX_Element_Form                   |
-| ReactJS : TSX : Element : Link                     | ccReactJS_TSX_Element_Link                   |
-| ReactJS : TSX : Element : Input                    | ccReactJS_TSX_Element_Input                  |
-| ReactJS : TSX : Element : Button                   | ccReactJS_TSX_Element_Button                 |
-| ReactJS : TSX : Element : H1                       | ccReactJS_TSX_Element_H1                     |
-| ReactJS : TSX : Element : H2                       | ccReactJS_TSX_Element_H2                     |
-| ReactJS : TSX : Element : H3                       | ccReactJS_TSX_Element_H3                     |
-| ReactJS : TSX : Element : H4                       | ccReactJS_TSX_Element_H4                     |
-| ReactJS : TSX : Element : H5                       | ccReactJS_TSX_Element_H5                     |
-| ReactJS : TSX : Element : Ul                       | ccReactJS_TSX_Element_Ul                     |
-| ReactJS : TSX : Element : Li                       | ccReactJS_TSX_Element_Li                     |
-| ReactJS : TSX : Element : Paragraph                | ccReactJS_TSX_Element_P                      |
+
+### ReactJS Elements:
+
+| Snippet Name                  | Keyboard Shortcut         |
+| ----------------------------- | ------------------------- |
+| ReactJS : Element : Div       | ccReactJS_Element_Div     |
+| ReactJS : Element : Nav       | ccReactJS_Element_Nav     |
+| ReactJS : Element : Section   | ccReactJS_Element_Section |
+| ReactJS : Element : Span      | ccReactJS_Element_Span    |
+| ReactJS : Element : A         | ccReactJS_Element_A       |
+| ReactJS : Element : Image     | ccReactJS_Element_Image   |
+| ReactJS : Element : Article   | ccReactJS_Element_Article |
+| ReactJS : Element : Label     | ccReactJS_Element_Label   |
+| ReactJS : Element : Icon      | ccReactJS_Element_Icon    |
+| ReactJS : Element : Form      | ccReactJS_Element_Form    |
+| ReactJS : Element : Link      | ccReactJS_Element_Link    |
+| ReactJS : Element : Input     | ccReactJS_Element_Input   |
+| ReactJS : Element : Button    | ccReactJS_Element_Button  |
+| ReactJS : Element : H1        | ccReactJS_Element_H1      |
+| ReactJS : Element : H2        | ccReactJS_Element_H2      |
+| ReactJS : Element : H3        | ccReactJS_Element_H3      |
+| ReactJS : Element : H4        | ccReactJS_Element_H4      |
+| ReactJS : Element : H5        | ccReactJS_Element_H5      |
+| ReactJS : Element : Ul        | ccReactJS_Element_Ul      |
+| ReactJS : Element : Li        | ccReactJS_Element_Li      |
+| ReactJS : Element : Paragraph | ccReactJS_Element_P       |
 
 ### ReactJS (Javascript):
 
