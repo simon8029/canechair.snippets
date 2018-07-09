@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.5.0](#125)
+
+-   Refactor Snippets for ReactJS TypeScript #125
+
 ##### [1.4.0](#116)
 
 -   Add ReactJS Elements Snippets for JS/JSX #116
