@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.5.1](#126)
+
+-   Refactor snippets for ReactJS Components - TypeScript #126
+
 ##### [1.5.0](#125)
 
 -   Refactor Snippets for ReactJS TypeScript #125
