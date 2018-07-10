@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.5.2]
+
+-   Refactor snippets for ReactJS New Reducer - TypeScript
+
 ##### [1.5.1](#126)
 
 -   Refactor snippets for ReactJS Components - TypeScript #126
