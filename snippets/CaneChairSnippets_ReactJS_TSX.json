@@ -497,7 +497,7 @@
 		"description": "Create a detail component (TSX)"
 	},
 	"ReactJS : TSX : Component : Main : MaterialUI": {
-		"prefix": "ReactJS_TSX_Component_Main_MaterialUI",
+		"prefix": "ccReactJS_TSX_Component_Main_MaterialUI",
 		"body": [
 			"import * as ${1:__ComponentName__}Actions from 'Actions/${1:__ComponentName__}Actions';",
 			"import I${1:__ComponentName__}Action from 'Actions/Interfaces/I${1:__ComponentName__}Action';",
@@ -608,7 +608,7 @@
 		"description": "Create a ReactJS Component - Main"
 	},
 	"ReactJS : TSX : Component : List : MaterialUI": {
-		"prefix": "ReactJS_TSX_Component_List_MaterialUI",
+		"prefix": "ccReactJS_TSX_Component_List_MaterialUI",
 		"body": [
 			"import * as React from 'react';",
 			"import { Link } from 'react-router-dom';",
@@ -690,7 +690,7 @@
 		"description": "Create a ReactJS Component - List"
 	},
 	"ReactJS : TSX : Component : Details : MaterialUI": {
-		"prefix": "ReactJS_TSX_Component_Details_MaterialUI",
+		"prefix": "ccReactJS_TSX_Component_Details_MaterialUI",
 		"body": [
 			"import * as ${1:__ComponentName__}Actions from 'Actions/${1:__ComponentName__}Actions';",
 			"import I${1:__ComponentName__}Action from 'Actions/Interfaces/I${1:__ComponentName__}Action';",

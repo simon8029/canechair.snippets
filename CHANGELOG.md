@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.5.3]
+
+-   Refactor snippets shortcut for ReactJS Components - TypeScript
+
 ##### [1.5.2]
 
 -   Refactor snippets for ReactJS New Reducer - TypeScript
