@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.6.0](#127)
+
+Create Snippet for Configuration - TsLint #127
+
 ##### [1.5.3]
 
 -   Refactor snippets shortcut for ReactJS Components - TypeScript

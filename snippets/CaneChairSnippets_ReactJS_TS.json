@@ -29,7 +29,7 @@
 	"ReactJS : TS : Type : StoreStateType": {
 		"prefix": "ccReactJS_TS_Type_StoreStateType",
 		"body": [
-			"import ${1:__ModelName__}Model from 'types/modelTypes/${1:__ModelName__}Model';\r",
+			"import ${1:__ModelName__}Model from 'Types/ModelTypes/${1:__ModelName__}Model';\r",
 			"",
 			"export type StoreState = {",
 			"\t${1:__ModelName__}Array: ${1:__ModelName__}Model[];",
