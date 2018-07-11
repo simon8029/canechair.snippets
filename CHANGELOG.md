@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.6.1]
+
+Refactor Snippets for ReactJS - StoreStateType, index.tsx
+
 ##### [1.6.0](#127)
 
 Create Snippet for Configuration - TsLint #127
