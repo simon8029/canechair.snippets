@@ -77,11 +77,7 @@
 	},
 	"Test : Jest : It": {
 		"prefix": "ccTest_Jest_It",
-		"body": [
-			"it(\"${1:__testCase__}\", () => {",
-			"\t // TODO: ${1:__testCase__}",
-			"});"
-		],
+		"body": ["it(\"${1:__testCase__}\", () => {", "\t${0}", "});"],
 		"description": "Create a Jest test case."
 	},
 	"Test : Jest : ItAsync": {

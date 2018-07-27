@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.6.2]
+
+Refactor Snippets for Jest - ccit.
+
 ##### [1.6.1]
 
 Refactor Snippets for ReactJS - StoreStateType, index.tsx
