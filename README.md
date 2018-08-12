@@ -68,6 +68,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | Snippet Name                         | Keyboard Shortcut                  |
 | ------------------------------------ | ---------------------------------- |
 | ReactJS : Middleware : NewMiddleware | ccReactJS_Middleware_NewMiddleware |
+| ReactJS : Duck : NewDuck             | ccReactJS_Duck_NewDuck             |
 
 ### VueJS
 

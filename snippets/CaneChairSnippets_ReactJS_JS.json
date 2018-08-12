@@ -1,1 +1,21 @@
-{}
+{
+	"ReactJS : Duck : NewDuck": {
+		"prefix": "ccReactJS_Duck_NewDuck",
+		"body": [
+			"export const types = {};",
+			"",
+			"const DEFAULT_STATE = {};",
+			"",
+			"export function reducer(state = DEFAULT_STATE, action) {",
+			"\\tswitch (action.type) {",
+			"\\t\\tdefault:",
+			"\\t\\t\\treturn state;",
+			"\\t}",
+			"}",
+			"",
+			"export const actions = {};",
+			""
+		],
+		"description": "Init a Duck file."
+	}
+}

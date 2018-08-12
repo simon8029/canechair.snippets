@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.7.0](#129)
+
+Add Snippet for duck file. (reactjs)
+
 ##### [1.6.2]
 
 Refactor Snippets for Jest - ccit.
