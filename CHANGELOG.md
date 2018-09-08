@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.8.1]
+
+Refactor ccReactJS_JS_Component_Class.
+
 ##### [1.8.0](#118 #119 #120 #121 #130)
 
 Add Snippets for Index, Action, Reducer, Store, and Class.

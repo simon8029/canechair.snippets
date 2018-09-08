@@ -21,16 +21,16 @@
   "ReactJS : JS : Component : Class": {
     "prefix": "ccReactJS_JS_Component_Class",
     "body": [
-      "import React from 'react';",
+      "import React from \"react\";",
       "",
-      "class ${1:__ComponentName__} extends React.Component {",
+      "class ${1:__ClassName__} extends React.Component {",
       "\trender() {",
-      "\t\treturn <div>Dashboard Works</div>;",
-      "\t\t);",
+      "\t\treturn <div>${1:__ClassName__} Works!</div>;",
       "\t}",
       "}",
       "",
-      "export default ${1:__ComponentName__};"
+      "export default ${1:__ClassName__};",
+      ""
     ],
     "description": "Create React Container Component."
   },
