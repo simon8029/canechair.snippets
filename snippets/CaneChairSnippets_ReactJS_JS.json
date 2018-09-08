@@ -28,7 +28,7 @@
       "\t\treturn (",
       "\t\t\t<div>",
       "\t\t\t\t${1:__ClassName__} Works!",
-      "\t\t\t</div>;",
+      "\t\t\t</div>",
       "\t\t);",
       "\t}",
       "}",

@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.8.4]
+
+Refactor ccReactJS_JS_Component_Class.
+
 ##### [1.8.3]
 
 Refactor ccReactJS_JS_Component_Class.
