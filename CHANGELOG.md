@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.9.0]
+
+Add snippets for React : JS : Route.
+
 ##### [1.8.5]
 
 Link snippets to jsx file.

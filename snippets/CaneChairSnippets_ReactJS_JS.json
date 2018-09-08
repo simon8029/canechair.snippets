@@ -227,5 +227,10 @@
       ""
     ],
     "description": "Create Action Types."
+  },
+  "ReactJS : JS : NewRoute": {
+    "prefix": "ccReactJS_JS_NewRoute",
+    "body": ["<Route path=\"/\" component={${1:__ComponentName__}} />"],
+    "description": "Create New React Route."
   }
 }

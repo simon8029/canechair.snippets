@@ -49,6 +49,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : JS : RootReducer           | ccReactJS_JS_RootReducer           |
 | ReactJS : JS : NewReducer            | ccReactJS_JS_NewReducer            |
 | ReactJS : JS : ActionTypes           | ccReactJS_JS_ActionTypes           |
+| ReactJS : JS : NewRoute              | ccReactJS_JS_NewRoute              |
 | ReactJS : Duck : NewDuck             | ccReactJS_Duck_NewDuck             |
 
 ### ReactJS Elements:
