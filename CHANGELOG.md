@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.8.5]
+
+Link snippets to jsx file.
+
 ##### [1.8.4]
 
 Refactor ccReactJS_JS_Component_Class.
@@ -7,6 +11,10 @@ Refactor ccReactJS_JS_Component_Class.
 ##### [1.8.3]
 
 Refactor ccReactJS_JS_Component_Class.
+
+##### [1.8.2]
+
+Link snippets to javascript file.
 
 ##### [1.8.2]
 
