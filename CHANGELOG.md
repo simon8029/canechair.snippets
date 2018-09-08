@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.9.1]
+
+Refactor snippets for React : JS : Route.
+
 ##### [1.9.0]
 
 Add snippets for React : JS : Route.
