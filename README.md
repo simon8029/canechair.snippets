@@ -37,6 +37,20 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : TSX : Component : ListComponent          | ccReactJS_TSX_Component_ListComponent        |
 | ReactJS : TSX : Component : DetailComponent        | ccReactJS_TSX_Component_DetailComponent      |
 
+### ReactJS (Javascript):
+
+| Snippet Name                         | Keyboard Shortcut                  |
+| ------------------------------------ | ---------------------------------- |
+| ReactJS : Middleware : NewMiddleware | ccReactJS_Middleware_NewMiddleware |
+| ReactJS : JS : Component : Class     | ccReactJS_JS_Component_Class       |
+| ReactJS : JS : Action : NewAction    | ccReactJS_JS_Action_NewAction      |
+| ReactJS : JS : RootIndexFile         | ccReactJS_JS_RootIndexFile         |
+| ReactJS : JS : Store                 | ccReactJS_JS_Store                 |
+| ReactJS : JS : RootReducer           | ccReactJS_JS_RootReducer           |
+| ReactJS : JS : NewReducer            | ccReactJS_JS_NewReducer            |
+| ReactJS : JS : ActionTypes           | ccReactJS_JS_ActionTypes           |
+| ReactJS : Duck : NewDuck             | ccReactJS_Duck_NewDuck             |
+
 ### ReactJS Elements:
 
 | Snippet Name                  | Keyboard Shortcut         |
@@ -62,13 +76,6 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : Element : Ul        | ccReactJS_Element_Ul      |
 | ReactJS : Element : Li        | ccReactJS_Element_Li      |
 | ReactJS : Element : Paragraph | ccReactJS_Element_P       |
-
-### ReactJS (Javascript):
-
-| Snippet Name                         | Keyboard Shortcut                  |
-| ------------------------------------ | ---------------------------------- |
-| ReactJS : Middleware : NewMiddleware | ccReactJS_Middleware_NewMiddleware |
-| ReactJS : Duck : NewDuck             | ccReactJS_Duck_NewDuck             |
 
 ### VueJS
 
