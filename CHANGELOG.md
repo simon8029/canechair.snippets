@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.10.2]
+
+Refactor React container component
+
 ##### [1.10.1]
 
 Refactor React container component
