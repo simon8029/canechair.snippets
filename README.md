@@ -43,6 +43,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ------------------------------------ | ---------------------------------- |
 | ReactJS : Middleware : NewMiddleware | ccReactJS_Middleware_NewMiddleware |
 | ReactJS : JS : Component : Class     | ccReactJS_JS_Component_Class       |
+| ReactJS : JS : Component : Container | ccReactJS_JS_Component_Container   |
 | ReactJS : JS : Action : NewAction    | ccReactJS_JS_Action_NewAction      |
 | ReactJS : JS : RootIndexFile         | ccReactJS_JS_RootIndexFile         |
 | ReactJS : JS : Store                 | ccReactJS_JS_Store                 |
