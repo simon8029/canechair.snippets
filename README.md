@@ -18,6 +18,22 @@ Get the extension here: [VS Marketplace - CaneChairSnippets](https://marketplace
 
 GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
+### ReactJS (Javascript):
+
+| Snippet Name                         | Keyboard Shortcut                  |
+| ------------------------------------ | ---------------------------------- |
+| ReactJS : Middleware : NewMiddleware | ccReactJS_Middleware_NewMiddleware |
+| ReactJS : JS : Component : Class     | ccReactJS_JS_Component_Class       |
+| ReactJS : JS : Component : Container | ccReactJS_JS_Component_Container   |
+| ReactJS : JS : NewAction             | ccReactJS_JS_NewAction             |
+| ReactJS : JS : RootIndexFile         | ccReactJS_JS_RootIndexFile         |
+| ReactJS : JS : Store                 | ccReactJS_JS_Store                 |
+| ReactJS : JS : RootReducer           | ccReactJS_JS_RootReducer           |
+| ReactJS : JS : NewReducer            | ccReactJS_JS_NewReducer            |
+| ReactJS : JS : ActionTypes           | ccReactJS_JS_ActionTypes           |
+| ReactJS : JS : NewRoute              | ccReactJS_JS_NewRoute              |
+| ReactJS : Duck : NewDuck             | ccReactJS_Duck_NewDuck             |
+
 ### ReactJS (TypeScripted):
 
 | Snippet Name                                       | Keyboard Shortcut                            |
@@ -36,22 +52,6 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : TSX : Component : Presentational         | ccReactJS_TSX_Component_Presentational       |
 | ReactJS : TSX : Component : ListComponent          | ccReactJS_TSX_Component_ListComponent        |
 | ReactJS : TSX : Component : DetailComponent        | ccReactJS_TSX_Component_DetailComponent      |
-
-### ReactJS (Javascript):
-
-| Snippet Name                         | Keyboard Shortcut                  |
-| ------------------------------------ | ---------------------------------- |
-| ReactJS : Middleware : NewMiddleware | ccReactJS_Middleware_NewMiddleware |
-| ReactJS : JS : Component : Class     | ccReactJS_JS_Component_Class       |
-| ReactJS : JS : Component : Container | ccReactJS_JS_Component_Container   |
-| ReactJS : JS : Action : NewAction    | ccReactJS_JS_Action_NewAction      |
-| ReactJS : JS : RootIndexFile         | ccReactJS_JS_RootIndexFile         |
-| ReactJS : JS : Store                 | ccReactJS_JS_Store                 |
-| ReactJS : JS : RootReducer           | ccReactJS_JS_RootReducer           |
-| ReactJS : JS : NewReducer            | ccReactJS_JS_NewReducer            |
-| ReactJS : JS : ActionTypes           | ccReactJS_JS_ActionTypes           |
-| ReactJS : JS : NewRoute              | ccReactJS_JS_NewRoute              |
-| ReactJS : Duck : NewDuck             | ccReactJS_Duck_NewDuck             |
 
 ### ReactJS Elements:
 

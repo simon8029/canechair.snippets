@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.10.5]
+
+Refactor React Action, Reducer, ActionType snippets
+
 ##### [1.10.2]
 
 Refactor React container component
