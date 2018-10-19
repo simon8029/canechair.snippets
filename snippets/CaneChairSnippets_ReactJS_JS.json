@@ -317,7 +317,7 @@
 			"\t\t\treturn {",
 			"\t\t\t\t...state,",
 			"\t\t\t\t${1:__ComponentName__}s: [",
-			"\t\t\t\t\t...state.${1:__ComponentName__}s.filter(q => q.id !== action.payload)",
+			"\t\t\t\t\t...state.${1:__ComponentName__}s.filter(item => item.id !== action.payload)",
 			"\t\t\t\t]",
 			"\t\t\t};",
 			"\t\t}",
