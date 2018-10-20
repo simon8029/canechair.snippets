@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.10.7]
+
+Refactor React New Action snippets
+
 ##### [1.10.6]
 
 Refactor React New Reducer snippets
