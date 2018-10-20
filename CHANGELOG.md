@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.10.8]
+
+Refactor React New Action snippets
+
 ##### [1.10.7]
 
 Refactor React New Action snippets
