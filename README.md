@@ -181,6 +181,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | Express : MiddleWare : VerifyToken                | ccExpress_MiddleWare_VerifyToken              |
 | Express : Routes : Module : Exports : Function    | ccExpress_Routes_Module_Exports_Function      |
 | Express : Routes : SimpleAppRoute                 | ccExpress_Routes_SimpleAppRoute               |
+| Express : Routes : Get                            | ccExpress_Routes_Get                          |
 | Express : Response : Status : 200 : Send          | ccExpress_Response_Status_200_Send            |
 | Express : Response : Status : 401 : Send          | ccExpress_Response_Status_401_Send            |
 | Express : Response : Status : 404 : Send          | ccExpress_Response_Status_404_Send            |

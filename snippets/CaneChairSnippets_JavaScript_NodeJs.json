@@ -1,9 +1,7 @@
 {
 	"NodeJs:Common:Export:*": {
 		"prefix": "ccNodeJs_Common_Export_*",
-		"body": [
-			"export * from '${1:__modulePath__}';"
-		],
+		"body": ["export * from '${1:__modulePath__}';"],
 		"description": "export * from '${1:__modulePath__}';"
 	},
 	"NodeJs:Function:For": {
@@ -17,10 +15,8 @@
 	},
 	"NodeJs:Require": {
 		"prefix": "ccNodeJs_Require",
-		"body": [
-			"${2:__moduleName__}=require('${1:__modulePath__}');"
-		],
-		"description": ""
+		"body": ["const ${2:__moduleName__} = require('${1:__modulePath__}');"],
+		"description": "Create require statement."
 	},
 	"NodeJs:Function:NewFunction": {
 		"prefix": "ccNodeJs_Function_NewFunction",

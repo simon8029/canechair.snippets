@@ -1,5 +1,5 @@
 {
-    "Express:Controller:Exports:Function": {
+	"Express:Controller:Exports:Function": {
 		"prefix": "ccExpress_Controller_Function_Exports",
 		"body": [
 			"exports.${1:__functionName__} = function(${2:req}, ${3:res}, ${4:}){",
@@ -190,11 +190,7 @@
 	},
 	"Express:Routes:Module:Exports:function": {
 		"prefix": "ccExpress_Routes_Module_Exports_Function",
-		"body": [
-			"module.exports = function (app) {",
-			"\t${1:__routes__}",
-			"}"
-		],
+		"body": ["module.exports = function (app) {", "\t${1:__routes__}", "}"],
 		"description": ""
 	},
 	"Express:Routes:SimpleAppRoute": {
@@ -208,32 +204,29 @@
 		],
 		"description": ""
 	},
+	"Express:Routes:Get": {
+		"prefix": "ccExpress_Routes_Get",
+		"body": ["router.get('${1:__Route__}', {3:__controllerFunction__});"],
+		"description": "Create A Get Route"
+	},
 	"Express:Response:Status:200:Send": {
 		"prefix": "ccExpress_Response_Status_200_Send",
-		"body": [
-			"${1:res}.status(200).send(${2});"
-		],
+		"body": ["${1:res}.status(200).send(${2});"],
 		"description": ""
 	},
 	"Express:Response:Status:401:Send": {
 		"prefix": "ccExpress_Response_Status_401_Send",
-		"body": [
-			"${1:res}.status(401).send(${2});"
-		],
+		"body": ["${1:res}.status(401).send(${2});"],
 		"description": ""
 	},
 	"Express:Response:Status:404:Send": {
 		"prefix": "ccExpress_Response_Status_404_Send",
-		"body": [
-			"${1:res}.status(404).send('${2:Not found.}');"
-		],
+		"body": ["${1:res}.status(404).send('${2:Not found.}');"],
 		"description": ""
 	},
 	"Express:Response:Status:500:Send": {
 		"prefix": "ccExpress_Response_Status_500_Send",
-		"body": [
-			"${1:res}.status(500).send({ message: '${2:message}' ${3} });"
-		],
+		"body": ["${1:res}.status(500).send({ message: '${2:message}' ${3} });"],
 		"description": ""
 	}
 }
