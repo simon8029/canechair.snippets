@@ -175,6 +175,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | Express : Controller : Function : SimpleGetAll    | ccExpress_Controller_Function_SimpleGetAll    |
 | Express : Controller : Function : SimpleUpdate    | ccExpress_Controller_Function_SimpleUpdate    |
 | Express : Controller : Function : SimpleDelete    | ccExpress_Controller_Function_SimpleDelete    |
+| Express:Controller:Get                            | ccExpress_Controller_Get                      |
 | Express : MiddleWare : SimpleGetById              | ccExpress_MiddleWare_SimpleGetById            |
 | Express : MiddleWare : IsAuthenticated            | ccExpress_MiddleWare_IsAuthenticated          |
 | Express : MiddleWare : HasAuthorized              | ccExpress_MiddleWare_HasAuthorized            |

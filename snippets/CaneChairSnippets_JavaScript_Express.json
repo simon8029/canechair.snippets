@@ -83,6 +83,16 @@
 		],
 		"description": ""
 	},
+	"Express:Controller:Get": {
+		"prefix": "ccExpress_Controller_Get",
+		"body": [
+			"// Get '${1:__ControllerName__}' page",
+			"const ${1:__ControllerName__} = (req, res) => {",
+			"\tres.render('index', { title: '${1:__ControllerName__}' });",
+			"};"
+		],
+		"description": "Create Get Page Controller."
+	},
 	"Express:Controller:Function: SimpleUpdate": {
 		"prefix": "ccExpress_Controller_Function_SimpleUpdate",
 		"body": [
@@ -190,7 +200,7 @@
 	},
 	"Express:Routes:Module:Exports:function": {
 		"prefix": "ccExpress_Routes_Module_Exports_Function",
-		"body": ["module.exports = function (app) {", "\t${1:__routes__}", "}"],
+		"body": ["module.exports = {", "\t${1:__routes__}", "}"],
 		"description": ""
 	},
 	"Express:Routes:SimpleAppRoute": {

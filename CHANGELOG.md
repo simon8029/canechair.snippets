@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.12.0]
+
+Add Express:Controller:Get
+
 ##### [1.11.0]
 
 Add ccExpress_Routes_Get
