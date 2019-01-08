@@ -1,0 +1,36 @@
+{
+	"Test : Chai : Express : Module": {
+		"prefix": "ccTest_Chai_Express_Module",
+		"body": [
+			"var chai = require('chai');",
+			"var expect = chai.expect;",
+			"",
+			"var ${1:__ModuleName__}Module = require('../../../modules/${1:__ModuleName__}/${1:__ModuleName__}.module');",
+			"",
+			"describe('${1:__ModuleName__}Module', () => {",
+			"\tdescribe('${1:__ModuleName__}.module file', () => {",
+			"\t\tit('should confirm ${1:__ModuleName__}Module function exist', () => {",
+			"\t\t\texpect(${1:__ModuleName__}Module).to.be.a('function');",
+			"\t\t});",
+			"\t\tit('should confirm ${1:__ModuleName__}Module function returns an object', () => {",
+			"\t\t\texpect(${1:__ModuleName__}Module()).to.be.a('object');",
+			"\t\t});",
+			"\t\tit('should confirm ${1:__ModuleName__}Controller function exist', () => {",
+			"\t\t\texpect(${1:__ModuleName__}Module().${1:__ModuleName__}Controller).to.be.a('function');",
+			"\t\t});",
+			"\t\tit('should confirm ${1:__ModuleName__}Middleware object exist', () => {",
+			"\t\t\texpect(${1:__ModuleName__}Module().${1:__ModuleName__}Middleware).to.be.a('object');",
+			"\t\t});",
+			"\t\tit('should confirm ${1:__ModuleName__}Service object exist', () => {",
+			"\t\t\texpect(${1:__ModuleName__}Module().${1:__ModuleName__}Service).to.be.a('object');",
+			"\t\t});",
+			"\t\tit('should confirm ${1:__ModuleName__}Model function exist', () => {",
+			"\t\t\texpect(${1:__ModuleName__}Module().${1:__ModuleName__}Model).to.be.a('function');",
+			"\t\t});",
+			"\t});",
+			"});",
+			""
+		],
+		"description": "Create a spec file for module"
+	}
+}

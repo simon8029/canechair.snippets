@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.14.0]
+
+Add ccTest_Chai_Express_Module
+
 ##### [1.13.0]
 
 Add Common Javascript: IIFE function.

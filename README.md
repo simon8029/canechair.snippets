@@ -170,6 +170,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | Test : Jest : Expect : ToThrow                      | ccTest_Jest_Expect_ToThrow                      |
 | Test : Jest : Expect : ToThrowError                 | ccTest_Jest_Expect_ToThrowError                 |
 | Test : Jest : Expect : ToThrowErrorMatchingSnapshot | ccTest_Jest_Expect_ToThrowErrorMatchingSnapshot |
+| Test : Chai : Express : Module                      | ccTest_Chai_Express_Module                      |
 
 ### Express :
 
