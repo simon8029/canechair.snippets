@@ -1,5 +1,9 @@
 # Change Log
 
+##### [1.13.0]
+
+Add Common Javascript: IIFE function.
+
 ##### [1.12.0]
 
 Add Express:Controller:Get

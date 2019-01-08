@@ -96,6 +96,7 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
 | Snippet Name                      | Keyboard Shortcut               |
 | --------------------------------- | ------------------------------- |
+| Common : IIFE                     | ccCommon_IIFE                   |
 | Common : PrintToConsole           | cclog                           |
 | Common : PrintToConsole : Group   | cclog_group                     |
 | Common : Import : Module          | ccCommon_Import_Module          |
