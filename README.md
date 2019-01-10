@@ -12,7 +12,9 @@
 
 ---
 
-Snippets for Javascript Full-Stack Development using "VS Code", include: ReactJS, Vue, TypeScript, React, ReactNative, Vanilla JavaScript, Jest, Express, NodeJs, Mongoose, MongoDB, and more...
+### Break Changes Warning: TS/JSX file snippets are discontinued, only focus on js for current version.
+
+Snippets for Javascript Full-Stack Development using "VS Code", include:React, ReactNative, Vanilla JavaScript, Express, NodeJs, MongoDB, Jest, Chai, and more...
 
 #### (Keyboard shortcut works while entered enough characters to disambiguate the term, no fully input needed.)
 
@@ -40,25 +42,6 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : JS : NewRoute              | ccReactJS_JS_NewRoute              |
 | ReactJS : Duck : NewDuck             | ccReactJS_Duck_NewDuck             |
 
-### ReactJS (TypeScripted):
-
-| Snippet Name                                       | Keyboard Shortcut                            |
-| -------------------------------------------------- | -------------------------------------------- |
-| ReactJS : TS : Function : SetState                 | ccReactJS_TS_Function_SetState               |
-| ReactJS : TS : Store : NewStore                    | ccReactJS_TS_Store_NewStore                  |
-| ReactJS : TS : Redux : Action : Interface          | ccReactJS_TS_Action_Interface                |
-| ReactJS : TS : Redux : Action : NewAction          | ccReactJS_TS_Action_NewAction                |
-| ReactJS : TS : Redux : Reducer : NewReducer        | ccReactJS_TS_Reducer_NewReducer              |
-| ReactJS : TS : Service : NewService                | ccReactJS_TS_Service_NewService              |
-| ReactJS : TS : Route : NewRoute                    | ccReactJS_TS_Route_NewRoute                  |
-| ReactJS : TS : Type : StoreStateType               | ccReactJS_TS_Type_StoreStateType             |
-| ReactJS : TS : Type : ActionType                   | ccReactJS_TS_Type_ActionType                 |
-| ReactJS : TSX : Component : Container              | ccReactJS_TSX_Component_Container            |
-| ReactJS : TSX : Component : Container : WithStyles | ccReactJS_TSX_Component_Container_WithStyles |
-| ReactJS : TSX : Component : Presentational         | ccReactJS_TSX_Component_Presentational       |
-| ReactJS : TSX : Component : ListComponent          | ccReactJS_TSX_Component_ListComponent        |
-| ReactJS : TSX : Component : DetailComponent        | ccReactJS_TSX_Component_DetailComponent      |
-
 ### ReactJS Elements:
 
 | Snippet Name                  | Keyboard Shortcut         |
@@ -84,13 +67,6 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | ReactJS : Element : Ul        | ccReactJS_Element_Ul      |
 | ReactJS : Element : Li        | ccReactJS_Element_Li      |
 | ReactJS : Element : Paragraph | ccReactJS_Element_P       |
-
-### VueJS
-
-| Snippet Name    | Keyboard Shortcut      |
-| --------------- | ---------------------- |
-| Vue : Module    | ccVue_Module_NewModule |
-| Vue : Component | ccVue_Component        |
 
 ### Vanilla JavaScript
 
@@ -172,55 +148,36 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | Test : Jest : Expect : ToThrowErrorMatchingSnapshot | ccTest_Jest_Expect_ToThrowErrorMatchingSnapshot |
 | Test : Chai : Express : Module                      | ccTest_Chai_Express_Module                      |
 
+### Test : Chai
+
+| Snippet Name                       | Keyboard Shortcut              |
+| ---------------------------------- | ------------------------------ |
+| Test : Chai : Express : Module     | ccTest_Chai_Express_Module     |
+| Test : Chai : Express : Middleware | ccTest_Chai_Express_Middleware |
+| Test : Chai : Express : Service    | ccTest_Chai_Express_Service    |
+| Test : Chai : Express : Controller | ccTest_Chai_Express_Controller |
+| Test : Chai : MongoDB : Module     | ccTest_Chai_MongoDB_Module     |
+| Test : Chai : MongoDB : Util       | ccTest_Chai_MongoDB_Util       |
+| Test : Chai : Fixture              | cc_Test_Chai_Fixture           |
+
 ### Express :
 
-| Snippet Name                                      | Keyboard Shortcut                             |
-| ------------------------------------------------- | --------------------------------------------- |
-| Express : Controller : Function : Default         | ccExpress_Controller_Function_Default         |
-| Express : Controller : Function : Exports         | ccExpress_Controller_Function_Exports         |
-| Express : Controller : Function : GetErrorMessage | ccExpress_Controller_Function_GetErrorMessage |
-| Express : Controller : Function : SimpleCreate    | ccExpress_Controller_Function_SimpleCreate    |
-| Express : Controller : Function : SimpleGetAll    | ccExpress_Controller_Function_SimpleGetAll    |
-| Express : Controller : Function : SimpleUpdate    | ccExpress_Controller_Function_SimpleUpdate    |
-| Express : Controller : Function : SimpleDelete    | ccExpress_Controller_Function_SimpleDelete    |
-| Express:Controller:Get                            | ccExpress_Controller_Get                      |
-| Express : MiddleWare : SimpleGetById              | ccExpress_MiddleWare_SimpleGetById            |
-| Express : MiddleWare : IsAuthenticated            | ccExpress_MiddleWare_IsAuthenticated          |
-| Express : MiddleWare : HasAuthorized              | ccExpress_MiddleWare_HasAuthorized            |
-| Express : MiddleWare : VerifyToken                | ccExpress_MiddleWare_VerifyToken              |
-| Express : Routes : Module : Exports : Function    | ccExpress_Routes_Module_Exports_Function      |
-| Express : Routes : SimpleAppRoute                 | ccExpress_Routes_SimpleAppRoute               |
-| Express : Routes : Get                            | ccExpress_Routes_Get                          |
-| Express : Response : Status : 200 : Send          | ccExpress_Response_Status_200_Send            |
-| Express : Response : Status : 401 : Send          | ccExpress_Response_Status_401_Send            |
-| Express : Response : Status : 404 : Send          | ccExpress_Response_Status_404_Send            |
-| Express : Response : Status : 500 : Send          | ccExpress_Response_Status_500_Send            |
+| Snippet Name                                   | Keyboard Shortcut                        |
+| ---------------------------------------------- | ---------------------------------------- |
+| Express:Controller                             | ccExpress_Controller                     |
+| Express : MiddleWare                           | ccExpress_MiddleWare                     |
+| Express : Routes : Module : Exports : Function | ccExpress_Routes_Module_Exports_Function |
+| Express : Routes : SimpleAppRoute              | ccExpress_Routes_SimpleAppRoute          |
+| Express : Routes : Get                         | ccExpress_Routes_Get                     |
+| Express : Response : Status : 200 : Send       | ccExpress_Response_Status_200_Send       |
+| Express : Response : Status : 401 : Send       | ccExpress_Response_Status_401_Send       |
+| Express : Response : Status : 404 : Send       | ccExpress_Response_Status_404_Send       |
+| Express : Response : Status : 500 : Send       | ccExpress_Response_Status_500_Send       |
 
-### Mongoose
+### Mongo
 
-| Snippet Name                               | Keyboard Shortcut                      |
-| ------------------------------------------ | -------------------------------------- |
-| Mongoose : Controller : Function : FindOne | ccMongoose_Controller_Function_FindOne |
-| Mongoose : Model : AddNewSchema            | ccMongoose_Model_NewSchema             |
-| Mongoose : Model : NewModel                | ccMongoose_Model_NewModel              |
-| Mongoose : Model : NewProperty             | ccMongoose_Model_NewProperty           |
-| Mongoose : Model : NewProperty : Required  | ccMongoose_Model_NewProperty_Required  |
-
-### Node.js
-
-| Snippet Name                    | Keyboard Shortcut             |
-| ------------------------------- | ----------------------------- |
-| NodeJs : Require                | ccNodeJs_Require              |
-| NodeJs : Common : Export :      | ccNodeJs*Common_Export*\*     |
-| NodeJs : Function : If          | ccNodeJs_Function_If          |
-| NodeJs : Function : For         | ccNodeJs_Function_For         |
-| NodeJs : Function : NewFunction | ccNodeJs_Function_NewFunction |
-
-### Gulp :
-
-| Snippet Name              | Keyboard Shortcut       |
-| ------------------------- | ----------------------- |
-| JavaScript : Gulp : Task  | ccJavaScript_Gulp_Task  |
-| JavaScript : Gulp : Src   | ccJavaScript_Gulp_Src   |
-| JavaScript : Gulp : Watch | ccJavaScript_Gulp_Watch |
-| JavaScript : Gulp : Dest  | ccJavaScript_Gulp_Dest  |
+| Snippet Name     | Keyboard Shortcut |
+| ---------------- | ----------------- |
+| MongoDB : Module | ccMongoose_Module |
+| MongoDB : Model  | ccMongoose_Model  |
+| MongoDB : Config | ccMongoose_Config |

@@ -1,155 +1,210 @@
 {
-	"Express:Controller:Exports:Function": {
-		"prefix": "ccExpress_Controller_Function_Exports",
+	"Express : Module": {
+		"prefix": "ccExpress_Module",
 		"body": [
-			"exports.${1:__functionName__} = function(${2:req}, ${3:res}, ${4:}){",
-			"\t${5:__statement__}",
-			"};"
-		],
-		"description": ""
-	},
-	"Express:Controller:Function :Default": {
-		"prefix": "ccExpress_Controller_Function_Default",
-		"body": [
-			"function ${1:__functionName__}(${2:__parameter__}){",
-			"\t${3:__statement__}",
-			"}"
-		],
-		"description": ""
-	},
-	"Express:Controller:Function:GetErrorMessage": {
-		"prefix": "ccExpress_Controller_Function_GetErrorMessage",
-		"body": [
-			"let getErrorMessage = function (err) {",
-			"\tlet message = '';",
-			"\tconsole.log(\"err.code: \" + err.code);",
-			"\tif (err.code) {",
+			"(function() {",
+			"\t'use strict';",
 			"",
-			"\t\tswitch (err.code) {",
-			"\t\t\tcase 11000:",
-			"\t\t\tcase 11001:",
-			"\t\t\t\tmessage = '${1:__entityName__} already exists';",
-			"\t\t\tbreak;",
-			"\t\t\tdefault:",
-			"\t\t\t\tmessage = 'Something went wrong';",
-			"\t\t\tbreak;",
-			"\t\t}",
-			"\t} else {",
+			"\tmodule.exports = init;",
 			"",
-			"\t\tfor (var errName in err.errors) {",
-			"\t\t\tif (err.errors[errName].message)",
-			"\t\t\t\tmessage += err.errors[errName].message;",
-			"",
-			"\t\t\t}",
-			"\t\t}",
-			"\treturn message;",
-			"};"
-		],
-		"description": ""
-	},
-	"Express:Controller:Function:SimpleCreate": {
-		"prefix": "ccExpress_Controller_Function_SimpleCreate",
-		"body": [
-			"exports.create = function (req, res) {",
-			"\tconst ${1:entityName} = new ${2:modelName}(req.body);",
-			"",
-			"\t${1:entityName}.save((err) => {",
-			"\t\tif (err) {",
-			"\t\t\treturn res.status(400).send({",
-			"\t\t\t\tmessage: getErrorMessage(err)",
-			"\t\t\t});",
-			"\t\t} else {",
-			"\t\t\tres.status(200).json(${1:entityName});",
-			"\t\t}",
-			"\t})",
-			"};"
-		],
-		"description": ""
-	},
-	"Express:Controller:Function:SimpleGetAll": {
-		"prefix": "ccExpress_Controller_Function_SimpleGetAll",
-		"body": [
-			"exports.getAll = function (req, res) {",
-			"\t${1:__modelName__}.find().exec((err, ${2:__entities__}) => {",
-			"\t\tif (err) {",
-			"\t\t\treturn res.status(400).send({",
-			"\t\t\tmessage: getErrorMessage(err)",
-			"\t\t\t});",
-			"\t\t} else {",
-			"\t\t\tres.status(200).json(${2:__entities__});",
+			"\tfunction init() {",
+			"\t\treturn {",
+			"\t\t\t${1:__ModuleName__}Controller: require('./${1:__ModuleName__}.controller'),",
+			"\t\t\t${1:__ModuleName__}Middleware: require('./${1:__ModuleName__}.middleware'),",
+			"\t\t\t${1:__ModuleName__}Service: require('./${1:__ModuleName__}.service'),",
+			"\t\t\t${1:__ModuleName__}Model: require('./${1:__ModuleName__}.model'),",
 			"\t\t};",
-			"\t});",
-			"};"
+			"\t}",
+			"})();",
+			""
 		],
-		"description": ""
+		"description": "Crease an Express Module"
 	},
-	"Express:Controller:Get": {
-		"prefix": "ccExpress_Controller_Get",
+	"Express : Controller": {
+		"prefix": "ccExpress_Controller",
 		"body": [
-			"// Get '${1:__ControllerName__}' page",
-			"const ${1:__ControllerName__} = (req, res) => {",
-			"\tres.render('index', { title: '${1:__ControllerName__}' });",
-			"};"
-		],
-		"description": "Create Get Page Controller."
-	},
-	"Express:Controller:Function: SimpleUpdate": {
-		"prefix": "ccExpress_Controller_Function_SimpleUpdate",
-		"body": [
-			"exports.update = function (req, res) {",
-			"\tconst ${1:__entity__} = req.${1:__entity__};",
+			"(function() {",
+			"\t'use strict';",
 			"",
-			"\t${1:__entity__}.${2:__entityProperty__} = req.body.${2:__entityProperty__};",
-			"\t${1:__entity__}.save((err) => {",
-			"\t\tif (err) {",
-			"\t\t\treturn res.status(400).send({",
-			"\t\t\t\tmessage: getErrorMessage(err)",
-			"\t\t\t});",
-			"\t\t} else {",
-			"\t\t\tres.status(200).json(${1:__entity__});",
-			"\t\t}",
+			"\tvar express = require('express');",
+			"\tvar router = express.Router();",
+			"",
+			"\tvar ${1:__ModuleName__}Middleware = require('./${1:__ModuleName__}.module')().${1:__ModuleName__}Middleware;",
+			"",
+			"\trouter.post('/', ${1:__ModuleName__}Middleware.add${1:__ModuleName__}, function(req, res) {",
+			"\t\tres.status(201).json(req.response);",
 			"\t});",
-			"};"
+			"",
+			"\trouter.get('/', ${1:__ModuleName__}Middleware.get${1:__ModuleName__}s, function(req, res) {",
+			"\t\tres.status(200).json(req.response);",
+			"\t});",
+			"",
+			"\trouter.get('/:${1:__ModuleName__}Id', ${1:__ModuleName__}Middleware.get${1:__ModuleName__}ById, function(",
+			"\t\treq,",
+			"\t\tres,",
+			"\t) {",
+			"\t\tres.status(200).json(req.response);",
+			"\t});",
+			"",
+			"\trouter.put('/:${1:__ModuleName__}Id', ${1:__ModuleName__}Middleware.modify${1:__ModuleName__}, function(",
+			"\t\treq,",
+			"\t\tres,",
+			"\t) {",
+			"\t\tres.status(200).json(req.response);",
+			"\t});",
+			"",
+			"\trouter.delete('/:${1:__ModuleName__}Id', ${1:__ModuleName__}Middleware.remove${1:__ModuleName__}, function(",
+			"\t\treq,",
+			"\t\tres,",
+			"\t) {",
+			"\t\tres.status(200).json(req.response);",
+			"\t});",
+			"",
+			"\tmodule.exports = router;",
+			"})();",
+			""
 		],
-		"description": "Assumption already obtained the object with getById middleware."
+		"description": "Create an Express Controller"
 	},
-	"Express:Controller:Function: SimpleDelete": {
-		"prefix": "ccExpress_Controller_Function_SimpleDelete",
+	"Express : Service": {
+		"prefix": "ccExpress_Service",
 		"body": [
-			"exports.delete = function (req, res) {",
-			"\tlet ${1:__entityName__} = req.${1:__entityName__};",
-			"\t${1:__entityName__}.remove((err) => {",
-			"\t\tif (err) {",
-			"\t\t\treturn res.status(400).send({ message: getErrorMessage(err) });",
-			"\t\t} else {",
-			"\t\t\tres.status(204).send({ message: ${1:__entityName__} deleted. });",
-			"\t\t}",
-			"\t})",
-			"}"
+			"(function() {",
+			"\t'use strict';",
+			"",
+			"\tmodule.exports = {",
+			"\t\tcreate${1:__ModuleName__}: create${1:__ModuleName__},",
+			"\t\tfetch${1:__ModuleName__}s: fetch${1:__ModuleName__}s,",
+			"\t\tfetch${1:__ModuleName__}ById: fetch${1:__ModuleName__}ById,",
+			"\t\tupdate${1:__ModuleName__}: update${1:__ModuleName__},",
+			"\t\tdelete${1:__ModuleName__}: delete${1:__ModuleName__},",
+			"\t};",
+			"",
+			"\tvar ${1:__ModuleName__}Model = require('./${1:__ModuleName__}.module')().${1:__ModuleName__}Model;",
+			"",
+			"\tfunction create${1:__ModuleName__}(${1:__ModuleName__}) {",
+			"\t\treturn ${1:__ModuleName__}Model.create(${1:__ModuleName__});",
+			"\t}",
+			"",
+			"\tfunction fetch${1:__ModuleName__}s() {",
+			"\t\treturn ${1:__ModuleName__}Model.find({}).exec();",
+			"\t}",
+			"",
+			"\tfunction fetch${1:__ModuleName__}ById(${1:__ModuleName__}Id) {",
+			"\t\treturn ${1:__ModuleName__}Model.findById(${1:__ModuleName__}Id).exec();",
+			"\t}",
+			"",
+			"\tfunction update${1:__ModuleName__}(${1:__ModuleName__}Id, ${1:__ModuleName__}) {",
+			"\t\treturn ${1:__ModuleName__}Model.findByIdAndUpdate(${1:__ModuleName__}Id, ${1:__ModuleName__}, {",
+			"\t\t\tnew: true,",
+			"\t\t}).exec();",
+			"\t}",
+			"",
+			"\tfunction delete${1:__ModuleName__}(${1:__ModuleName__}Id) {",
+			"\t\treturn ${1:__ModuleName__}Model.findByIdAndRemove(${1:__ModuleName__}Id).exec();",
+			"\t}",
+			"})();",
+			""
 		],
-		"description": ""
+		"description": "Create an Express Service"
 	},
-	"Express:Middleware:simpleGetById": {
-		"prefix": "ccExpress_MiddleWare_SimpleGetById",
+	"Express : Middleware": {
+		"prefix": "ccExpress_Middleware",
 		"body": [
-			"exports.getById_middleWare = function (req, res, next, id) {",
-			"\t${1:__modelName__}.findById(id).exec((err, ${2:__entity__}) => {",
-			"\t\tif (err) {",
-			"\t\t\treturn next(err);",
+			"(function() {",
+			"\t'use strict';",
+			"",
+			"\tmodule.exports = {",
+			"\t\tadd${1:__ModuleName__}: add${1:__ModuleName__},",
+			"\t\tget${1:__ModuleName__}s: get${1:__ModuleName__}s,",
+			"\t\tget${1:__ModuleName__}ById: get${1:__ModuleName__}ById,",
+			"\t\tmodify${1:__ModuleName__}: modify${1:__ModuleName__},",
+			"\t\tremove${1:__ModuleName__}: remove${1:__ModuleName__},",
+			"\t};",
+			"",
+			"\tvar ${1:__ModuleName__}Service = require('./${1:__ModuleName__}.module')().${1:__ModuleName__}Service;",
+			"",
+			"\tfunction add${1:__ModuleName__}(req, res, next) {",
+			"\t\t${1:__ModuleName__}Service.create${1:__ModuleName__}(req.body)",
+			"\t\t\t.then(success)",
+			"\t\t\t.catch(failure);",
+			"",
+			"\t\tfunction success(data) {",
+			"\t\t\treq.response = data;",
+			"\t\t\tnext();",
 			"\t\t}",
 			"",
-			"\t\tif (!${2:__entity__}) {",
-			"\t\t\treturn next(new Error('Failed to get ${2:__entity__} ' + id));",
+			"\t\tfunction failure(error) {",
+			"\t\t\tnext(error);",
+			"\t\t}",
+			"\t}",
+			"",
+			"\tfunction get${1:__ModuleName__}s(req, res, next) {",
+			"\t\t${1:__ModuleName__}Service.fetch${1:__ModuleName__}s()",
+			"\t\t\t.then(success)",
+			"\t\t\t.catch(failure);",
+			"",
+			"\t\tfunction success(data) {",
+			"\t\t\treq.response = data;",
+			"\t\t\tnext();",
 			"\t\t}",
 			"",
-			"\t\treq.${2:__entity__} = ${2:__entity__};",
-			"\t\tnext();",
-			"\t});",
-			"};"
+			"\t\tfunction failure(err) {",
+			"\t\t\tnext(err);",
+			"\t\t}",
+			"\t}",
+			"",
+			"\tfunction get${1:__ModuleName__}ById(req, res, next) {",
+			"\t\t${1:__ModuleName__}Service.fetch${1:__ModuleName__}ById(req.params.${1:__ModuleName__}Id)",
+			"\t\t\t.then(success)",
+			"\t\t\t.catch(failure);",
+			"",
+			"\t\tfunction success(data) {",
+			"\t\t\treq.response = data;",
+			"\t\t\tnext();",
+			"\t\t}",
+			"",
+			"\t\tfunction failure(err) {",
+			"\t\t\tnext(err);",
+			"\t\t}",
+			"\t}",
+			"",
+			"\tfunction modify${1:__ModuleName__}(req, res, next) {",
+			"\t\t${1:__ModuleName__}Service.update${1:__ModuleName__}(req.params.${1:__ModuleName__}Id, req.body)",
+			"\t\t\t.then(success)",
+			"\t\t\t.catch(error);",
+			"",
+			"\t\tfunction success(data) {",
+			"\t\t\treq.response = data;",
+			"\t\t\tnext();",
+			"\t\t}",
+			"",
+			"\t\tfunction error(err) {",
+			"\t\t\tnext(err);",
+			"\t\t}",
+			"\t}",
+			"",
+			"\tfunction remove${1:__ModuleName__}(req, res, next) {",
+			"\t\t${1:__ModuleName__}Service.delete${1:__ModuleName__}(req.params.${1:__ModuleName__}Id)",
+			"\t\t\t.then(success)",
+			"\t\t\t.catch(error);",
+			"",
+			"\t\tfunction success(data) {",
+			"\t\t\treq.response = data;",
+			"\t\t\tnext();",
+			"\t\t}",
+			"",
+			"\t\tfunction error(err) {",
+			"\t\t\tnext(err);",
+			"\t\t}",
+			"\t}",
+			"})();",
+			""
 		],
-		"description": ""
+		"description": "Crease an Express Middleware"
 	},
-	"Express:middleware:IsAuthenticated": {
+
+	"Express : Middleware : IsAuthenticated": {
 		"prefix": "ccExpress_MiddleWare_IsAuthenticated",
 		"body": [
 			"exports.authenticate_middleware = function (req, res, next) {",
@@ -163,7 +218,7 @@
 		],
 		"description": ""
 	},
-	"Express:middleware:HasAuthorized": {
+	"Express : Middleware : HasAuthorized": {
 		"prefix": "ccExpress_MiddleWare_HasAuthorized",
 		"body": [
 			"exports.${1:hasAuthorizationFor...} = function (req, res, next) {",
@@ -177,7 +232,7 @@
 		],
 		"description": ""
 	},
-	"Express:MiddleWare:VerifyToken": {
+	"Express : MiddleWare : VerifyToken": {
 		"prefix": "ccExpress_MiddleWare_VerifyToken",
 		"body": [
 			"var jwt = require('jsonwebtoken');",
@@ -198,43 +253,23 @@
 		],
 		"description": ""
 	},
-	"Express:Routes:Module:Exports:function": {
-		"prefix": "ccExpress_Routes_Module_Exports_Function",
-		"body": ["module.exports = {", "\t${1:__routes__}", "}"],
-		"description": ""
-	},
-	"Express:Routes:SimpleAppRoute": {
-		"prefix": "ccExpress_Routes_SimpleAppRoute",
-		"body": [
-			"app.route('${1:__baseRoute__}')",
-			"\t.get(${2:__middleware__}, ${3:__controllerFunction__})",
-			"\t.post(${4:__middleware__}, ${5:__controllerFunction__})",
-			"\t.put(${6:__middleware__}, ${7:__controllerFunction__})",
-			"\t.delete(${8:__middleware__}, ${9:__controllerFunction__});"
-		],
-		"description": ""
-	},
-	"Express:Routes:Get": {
-		"prefix": "ccExpress_Routes_Get",
-		"body": ["router.get('${1:__Route__}', {3:__controllerFunction__});"],
-		"description": "Create A Get Route"
-	},
-	"Express:Response:Status:200:Send": {
+
+	"Express : Response : Status : 200 : Send": {
 		"prefix": "ccExpress_Response_Status_200_Send",
 		"body": ["${1:res}.status(200).send(${2});"],
 		"description": ""
 	},
-	"Express:Response:Status:401:Send": {
+	"Express : Response : Status : 401 : Send": {
 		"prefix": "ccExpress_Response_Status_401_Send",
 		"body": ["${1:res}.status(401).send(${2});"],
 		"description": ""
 	},
-	"Express:Response:Status:404:Send": {
+	"Express : Response : Status : 404 : Send": {
 		"prefix": "ccExpress_Response_Status_404_Send",
 		"body": ["${1:res}.status(404).send('${2:Not found.}');"],
 		"description": ""
 	},
-	"Express:Response:Status:500:Send": {
+	"Express : Response : Status : 500 : Send": {
 		"prefix": "ccExpress_Response_Status_500_Send",
 		"body": ["${1:res}.status(500).send({ message: '${2:message}' ${3} });"],
 		"description": ""

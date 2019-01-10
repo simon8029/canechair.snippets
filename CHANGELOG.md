@@ -1,5 +1,9 @@
 # Change Log
 
+##### [2.0.0]
+
+Adding Express/MongoDB common snippets.
+
 ##### [1.14.0]
 
 Add ccTest_Chai_Express_Module
