@@ -1,5 +1,9 @@
 # Change Log
 
+##### [2.0.2]
+
+Refactoring cc_Test_Chai_Fixture
+
 ##### [2.0.0]
 
 Adding Express/MongoDB common snippets.

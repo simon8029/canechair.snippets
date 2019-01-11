@@ -685,10 +685,8 @@
 			"\t'use strict';",
 			"",
 			"\tmodule.exports = {",
-			"\t\t${1:__ModuleName__}s: require('./${1:__ModuleName__}s.json'),",
-			"\t\tnew${1:__ModuleName__}: require('./new-${1:__ModuleName__}.json'),",
-			"\t\tcreated${1:__ModuleName__}: require('./created-${1:__ModuleName__}.json'),",
-			"\t\tmodified${1:__ModuleName__}: require('./modified-${1:__ModuleName__}.json'),",
+			"\t\t${1:__ModuleName__}Fixture: require('./${1:__ModuleName__}/${1:__ModuleName__}.fixture'),",
+			"\t\tErrorFixture: require('./Error/Error.fixture'),",
 			"\t};",
 			"})();",
 			""
