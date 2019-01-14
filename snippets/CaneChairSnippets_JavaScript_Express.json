@@ -43,8 +43,6 @@
 			"\t\tres.status(200).json(req.response);",
 			"\t});",
 			"",
-			"\trouter.route('/').get();",
-			"",
 			"\trouter.get(",
 			"\t\t'/${2:__Params__}/:${2:__Params__}',",
 			"\t\t${1:__ModuleName__}Middleware.get${1:__ModuleName__}ByParams,",
