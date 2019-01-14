@@ -164,8 +164,9 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
 | Snippet Name                                   | Keyboard Shortcut                        |
 | ---------------------------------------------- | ---------------------------------------- |
-| Express:Controller                             | ccExpress_Controller                     |
+| Express : Controller                           | ccExpress_Controller                     |
 | Express : MiddleWare                           | ccExpress_MiddleWare                     |
+| Express : Service                              | ccExpress_Service                        |
 | Express : Routes : Module : Exports : Function | ccExpress_Routes_Module_Exports_Function |
 | Express : Routes : SimpleAppRoute              | ccExpress_Routes_SimpleAppRoute          |
 | Express : Routes : Get                         | ccExpress_Routes_Get                     |
