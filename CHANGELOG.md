@@ -1,5 +1,9 @@
 # Change Log
 
+##### [2.0.5]
+
+Bugs Fixing.
+
 ##### [2.0.4]
 
 Refactoring ccTest_Chai_Express_Service, ccExpress_Controller
