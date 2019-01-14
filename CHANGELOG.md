@@ -1,5 +1,9 @@
 # Change Log
 
+##### [2.0.4]
+
+Refactoring ccTest_Chai_Express_Service, ccExpress_Controller
+
 ##### [2.0.3]
 
 Refactoring ccTest_Chai_Express_Middleware, ccTest_Chai_Express_Service, ccExpress_Controller, ccExpress_MiddleWare, ccExpress_Service
