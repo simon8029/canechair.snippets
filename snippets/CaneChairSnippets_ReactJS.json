@@ -55,7 +55,7 @@
 			"\t}",
 			"}",
 			"",
-			"const mapStateToProps = store => {};",
+			"const mapStateToProps = store => {return {}};",
 			"const mapDispatchToProps = {};",
 			"",
 			"export default connect(",
