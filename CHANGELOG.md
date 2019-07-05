@@ -1,5 +1,9 @@
 # Change Log
 
+##### [3.0.0]
+
+Adding snippets for D3JS.
+
 ##### [2.0.6]
 
 Bugs Fixing.

@@ -1,0 +1,71 @@
+{
+	"D3JS : xScale": {
+		"prefix": "ccD3_xScale",
+		"body": [
+			"  const dateParser = d3.timeParse('%Y-%m-%d');",
+			"  const xAccessor = d => dateParser(d.date);",
+			"  const xScale = d3",
+			"    .scaleTime()",
+			"    .domain(d3.extent(dataset, xAccessor))",
+			"    .range([0, dimensions.boundedWidth]);"
+		],
+		"description": "Create xScale"
+	},
+	"D3JS : yScale": {
+		"prefix": "ccD3_yScale",
+		"body": [
+			"  const yAccessor = d => dateParser(d.date);",
+			"  const yScale = d3",
+			"    .scaleLinear()",
+			"    .domain(d3.extent(dataset, yAccessor))",
+			"    .range([dimensions.boundedWidth], 0);"
+		],
+		"description": "Create yScale"
+	},
+	"D3JS : dimensions": {
+		"prefix": "ccD3_dimensions",
+		"body": [
+			"  const dimensions = {",
+			"  width: window.innerWidth * 0.9,",
+			"  height: 400,",
+			"  margin: {",
+			"    top: 15,",
+			"    right: 15,",
+			"    bottom: 40,",
+			"    left: 60",
+			"        }",
+			"      };",
+			"  ",
+			"  dimensions.boundedWidth =",
+			"    dimensions.width - dimensions.margin.left - dimensions.margin.right;",
+			"  dimensions.boundedHeight =",
+			"    dimensions.height - dimensions.margin.top - dimensions.margin.bottom;"
+		],
+		"description": "Create dimensions"
+	},
+	"D3JS : wrapper": {
+		"prefix": "ccD3_wrapper",
+		"body": [
+			"  const wrapper = d3",
+			"  .select('#wrapper')",
+			"  .append('svg')",
+			"  .attr('width', dimensions.width)",
+			"  .attr('height', dimensions.height);"
+		],
+		"description": "Create wrapper"
+	},
+	"D3JS : bounds": {
+		"prefix": "ccD3_bounds",
+		"body": [
+			"  const bounds = wrapper",
+			"    .append('g')",
+			"    .style(",
+			"      'transform',",
+			"      `translate(${dimensions.margin.left",
+			"      }px,${dimensions.margin.top",
+			"      }px)`",
+			"    );"
+		],
+		"description": "Create bounds"
+	}
+}
