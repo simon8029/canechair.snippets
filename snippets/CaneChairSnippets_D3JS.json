@@ -1,13 +1,25 @@
 {
-	"D3JS : Scale : Linear": {
-		"prefix": "ccD3_scale_linear",
+	"D3JS : xScale : Linear": {
+		"prefix": "ccD3_xScale_linear",
 		"body": [
-			"const ${1:__x/y__}Scale = d3.scaleLinear()",
-			"  .domain(d3.extent(dataset, ${1:__x/y__}Accessor)) ",
+			"const xAccessor = d => d.${1:__propertyName__};",
+			"const xScale = d3.scaleLinear()",
+			"  .domain(d3.extent(dataset, xAccessor)) ",
 			"  .range([0, dimensions.boundedWidth",
 			"])"
 		],
-		"description": "Create xScale by date"
+		"description": "Create Linear xScale"
+	},
+	"D3JS : yScale : Linear": {
+		"prefix": "ccD3_yScale_linear",
+		"body": [
+			"const yAccessor = d => d.${1:__propertyName__};",
+			"const yScale = d3.scaleLinear()",
+			"  .domain(d3.extent(dataset, yAccessor)) ",
+			"  .range([dimensions.boundedHeight, 0]),",
+			"  .nice();"
+		],
+		"description": "Create Linear xScale"
 	},
 	"D3JS : xScale : Date": {
 		"prefix": "ccD3_xScale_date",
@@ -21,17 +33,42 @@
 		],
 		"description": "Create xScale by date"
 	},
-	"D3JS : yScale": {
-		"prefix": "ccD3_yScale",
+	"D3JS : Axis": {
+		"prefix": "ccD3_axis",
 		"body": [
-			"  const yAccessor = d => dateParser(d.date);",
-			"  const yScale = d3",
-			"    .scaleLinear()",
-			"    .domain(d3.extent(dataset, yAccessor))",
-			"    .range([dimensions.boundedWidth], 0);"
+			"const xAxisGenerator = d3.axisBottom().scale(xScale);",
+			"const xAxis = bounds",
+			"  .append('g')",
+			"  .call(xAxisGenerator)",
+			"  .style('transform', `translateY(${dimensions.boundedHeight",
+			"    }px)`);",
+			"",
+			"const xAxisLabel = xAxis",
+			"  .append('text')",
+			"  .attr('x', dimensions.boundedWidth / 2)",
+			"  .attr('y', dimensions.margin.bottom - 10)",
+			"  .attr('fill', 'black')",
+			"  .style('font-size', '1.4em')",
+			"  .html('xAxis Label');",
+			"",
+			"const yAxisGenerator = d3",
+			"  .axisLeft()",
+			"  .scale(yScale)",
+			"  .ticks(10);",
+			"const yAxis = bounds.append('g').call(yAxisGenerator);",
+			"const yAxisLabel = yAxis",
+			"  .append('text')",
+			"  .attr('x', -dimensions.boundedHeight / 2)",
+			"  .attr('y', -dimensions.margin.left + 10)",
+			"  .attr('fill', 'black')",
+			"  .style('font-size', '1.4em')",
+			"  .style('transform', 'rotate(-90deg')",
+			"  .style('text-anchor', 'middle')",
+			"  .text('yAxis Label');"
 		],
-		"description": "Create yScale"
+		"description": "Create Axes"
 	},
+
 	"D3JS : dimensions": {
 		"prefix": "ccD3_dimensions",
 		"body": [
@@ -43,8 +80,8 @@
 			"    right: 15,",
 			"    bottom: 40,",
 			"    left: 60",
-			"        }",
-			"      };",
+			"    }",
+			"  };",
 			"  ",
 			"  dimensions.boundedWidth =",
 			"    dimensions.width - dimensions.margin.left - dimensions.margin.right;",

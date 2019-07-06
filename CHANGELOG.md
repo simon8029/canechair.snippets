@@ -1,5 +1,10 @@
 # Change Log
 
+##### [3.0.2]
+
+Adding "D3JS : yScale : Linear"
+Adding "D3JS : Axis "
+
 ##### [3.0.1]
 
 Adding "D3JS : Scale : Linear"
