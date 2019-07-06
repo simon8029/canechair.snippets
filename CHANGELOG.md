@@ -1,5 +1,9 @@
 # Change Log
 
+##### [3.0.1]
+
+Adding "D3JS : Scale : Linear"
+
 ##### [3.0.0]
 
 Adding snippets for D3JS.

@@ -1,6 +1,16 @@
 {
-	"D3JS : xScale": {
-		"prefix": "ccD3_xScale",
+	"D3JS : Scale : Linear": {
+		"prefix": "ccD3_scale_linear",
+		"body": [
+			"const ${1:__x/y__}Scale = d3.scaleLinear()",
+			"  .domain(d3.extent(dataset, ${1:__x/y__}Accessor)) ",
+			"  .range([0, dimensions.boundedWidth",
+			"])"
+		],
+		"description": "Create xScale by date"
+	},
+	"D3JS : xScale : Date": {
+		"prefix": "ccD3_xScale_date",
 		"body": [
 			"  const dateParser = d3.timeParse('%Y-%m-%d');",
 			"  const xAccessor = d => dateParser(d.date);",
@@ -9,7 +19,7 @@
 			"    .domain(d3.extent(dataset, xAccessor))",
 			"    .range([0, dimensions.boundedWidth]);"
 		],
-		"description": "Create xScale"
+		"description": "Create xScale by date"
 	},
 	"D3JS : yScale": {
 		"prefix": "ccD3_yScale",

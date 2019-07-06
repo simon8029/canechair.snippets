@@ -185,10 +185,11 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 
 ### D3JS
 
-| Snippet Name    | Keyboard Shortcut |
-| --------------- | ----------------- |
-| D3 : xScale     | ccD3_xScale       |
-| D3 : yScale     | ccD3_yScale       |
-| D3 : dimensions | ccD3_dimensions   |
-| D3 : wrapper    | ccD3_wrapper      |
-| D3 : bounds     | ccD3_bounds       |
+| Snippet Name          | Keyboard Shortcut |
+| --------------------- | ----------------- |
+| D3JS : Scale : Linear | ccD3_scale_linear |
+| D3 : xScale           | ccD3_xScale       |
+| D3 : yScale           | ccD3_yScale       |
+| D3 : dimensions       | ccD3_dimensions   |
+| D3 : wrapper          | ccD3_wrapper      |
+| D3 : bounds           | ccD3_bounds       |
