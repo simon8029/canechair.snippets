@@ -1,5 +1,8 @@
 # Change Log
 
+##### [3.1.0]
+
+Adding "ReactNative : Component : Container"
 ##### [3.0.2]
 
 Adding "D3JS : yScale : Linear"
