@@ -1,8 +1,9 @@
 # Change Log
 
-##### [3.1.0]
+##### [3.1.1]
 
 Adding ccReactJS_JS_Component_Hooks
+Adding "ReactNative : Component : Container"
 
 ##### [3.0.2]
 

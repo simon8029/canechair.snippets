@@ -39,6 +39,10 @@
 			},
 			{
 				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_ReactNative.json"
+			},
+			{
+				"language": "javascript",
 				"path": "./snippets/CaneChairSnippets_Test_Jest.json"
 			},
 			{
