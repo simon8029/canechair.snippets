@@ -66,6 +66,18 @@
 		],
 		"description": "Create React Container Component"
 	},
+	"ReactJS : JS : Component : Hooks": {
+		"prefix": "ccReactJS_JS_Component_Hooks",
+		"body": [
+			"import React, { useState } from 'react';",
+			"import './${1:__ComponentName__}.scss';",
+			"",
+			"export function ${1:__ComponentName__}() {",
+			"return <div className=\"${1:__ComponentName__}\">${1:__ComponentName__}</div>;",
+			"}"
+		],
+		"description": "Create React Container Component"
+	},
 	"ReactJS : JS : NewAction": {
 		"prefix": "ccReactJS_JS_NewAction",
 		"body": [

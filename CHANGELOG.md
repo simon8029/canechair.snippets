@@ -1,5 +1,9 @@
 # Change Log
 
+##### [3.1.0]
+
+Adding ccReactJS_JS_Component_Hooks
+
 ##### [3.0.2]
 
 Adding "D3JS : yScale : Linear"

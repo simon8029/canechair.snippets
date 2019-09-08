@@ -16,7 +16,7 @@
 			"const yAccessor = d => d.${1:__propertyName__};",
 			"const yScale = d3.scaleLinear()",
 			"  .domain(d3.extent(dataset, yAccessor)) ",
-			"  .range([dimensions.boundedHeight, 0]),",
+			"  .range([dimensions.boundedHeight, 0])",
 			"  .nice();"
 		],
 		"description": "Create Linear xScale"
