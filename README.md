@@ -194,3 +194,20 @@ GitHub: https://github.com/simon8029/CaneChair.Snippets.io
 | D3JS : xScale : Linear | ccD3_xScale_linear |
 | D3JS : yScale : Linear | ccD3_yScale_linear |
 | D3JS : Axis            | ccD3_axis          |
+
+### GraphQL
+
+| Snippet Name                                | Keyboard Shortcut                        |
+| ------------------------------------------- | ---------------------------------------- |
+| GraphQL : Client : Class                    | cc_graphQL_client_class                  |
+| GraphQL : Client : IndexJS                  | cc_graphQL_client_indexJs                |
+| GraphQL : Server : appJS                    | cc_graphQL_server_appJs                  |
+| GraphQL : Server : TypeDefs : DefaultSchema | cc_graphQL_server_typeDefs_defaultSchema |
+| GraphQL : Server : TypeDefs : indexJs       | cc_graphQL_server_typeDefs_indexJs       |
+| GraphQL : Server : TypeDefs : Schema        | cc_graphQL_server_typeDefs_schema        |
+| GraphQL : Server : Resolvers : indexJs      | cc_graphQL_server_resolvers_indexJs      |
+| GraphQL : Server : Resolvers                | cc_graphQL_server_resolvers              |
+| GraphQL : Server : Model : IndexJS          | cc_graphQL_server_model_indexJs          |
+| GraphQL : Server : Model                    | cc_graphQL_server_model                  |
+| GraphQL : Server : Database                 | cc_graphQL_server_database               |
+| GraphQL : Server : DummyData                | cc_graphQL_server_dummyData              |

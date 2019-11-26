@@ -1,5 +1,9 @@
 # Change Log
 
+##### [4.0.0]
+
+Adding GraphQL snippets
+
 ##### [3.1.1]
 
 Adding ccReactJS_JS_Component_Hooks

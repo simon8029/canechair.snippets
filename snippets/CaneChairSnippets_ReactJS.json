@@ -66,6 +66,20 @@
 		],
 		"description": "Create React Container Component"
 	},
+	"ReactJS : JS : Component : Stateless": {
+		"prefix": "ccReactJS_JS_Component_Stateless",
+		"body": [
+			"import React from 'react';",
+			"",
+			"const ${1:__ComponentName__} = () => {",
+			"  <div>${1:__ComponentName__} Component Works.</div>;",
+			"};",
+			"",
+			"export default ${1:__ComponentName__};",
+			""
+		],
+		"description": "Create React Stateless Component"
+	},
 	"ReactJS : JS : Component : Hooks": {
 		"prefix": "ccReactJS_JS_Component_Hooks",
 		"body": [
