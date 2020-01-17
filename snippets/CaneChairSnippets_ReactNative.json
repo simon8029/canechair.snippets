@@ -1,154 +1,161 @@
 {
-	"ReactNative : Component : Container": {
-		"prefix": "ccReactNative_Component_Container",
-		"body": [
-			"import React from 'react';",
-			"import { connect } from 'react-redux';",
-			"import { StyleSheet, Text, View } from 'react-native';",
-			"",
-			"class ${1:__componentName__} extends React.Component {",
-			"    constructor(props) {",
-			"        super(props);",
-			"        this.state = {};",
-			"                }",
-			"",
-			"    render() {",
-			"        return (",
-			"            <View style={styles.container",
-			"                    }>",
-			"                <Text>${1:__componentName__} works.</Text>",
-			"            </View>",
-			"        );",
-			"                }",
-			"            }",
-			"",
-			"const styles = StyleSheet.create({",
-			"    container: {",
-			"        flex: 1,",
-			"        backgroundColor: '#fff',",
-			"        alignItems: 'center',",
-			"        justifyContent: 'center'",
-			"                }",
-			"            });",
-			"",
-			"const mapStateToProps = store => {",
-			"    return {};",
-			"            };",
-			"const mapDispatchToProps = {};",
-			"",
-			"export default connect(",
-			"    mapStateToProps,",
-			"    mapDispatchToProps",
-			")(${1:__componentName__});"
-		],
-		"description": "Create a ReactNative View Element."
-	},
-	"ReactNative : Element : View": {
-		"prefix": "ccReactNative_Element_View",
-		"body": ["<View style={styles.${1:__style__}}>", "\t${0}", "</View>"],
-		"description": "Create a ReactNative View Element."
-	},
-	"ReactNative : Element : ScrollView": {
-		"prefix": "ccReactNative_Element_ScrollView",
-		"body": [
-			"<ScrollView style={styles.${1:__style__}}>",
-			"\t${0}",
-			"</ScrollView>"
-		],
-		"description": "Create a ReactNative ScrollView Element."
-	},
-	"ReactNative : Element : Text": {
-		"prefix": "ccReactNative_Element_Text",
-		"body": ["<Text style={styles.${1:__style__}}>${2}</Text>"],
-		"description": "Create a ReactNative Text Element."
-	},
-	"ReactNative : Element : TextInput": {
-		"prefix": "ccReactNative_Element_TextInput",
-		"body": [
-			"<TextInput",
-			"\tautoCorrect={${1:false}}",
-			"\tplaceholder=\"${2:Input here...}\"",
-			"\tplaceholderTextColor=\"${3:__color__}\"",
-			"\tstyle={styles.${4:__style__}}",
-			"\tclearButtonMode=\"${5:always}\"",
-			"/>"
-		],
-		"description": "Create a ReactNative TextInput Element."
-	},
-	"ReactNative : Element : ListView": {
-		"prefix": "ccReactNative_Element_ListView",
-		"body": [
-			"<ListView",
-			"\tkey=\"${1:__key__}\"",
-			"\tstyle={${2:styles.listView}}",
-			"\tdataSource={${3:this.state.dataSource}}",
-			"\trenderRow={(${4:rowData}) => (",
-			"\t<View style={${5:styles.listRow}}>",
-			"\t\t<Text >{${4:rowData}}</Text>",
-			"\t</View>)}",
-			"/>"
-		],
-		"description": "Create a ReactNative ListView Element."
-	},
-	"ReactNative : Element : Button": {
-		"prefix": "ccReactNative_Element_Button",
-		"body": [
-			"<Button",
-			"\ttitle = \"${1:__title__}\"",
-			"\tonPress = { ${2:__onPressFunction__} }",
-			"\tcolor = \"${__buttonColor__}\"",
-			"\taccessibilityLabel = \"${1:__title__}\"",
-			"\tdisabled = {false}",
-			"/>"
-		],
-		"description": "Create a ReactNative Button Element."
-	},
-	"ReactNative : Element : Slider": {
-		"prefix": "ccReactNative_Element_Slider",
-		"body": [
-			"<Slider",
-			"\tstep={${1:1}}",
-			"\tvalue={this.state.${2:sliderValue}}",
-			"\tmaximumValue={${3:100}}",
-			"\tonValueChange={(${2:sliderValue}) => this.setState({ ${2:sliderValue} })}",
-			"\tstyle={styles.${4:__style__}}",
-			"/>"
-		],
-		"description": "Create a ReactNative Slider Element."
-	},
-	"ReactNative : Element : Switch": {
-		"prefix": "ccReactNative_Element_Switch",
-		"body": [
-			"<Switch",
-			"\tvalue={this.state.${1:switchValue}}",
-			"\tonValueChange={() => { this.setState({ ${1:switchValue}: !this.state.${1:switchValue} }); }}",
-			"/>"
-		],
-		"description": "Create a ReactNative Switch Element."
-	},
-	"ReactNative : Element : Picker": {
-		"prefix": "ccReactNative_Element_Picker",
-		"body": [
-			"<Picker",
-			"\tselectedValue={this.state.${1:pickerValue}}",
-			"\tonValueChange={(${1:pickerValue}) => { this.setState({ ${1:pickerValue} }); }}",
-			"\tstyle={styles.${2:__style__}}",
-			">",
-			"\t<Picker.Item label=\"Option #1\" value=\"Option #1\" />",
-			"\t<Picker.Item label=\"Option #2\" value=\"Option #2\" />",
-			"\t<Picker.Item label=\"Option #3\" value=\"Option #3\" />",
-			"</Picker>"
-		],
-		"description": "Create a ReactNative Picker Element."
-	},
-	"ReactNative : Element : DatePickerIOS": {
-		"prefix": "ccReactNative_Element_DatePickerIOS",
-		"body": [
-			"<DatePickerIOS",
-			"\tdate={this.state.${1:date}}",
-			"\tonDateChange={(${1:date}) => { this.setState({ ${1:date} }); }}",
-			"/>"
-		],
-		"description": "Create a ReactNative DatePickerIOS Element."
-	}
+  "ReactNative : Component : Container": {
+    "prefix": "ccReactNative_Component_Container",
+    "body": [
+      "import React from 'react';",
+      "import { connect } from 'react-redux';",
+      "import { StyleSheet, Text, View } from 'react-native';",
+      "",
+      "class ${1:__componentName__} extends React.Component {",
+      "    constructor(props) {",
+      "        super(props);",
+      "        this.state = {};",
+      "                }",
+      "",
+      "    render() {",
+      "        return (",
+      "            <View style={styles.container",
+      "                    }>",
+      "                <Text>${1:__componentName__} works.</Text>",
+      "            </View>",
+      "        );",
+      "                }",
+      "            }",
+      "",
+      "const styles = StyleSheet.create({",
+      "    container: {",
+      "        flex: 1,",
+      "        backgroundColor: '#fff',",
+      "        alignItems: 'center',",
+      "        justifyContent: 'center'",
+      "                }",
+      "            });",
+      "",
+      "const mapStateToProps = store => {",
+      "    return {};",
+      "            };",
+      "const mapDispatchToProps = {};",
+      "",
+      "export default connect(",
+      "    mapStateToProps,",
+      "    mapDispatchToProps",
+      ")(${1:__componentName__});"
+    ],
+    "description": "Create a ReactNative View Element."
+  },
+  "ReactNative : Element : View": {
+    "prefix": "ccReactNative_Element_View",
+    "body": ["<View style={styles.${1:__style__}}>", "\t${0}", "</View>"],
+    "description": "Create a ReactNative View Element."
+  },
+  "ReactNative : Element : ScrollView": {
+    "prefix": "ccReactNative_Element_ScrollView",
+    "body": [
+      "<ScrollView style={styles.${1:__style__}}>",
+      "\t${0}",
+      "</ScrollView>"
+    ],
+    "description": "Create a ReactNative ScrollView Element."
+  },
+  "ReactNative : Element : Text": {
+    "prefix": "ccReactNative_Element_Text",
+    "body": ["<Text style={styles.${1:__style__}}>${2}</Text>"],
+    "description": "Create a ReactNative Text Element."
+  },
+  "ReactNative : Element : TextInput": {
+    "prefix": "ccReactNative_Element_TextInput",
+    "body": [
+      "<TextInput",
+      "\tautoCorrect={${1:false}}",
+      "\tplaceholder=\"${2:Input here...}\"",
+      "\tplaceholderTextColor=\"${3:__color__}\"",
+      "\tstyle={styles.${4:__style__}}",
+      "\tclearButtonMode=\"${5:always}\"",
+      "/>"
+    ],
+    "description": "Create a ReactNative TextInput Element."
+  },
+  "ReactNative : Element : ListView": {
+    "prefix": "ccReactNative_Element_ListView",
+    "body": [
+      "<ListView",
+      "\tkey=\"${1:__key__}\"",
+      "\tstyle={${2:styles.listView}}",
+      "\tdataSource={${3:this.state.dataSource}}",
+      "\trenderRow={(${4:rowData}) => (",
+      "\t<View style={${5:styles.listRow}}>",
+      "\t\t<Text >{${4:rowData}}</Text>",
+      "\t</View>)}",
+      "/>"
+    ],
+    "description": "Create a ReactNative ListView Element."
+  },
+  "ReactNative : Element : Button": {
+    "prefix": "ccReactNative_Element_Button",
+    "body": [
+      "<Button",
+      "\ttitle = \"${1:__title__}\"",
+      "\tonPress = { ${2:__onPressFunction__} }",
+      "\tcolor = \"${__buttonColor__}\"",
+      "\taccessibilityLabel = \"${1:__title__}\"",
+      "\tdisabled = {false}",
+      "/>"
+    ],
+    "description": "Create a ReactNative Button Element."
+  },
+  "ReactNative : Element : Slider": {
+    "prefix": "ccReactNative_Element_Slider",
+    "body": [
+      "<Slider",
+      "\tstep={${1:1}}",
+      "\tvalue={this.state.${2:sliderValue}}",
+      "\tmaximumValue={${3:100}}",
+      "\tonValueChange={(${2:sliderValue}) => this.setState({ ${2:sliderValue} })}",
+      "\tstyle={styles.${4:__style__}}",
+      "/>"
+    ],
+    "description": "Create a ReactNative Slider Element."
+  },
+  "ReactNative : Element : Switch": {
+    "prefix": "ccReactNative_Element_Switch",
+    "body": [
+      "<Switch",
+      "\tvalue={this.state.${1:switchValue}}",
+      "\tonValueChange={() => { this.setState({ ${1:switchValue}: !this.state.${1:switchValue} }); }}",
+      "/>"
+    ],
+    "description": "Create a ReactNative Switch Element."
+  },
+  "ReactNative : Element : Picker": {
+    "prefix": "ccReactNative_Element_Picker",
+    "body": [
+      "<Picker",
+      "\tselectedValue={this.state.${1:pickerValue}}",
+      "\tonValueChange={(${1:pickerValue}) => { this.setState({ ${1:pickerValue} }); }}",
+      "\tstyle={styles.${2:__style__}}",
+      ">",
+      "\t<Picker.Item label=\"Option #1\" value=\"Option #1\" />",
+      "\t<Picker.Item label=\"Option #2\" value=\"Option #2\" />",
+      "\t<Picker.Item label=\"Option #3\" value=\"Option #3\" />",
+      "</Picker>"
+    ],
+    "description": "Create a ReactNative Picker Element."
+  },
+  "ReactNative : Element : DatePickerIOS": {
+    "prefix": "ccReactNative_Element_DatePickerIOS",
+    "body": [
+      "<DatePickerIOS",
+      "\tdate={this.state.${1:date}}",
+      "\tonDateChange={(${1:date}) => { this.setState({ ${1:date} }); }}",
+      "/>"
+    ],
+    "description": "Create a ReactNative DatePickerIOS Element."
+  },
+  "ReactNative : Element : TouchableHighLight": {
+    "prefix": "ccReactNative_Element_touchableHighLight",
+    "body": [
+      " <TouchableHighlight style={styles.${1:__styleName__}}>${0}</TouchableHighlight>"
+    ],
+    "description": ""
+  }
 }
