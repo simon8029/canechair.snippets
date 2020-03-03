@@ -236,7 +236,7 @@
       "export function updateTodoStart(id, newTodo) {",
       "  return dispatch => {",
       "    axios",
-      "      .put(`${process.env.REACT_APP_END_POINT_BASEURL}/Todos/${id}/`, newTodo)",
+      "      .put(`${process.env.REACT_APP_END_POINT_BASEURL}/Todos/\\${id}/`, newTodo)",
       "      .then(",
       "        res => {",
       "          if (res.status === 200) {",
