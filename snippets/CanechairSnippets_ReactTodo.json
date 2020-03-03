@@ -206,7 +206,7 @@
       "export function deleteTodoStart(id) {",
       "  return dispatch => {",
       "    axios",
-      "      .delete(`${process.env.REACT_APP_END_POINT_BASEURL}/Todos/${id}/`)",
+      "      .delete(`${process.env.REACT_APP_END_POINT_BASEURL}/Todos/\\${id}/`)",
       "      .then(",
       "        res => {",
       "          if (res.status === 200) {",
