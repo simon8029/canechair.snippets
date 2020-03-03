@@ -140,7 +140,7 @@
     "description": "TODO Demo - Create todoReducer.js file."
   },
   "ReactJS : TODO : todoActions.js": {
-    "prefix": "sdf",
+    "prefix": "ccReactJS_TODO_todoActions.js",
     "body": [
       "import axios from 'axios';",
       "import * as TodoActionTypes from './todoActionTypes';",
