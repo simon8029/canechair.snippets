@@ -31,7 +31,7 @@
   },
   "Common : Require": {
     "prefix": "ccCommon_Require",
-    "body": ["const ${2:__moduleName__} = require('${1:__moduleName__}');"],
+    "body": ["const ${0} = require('${1:__moduleName__}');"],
     "description": "Require module"
   },
   "Common : Class : Constructor": {
