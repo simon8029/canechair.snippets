@@ -2,7 +2,7 @@
   "name": "canechairsnippets",
   "displayName": "CaneChair.Snippets - Snippets for Full-Stack Javascript.",
   "description": "It's time to sit down and enjoy the rocking...",
-  "version": "4.2.2",
+  "version": "4.2.3",
   "publisher": "Simon8029",
   "icon": "images/canechair-icon-128.png",
   "engines": {
@@ -21,10 +21,6 @@
   ],
   "contributes": {
     "snippets": [
-      {
-        "language": "typescript",
-        "path": "./snippets/CaneChairSnippets_Javascript_Common.json"
-      },
       {
         "language": "javascript",
         "path": "./snippets/CaneChairSnippets_Javascript_Common.json"
@@ -72,6 +68,50 @@
       {
         "language": "json",
         "path": "./snippets/CaneChairSnippets_Json.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/CaneChairSnippets_Javascript_Common.json"
+      },
+      {
+        "language": "typsscript",
+        "path": "./snippets/CaneChairSnippets_ReactJS.json"
+      },
+      {
+        "language": "typsscript",
+        "path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
+      },
+      {
+        "language": "typsscript",
+        "path": "./snippets/CaneChairSnippets_ReactNative.json"
+      },
+      {
+        "language": "typsscript",
+        "path": "./snippets/CaneChairSnippets_Test_Jest.json"
+      },
+      {
+        "language": "typsscript",
+        "path": "./snippets/CaneChairSnippets_Test_Chai.json"
+      },
+      {
+        "language": "typsscript",
+        "path": "./snippets/CaneChairSnippets_Javascript_Express.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/CaneChairSnippets_Javascript_MongoDB.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/CaneChairSnippets_GraphQL.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/CaneChairSnippets_D3JS.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/CanechairSnippets_ReactTodo.json"
       }
     ]
   },
