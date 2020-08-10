@@ -2,7 +2,7 @@
   "name": "canechairsnippets",
   "displayName": "CaneChair.Snippets - Snippets for Full-Stack Javascript.",
   "description": "It's time to sit down and enjoy the rocking...",
-  "version": "4.2.3",
+  "version": "4.2.4",
   "publisher": "Simon8029",
   "icon": "images/canechair-icon-128.png",
   "engines": {
@@ -74,27 +74,27 @@
         "path": "./snippets/CaneChairSnippets_Javascript_Common.json"
       },
       {
-        "language": "typsscript",
+        "language": "typescript",
         "path": "./snippets/CaneChairSnippets_ReactJS.json"
       },
       {
-        "language": "typsscript",
+        "language": "typescript",
         "path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
       },
       {
-        "language": "typsscript",
+        "language": "typescript",
         "path": "./snippets/CaneChairSnippets_ReactNative.json"
       },
       {
-        "language": "typsscript",
+        "language": "typescript",
         "path": "./snippets/CaneChairSnippets_Test_Jest.json"
       },
       {
-        "language": "typsscript",
+        "language": "typescript",
         "path": "./snippets/CaneChairSnippets_Test_Chai.json"
       },
       {
-        "language": "typsscript",
+        "language": "typescript",
         "path": "./snippets/CaneChairSnippets_Javascript_Express.json"
       },
       {
@@ -112,6 +112,10 @@
       {
         "language": "typescript",
         "path": "./snippets/CanechairSnippets_ReactTodo.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/CaneChairSnippets_TypeScriptReact_Common.json"
       }
     ]
   },
