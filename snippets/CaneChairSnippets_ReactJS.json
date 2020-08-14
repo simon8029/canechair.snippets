@@ -1,23 +1,4 @@
 {
-  "ReactJS : Duck : NewDuck": {
-    "prefix": "ccReactJS_Duck_NewDuck",
-    "body": [
-      "export const types = {};",
-      "",
-      "const DEFAULT_STATE = {};",
-      "",
-      "export function reducer(state = DEFAULT_STATE, action) {",
-      "\tswitch (action.type) {",
-      "\t\tdefault:",
-      "\t\t\treturn state;",
-      "\t}",
-      "}",
-      "",
-      "export const actions = {};",
-      ""
-    ],
-    "description": "Init a Duck file."
-  },
   "ReactJS : JS : Component : Class": {
     "prefix": "ccReactJS_JS_Component_Class",
     "body": [
@@ -66,8 +47,8 @@
     ],
     "description": "Create React Container Component"
   },
-  "ReactJS : JS : Component : Stateless": {
-    "prefix": "ccReactJS_JS_Component_Stateless",
+  "ReactJS : JS : Component : Functional": {
+    "prefix": "ccReactJS_JS_Component_Functional",
     "body": [
       "import React from 'react';",
       "",
@@ -78,7 +59,7 @@
       "export default ${1:__ComponentName__};",
       ""
     ],
-    "description": "Create React Stateless Component"
+    "description": "Create React Functional Component"
   },
   "ReactJS : JS : Component : Hooks": {
     "prefix": "ccReactJS_JS_Component_Hooks",
