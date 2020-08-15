@@ -16,8 +16,7 @@
       "",
       "export default ${1:__ClassName__};",
       ""
-    ],
-    "description": "Create React Standard Component."
+    ]
   },
   "ReactJS : JS : Component : Container": {
     "prefix": "ccReactJS_JS_Component_Container",
@@ -44,8 +43,7 @@
       "\tmapDispatchToProps",
       ")(${1:__ComponentName__});",
       ""
-    ],
-    "description": "Create React Container Component"
+    ]
   },
   "ReactJS : JS : Component : Functional": {
     "prefix": "ccReactJS_JS_Component_Functional",
@@ -58,8 +56,7 @@
       "",
       "export default ${1:__ComponentName__};",
       ""
-    ],
-    "description": "Create React Functional Component"
+    ]
   },
   "ReactJS : JS : Component : Hooks": {
     "prefix": "ccReactJS_JS_Component_Hooks",
@@ -70,8 +67,7 @@
       "export function ${1:__ComponentName__}() {",
       "return <div className=\"${1:__ComponentName__}\">${1:__ComponentName__}</div>;",
       "}"
-    ],
-    "description": "Create React Container Component"
+    ]
   },
   "ReactJS : JS : NewAction": {
     "prefix": "ccReactJS_JS_NewAction",
@@ -199,8 +195,7 @@
       "\tupdate${1:__ComponentName__}Start",
       "};",
       ""
-    ],
-    "description": "Create a New Action."
+    ]
   },
   "ReactJS : JS : RootIndexFile": {
     "prefix": "ccReactJS_JS_RootIndexFile",
@@ -238,8 +233,7 @@
       "// }",
       "",
       "registerServiceWorker();"
-    ],
-    "description": "Create the root index."
+    ]
   },
   "ReactJS : JS : Store": {
     "prefix": "ccReactJS_JS_Store",
@@ -256,8 +250,7 @@
       "",
       "export default store;",
       ""
-    ],
-    "description": "Create the store."
+    ]
   },
   "ReactJS : JS : RootReducer": {
     "prefix": "ccReactJS_JS_RootReducer",
@@ -273,8 +266,7 @@
       "",
       "export default rootReducer;",
       ""
-    ],
-    "description": "Create root reducer"
+    ]
   },
   "ReactJS : JS : NewReducer": {
     "prefix": "ccReactJS_JS_NewReducer",
@@ -361,8 +353,7 @@
       "\t}",
       "}",
       ""
-    ],
-    "description": "Create a new reducer."
+    ]
   },
   "ReactJS : JS : ActionTypes": {
     "prefix": "ccReactJS_JS_ActionTypes",
@@ -380,8 +371,7 @@
       "export const UPDATE_${1:__CapitalComponentName__}_SUCCESS = 'UPDATE_${1:__CapitalComponentName__}_SUCCESS';",
       "export const UPDATE_${1:__CapitalComponentName__}_FAILURE = 'UPDATE_${1:__CapitalComponentName__}_FAILURE';",
       ""
-    ],
-    "description": "Create Action Types."
+    ]
   },
   "Route": {
     "prefix": "cc_js_<Route>",
@@ -389,8 +379,8 @@
       "<Route path=\"${1:__Path__}\" component={${2:__ComponentName__}} />"
     ]
   },
-  "React : MUI : Component": {
-    "prefix": "cc_react_mui_component_grid",
+  "MUI-Component": {
+    "prefix": "cc_mui_grid",
     "body": [
       "import React from 'react';\r",
       "import { withStyles } from '@material-ui/core/styles';\r",
@@ -429,11 +419,10 @@
       "  </div>\r",
       "));\r",
       "export default ${1:__ComponentName__};"
-    ],
-    "description": ""
+    ]
   },
-  "React : MUI : Component : Drawer : withSection": {
-    "prefix": "cc_react_mui_component_drawer_withSection",
+  "MUI-Component : Drawer : withSection": {
+    "prefix": "cc_mui_drawer_withSection",
     "body": [
       "import React, { useState } from 'react';\r",
       "import {\r",
@@ -599,11 +588,10 @@
       "\r",
       "export default ${1:__ComponentName__};\r",
       ""
-    ],
-    "description": ""
+    ]
   },
-  "React : MUI : Component : Tabs": {
-    "prefix": "cc_react_mui_component_tabs",
+  "MUI-Component : Tabs": {
+    "prefix": "cc_mui_tabs",
     "body": [
       "import React, { useState } from 'react';\r",
       "import {\r",
@@ -683,11 +671,10 @@
       "\r",
       "export default ${1:__ComponentName__};\r",
       ""
-    ],
-    "description": ""
+    ]
   },
-  "React : MUI : Component : ExpansionPanel": {
-    "prefix": "cc_react_mui_component_expansionPanel",
+  "MUI-Component : ExpansionPanel": {
+    "prefix": "cc_mui_expansionPanel",
     "body": [
       "import React, { useState, Fragment } from 'react';\r",
       "import {\r",
@@ -735,11 +722,10 @@
       "  );\r",
       "}\r",
       ""
-    ],
-    "description": ""
+    ]
   },
-  "React : MUI : Component : List": {
-    "prefix": "cc_react_mui_component_list",
+  "MUI-Component : List": {
+    "prefix": "cc_mui_list",
     "body": [
       "import React, { useState } from 'react';\r",
       "import { withStyles } from '@material-ui/core/styles';\r",
@@ -797,11 +783,10 @@
       "\r",
       "export default ${1:__ComponentName__};\r",
       ""
-    ],
-    "description": ""
+    ]
   },
-  "React : MUI : Component : List : WithAvatar": {
-    "prefix": "cc_react_mui_component_list_withAvatar",
+  "MUI-Component : List : WithAvatar": {
+    "prefix": "cc_mui_list_withAvatar",
     "body": [
       "import React, { useState } from 'react';\r",
       "import { withStyles } from '@material-ui/core/styles';\r",
@@ -878,11 +863,10 @@
       "\r",
       "export default ${1:__ComponentName__};\r",
       ""
-    ],
-    "description": ""
+    ]
   },
-  "React : MUI : Component : Table": {
-    "prefix": "cc_react_mui_component_table",
+  "MUI-Component : Table": {
+    "prefix": "cc_mui_table",
     "body": [
       "import React, { useState, useEffect } from 'react';\r",
       "import { makeStyles } from '@material-ui/core/styles';\r",
@@ -1003,11 +987,10 @@
       "  );\r",
       "}\r",
       ""
-    ],
-    "description": ""
+    ]
   },
-  "React : MUI : Component : Table : Sortable": {
-    "prefix": "cc_react_mui_component_table_sortable",
+  "MUI-Component : Table : Sortable": {
+    "prefix": "cc_mui_table_sortable",
     "body": [
       "import React, { useState, useEffect } from 'react';\r",
       "import { makeStyles } from '@material-ui/core/styles';\r",
@@ -1148,7 +1131,6 @@
       "  );\r",
       "}\r",
       ""
-    ],
-    "description": ""
+    ]
   }
 }
