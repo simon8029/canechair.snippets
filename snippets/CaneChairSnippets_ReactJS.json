@@ -387,8 +387,7 @@
     "prefix": "ccReactJS_JS_NewRoute",
     "body": [
       "<Route path=\"${1:__Path__}\" component={${2:__ComponentName__}} />"
-    ],
-    "description": "Create New React Route."
+    ]
   },
   "React : MUI : Component": {
     "prefix": "cc_react_mui_component_grid",
