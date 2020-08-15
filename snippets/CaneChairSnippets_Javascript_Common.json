@@ -66,8 +66,12 @@
   },
   "ReactJS : Function : ArrowFunction": {
     "prefix": "ccCommon_Function_ArrowFunction",
-    "body": ["${1:__functionName__} = (${2:__params__}) => {", "\t${3}", "}"],
-    "description": "Create a JSX arrow function."
+    "body": [
+      "const ${1:__functionName__} = (${2:__params__}) => {",
+      "\t${0}",
+      "}"
+    ],
+    "description": "Create an arrow function."
   },
   "ReactJS : Function : SetState": {
     "prefix": "ccCommon_Function_SetState",
