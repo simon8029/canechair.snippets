@@ -132,5 +132,11 @@
       "};",
       ""
     ]
+  },
+  "useState": {
+    "prefix": "ccTS_useState",
+    "body": [
+      "const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = useState(${0});"
+    ]
   }
 }
