@@ -109,5 +109,28 @@
       "});"
     ],
     "description": "Create a Array.forEach() function."
+  },
+  "FunctionalComponent": {
+    "prefix": "ccTS_FunctionalComponent",
+    "body": [
+      "import React, { useState } from 'react';",
+      "import { ${1:__ComponentName__} } from './styles';",
+      "",
+      "interface ${1:__ComponentName__}Props {",
+      "",
+      "}",
+      "",
+      "export const ${1:__ComponentName__} = (props: ${1:__ComponentName__}Props) => {",
+      "  const {  } = props;",
+      "",
+      "",
+      "  return (",
+      "    <${1:__ComponentName__}>",
+      "      ${0}",
+      "    </${1:__ComponentName__}>",
+      "  );",
+      "};",
+      ""
+    ]
   }
 }
