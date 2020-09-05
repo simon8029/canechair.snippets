@@ -26,7 +26,7 @@
   },
   "Common : Import : Module": {
     "prefix": "ccCommon_Import_Module",
-    "body": ["import ${2:__moduleName__} from '${1:__modulePath__}';"],
+    "body": ["import ${0} from '${1:__modulePath__}';"],
     "description": "Import module."
   },
   "Common : Require": {
