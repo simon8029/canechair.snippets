@@ -1,274 +1,262 @@
 {
-	"Test : Jest : InitTestFile : React": {
-		"prefix": "ccTest_Jest_InitTestFile_React",
-		"body": [
-			"import 'react-native';",
-			"import React from 'react';",
-			"import renderer from 'react-test-renderer';",
-			"import Enzyme, { shallow } from 'enzyme';",
-			"import Adapter from 'enzyme-adapter-react-16';",
-			"Enzyme.configure({ adapter: new Adapter() });",
-			"",
-			"describe(\"${1:__description__}\", () =>{",
-			"${2:__statement__}",
-			"});"
-		],
-		"description": "Init a Jest test file for ReactJS."
-	},
-	"Test : Jest : InitTestFile : VueJS": {
-		"prefix": "ccTest_Jest_InitTestFile_Vue",
-		"body": [
-			"import { shallow } from '@vue/test-utils';",
-			"import ${1:__ComponentName__} from '../src/components/${1:__ComponentName__}';",
-			"",
-			"describe('${1:__ComponentName__}', () => {",
-			"\tlet wrapper;",
-			"",
-			"\tbeforeEach(() => {",
-			"\t\twrapper = shallow(${1:__ComponentName__});",
-			"\t});",
-			"",
-			"\tit('is a Vue instance. ', () => {",
-			"\t\texpect(wrapper.isVueInstance()).toBeTruthy();",
-			"\t});",
-			"});",
-			""
-		],
-		"description": "Init a Jest test file for VueJS"
-	},
-	"Test : Jest : Describe": {
-		"prefix": "ccTest_Jest_Describe",
-		"body": [
-			"describe(\"${1:__description__}\", () =>{",
-			"${2:__statement__}",
-			"});"
-		],
-		"description": "Create a Jest describe block."
-	},
-	"Test : Jest : BeforeAll": {
-		"prefix": "ccTest_Jest_BeforeAll",
-		"body": [
-			"beforeAll(() => {",
-			"// Jest will wait for all promises to resolve before running tests.",
-			"\t${0}",
-			"});"
-		],
-		"description": "Create a Jest BeforeAll function."
-	},
-	"Test : Jest : BeforeEach": {
-		"prefix": "ccTest_Jest_BeforeEach",
-		"body": [
-			"beforeEach(() => {",
-			"// Jest will wait for all promises to resolve before running tests.",
-			"\t${0}",
-			"});"
-		],
-		"description": "Create a Jest BeforeEach function."
-	},
-	"Test : Jest : AfterAll": {
-		"prefix": "ccTest_Jest_AfterAll",
-		"body": ["afterAll(() => {", "\t${0}", "});"],
-		"description": "Create a Jest AfterAll function."
-	},
-	"Test : Jest : AfterEach": {
-		"prefix": "ccTest_Jest_AfterEach",
-		"body": ["afterEach(() => {", "\t${0}", "});"],
-		"description": "Create a Jest AfterEach function."
-	},
-	"Test : Jest : It": {
-		"prefix": "ccTest_Jest_It",
-		"body": ["it(\"${1:__testCase__}\", () => {", "\t${0}", "});"],
-		"description": "Create a Jest test case."
-	},
-	"Test : Jest : ItAsync": {
-		"prefix": "ccTest_Jest_ItAsync",
-		"body": [
-			"it(\"${1:__testCase__}\", async () => {",
-			"\t${2:__statements__}",
-			"});"
-		],
-		"description": "Create an async Jest test case."
-	},
-	"Test : Jest : Expect : ToMatchSnapshot": {
-		"prefix": "ccTest_Jest_Expect_ToMatchSnapshot",
-		"body": ["expect(${1:__assertion__}).toMatchSnapshot();"],
-		"description": "Create a Jest ToMatchSnapshot matcher."
-	},
-	"Test : Jest : Expect : ToBe": {
-		"prefix": "ccTest_Jest_Expect_ToBe",
-		"body": ["expect(${1:__actual__}).toBe(${2:__expect__});"],
-		"description": "Create a Jest ToBe matcher."
-	},
-	"Test : Jest : Expect : ToBeCloseTo": {
-		"prefix": "ccTest_Jest_Expect_ToBeCloseTo",
-		"body": [
-			"expect(${1:__actual__}).toBeCloseTo(${2:__expect__}, ${3:__decimalDigits__});"
-		],
-		"description": "Create a Jest ToBeCloseTo matcher."
-	},
-	"Test : Jest : Expect : ToEqual": {
-		"prefix": "ccTest_Jest_Expect_ToEqual",
-		"body": ["expect(${1:__actual__}).toEqual(${2:__expect__});"],
-		"description": "Create a Jest ToEqual matcher."
-	},
-	"Test : Jest : Expect : ToHaveBeenCalledWith": {
-		"prefix": "ccTest_Jest_Expect_ToHaveBeenCalledWith",
-		"body": [
-			"const ${1:__function__} = jest.fn();",
-			"expect(${1:__function__}).toHaveBeenCalledWith(${2:__arguments__});"
-		],
-		"description": "Create a Jest ToHaveBeenCalledWith matcher."
-	},
-	"Test : Jest : Expect : ToBeCalledWith": {
-		"prefix": "ccTest_Jest_Expect_ToBeCalledWith",
-		"body": [
-			"const ${1:__function__} = jest.fn();",
-			"expect(${1:__function__}).toBeCalledWith(${2:__arguments__});"
-		],
-		"description": "Create a Jest ToBeCalledWith matcher."
-	},
-	"Test : Jest : Expect : ToHaveBeenCalled": {
-		"prefix": "ccTest_Jest_Expect_ToHaveBeenCalled",
-		"body": [
-			"const ${1:__function__} = jest.fn();",
-			"expect(${1:__function__}).toHaveBeenCalled(${2:__arguments__});"
-		],
-		"description": "Create a Jest ToHaveBeenCalled matcher."
-	},
-	"Test : Jest : Expect : ToBeCalled": {
-		"prefix": "ccTest_Jest_Expect_ToBeCalled",
-		"body": [
-			"const ${1:__function__} = jest.fn();",
-			"expect(${1:__function__}).toBeCalled(${2:__arguments__});"
-		],
-		"description": "Create a Jest ToBeCalled matcher."
-	},
-	"Test : Jest : Expect : ToHaveBeenCalledTimes": {
-		"prefix": "ccTest_Jest_Expect_ToHaveBeenCalledTimes",
-		"body": [
-			"const ${1:__function__} = jest.fn();",
-			"expect(${1:__function__}).toHaveBeenCalledTimes(${2:__times__});"
-		],
-		"description": "Create a Jest ToHaveBeenCalledTimes matcher."
-	},
-	"Test : Jest : Expect : ToHaveBeenLastCalledWith": {
-		"prefix": "ccTest_Jest_Expect_ToHaveBeenLastCalledWith",
-		"body": [
-			"const ${1:__function__} = jest.fn();",
-			"expect(${1:__function__}).toHaveBeenLastCalledWith(${2:__arguments__});"
-		],
-		"description": "Create a Jest ToHaveBeenLastCalledWith matcher."
-	},
-	"Test : Jest : Expect : LastCalledWith": {
-		"prefix": "ccTest_Jest_Expect_LastCalledWith",
-		"body": [
-			"const ${1:__function__} = jest.fn();",
-			"expect(${1:__function__}).lastCalledWith(${2:__arguments__});"
-		],
-		"description": "Create a Jest LastCalledWith matcher."
-	},
-	"Test : Jest : Expect : ToBeDefined": {
-		"prefix": "ccTest_Jest_Expect_ToBeDefined",
-		"body": ["expect(${1:__variable__}).toBeDefined();"],
-		"description": "Create a Jest ToBeDefined matcher."
-	},
-	"Test : Jest : Expect : ToBeFalsy": {
-		"prefix": "ccTest_Jest_Expect_ToBeFalsy",
-		"body": ["expect(${1:__actual__}).toBeFalsy();"],
-		"description": "Create a Jest ToBeFalsy matcher."
-	},
-	"Test : Jest : Expect : ToBeGreaterThan": {
-		"prefix": "ccTest_Jest_Expect_ToBeGreaterThan",
-		"body": ["expect(${1:__actual__}).toBeGreaterThan(${2:__value__});"],
-		"description": "Create a Jest ToBeGreaterThan matcher."
-	},
-	"Test : Jest : Expect : ToBeGreaterThanOrEqual": {
-		"prefix": "ccTest_Jest_Expect_ToBeGreaterThanOrEqual",
-		"body": [
-			"expect(${1:__actual__}).toBeGreaterThanOrEqual(${2:__value__});"
-		],
-		"description": "Create a Jest ToBeGreaterThanOrEqual matcher."
-	},
-	"Test : Jest : Expect : ToBeLessThan": {
-		"prefix": "ccTest_Jest_Expect_ToBeLessThan",
-		"body": ["expect(${1:__actual__}).toBeLessThan(${2:__value__});"],
-		"description": "Create a Jest ToBeLessThan matcher."
-	},
-	"Test : Jest : Expect : ToBeLessThanOrEqual": {
-		"prefix": "ccTest_Jest_Expect_ToBeLessThanOrEqual",
-		"body": [
-			"expect(${1:__actual__}).toBeLessThanOrEqual(${2:__value__});"
-		],
-		"description": "Create a Jest ToBeLessThanOrEqual matcher."
-	},
-	"Test : Jest : Expect : ToBeInstanceOf": {
-		"prefix": "ccTest_Jest_Expect_ToBeInstanceOf",
-		"body": ["expect(${1:__actual__}).toBeInstanceOf(${2:__expect__});"],
-		"description": "Create a Jest ToBeInstanceOf matcher."
-	},
-	"Test : Jest : Expect : ToBeNull": {
-		"prefix": "ccTest_Jest_Expect_ToBeNull",
-		"body": ["expect(${1:__actual__}).toBeNull();"],
-		"description": "Create a Jest ToBeNull matcher."
-	},
-	"Test : Jest : Expect : ToBeTruthy": {
-		"prefix": "ccTest_Jest_Expect_ToBeTruthy",
-		"body": ["expect(${1:__actual__}).toBeTruthy();"],
-		"description": "Create a Jest ToBeTruthy matcher."
-	},
-	"Test : Jest : Expect : ToBeUndefined": {
-		"prefix": "ccTest_Jest_Expect_ToBeUndefined",
-		"body": ["expect(${1:__actual__}).toBeUndefined();"],
-		"description": "Create a Jest ToBeUndefined matcher."
-	},
-	"Test : Jest : Expect : ToContain": {
-		"prefix": "ccTest_Jest_Expect_ToContain",
-		"body": ["expect(${1:__actual__}).toContain(${2:__expect__});"],
-		"description": "Create a Jest ToContain matcher."
-	},
-	"Test : Jest : Expect : ToContainEqual": {
-		"prefix": "ccTest_Jest_Expect_ToContainEqual",
-		"body": [
-			"const ${2:__expect__} = {${0}}",
-			"expect(${1:__actual__}).toContainEqual(${2:__expect__});"
-		],
-		"description": "Create a Jest ToContainEqual matcher."
-	},
-	"Test : Jest : Expect : ToHaveLength": {
-		"prefix": "ccTest_Jest_Expect_ToHaveLength",
-		"body": ["expect(${1:__actual__}).toHaveLength(${2:__expect__});"],
-		"description": "Create a Jest ToHaveLength matcher."
-	},
-	"Test : Jest : Expect : ToMatch": {
-		"prefix": "ccTest_Jest_Expect_ToMatch",
-		"body": ["expect(${1:__actual__}).toMatch(${2:__expect__});"],
-		"description": "Create a Jest ToMatch matcher."
-	},
-	"Test : Jest : Expect : ToMatchObject": {
-		"prefix": "ccTest_Jest_Expect_ToMatchObject",
-		"body": ["expect(${1:__actual__}).toMatchObject(${2:__expect__});"],
-		"description": "Create a Jest ToMatchObject matcher."
-	},
-	"Test : Jest : Expect : ToHaveProperty": {
-		"prefix": "ccTest_Jest_Expect_ToHaveProperty",
-		"body": [
-			"expect(${1:__actual__}).toHaveProperty(${2:__property__}, ${3:__value__});"
-		],
-		"description": "Create a Jest ToHaveProperty matcher."
-	},
-	"Test : Jest : Expect : ToThrow": {
-		"prefix": "ccTest_Jest_Expect_ToThrow",
-		"body": ["expect(${1:__actual__}).toThrow();"],
-		"description": "Create a Jest ToThrow matcher."
-	},
-	"Test : Jest : Expect : ToThrowError": {
-		"prefix": "ccTest_Jest_Expect_ToThrowError",
-		"body": ["expect(${1:__actual__}).toThrowError(${2:__error__});"],
-		"description": "Create a Jest ToThrowError matcher."
-	},
-	"Test : Jest : Expect : ToThrowErrorMatchingSnapshot": {
-		"prefix": "ccTest_Jest_Expect_ToThrowErrorMatchingSnapshot",
-		"body": ["expect(${1:__actual__}).toThrowErrorMatchingSnapshot();"],
-		"description": "Create a Jest ToThrowErrorMatchingSnapshot matcher."
-	}
+  "Test : Jest : InitTestFile : React": {
+    "prefix": "ccTest_Jest_InitTestFile_React",
+    "body": [
+      "import 'react-native';",
+      "import React from 'react';",
+      "import renderer from 'react-test-renderer';",
+      "import Enzyme, { shallow } from 'enzyme';",
+      "import Adapter from 'enzyme-adapter-react-16';",
+      "Enzyme.configure({ adapter: new Adapter() });",
+      "",
+      "describe(\"${1:__description__}\", () =>{",
+      "${0}",
+      "});"
+    ],
+    "description": "Init a Jest test file for ReactJS."
+  },
+  "Test : Jest : InitTestFile : VueJS": {
+    "prefix": "ccTest_Jest_InitTestFile_Vue",
+    "body": [
+      "import { shallow } from '@vue/test-utils';",
+      "import ${1:__ComponentName__} from '../src/components/${1:__ComponentName__}';",
+      "",
+      "describe('${1:__ComponentName__}', () => {",
+      "\tlet wrapper;",
+      "",
+      "\tbeforeEach(() => {",
+      "\t\twrapper = shallow(${1:__ComponentName__});",
+      "\t});",
+      "",
+      "\tit('is a Vue instance. ', () => {",
+      "\t\texpect(wrapper.isVueInstance()).toBeTruthy();",
+      "\t});",
+      "});",
+      ""
+    ],
+    "description": "Init a Jest test file for VueJS"
+  },
+  "Test : Jest : Describe": {
+    "prefix": "ccTest_Jest_Describe",
+    "body": ["describe(\"${1:__description__}\", () =>{", "${0}", "});"],
+    "description": "Create a Jest describe block."
+  },
+  "Test : Jest : BeforeAll": {
+    "prefix": "ccTest_Jest_BeforeAll",
+    "body": [
+      "beforeAll(() => {",
+      "// Jest will wait for all promises to resolve before running tests.",
+      "\t${0}",
+      "});"
+    ],
+    "description": "Create a Jest BeforeAll function."
+  },
+  "Test : Jest : BeforeEach": {
+    "prefix": "ccTest_Jest_BeforeEach",
+    "body": [
+      "beforeEach(() => {",
+      "// Jest will wait for all promises to resolve before running tests.",
+      "\t${0}",
+      "});"
+    ],
+    "description": "Create a Jest BeforeEach function."
+  },
+  "Test : Jest : AfterAll": {
+    "prefix": "ccTest_Jest_AfterAll",
+    "body": ["afterAll(() => {", "\t${0}", "});"],
+    "description": "Create a Jest AfterAll function."
+  },
+  "Test : Jest : AfterEach": {
+    "prefix": "ccTest_Jest_AfterEach",
+    "body": ["afterEach(() => {", "\t${0}", "});"],
+    "description": "Create a Jest AfterEach function."
+  },
+  "Test : Jest : It": {
+    "prefix": "ccTest_Jest_It",
+    "body": ["it(\"${1:__testCase__}\", () => {", "\t${0}", "});"],
+    "description": "Create a Jest test case."
+  },
+  "Test : Jest : ItAsync": {
+    "prefix": "ccTest_Jest_ItAsync",
+    "body": ["it(\"${1:__testCase__}\", async () => {", "\t${0}", "});"],
+    "description": "Create an async Jest test case."
+  },
+  "Test : Jest : Expect : ToMatchSnapshot": {
+    "prefix": "ccTest_Jest_Expect_ToMatchSnapshot",
+    "body": ["expect(${0}).toMatchSnapshot();"],
+    "description": "Create a Jest ToMatchSnapshot matcher."
+  },
+  "Test : Jest : Expect : ToBe": {
+    "prefix": "ccTest_Jest_Expect_ToBe",
+    "body": ["expect(${1:__actual__}).toBe(${2:__expect__});"],
+    "description": "Create a Jest ToBe matcher."
+  },
+  "Test : Jest : Expect : ToBeCloseTo": {
+    "prefix": "ccTest_Jest_Expect_ToBeCloseTo",
+    "body": [
+      "expect(${1:__actual__}).toBeCloseTo(${2:__expect__}, ${3:__decimalDigits__});"
+    ],
+    "description": "Create a Jest ToBeCloseTo matcher."
+  },
+  "Test : Jest : Expect : ToEqual": {
+    "prefix": "ccTest_Jest_Expect_ToEqual",
+    "body": ["expect(${1:__actual__}).toEqual(${2:__expect__});"],
+    "description": "Create a Jest ToEqual matcher."
+  },
+  "Test : Jest : Expect : ToHaveBeenCalledWith": {
+    "prefix": "ccTest_Jest_Expect_ToHaveBeenCalledWith",
+    "body": [
+      "const ${1:__function__} = jest.fn();",
+      "expect(${1:__function__}).toHaveBeenCalledWith(${2:__arguments__});"
+    ],
+    "description": "Create a Jest ToHaveBeenCalledWith matcher."
+  },
+  "Test : Jest : Expect : ToBeCalledWith": {
+    "prefix": "ccTest_Jest_Expect_ToBeCalledWith",
+    "body": [
+      "const ${1:__function__} = jest.fn();",
+      "expect(${1:__function__}).toBeCalledWith(${2:__arguments__});"
+    ],
+    "description": "Create a Jest ToBeCalledWith matcher."
+  },
+  "Test : Jest : Expect : ToHaveBeenCalled": {
+    "prefix": "ccTest_Jest_Expect_ToHaveBeenCalled",
+    "body": [
+      "const ${1:__function__} = jest.fn();",
+      "expect(${1:__function__}).toHaveBeenCalled(${2:__arguments__});"
+    ],
+    "description": "Create a Jest ToHaveBeenCalled matcher."
+  },
+  "Test : Jest : Expect : ToBeCalled": {
+    "prefix": "ccTest_Jest_Expect_ToBeCalled",
+    "body": [
+      "const ${1:__function__} = jest.fn();",
+      "expect(${1:__function__}).toBeCalled(${2:__arguments__});"
+    ],
+    "description": "Create a Jest ToBeCalled matcher."
+  },
+  "Test : Jest : Expect : ToHaveBeenCalledTimes": {
+    "prefix": "ccTest_Jest_Expect_ToHaveBeenCalledTimes",
+    "body": [
+      "const ${1:__function__} = jest.fn();",
+      "expect(${1:__function__}).toHaveBeenCalledTimes(${2:__times__});"
+    ],
+    "description": "Create a Jest ToHaveBeenCalledTimes matcher."
+  },
+  "Test : Jest : Expect : ToHaveBeenLastCalledWith": {
+    "prefix": "ccTest_Jest_Expect_ToHaveBeenLastCalledWith",
+    "body": [
+      "const ${1:__function__} = jest.fn();",
+      "expect(${1:__function__}).toHaveBeenLastCalledWith(${2:__arguments__});"
+    ],
+    "description": "Create a Jest ToHaveBeenLastCalledWith matcher."
+  },
+  "Test : Jest : Expect : LastCalledWith": {
+    "prefix": "ccTest_Jest_Expect_LastCalledWith",
+    "body": [
+      "const ${1:__function__} = jest.fn();",
+      "expect(${1:__function__}).lastCalledWith(${2:__arguments__});"
+    ],
+    "description": "Create a Jest LastCalledWith matcher."
+  },
+  "Test : Jest : Expect : ToBeDefined": {
+    "prefix": "ccTest_Jest_Expect_ToBeDefined",
+    "body": ["expect(${1:__variable__}).toBeDefined();"],
+    "description": "Create a Jest ToBeDefined matcher."
+  },
+  "Test : Jest : Expect : ToBeFalsy": {
+    "prefix": "ccTest_Jest_Expect_ToBeFalsy",
+    "body": ["expect(${1:__actual__}).toBeFalsy();"],
+    "description": "Create a Jest ToBeFalsy matcher."
+  },
+  "Test : Jest : Expect : ToBeGreaterThan": {
+    "prefix": "ccTest_Jest_Expect_ToBeGreaterThan",
+    "body": ["expect(${1:__actual__}).toBeGreaterThan(${2:__value__});"],
+    "description": "Create a Jest ToBeGreaterThan matcher."
+  },
+  "Test : Jest : Expect : ToBeGreaterThanOrEqual": {
+    "prefix": "ccTest_Jest_Expect_ToBeGreaterThanOrEqual",
+    "body": ["expect(${1:__actual__}).toBeGreaterThanOrEqual(${2:__value__});"],
+    "description": "Create a Jest ToBeGreaterThanOrEqual matcher."
+  },
+  "Test : Jest : Expect : ToBeLessThan": {
+    "prefix": "ccTest_Jest_Expect_ToBeLessThan",
+    "body": ["expect(${1:__actual__}).toBeLessThan(${2:__value__});"],
+    "description": "Create a Jest ToBeLessThan matcher."
+  },
+  "Test : Jest : Expect : ToBeLessThanOrEqual": {
+    "prefix": "ccTest_Jest_Expect_ToBeLessThanOrEqual",
+    "body": ["expect(${1:__actual__}).toBeLessThanOrEqual(${2:__value__});"],
+    "description": "Create a Jest ToBeLessThanOrEqual matcher."
+  },
+  "Test : Jest : Expect : ToBeInstanceOf": {
+    "prefix": "ccTest_Jest_Expect_ToBeInstanceOf",
+    "body": ["expect(${1:__actual__}).toBeInstanceOf(${2:__expect__});"],
+    "description": "Create a Jest ToBeInstanceOf matcher."
+  },
+  "Test : Jest : Expect : ToBeNull": {
+    "prefix": "ccTest_Jest_Expect_ToBeNull",
+    "body": ["expect(${1:__actual__}).toBeNull();"],
+    "description": "Create a Jest ToBeNull matcher."
+  },
+  "Test : Jest : Expect : ToBeTruthy": {
+    "prefix": "ccTest_Jest_Expect_ToBeTruthy",
+    "body": ["expect(${1:__actual__}).toBeTruthy();"],
+    "description": "Create a Jest ToBeTruthy matcher."
+  },
+  "Test : Jest : Expect : ToBeUndefined": {
+    "prefix": "ccTest_Jest_Expect_ToBeUndefined",
+    "body": ["expect(${1:__actual__}).toBeUndefined();"],
+    "description": "Create a Jest ToBeUndefined matcher."
+  },
+  "Test : Jest : Expect : ToContain": {
+    "prefix": "ccTest_Jest_Expect_ToContain",
+    "body": ["expect(${1:__actual__}).toContain(${2:__expect__});"],
+    "description": "Create a Jest ToContain matcher."
+  },
+  "Test : Jest : Expect : ToContainEqual": {
+    "prefix": "ccTest_Jest_Expect_ToContainEqual",
+    "body": [
+      "const ${2:__expect__} = {${0}}",
+      "expect(${1:__actual__}).toContainEqual(${2:__expect__});"
+    ],
+    "description": "Create a Jest ToContainEqual matcher."
+  },
+  "Test : Jest : Expect : ToHaveLength": {
+    "prefix": "ccTest_Jest_Expect_ToHaveLength",
+    "body": ["expect(${1:__actual__}).toHaveLength(${2:__expect__});"],
+    "description": "Create a Jest ToHaveLength matcher."
+  },
+  "Test : Jest : Expect : ToMatch": {
+    "prefix": "ccTest_Jest_Expect_ToMatch",
+    "body": ["expect(${1:__actual__}).toMatch(${2:__expect__});"],
+    "description": "Create a Jest ToMatch matcher."
+  },
+  "Test : Jest : Expect : ToMatchObject": {
+    "prefix": "ccTest_Jest_Expect_ToMatchObject",
+    "body": ["expect(${1:__actual__}).toMatchObject(${2:__expect__});"],
+    "description": "Create a Jest ToMatchObject matcher."
+  },
+  "Test : Jest : Expect : ToHaveProperty": {
+    "prefix": "ccTest_Jest_Expect_ToHaveProperty",
+    "body": [
+      "expect(${1:__actual__}).toHaveProperty(${2:__property__}, ${3:__value__});"
+    ],
+    "description": "Create a Jest ToHaveProperty matcher."
+  },
+  "Test : Jest : Expect : ToThrow": {
+    "prefix": "ccTest_Jest_Expect_ToThrow",
+    "body": ["expect(${1:__actual__}).toThrow();"],
+    "description": "Create a Jest ToThrow matcher."
+  },
+  "Test : Jest : Expect : ToThrowError": {
+    "prefix": "ccTest_Jest_Expect_ToThrowError",
+    "body": ["expect(${1:__actual__}).toThrowError(${2:__error__});"],
+    "description": "Create a Jest ToThrowError matcher."
+  },
+  "Test : Jest : Expect : ToThrowErrorMatchingSnapshot": {
+    "prefix": "ccTest_Jest_Expect_ToThrowErrorMatchingSnapshot",
+    "body": ["expect(${1:__actual__}).toThrowErrorMatchingSnapshot();"],
+    "description": "Create a Jest ToThrowErrorMatchingSnapshot matcher."
+  }
 }
