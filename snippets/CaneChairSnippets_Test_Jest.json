@@ -269,6 +269,8 @@
   },
   "Test : Jest : renderWithRouter": {
     "prefix": "ccTest_Jest_renderWithRouter",
-    "body": ["const { container } = renderWithRouter(() => <${0} />);"]
+    "body": [
+      "const { container, getByText, history } = renderWithRouter(() => <${0} />);"
+    ]
   }
 }
