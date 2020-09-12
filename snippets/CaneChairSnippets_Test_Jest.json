@@ -270,7 +270,7 @@
   "Test : Jest : renderWithRouter": {
     "prefix": "ccTest_Jest_renderWithRouter",
     "body": [
-      "const { container, getByText, history } = renderWithRouter(() => <${0} />);"
+      "const { container, getByRole, getByText, history } = renderWithRouter(() => <${0} />);"
     ]
   }
 }
