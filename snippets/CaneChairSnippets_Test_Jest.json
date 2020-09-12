@@ -266,5 +266,9 @@
       "  ${0}: () => <div>${0}</div>,",
       "}));"
     ]
+  },
+  "Test : Jest : renderWithRouter": {
+    "prefix": "ccTest_Jest_renderWithRouter",
+    "body": ["const { container } = renderWithRouter(() => <${0} />);"]
   }
 }
