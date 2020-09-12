@@ -258,5 +258,13 @@
     "prefix": "ccTest_Jest_Expect_ToThrowErrorMatchingSnapshot",
     "body": ["expect(${1:__actual__}).toThrowErrorMatchingSnapshot();"],
     "description": "Create a Jest ToThrowErrorMatchingSnapshot matcher."
+  },
+  "Test : Jest : Mock": {
+    "prefix": "ccTest_Jest_Mock",
+    "body": [
+      "jest.mock('./${0}', () => ({",
+      "  ${0}: () => <div>${0}</div>,",
+      "}));"
+    ]
   }
 }
