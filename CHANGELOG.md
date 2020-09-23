@@ -1,5 +1,8 @@
 # Change Log
 
+##### [4.3.4]
+TypeScript is back.
+
 ##### [4.2.1]
 
 Adding Require snippet

@@ -12,8 +12,6 @@
 
 ---
 
-### Break Changes Warning: TS/JSX file snippets are discontinued, only focus on js for current version.
-
 Snippets for Javascript Full-Stack Development using "VS Code", include:React, ReactNative, Vanilla JavaScript, Express, NodeJs, MongoDB, Jest, Chai, and more...
 
 #### (Keyboard shortcut works while entered enough characters to disambiguate the term, no fully input needed.)
