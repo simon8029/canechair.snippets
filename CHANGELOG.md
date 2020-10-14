@@ -1,5 +1,8 @@
 # Change Log
 
+##### [4.4.0]
+Snippet for MongoDB Model
+
 ##### [4.3.4]
 TypeScript is back.
 
