@@ -1,9 +1,15 @@
 # Change Log
 
+##### [4.4.2]
+
+Snippet for Express Api
+
 ##### [4.4.0]
+
 Snippet for MongoDB Model
 
 ##### [4.3.4]
+
 TypeScript is back.
 
 ##### [4.2.1]
