@@ -1,134 +1,134 @@
 {
-  "name": "canechairsnippets",
-  "displayName": "CaneChair.Snippets - Snippets for Full-Stack Javascript.",
-  "description": "It's time to sit down and enjoy the rocking...",
-  "version": "4.4.3",
-  "publisher": "Simon8029",
-  "icon": "images/canechair-icon-128.png",
-  "engines": {
-    "vscode": "^1.17.0"
-  },
-  "keywords": [
-    "Reactjs",
-    "JavaScript",
-    "React Native",
-    "Express",
-    "MongoDB",
-    "D3JS"
-  ],
-  "categories": [
-    "Snippets"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_Javascript_Common.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_ReactJS.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_ReactNative.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_Test_Jest.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/CaneChairSnippets_Test_Jest.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_Test_Chai.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_Javascript_Express.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_Javascript_MongoDB.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_GraphQL.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CaneChairSnippets_D3JS.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/CanechairSnippets_ReactTodo.json"
-      },
-      {
-        "language": "json",
-        "path": "./snippets/CaneChairSnippets_Json.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CaneChairSnippets_Javascript_Common.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CaneChairSnippets_ReactJS.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CaneChairSnippets_ReactNative.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CaneChairSnippets_Test_Jest.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CaneChairSnippets_Test_Chai.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CaneChairSnippets_Javascript_Express.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CaneChairSnippets_Javascript_MongoDB.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CaneChairSnippets_GraphQL.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CaneChairSnippets_D3JS.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CanechairSnippets_ReactTodo.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/CanechairSnippets_TypeScript_StyledComponents.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/CaneChairSnippets_TypeScriptReact_Common.json"
-      }
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/simon8029/canechair.snippets.git"
-  }
+	"name": "canechairsnippets",
+	"displayName": "CaneChair.Snippets - Snippets for Full-Stack Javascript.",
+	"description": "It's time to sit down and enjoy the rocking...",
+	"version": "4.4.4",
+	"publisher": "Simon8029",
+	"icon": "images/canechair-icon-128.png",
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"keywords": [
+		"Reactjs",
+		"JavaScript",
+		"React Native",
+		"Express",
+		"MongoDB",
+		"D3JS"
+	],
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_Javascript_Common.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_ReactJS.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_ReactNative.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_Test_Jest.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/CaneChairSnippets_Test_Jest.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_Test_Chai.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_Javascript_Express.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_Javascript_MongoDB.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_GraphQL.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_D3JS.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CanechairSnippets_ReactTodo.json"
+			},
+			{
+				"language": "json",
+				"path": "./snippets/CaneChairSnippets_Json.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/CaneChairSnippets_Javascript_Common.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/CaneChairSnippets_ReactJS.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/CaneChairSnippets_ReactNative.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/CaneChairSnippets_Test_Jest.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/CaneChairSnippets_Test_Chai.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/CaneChairSnippets_Javascript_Express.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/CaneChairSnippets_Javascript_MongoDB.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/CaneChairSnippets_GraphQL.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/CaneChairSnippets_D3JS.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/CanechairSnippets_ReactTodo.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/CanechairSnippets_TypeScript_StyledComponents.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/CaneChairSnippets_TypeScriptReact_Common.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/simon8029/canechair.snippets.git"
+	}
 }
