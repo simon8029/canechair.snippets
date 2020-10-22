@@ -1,5 +1,9 @@
 # Change Log
 
+##### [4.5.0]
+
+Snippet for Slice
+
 ##### [4.4.2]
 
 Snippet for Express Api
