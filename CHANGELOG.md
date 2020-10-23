@@ -1,5 +1,8 @@
 # Change Log
 
+##### [4.5.2]
+
+Snippet for ccTS_Component
 ##### [4.5.0]
 
 Snippet for Slice

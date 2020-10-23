@@ -110,29 +110,6 @@
 		],
 		"description": "Create a Array.forEach() function."
 	},
-	"FunctionalComponent": {
-		"prefix": "ccTS_FunctionalComponent",
-		"body": [
-			"import React, { useState } from 'react';",
-			"import { ${1:__ComponentName__} } from './styles';",
-			"",
-			"interface ${1:__ComponentName__}Props {",
-			"",
-			"}",
-			"",
-			"export const ${1:__ComponentName__} = (props: ${1:__ComponentName__}Props) => {",
-			"  const {  } = props;",
-			"",
-			"",
-			"  return (",
-			"    <${1:__ComponentName__}>",
-			"      ${0}",
-			"    </${1:__ComponentName__}>",
-			"  );",
-			"};",
-			""
-		]
-	},
 	"UseState": {
 		"prefix": "ccTS_useState",
 		"body": [
@@ -204,6 +181,29 @@
 			"\t} catch (err) {",
 			"\t\tdispatch(get${1:__SliceName__}sFailure(err));",
 			"\t}",
+			"};",
+			""
+		]
+	},
+	"component": {
+		"prefix": "ccTS_Component",
+		"body": [
+			"import React from 'react';",
+			"",
+			"type ${1:__ComponentName__|}Props {",
+			"",
+			"};",
+			"",
+			"export const ${1:__ComponentName__|} = (props: ${1:__ComponentName__|}Props) => {",
+			"\tconst {",
+			"\t\t",
+			"\t} = props;",
+			"",
+			"\treturn (",
+			"\t\t<div>",
+			"\t\t\t${0}",
+			"\t\t</div>",
+			"\t);",
 			"};",
 			""
 		]
