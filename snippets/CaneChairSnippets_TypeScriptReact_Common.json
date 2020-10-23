@@ -190,7 +190,7 @@
 		"body": [
 			"import React from 'react';",
 			"",
-			"type ${1:__ComponentName__|}Props {",
+			"type ${1:__ComponentName__|}Props = {",
 			"",
 			"};",
 			"",
@@ -201,7 +201,7 @@
 			"",
 			"\treturn (",
 			"\t\t<div>",
-			"\t\t\t${0}",
+			"\t\t\t${1:__ComponentName__|} here.",
 			"\t\t</div>",
 			"\t);",
 			"};",
