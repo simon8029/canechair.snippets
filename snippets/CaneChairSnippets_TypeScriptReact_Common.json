@@ -124,6 +124,34 @@
 			"\t};"
 		]
 	},
+	"Store": {
+		"prefix": "ccTS_Store",
+		"body": [
+			"import { configureStore, Action } from '@reduxjs/toolkit';",
+			"import { ThunkAction } from 'redux-thunk';",
+			"",
+			"import rootReducer, { RootState } from './rootReducer';",
+			"",
+			"const store = configureStore({",
+			"\treducer: rootReducer,",
+			"});",
+			"",
+			"if (process.env.NODE_ENV !== 'production' && module.hot) {",
+			"\tmodule.hot.accept('./rootReducer', () => {",
+			"\t\tconst newRootReducer = require('./rootReducer').default;",
+			"\t\tstore.replaceReducer(newRootReducer);",
+			"\t});",
+			"}",
+			"",
+			"export type AppDispatch = typeof store.dispatch;",
+			"",
+			"export type AppThunk = ThunkAction<void, RootState, unknown, Action<string>>;",
+			"",
+			"export default store;",
+			""
+		],
+		"description": "sdf"
+	},
 	"Slice": {
 		"prefix": "ccTS_Slice",
 		"body": [
