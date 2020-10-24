@@ -149,8 +149,24 @@
 			"",
 			"export default store;",
 			""
-		],
-		"description": "sdf"
+		]
+	},
+	"RootReducer": {
+		"prefix": "ccTS_RootReducer",
+		"body": [
+			"import { combineReducers } from '@reduxjs/toolkit';",
+			"",
+			"import ${1:__featureName__}Reducer from 'features/${1:__featureName__}/${1:__featureName__}Slice';",
+			"",
+			"const rootReducer = combineReducers({",
+			"\t${1:__featureName__}: ${1:__featureName__}Reducer,",
+			"});",
+			"",
+			"export type RootState = ReturnType<typeof rootReducer>;",
+			"",
+			"export default rootReducer;",
+			""
+		]
 	},
 	"Slice": {
 		"prefix": "ccTS_Slice",

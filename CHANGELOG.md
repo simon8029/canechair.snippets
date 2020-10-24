@@ -1,5 +1,9 @@
 # Change Log
 
+##### [4.5.5] (#135)
+
+Adding TypeScript Snippet - RootReducer
+
 ##### [4.5.4] (#132)
 
 Adding TypeScript Snippet - Redux Store w/ @reduxjs/toolkit
