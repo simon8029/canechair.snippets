@@ -1,5 +1,9 @@
 # Change Log
 
+##### [4.5.6] close issue #138
+
+Adding TypeScript Snippet - index.tsx
+
 ##### [4.5.5] (#135)
 
 Adding TypeScript Snippet - RootReducer
