@@ -1,5 +1,9 @@
 # Change Log
 
+##### [4.6.0] close issue #139
+
+Adding GoogleCloud : Functions : GeneralCrudApi
+
 ##### [4.5.6] close issue #138
 
 Adding TypeScript Snippet - index.tsx
