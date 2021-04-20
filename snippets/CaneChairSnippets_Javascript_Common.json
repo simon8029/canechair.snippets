@@ -1,101 +1,106 @@
 {
-  "Common-IIFE": {
-    "prefix": "cc_IIFE",
-    "body": [
-      "(function() {",
-      "\t'use strict';",
-      "",
-      "\tmodule.exports = {${1}};",
-      "})();"
-    ]
-  },
-  "Common-PrintToConsole : Group": {
-    "prefix": "cclog_group",
-    "body": [
-      "console.group(${1:__GroupName__})",
-      "console.log(`${2:__output__}:`, ${2:__output__});",
-      "console.groupEnd(${1:__GroupName__})"
-    ]
-  },
-  "Common-PrintToConsole": {
-    "prefix": "cclog",
-    "body": ["console.log(`${1:__output__}:`, ${1:__output__});"]
-  },
-  "Common-Import-Module": {
-    "prefix": "cc_Import_Module",
-    "body": ["import ${0} from '${1:__modulePath__}';"]
-  },
-  "Common-Require": {
-    "prefix": "cc_Require",
-    "body": ["const ${0} = require('${1:__moduleName__}');"]
-  },
-  "Common-Class-Constructor": {
-    "prefix": "ccReact_Class_Constructor",
-    "body": [
-      "constructor(props) {",
-      "\tsuper(props);",
-      "\tthis.state = {",
-      "\t\t${1} ",
-      "\t}",
-      "}"
-    ]
-  },
-  "Common-Function-If": {
-    "prefix": "cc_func_If",
-    "body": ["if (${1:__condition__}) {", "\t${2:__statement__}", "}"]
-  },
-  "Common-Function-Switch": {
-    "prefix": "cc_func_Switch",
-    "body": [
-      "switch (${1:__key__}) {",
-      "\tcase ${2:__value__}:",
-      "\t\t${3:__statement__}",
-      "\t\tbreak;",
-      "\tdefault:",
-      "\t\tbreak;",
-      "}"
-    ]
-  },
-  "ReactJS : Function : ArrowFunction": {
-    "prefix": "cc_func_ArrowFunction",
-    "body": [
-      "const ${1:__functionName__} = (${2:__params__}) => {",
-      "\t${0}",
-      "}"
-    ]
-  },
-  "ReactJS : Function : SetState": {
-    "prefix": "cc_func_SetState",
-    "body": ["this.setState({ ${1} });"]
-  },
-  "Common-Object : Assign": {
-    "prefix": "cc_Object_Assign",
-    "body": [
-      "Object.assign({}, ${1:__originalObject__}, { ${2:__Properties__} });"
-    ]
-  },
-  "Common-Array-Map": {
-    "prefix": "cc_array_Map",
-    "body": ["${1:__arrayName__}.map((${2:__params__}) => ", "\t${3}", ")"]
-  },
-  "Common-Array-Filter": {
-    "prefix": "cc_array_Filter",
-    "body": ["${1:__arrayName__}.filter((${2:__params__}) => ${3} );"]
-  },
-  "Common-Array-Find": {
-    "prefix": "cc_array_Find",
-    "body": ["${1:__arrayName__}.find((${2:__params__}) => ${3} );"]
-  },
-  "Common-Array-FindIndex": {
-    "prefix": "cc_array_FindIndex",
-    "body": ["${1:__arrayName__}.findIndex((${2:__params__}) => ${3});"]
-  },
-  "Common-Array-ForEach": {
-    "prefix": "cc_array_ForEach",
-    "body": [
-      "${1:__arrayName__}.forEach(${2:__element__} => {",
-      "\t${3:__statement__}",
-      "});"
-    ]
-  }
+	"JavaScript-IIFE": {
+		"prefix": "cc_IIFE",
+		"body": [
+			"(function() {",
+			"\t'use strict';",
+			"",
+			"\tmodule.exports = {${1}};",
+			"})();"
+		]
+	},
+	"JavaScript-PrintToConsole : Group": {
+		"prefix": "cclog_group",
+		"body": [
+			"console.group(${1:__GroupName__})",
+			"console.log(`${2:__output__}:`, ${2:__output__});",
+			"console.groupEnd(${1:__GroupName__})"
+		]
+	},
+	"JavaScript-PrintToConsole": {
+		"prefix": "cclog",
+		"body": ["console.log(`${1:__output__}:`, ${1:__output__});"]
+	},
+	"JavaScript-Import-Module": {
+		"prefix": "cc_Import_Module",
+		"body": ["import ${0} from '${1:__modulePath__}';"]
+	},
+	"JavaScript-Require": {
+		"prefix": "cc_Require",
+		"body": ["const ${0} = require('${1:__moduleName__}');"]
+	},
+	"JavaScript-Class-Constructor": {
+		"prefix": "ccReact_Class_Constructor",
+		"body": [
+			"constructor(props) {",
+			"\tsuper(props);",
+			"\tthis.state = {",
+			"\t\t${1} ",
+			"\t}",
+			"}"
+		]
+	},
+	"JavaScript-Function": {
+		"prefix": "cc_Javascript_Function",
+		"body": ["async function ${1:__functionName__}(opts) {", "\t${0}", "}"],
+		"description": "ccJsFunction"
+	},
+	"JavaScript-Function-If": {
+		"prefix": "cc_func_If",
+		"body": ["if (${1:__condition__}) {", "\t${2:__statement__}", "}"]
+	},
+	"JavaScript-Function-Switch": {
+		"prefix": "cc_func_Switch",
+		"body": [
+			"switch (${1:__key__}) {",
+			"\tcase ${2:__value__}:",
+			"\t\t${3:__statement__}",
+			"\t\tbreak;",
+			"\tdefault:",
+			"\t\tbreak;",
+			"}"
+		]
+	},
+	"JavaScript : Function : ArrowFunction": {
+		"prefix": "cc_ArrowFunction",
+		"body": [
+			"const ${1:__functionName__} = (${2:__params__}) => {",
+			"\t${0}",
+			"}"
+		]
+	},
+	"ReactJS : Function : SetState": {
+		"prefix": "cc_func_SetState",
+		"body": ["this.setState({ ${1} });"]
+	},
+	"JavaScript-Object : Assign": {
+		"prefix": "cc_Object_Assign",
+		"body": [
+			"Object.assign({}, ${1:__originalObject__}, { ${2:__Properties__} });"
+		]
+	},
+	"JavaScript-Array-Map": {
+		"prefix": "cc_array_Map",
+		"body": ["${1:__arrayName__}.map((${2:__params__}) => ", "\t${3}", ")"]
+	},
+	"JavaScript-Array-Filter": {
+		"prefix": "cc_array_Filter",
+		"body": ["${1:__arrayName__}.filter((${2:__params__}) => ${3} );"]
+	},
+	"JavaScript-Array-Find": {
+		"prefix": "cc_array_Find",
+		"body": ["${1:__arrayName__}.find((${2:__params__}) => ${3} );"]
+	},
+	"JavaScript-Array-FindIndex": {
+		"prefix": "cc_array_FindIndex",
+		"body": ["${1:__arrayName__}.findIndex((${2:__params__}) => ${3});"]
+	},
+	"JavaScript-Array-ForEach": {
+		"prefix": "cc_array_ForEach",
+		"body": [
+			"${1:__arrayName__}.forEach(${2:__element__} => {",
+			"\t${3:__statement__}",
+			"});"
+		]
+	}
 }
