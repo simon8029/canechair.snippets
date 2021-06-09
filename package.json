@@ -132,6 +132,18 @@
 			{
 				"language": "typescriptreact",
 				"path": "./snippets/CaneChairSnippets_TypeScriptReact_Common.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/CaneChairSnippets_TypeScriptReact_Redux.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/CaneChairSnippets_ReactJS_TypeScript_ApolloClient.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/CaneChairSnippets_ReactJS_TypeScript_Formik.json"
 			}
 		]
 	},

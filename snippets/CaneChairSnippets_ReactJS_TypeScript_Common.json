@@ -1,4 +1,44 @@
 {
+	"useState": {
+		"prefix": "ccJS_TypeScript_useState",
+		"body": [
+			"interface I${1/^(.)(.*)$/${1:/upcase}${2}/} {",
+			" // Interface body here.",
+			"}",
+			"const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = React.useState<I${1/^(.)(.*)$/${1:/upcase}${2}/}>(undefined);"
+		]
+	},
+	"useCustomHook": {
+		"prefix": "ccJS_TypeScript_useCustomHook",
+		"body": [
+			"export function use${1:__CustomHookName__}() {",
+			"  const [${1:__CustomHookName__}State, set${1:__CustomHookName__}State] = React.useState(false);",
+			"  const 1/^(.)(.*)$/${1:/downcase}${2}/ = (aPromise: Promise<any>) => {",
+			"    set${1:__CustomHookName__}State(true);",
+			"    return aPromise.finally(() => set${1:__CustomHookName__}State(false));",
+			"  };",
+			"  return [${1:__CustomHookName__}State, 1/^(.)(.*)$/${1:/downcase}${2}/] as const;",
+			"}"
+		],
+		"description": "use${__CustomHookName__}"
+	},
+	"Functional Component": {
+		"prefix": "ccReactJS_TypeScript_FunctionalComponent",
+		"body": [
+			"import React from 'react'",
+			"",
+			"type ${1:__ComponentName__}Props = {",
+			"  children: React.ReactNode;",
+			"}",
+			"",
+			"export const ${1:__ComponentName__} = (props:${1:__ComponentName__}Props) => {",
+			"  return <>${1:__ComponentName__} here.</>",
+			"}",
+			"",
+			""
+		],
+		"description": "Functional Component"
+	},
 	"Common : IIFE": {
 		"prefix": "ccCommon_IIFE",
 		"body": [
@@ -64,11 +104,6 @@
 		],
 		"description": "Create a standard switch statement."
 	},
-	"ReactJS : Function : ArrowFunction": {
-		"prefix": "ccCommon_Function_ArrowFunction",
-		"body": ["${1:__functionName__} = (${2:__params__}) => {", "\t${3}", "}"],
-		"description": "Create a JSX arrow function."
-	},
 	"ReactJS : Function : SetState": {
 		"prefix": "ccCommon_Function_SetState",
 		"body": ["this.setState({ ${1} });"],
@@ -110,12 +145,6 @@
 		],
 		"description": "Create a Array.forEach() function."
 	},
-	"UseState": {
-		"prefix": "ccTS_useState",
-		"body": [
-			"const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = useState(${0});"
-		]
-	},
 	"Arrow Function": {
 		"prefix": "ccTS_Arrow_Function",
 		"body": [
@@ -145,134 +174,6 @@
 			"// to log results (for example: reportWebVitals(console.log))",
 			"// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals",
 			"reportWebVitals();",
-			""
-		]
-	},
-	"Store": {
-		"prefix": "ccTS_Store",
-		"body": [
-			"import { configureStore, Action } from '@reduxjs/toolkit';",
-			"import { ThunkAction } from 'redux-thunk';",
-			"",
-			"import rootReducer, { RootState } from './rootReducer';",
-			"",
-			"const store = configureStore({",
-			"\treducer: rootReducer,",
-			"});",
-			"",
-			"if (process.env.NODE_ENV !== 'production' && module.hot) {",
-			"\tmodule.hot.accept('./rootReducer', () => {",
-			"\t\tconst newRootReducer = require('./rootReducer').default;",
-			"\t\tstore.replaceReducer(newRootReducer);",
-			"\t});",
-			"}",
-			"",
-			"export type AppDispatch = typeof store.dispatch;",
-			"",
-			"export type AppThunk = ThunkAction<void, RootState, unknown, Action<string>>;",
-			"",
-			"export default store;",
-			""
-		]
-	},
-	"RootReducer": {
-		"prefix": "ccTS_RootReducer",
-		"body": [
-			"import { combineReducers } from '@reduxjs/toolkit';",
-			"",
-			"import ${1:__featureName__}Reducer from 'features/${1:__featureName__}/${1:__featureName__}Slice';",
-			"",
-			"const rootReducer = combineReducers({",
-			"\t${1:__featureName__}: ${1:__featureName__}Reducer,",
-			"});",
-			"",
-			"export type RootState = ReturnType<typeof rootReducer>;",
-			"",
-			"export default rootReducer;",
-			""
-		]
-	},
-	"Slice": {
-		"prefix": "ccTS_Slice",
-		"body": [
-			"import { createSlice, PayloadAction } from '@reduxjs/toolkit';",
-			"import { ${1:__SliceName__}, get${1:__SliceName__}s } from './${1:__SliceName__}API';",
-			"import { AppThunk } from 'app/store';",
-			"",
-			"interface ${1:__SliceName__}sState {",
-			"\t${1:__SliceName__}s: Record<number, ${1:__SliceName__}[] | undefined>;",
-			"\tloading: boolean;",
-			"\terror: string | null;",
-			"}",
-			"",
-			"interface ${1:__SliceName__}Loaded {",
-			"\t${1:__SliceName__}s: ${1:__SliceName__}[];",
-			"}",
-			"",
-			"const initialState: ${1:__SliceName__}sState = {",
-			"\t${1:__SliceName__}s: [],",
-			"\tloading: false,",
-			"\terror: null,",
-			"};",
-			"",
-			"const ${1:__SliceName__}s = createSlice({",
-			"\tname: '${1:__SliceName__}s',",
-			"\tinitialState,",
-			"\treducers: {",
-			"\t\tget${1:__SliceName__}sStart(state) {",
-			"\t\t\tstate.loading = true;",
-			"\t\t\tstate.error = null;",
-			"\t\t},",
-			"\t\tget${1:__SliceName__}sSuccess(state, action: PayloadAction<${1:__SliceName__}Loaded>) {",
-			"\t\t\tstate.${1:__SliceName__}s = action.payload;",
-			"\t\t},",
-			"\t\tget${1:__SliceName__}sFailure(state, action: PayloadAction<string>) {",
-			"\t\t\tstate.loading = false;",
-			"\t\t\tstate.error = action.payload;",
-			"\t\t},",
-			"\t},",
-			"});",
-			"",
-			"export const {",
-			"\tget${1:__SliceName__}sStart,",
-			"\tget${1:__SliceName__}sSuccess,",
-			"\tget${1:__SliceName__}sFailure,",
-			"} = ${1:__SliceName__}s.actions;",
-			"",
-			"export default ${1:__SliceName__}s.reducer;",
-			"",
-			"export const fetch${1:__SliceName__}s = (): AppThunk => async (dispatch) => {",
-			"\ttry {",
-			"\t\tdispatch(get${1:__SliceName__}sStart());",
-			"\t\tconst ${1:__SliceName__}s = await get${1:__SliceName__}s(issue.${1:__SliceName__}s_url);",
-			"\t\tdispatch(get${1:__SliceName__}sSuccess({ issueId: issue.number, ${1:__SliceName__}s }));",
-			"\t} catch (err) {",
-			"\t\tdispatch(get${1:__SliceName__}sFailure(err));",
-			"\t}",
-			"};",
-			""
-		]
-	},
-	"component": {
-		"prefix": "ccTS_Component",
-		"body": [
-			"import React from 'react';",
-			"",
-			"type ${1:__ComponentName__|}Props = {",
-			"",
-			"};",
-			"",
-			"export const ${1:__ComponentName__|} = (props: ${1:__ComponentName__|}Props) => {",
-			"\tconst {",
-			"\t\t",
-			"\t} = props;",
-			"",
-			"\treturn (",
-			"\t\t<div>",
-			"\t\t\t${1:__ComponentName__|} here.",
-			"\t\t</div>",
-			"\t);",
-			"};",
 			""
 		]
 	},
