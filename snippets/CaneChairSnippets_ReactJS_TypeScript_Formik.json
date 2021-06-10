@@ -93,5 +93,25 @@
 			""
 		],
 		"description": "Create a Formik Form"
+	},
+	"Formik_MUI_TextField": {
+		"prefix": "ccReactJS_TypeScript_Formik_MaterialUI_TextField",
+		"body": [
+			"<TextField",
+			"\t\t\t\tid='${1:__TextFieldName__}'",
+			"\t\t\t\tname='${1:__TextFieldName__}'",
+			"\t\t\t\tlabel='${1:__TextFieldName__}'",
+			"\t\t\t\tvalue={formik.values.${1:__TextFieldName__}}",
+			"\t\t\t\tonChange={formik.handleChange}",
+			"\t\t\t\terror={",
+			"\t\t\t\t\tformik.touched.${1:__TextFieldName__} &&",
+			"\t\t\t\t\tBoolean(formik.errors.${1:__TextFieldName__})",
+			"\t\t\t\t}",
+			"\t\t\t\thelperText={",
+			"\t\t\t\t\tformik.touched.${1:__TextFieldName__} && formik.errors.${1:__TextFieldName__}",
+			"\t\t\t\t}",
+			"\t\t\t/>"
+		],
+		"description": "Create MUI TextField with Formik"
 	}
 }
