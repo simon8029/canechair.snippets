@@ -127,11 +127,11 @@
 			},
 			{
 				"language": "typescript",
-				"path": "./snippets/CaneChairSnippets_TypeScriptReact_Common.json"
+				"path": "./snippets/CaneChairSnippets_ReactJS_TypeScript_Common.json"
 			},
 			{
 				"language": "typescriptreact",
-				"path": "./snippets/CaneChairSnippets_TypeScriptReact_Common.json"
+				"path": "./snippets/CaneChairSnippets_ReactJS_TypeScript_Common.json"
 			},
 			{
 				"language": "typescriptreact",
