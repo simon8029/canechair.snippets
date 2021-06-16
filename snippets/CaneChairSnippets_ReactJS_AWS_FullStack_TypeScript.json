@@ -1,6 +1,6 @@
 {
-	"AWS_FullStack_TypeScript_Index.tsx": {
-		"prefix": "ccReactJS_AWS_FullStack_TypeScript_index.tsx",
+	"ReactJS_AWS_TS_Index.tsx": {
+		"prefix": "ccReactJS_AWS_TS_index.tsx",
 		"body": [
 			"import './index.css';",
 			"import '@fontsource/roboto';",
@@ -34,8 +34,8 @@
 		],
 		"description": "Create index.tsx file"
 	},
-	"AWS_FullStack_TypeScript_ReduxStore.ts": {
-		"prefix": "ccReactJS_AWS_FullStack_TypeScript_ReduxStore.ts",
+	"ReactJS_AWS_TS_ReduxStore.ts": {
+		"prefix": "ccReactJS_AWS_TS_ReduxStore.ts",
 		"body": [
 			"import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';",
 			"",
@@ -59,8 +59,8 @@
 		],
 		"description": "Create a Redux Store file."
 	},
-	"AWS_FullStack_TypeScript_Component_BasicCRUD": {
-		"prefix": "ccReactJS_AWS_FullStack_TypeScript_BasicCRUDComponent",
+	"ReactJS_AWS_TS_Component_BasicCRUD": {
+		"prefix": "ccReactJS_AWS_TS_BasicCRUDComponent",
 		"body": [
 			"import { useFormik } from 'formik';",
 			"import React, { useEffect } from 'react';",
@@ -283,8 +283,8 @@
 		],
 		"description": "Create a Component with basic CRUD"
 	},
-	"AWS_FullStack_TypeScript_Redux_Slice": {
-		"prefix": "ccReactJS_AWS_FullStack_TypeScript_Redux_Slice",
+	"ReactJS_AWS_TS_Redux_Slice": {
+		"prefix": "ccReactJS_AWS_TS_Redux_Slice",
 		"body": [
 			"import { API, graphqlOperation } from 'aws-amplify';",
 			"",
