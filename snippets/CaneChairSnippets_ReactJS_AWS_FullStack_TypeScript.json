@@ -425,7 +425,7 @@
 			"\t\t\t})",
 			"\t\t\t.addCase(delete${1:__ModelName__}.fulfilled, (state, action) => {",
 			"\t\t\t\tstate.${1/^(.)(.*)$/${1:/downcase}${2}/}List = state.${1/^(.)(.*)$/${1:/downcase}${2}/}List.filter(",
-			"\t\t\t\t\t(item) => item.id !== action.meta.arg,",
+			"\t\t\t\t\t(item) => item.id !== action.meta.arg.id,",
 			"\t\t\t\t);",
 			"\t\t\t\tstate.status = 'idle';",
 			"\t\t\t})",
