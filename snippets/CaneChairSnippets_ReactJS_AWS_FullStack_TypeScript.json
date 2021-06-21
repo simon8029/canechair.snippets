@@ -286,6 +286,11 @@
 	"ReactJS_AWS_TS_Redux_Slice": {
 		"prefix": "ccReactJS_AWS_TS_Redux_Slice",
 		"body": [
+			"import {",
+			"\tCreate${1:__ModelName__}Input",
+			"\tDelete${1:__ModelName__}Input",
+			"\tUpdate${1:__ModelName__}Input",
+			"} from './../API';",
 			"import { API, graphqlOperation } from 'aws-amplify';",
 			"",
 			"import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';",

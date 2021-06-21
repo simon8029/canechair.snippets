@@ -2,10 +2,7 @@
 	"useState": {
 		"prefix": "ccJS_TypeScript_useState",
 		"body": [
-			"interface I${1/^(.)(.*)$/${1:/upcase}${2}/} {",
-			" // Interface body here.",
-			"}",
-			"const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = React.useState<I${1/^(.)(.*)$/${1:/upcase}${2}/}>(undefined);"
+			"const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = React.useState<>();"
 		]
 	},
 	"useCustomHook": {
