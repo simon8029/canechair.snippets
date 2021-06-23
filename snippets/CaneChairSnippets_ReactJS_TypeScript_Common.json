@@ -2,7 +2,7 @@
 	"useState": {
 		"prefix": "ccJS_TypeScript_useState",
 		"body": [
-			"const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = React.useState<>();"
+			"const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = React.useState<${2:__StateDataType__}>(${0});"
 		]
 	},
 	"useCustomHook": {
