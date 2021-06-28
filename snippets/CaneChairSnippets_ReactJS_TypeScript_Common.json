@@ -51,14 +51,24 @@
 		"prefix": "cclog_group",
 		"body": [
 			"console.group('${1:__GroupName__}')",
-			"console.log(`${2:__output__}:`, ${2:__output__});",
+			"console.log(",
+			"\t`%c${2:__output__}: %c${${2:__output__}}`,",
+			"\t'color:black;font-weight:bold',",
+			"\t'color:blue; background:lightgrey;padding:3px',",
+			");",
 			"console.groupEnd()"
 		],
 		"description": "Log output to console"
 	},
 	"Common : PrintToConsole": {
 		"prefix": "cclog",
-		"body": ["console.log(`${1:__output__}:`, ${1:__output__});"],
+		"body": [
+			"console.log(",
+			"\t`%c${1:__output__}: %c${${1:__output__}}`,",
+			"\t'color:black;font-weight:bold',",
+			"\t'color:blue; background:lightgrey;padding:3px',",
+			");"
+		],
 		"description": "Log output to console"
 	},
 	"Common : Import : Module": {
