@@ -2,7 +2,7 @@
 	"name": "canechairsnippets",
 	"displayName": "CaneChair.Snippets - Snippets for Full-Stack Javascript.",
 	"description": "It's time to sit down and enjoy the rocking...",
-	"version": "4.8.3",
+	"version": "4.9.0",
 	"publisher": "Simon8029",
 	"icon": "images/canechair-icon-128.png",
 	"engines": {
@@ -87,10 +87,6 @@
 			},
 			{
 				"language": "typescript",
-				"path": "./snippets/CaneChairSnippets_ReactNative.json"
-			},
-			{
-				"language": "typescript",
 				"path": "./snippets/CaneChairSnippets_Test_Jest.json"
 			},
 			{
@@ -147,6 +143,10 @@
 			},
 			{
 				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_ReactNative.json"
+			},
+			{
+				"language": "typescript",
 				"path": "./snippets/CaneChairSnippets_ReactNative.json"
 			},
 			{
