@@ -13,6 +13,14 @@
 		"prefix": "cclog_group",
 		"body": [
 			"console.group('${1:__GroupName__}')",
+			"console.log(`${2:__output__}:`, ${2:__output__});",
+			"console.groupEnd()"
+		]
+	},
+	"JavaScript-PrintToConsole : Group : withColor": {
+		"prefix": "cclog_group_withColor",
+		"body": [
+			"console.group('${1:__GroupName__}')",
 			"console.log(",
 			"\t`%c${2:__output__}: %c${${2:__output__}}`,",
 			"\t'color:black;font-weight:bold',",
@@ -21,8 +29,12 @@
 			"console.groupEnd()"
 		]
 	},
-	"JavaScript-PrintToConsole": {
+	"JavaScript : PrintToConsole": {
 		"prefix": "cclog",
+		"body": ["console.log(`${1:__output__}:`, ${1:__output__});"]
+	},
+	"JavaScript : PrintToConsole : withColor": {
+		"prefix": "cclog_withColor",
 		"body": [
 			"console.log(",
 			"\t`%c${1:__output__}: %c${${1:__output__}}`,",
