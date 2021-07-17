@@ -2,7 +2,7 @@
 	"name": "canechairsnippets",
 	"displayName": "CaneChair.Snippets - Snippets for Full-Stack Javascript.",
 	"description": "It's time to sit down and enjoy the rocking...",
-	"version": "4.9.7",
+	"version": "4.6.2",
 	"publisher": "Simon8029",
 	"icon": "images/canechair-icon-128.png",
 	"engines": {
@@ -32,6 +32,10 @@
 			{
 				"language": "javascript",
 				"path": "./snippets/CaneChairSnippets_ReactJS_Elements.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_ReactNative.json"
 			},
 			{
 				"language": "javascript",
@@ -87,6 +91,10 @@
 			},
 			{
 				"language": "typescript",
+				"path": "./snippets/CaneChairSnippets_ReactNative.json"
+			},
+			{
+				"language": "typescript",
 				"path": "./snippets/CaneChairSnippets_Test_Jest.json"
 			},
 			{
@@ -119,39 +127,11 @@
 			},
 			{
 				"language": "typescript",
-				"path": "./snippets/CaneChairSnippets_ReactJS_TypeScript_Common.json"
+				"path": "./snippets/CaneChairSnippets_TypeScriptReact_Common.json"
 			},
 			{
 				"language": "typescriptreact",
-				"path": "./snippets/CaneChairSnippets_ReactJS_TypeScript_Common.json"
-			},
-			{
-				"language": "typescriptreact",
-				"path": "./snippets/CaneChairSnippets_ReactJS_TypeScript_ApolloClient.json"
-			},
-			{
-				"language": "typescriptreact",
-				"path": "./snippets/CaneChairSnippets_ReactJS_TypeScript_Formik.json"
-			},
-			{
-				"language": "typescriptreact",
-				"path": "./snippets/CaneChairSnippets_ReactJS_AWS_FullStack_TypeScript.json"
-			},
-			{
-				"language": "typescript",
-				"path": "./snippets/CaneChairSnippets_ReactJS_AWS_FullStack_TypeScript.json"
-			},
-			{
-				"language": "javascript",
-				"path": "./snippets/CaneChairSnippets_ReactNative.json"
-			},
-			{
-				"language": "typescript",
-				"path": "./snippets/CaneChairSnippets_ReactNative.json"
-			},
-			{
-				"language": "typescriptreact",
-				"path": "./snippets/CaneChairSnippets_ReactNative.json"
+				"path": "./snippets/CaneChairSnippets_TypeScriptReact_Common.json"
 			}
 		]
 	},

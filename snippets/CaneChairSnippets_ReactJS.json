@@ -375,9 +375,7 @@
 	},
 	"Route": {
 		"prefix": "cc_js_<Route>",
-		"body": [
-			"<Route path=\"${1:__Path__}\" component={${2:__ComponentName__}} />"
-		]
+		"body": ["<Route path=\"${1:__Path__}\" component={${2:__ComponentName__}} />"]
 	},
 	"MUI-Component": {
 		"prefix": "cc_mui_grid",
@@ -1135,8 +1133,14 @@
 	},
 	"useState": {
 		"prefix": "ccJS_useState",
-		"body": [
-			"const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = useState(${0});"
-		]
+		"body": ["const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = useState(${0});"]
+	},
+	"useMemo": {
+		"prefix": "ccJS_useMemo",
+		"body": ["\tconst ${1:__memoName__} = useMemo(() => {", "\t\t${0}", "\t}, [${2:__deps__}]);"]
+	},
+	"useEffect": {
+		"prefix": "ccJS_useEffect",
+		"body": ["\tconst ${1:__effectName__} = useEffect(() => {", "\t\t${0}", "\t}, [${2:__deps__}]);"]
 	}
 }
