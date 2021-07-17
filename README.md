@@ -8,13 +8,12 @@
 [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/4w/simon8029/CaneChair.Snippets.svg)]()
 [![GitHub issues](https://img.shields.io/github/issues/simon8029/CaneChair.Snippets.svg)]()
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/simon8029/CaneChair.Snippets.svg?colorB=green)]()
-[![license](https://img.shields.io/github/license/simon8029/CaneChair.Snippets.svg)]()
 
 ---
 
-Snippets for Javascript Full-Stack Development using "VS Code", include:React, ReactNative, Vanilla JavaScript, Express, NodeJs, MongoDB, Jest, Chai, and more...
+Snippets for Javascript Full-Stack Development using "VS Code", include:React, ReactNative, Vanilla JavaScript, Express, NodeJs, Jest, AWS, and more...
 
-#### (Keyboard shortcut works while entered enough characters to disambiguate the term, no fully input needed.)
+#### 🚀(Keyboard shortcut works while entered enough characters to disambiguate the term, no fully input needed.)
 
 #### (All snippets start with "cc" for convinence, stands for "CaneChair")
 

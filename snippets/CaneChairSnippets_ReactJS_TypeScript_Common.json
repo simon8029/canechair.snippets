@@ -5,6 +5,14 @@
 			"const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = React.useState<${2:__StateDataType__}>(${0});"
 		]
 	},
+	"useMemo": {
+		"prefix": "ccJS_useMemo",
+		"body": ["\tconst ${1:__memoName__} = useMemo(() => {", "\t\t${0}", "\t}, [${2:__deps__}]);"]
+	},
+	"useEffect": {
+		"prefix": "ccJS_useEffect",
+		"body": ["\tconst ${1:__effectName__} = useEffect(() => {", "\t\t${0}", "\t}, [${2:__deps__}]);"]
+	},
 	"useCustomHook": {
 		"prefix": "ccJS_TypeScript_useCustomHook",
 		"body": [
@@ -38,13 +46,7 @@
 	},
 	"Common : IIFE": {
 		"prefix": "ccCommon_IIFE",
-		"body": [
-			"(function() {",
-			"\t'use strict';",
-			"",
-			"\tmodule.exports = {${1}};",
-			"})();"
-		],
+		"body": ["(function() {", "\t'use strict';", "", "\tmodule.exports = {${1}};", "})();"],
 		"description": "Create an IIFE function."
 	},
 	"Common : PrintToConsole : Group": {
@@ -93,14 +95,7 @@
 	},
 	"Common : Class : Constructor": {
 		"prefix": "ccReact_Class_Constructor",
-		"body": [
-			"constructor(props) {",
-			"\tsuper(props);",
-			"\tthis.state = {",
-			"\t\t${1} ",
-			"\t}",
-			"}"
-		],
+		"body": ["constructor(props) {", "\tsuper(props);", "\tthis.state = {", "\t\t${1} ", "\t}", "}"],
 		"description": "Create a React Class."
 	},
 	"Common : Function : If": {
@@ -128,9 +123,7 @@
 	},
 	"Common : Object : Assign": {
 		"prefix": "ccCommon_Object_Assign",
-		"body": [
-			"Object.assign({}, ${1:__originalObject__}, { ${2:__Properties__} });"
-		],
+		"body": ["Object.assign({}, ${1:__originalObject__}, { ${2:__Properties__} });"],
 		"description": "Create a Object.assign() statement."
 	},
 	"Common : Array : Map": {
@@ -155,20 +148,12 @@
 	},
 	"Common : Array : ForEach": {
 		"prefix": "ccCommon_Array_ForEach",
-		"body": [
-			"${1:__arrayName__}.forEach(${2:__element__} => {",
-			"\t${3:__statement__}",
-			"});"
-		],
+		"body": ["${1:__arrayName__}.forEach(${2:__element__} => {", "\t${3:__statement__}", "});"],
 		"description": "Create a Array.forEach() function."
 	},
 	"Arrow Function": {
 		"prefix": "ccTS_Arrow_Function",
-		"body": [
-			"\tconst ${1:__FunctionName__}: ${2:__Type__} = (${3:__args__}) => {",
-			"\t\t${0}",
-			"\t};"
-		]
+		"body": ["\tconst ${1:__FunctionName__}: ${2:__Type__} = (${3:__args__}) => {", "\t\t${0}", "\t};"]
 	},
 	"index.tsx": {
 		"prefix": "ccTS_index.tsx",
