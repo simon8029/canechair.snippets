@@ -6,7 +6,7 @@
 	"publisher": "Simon8029",
 	"icon": "images/canechair-icon-128.png",
 	"engines": {
-		"vscode": "^1.17.0"
+		"vscode": "^1.17.1"
 	},
 	"keywords": [
 		"Reactjs",
@@ -20,6 +20,30 @@
 	],
 	"contributes": {
 		"snippets": [
+			{
+				"language": "typescript",
+				"path": "./snippets/CaneChairSnippets_ReactJS_Common.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_ReactJS_Common.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/CaneChairSnippets_ReactJS_Common.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/CaneChairSnippets_ReactJS_Common.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/CaneChairSnippets_ReactJS_Javascript.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/CaneChairSnippets_ReactJS_Javascript.json"
+			},
 			{
 				"language": "typescript",
 				"path": "./snippets/CaneChairSnippets_D3JS.json"
