@@ -1,6 +1,6 @@
 {
 	"useState": {
-		"prefix": "ccJS_TypeScript_useState",
+		"prefix": "ccTypeScript_useState",
 		"body": [
 			"const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = React.useState<${2:__StateDataType__}>(${0});"
 		]
@@ -11,10 +11,10 @@
 	},
 	"useEffect": {
 		"prefix": "ccJS_useEffect",
-		"body": ["\tconst ${1:__effectName__} = useEffect(() => {", "\t\t${0}", "\t}, [${2:__deps__}]);"]
+		"body": ["useEffect(() => {", "\t\t${0}", "\t}, [${2:__deps__}]);"]
 	},
 	"useCustomHook": {
-		"prefix": "ccJS_TypeScript_useCustomHook",
+		"prefix": "ccTypeScript_useCustomHook",
 		"body": [
 			"export function use${1:__CustomHookName__}() {",
 			"  const [${1:__CustomHookName__}State, set${1:__CustomHookName__}State] = React.useState(false);",
@@ -28,13 +28,11 @@
 		"description": "use${__CustomHookName__}"
 	},
 	"Functional Component": {
-		"prefix": "ccReactJS_TypeScript_FunctionalComponent",
+		"prefix": "ccTypeScript_FunctionalComponent",
 		"body": [
 			"import React from 'react'",
 			"",
-			"type ${1:__ComponentName__}Props = {",
-			"  children: React.ReactNode;",
-			"}",
+			"type ${1:__ComponentName__}Props = {}",
 			"",
 			"export const ${1:__ComponentName__} = (props:${1:__ComponentName__}Props) => {",
 			"  return <>${1:__ComponentName__} here.</>",
@@ -42,15 +40,15 @@
 			"",
 			""
 		],
-		"description": "Functional Component"
+		"description": "Create Functional Component"
 	},
 
 	"Arrow Function": {
-		"prefix": "ccTS_Arrow_Function",
+		"prefix": "ccTypeScript_Arrow_Function",
 		"body": ["\tconst ${1:__FunctionName__}: ${2:__Type__} = (${3:__args__}) => {", "\t\t${0}", "\t};"]
 	},
 	"index.tsx": {
-		"prefix": "ccTS_index.tsx",
+		"prefix": "ccTypeScript_index.tsx",
 		"body": [
 			"import React from 'react';",
 			"import ReactDOM from 'react-dom';",
@@ -74,7 +72,7 @@
 		]
 	},
 	"Form": {
-		"prefix": "ccTS_Form",
+		"prefix": "ccTypeScript_Form",
 		"body": [
 			"<form>",
 			"\t\t\t<div>",

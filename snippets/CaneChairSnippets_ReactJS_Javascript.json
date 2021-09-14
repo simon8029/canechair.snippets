@@ -1,4 +1,18 @@
 {
+	"ReduxStore": {
+		"prefix": "ccRedux_Store",
+		"body": [
+			"import { configureStore } from '@reduxjs/toolkit';",
+			"import ${1:__SliceName__}Reducer from './${1:__SliceName__}Slice';",
+			"export default configureStore({",
+			"\treducer: {",
+			"\t\t${1:__SliceName__}: ${1:__SliceName__}Reducer,",
+			"\t},",
+			"});",
+			""
+		],
+		"description": "Create Redux Store."
+	},
 	"ReduxSlice_BasicCRUD": {
 		"prefix": "ccRedux_Slice_BasicCRUD",
 		"body": [
@@ -77,5 +91,34 @@
 			""
 		],
 		"description": "Create basic CRUD Redux Slice"
+	},
+	"JavaScript : ArrowFunction": {
+		"prefix": "ccJavascript_ArrowFunction",
+		"body": ["const ${1:__FunctionName__} = () => {${0}};"],
+		"description": "Create Arrow Function"
+	},
+	"JavaScript : useSelector": {
+		"prefix": "ccJavascript_useSelector",
+		"body": ["const ${1:__Name__} = useSelector(state => state.${1:__Name__});"],
+		"description": "Create useSelector statement"
+	},
+	"JavaScript : useState": {
+		"prefix": "ccJavascript_useState",
+		"body": ["const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = useState(${2});${0}"],
+		"description": "Create useState statement"
+	},
+	"JavaScript : FunctionalComponent": {
+		"prefix": "ccJavaScript_FunctionalComponent",
+		"body": [
+			"import React from 'react';",
+			"import { useState, useEffect } from 'react';",
+			"import { useDispatch, useSelector } from 'react-redux';",
+			"",
+			"const ${1:__ComponentName__} = (props) => {",
+			"\treturn <div>${1:__ComponentName__} here.</div>;",
+			"};",
+			""
+		],
+		"description": "Create Functional Component"
 	}
 }
