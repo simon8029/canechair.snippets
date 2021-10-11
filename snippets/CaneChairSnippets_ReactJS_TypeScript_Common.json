@@ -1,9 +1,7 @@
 {
 	"useState": {
 		"prefix": "ccTypeScript_useState",
-		"body": [
-			"const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = React.useState<${2:__StateDataType__}>(${0});"
-		]
+		"body": ["const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = React.useState<${2:__StateDataType__}>(${0});"]
 	},
 	"useMemo": {
 		"prefix": "ccJS_useMemo",
@@ -11,7 +9,7 @@
 	},
 	"useEffect": {
 		"prefix": "ccJS_useEffect",
-		"body": ["useEffect(() => {", "\t\t${0}", "\t}, [${2:__deps__}]);"]
+		"body": ["useEffect(() => {", "\t\t${0}", "\t}, [${1:__deps__}]);"]
 	},
 	"useCustomHook": {
 		"prefix": "ccTypeScript_useCustomHook",
@@ -45,7 +43,7 @@
 
 	"Arrow Function": {
 		"prefix": "ccTypeScript_Arrow_Function",
-		"body": ["\tconst ${1:__FunctionName__}: ${2:__Type__} = (${3:__args__}) => {", "\t\t${0}", "\t};"]
+		"body": ["\tconst ${1:__FunctionName__} = (${2:__args__}): ${3:__Type__}  => {", "\t\t${0}", "\t};"]
 	},
 	"index.tsx": {
 		"prefix": "ccTypeScript_index.tsx",
