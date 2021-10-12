@@ -34,8 +34,29 @@
 		],
 		"description": "Create index.tsx file"
 	},
-	"ReactJS_AWS_TS_ReduxStore.ts": {
+	"ReactJS_TS_ReduxStore.ts": {
 		"prefix": "ccReactJS_AWS_TS_ReduxStore.ts",
+		"body": [
+			"import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';",
+			"",
+			"import { configureStore, createSlice, PayloadAction } from '@reduxjs/toolkit';",
+			"",
+			"// export default counterSlice.reducer;",
+			"",
+			"export const reduxStore = configureStore({",
+			"\treducer: {},",
+			"});",
+			"",
+			"export type RootState = ReturnType<typeof reduxStore.getState>;",
+			"export type AppDispatch = typeof reduxStore.dispatch;",
+			"export const useAppDispatch = () => useDispatch<AppDispatch>();",
+			"export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector;",
+			""
+		],
+		"description": "Create a Redux Store file."
+	},
+	"ReactJS_AWS_TS_ReduxStore.ts_withExample": {
+		"prefix": "ccReactJS_AWS_TS_ReduxStore.ts_withExample",
 		"body": [
 			"import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';",
 			"",
@@ -78,7 +99,7 @@
 			"export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector;",
 			""
 		],
-		"description": "Create a Redux Store file."
+		"description": "Create a Redux Store file with example"
 	},
 	"ReactJS_AWS_TS_Component_BasicCRUD": {
 		"prefix": "ccReactJS_AWS_TS_BasicCRUDComponent",
