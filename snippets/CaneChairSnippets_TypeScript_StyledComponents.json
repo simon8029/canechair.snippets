@@ -1,24 +1,34 @@
 {
-  "StyledComponent : Container": {
-    "prefix": "ccStyledComponent_${1:__ComponentName__}",
-    "body": [
-      "export const ${1:__ComponentName__} = styled.div`",
-      " align-items: flex-start;",
-      " background-color: #3179ba;",
-      " display: flex;",
-      " flex-direction: row;",
-      " height: 100%;",
-      " padding: 20px;",
-      " width: 100%;",
-      "`;"
-    ]
-  },
-  "StyledComponent : Button": {
-    "prefix": "ccStyledComponent_Button",
-    "body": [
-      "export const ${1:__ComponentName__} = styled.button<${1:__ComponentName__}Props>`:",
-      " ${0}",
-      "`;"
-    ]
-  }
+	"StyledComponent : Container": {
+		"prefix": "ccStyledComponent_${1:__ComponentName__}",
+		"body": [
+			"export const ${1:__ComponentName__} = styled.div`",
+			" align-items: flex-start;",
+			" background-color: #3179ba;",
+			" display: flex;",
+			" flex-direction: row;",
+			" height: 100%;",
+			" padding: 20px;",
+			" width: 100%;",
+			"`;"
+		]
+	},
+	"StyledComponent : General": {
+		"prefix": "ccStyledComponent_General",
+		"body": [
+			"interface ButtonProps {",
+			"  margin?: string;",
+			"  padding?: string;",
+			"  color?: string;",
+			"  minWidth?: string;",
+			"}",
+			"export const Button = styled.button<ButtonProps>`",
+			"  color: ${(props) => props.color ?? \"#000000\"};",
+			"  margin: ${(props) => props.margin ?? \"5px\"};",
+			"  padding: ${(props) => props.padding ?? \"5px\"};",
+			"  min-width: ${(props) => props.minWidth ?? \"60px\"};",
+			"`;"
+		],
+		"description": "Create general styled component."
+	}
 }

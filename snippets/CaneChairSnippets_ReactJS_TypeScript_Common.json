@@ -82,5 +82,80 @@
 			"\t\t\t</div>",
 			"\t\t</form>"
 		]
+	},
+	"Redux : Slice : AsyncThunk : Fetch": {
+		"prefix": "ccRedux_Slice_AsyncThunk_fetch",
+		"body": [
+			"export const fetch${1:__EntityName__} = createAsyncThunk<${1:__EntityName__}[]>(",
+			"  \"${1:__EntityName__}/Fetch\",",
+			"  async () => {",
+			"    const response = await axios.get(`\\${url}`);",
+			"    return response.data;",
+			"  }",
+			");"
+		],
+		"description": "Create Async Thunk for Fetch"
+	},
+	"Redux : Slice : AsyncThunk : Add": {
+		"prefix": "ccRedux_Slice_AsyncThunk_Add",
+		"body": [
+			"export const add${1:__EntityName__}  = createAsyncThunk(",
+			"  \"${1:__EntityName__} /Add\",",
+			"  async (${1/^(.)(.*)$/${1:/downcase}${2}/}: ${1:__EntityName__} ) => {",
+			"    const response = await axios.post(`\\${url}`, ${1/^(.)(.*)$/${1:/downcase}${2}/});",
+			"    return response.data;",
+			"  }",
+			");"
+		],
+		"description": "Create Async Thunk for Add"
+	},
+	"Redux : Slice : AsyncThunk : Update": {
+		"prefix": "ccRedux_Slice_AsyncThunk_Update",
+		"body": [
+			"export const update${1:__EntityName__} = createAsyncThunk(",
+			"  \"${1:__EntityName__}/Update\",",
+			"  async (${1/^(.)(.*)$/${1:/downcase}${2}/}: ${1:__EntityName__}) => {",
+			"    const response = await axios.put(`\\${url}/${${1/^(.)(.*)$/${1:/downcase}${2}/}.id}`, ${1/^(.)(.*)$/${1:/downcase}${2}/});",
+			"    return response.data;",
+			"  }",
+			");"
+		],
+		"description": "Create Async Thunk for Update"
+	},
+	"Redux : Slice : ExtraReducers : Fetch": {
+		"prefix": "ccRedux_Slice_ExtraReducers_fetch",
+		"body": [
+			".addCase(fetch${1:__EntityName__}.pending, (state, action) => {",
+			"        state.status = \"loading\";",
+			"      })",
+			"      .addCase(fetch${1:__EntityName__}.fulfilled, (state, action) => {",
+			"        state.status = \"succeeded\";",
+			"        action.payload.map((item) => {",
+			"          state.${1/^(.)(.*)$/${1:/downcase}${2}/}.push(item);",
+			"        });",
+			"      })",
+			"      .addCase(fetch${1:__EntityName__}.rejected, (state, action) => {",
+			"        state.status = \"failed\";",
+			"        state.error = action.error.message;",
+			"      });"
+		],
+		"description": "Create extra reducers for Fetch"
+	},
+	"Redux : Slice : ExtraReducers : Add": {
+		"prefix": "ccRedux_Slice_ExtraReducers_add",
+		"body": [
+			".addCase(add${1:__EntityName__}.pending, (state, action) => {",
+			"        state.status = \"loading\";",
+			"      })",
+			"      .addCase(add${1:__EntityName__}.fulfilled, (state, action) => {",
+			"        state.status = \"succeeded\";",
+			"        state.${1/^(.)(.*)$/${1:/downcase}${2}/}.push(action.payload);",
+			"      })",
+			"      .addCase(add${1:__EntityName__}.rejected, (state, action) => {",
+			"        state.status = \"failed\";",
+			"        state.error = action.error.message;",
+			"      });"
+		],
+		"description": "Create extra reducers for Add"
 	}
 }
