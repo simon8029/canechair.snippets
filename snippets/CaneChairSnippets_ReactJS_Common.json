@@ -6,11 +6,7 @@
 	},
 	"Common : PrintToConsole : Group": {
 		"prefix": "cclog_group",
-		"body": [
-			"console.group('${1:__GroupName__}')",
-			"console.log(`${2:__output__}:`, ${2:__output__});",
-			"console.groupEnd()"
-		]
+		"body": ["console.group('${1:__GroupName__}')", "console.log(`${2:__output__}: ${${2:__output__}}`);", "console.groupEnd()"]
 	},
 	"Common : PrintToConsole : Group : withColor": {
 		"prefix": "cclog_group_withColor",
@@ -26,7 +22,7 @@
 	},
 	"Common : PrintToConsole": {
 		"prefix": "cclog",
-		"body": ["console.log(`${1:__output__}:`, ${1:__output__});"]
+		"body": ["console.log(`${1:__output__}: ${${1:__output__}}`);"]
 	},
 	"Common : PrintToConsole : withColor": {
 		"prefix": "cclog_withColor",
@@ -60,15 +56,7 @@
 	},
 	"Common : Function : Switch": {
 		"prefix": "ccCommon_Function_Switch",
-		"body": [
-			"switch (${1:__key__}) {",
-			"\tcase ${2:__value__}:",
-			"\t\t${3:__statement__}",
-			"\t\tbreak;",
-			"\tdefault:",
-			"\t\tbreak;",
-			"}"
-		],
+		"body": ["switch (${1:__key__}) {", "\tcase ${2:__value__}:", "\t\t${3:__statement__}", "\t\tbreak;", "\tdefault:", "\t\tbreak;", "}"],
 		"description": "Create a standard switch statement."
 	},
 	"ReactJS : Function : SetState": {

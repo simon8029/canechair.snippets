@@ -41,8 +41,6 @@
 			"",
 			"import { configureStore, createSlice, PayloadAction } from '@reduxjs/toolkit';",
 			"",
-			"// export default counterSlice.reducer;",
-			"",
 			"export const reduxStore = configureStore({",
 			"\treducer: {},",
 			"});",
