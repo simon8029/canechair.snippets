@@ -122,40 +122,98 @@
 		],
 		"description": "Create Async Thunk for Update"
 	},
+	"Redux : Slice : AsyncThunk : Delete": {
+		"prefix": "ccRedux_Slice_AsyncThunk_Delete",
+		"body": [
+			"export const delete${1:__EntityName__} = createAsyncThunk<void, string>(",
+			"  \"${1:__EntityName__}/Delete\",",
+			"  async (id: string) => {",
+			"    const response = await axios.delete(`\\${url}/\\${id}`);",
+			"    return response.data;",
+			"  }",
+			");"
+		],
+		"description": "Create Async Thunk for Delete"
+	},
 	"Redux : Slice : ExtraReducers : Fetch": {
-		"prefix": "ccRedux_Slice_ExtraReducers_fetch",
+		"prefix": "ccRedux_Slice_ExtraReducers_Fetch",
 		"body": [
 			".addCase(fetch${1:__EntityName__}.pending, (state, action) => {",
-			"        state.status = \"loading\";",
-			"      })",
-			"      .addCase(fetch${1:__EntityName__}.fulfilled, (state, action) => {",
-			"        state.status = \"succeeded\";",
-			"        action.payload.map((item) => {",
-			"          state.${1/^(.)(.*)$/${1:/downcase}${2}/}.push(item);",
-			"        });",
-			"      })",
-			"      .addCase(fetch${1:__EntityName__}.rejected, (state, action) => {",
-			"        state.status = \"failed\";",
-			"        state.error = action.error.message;",
-			"      });"
+			"  state.status = \"loading\";",
+			"})",
+			".addCase(fetch${1:__EntityName__}.fulfilled, (state, action) => {",
+			"  state.status = \"succeeded\";",
+			"  action.payload.map((item) => {",
+			"    state.${1/^(.)(.*)$/${1:/downcase}${2}/}List.push(item);",
+			"  });",
+			"})",
+			".addCase(fetch${1:__EntityName__}.rejected, (state, action) => {",
+			"  state.status = \"failed\";",
+			"  state.error = action.error.message;",
+			"});"
 		],
 		"description": "Create extra reducers for Fetch"
 	},
 	"Redux : Slice : ExtraReducers : Add": {
-		"prefix": "ccRedux_Slice_ExtraReducers_add",
+		"prefix": "ccRedux_Slice_ExtraReducers_Add",
 		"body": [
 			".addCase(add${1:__EntityName__}.pending, (state, action) => {",
-			"        state.status = \"loading\";",
-			"      })",
-			"      .addCase(add${1:__EntityName__}.fulfilled, (state, action) => {",
-			"        state.status = \"succeeded\";",
-			"        state.${1/^(.)(.*)$/${1:/downcase}${2}/}.push(action.payload);",
-			"      })",
-			"      .addCase(add${1:__EntityName__}.rejected, (state, action) => {",
-			"        state.status = \"failed\";",
-			"        state.error = action.error.message;",
-			"      });"
+			"  state.status = \"loading\";",
+			"})",
+			".addCase(add${1:__EntityName__}.fulfilled, (state, action) => {",
+			"  state.status = \"succeeded\";",
+			"  state.${1/^(.)(.*)$/${1:/downcase}${2}/}List.push(action.payload);",
+			"})",
+			".addCase(add${1:__EntityName__}.rejected, (state, action) => {",
+			"  state.status = \"failed\";",
+			"  state.error = action.error.message;",
+			"});"
 		],
 		"description": "Create extra reducers for Add"
+	},
+	"Redux : Slice : ExtraReducers : Update": {
+		"prefix": "ccRedux_Slice_ExtraReducers_Update",
+		"body": [
+			".addCase(update${1:__EntityName__}.pending, (state, action) => {",
+			"  state.status = \"loading\";",
+			"})",
+			".addCase(update${1:__EntityName__}.fulfilled, (state, action) => {",
+			"  state.status = \"succeeded\";",
+			"  const new${1:__EntityName__}List = state.${1/^(.)(.*)$/${1:/downcase}${2}/}List.map((${1/^(.)(.*)$/${1:/downcase}${2}/}: ${1:__EntityName__}) => {",
+			"    if (${1/^(.)(.*)$/${1:/downcase}${2}/}.id === action.payload.id) {",
+			"      return action.payload;",
+			"    }",
+			"    return ${1/^(.)(.*)$/${1:/downcase}${2}/};",
+			"  });",
+			"",
+			"  state.${1/^(.)(.*)$/${1:/downcase}${2}/}List = new${1:__EntityName__}List;",
+			"})",
+			".addCase(update${1:__EntityName__}.rejected, (state, action) => {",
+			"  state.status = \"failed\";",
+			"  state.error = action.error.message;",
+			"})"
+		],
+		"description": "Create extra reducers for Update"
+	},
+	"Redux : Slice : ExtraReducers : Delete": {
+		"prefix": "ccRedux_Slice_ExtraReducers_Delete",
+		"body": [
+			" .addCase(delete${1:__EntityName__}.pending, (state, action) => {",
+			"  state.status = \"loading\";",
+			"})",
+			".addCase(delete${1:__EntityName__}.fulfilled, (state, action) => {",
+			"  state.status = \"succeeded\";",
+			"  const new${1:__EntityName__}List = state.${1/^(.)(.*)$/${1:/downcase}${2}/}List.filter((entity: ${1:__EntityName__}) => {",
+			"    return entity.id !== action.meta.arg;",
+			"  });",
+			"",
+			"  state.${1/^(.)(.*)$/${1:/downcase}${2}/}List = new${1:__EntityName__}List;",
+			"})",
+			".addCase(delete${1:__EntityName__}.rejected, (state, action) => {",
+			"  state.status = \"failed\";",
+			"  state.error = action.error.message;",
+			"});"
+		],
+		"description": "Create extra reducers for Delete"
 	}
 }
