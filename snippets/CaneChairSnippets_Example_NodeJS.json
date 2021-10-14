@@ -1,0 +1,23 @@
+{
+	"Example : NodeJS : PromisesAll": {
+		"prefix": "ccExample_NodeJS_PromisesAll",
+		"body": [
+			"const fs = require(\"fs\").promises;",
+			"",
+			"fs.readdir(\"./\")",
+			"  .then((res) =>",
+			"    Promise.all(",
+			"      res.map((file) => fs.readFile(file).then((data) => [file, data.length]))",
+			"    ).then((res) => {",
+			"      res.forEach(([file, length]) =>",
+			"        console.log(`file: ${file}. length: ${length}`)",
+			"      );",
+			"      console.log(\"Done.\");",
+			"    })",
+			"  )",
+			"  .catch((err) => console.error(err));",
+			""
+		],
+		"description": "Example of NodeJS PromisesAll."
+	}
+}
