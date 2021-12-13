@@ -1,0 +1,12 @@
+{
+	"Chai : it : should": {
+		"prefix": "ccTest_Chai_ItShould",
+		"body": ["it(\"should ${1:}\", function () {", "\t ${0}", "});"],
+		"description": "Chai : it : should"
+	},
+	"Chai : describe": {
+		"prefix": "ccTest_Chai_Describe",
+		"body": ["describe('${1}', function () {", "\t${0}", "});"],
+		"description": "Chai : describe"
+	}
+}
