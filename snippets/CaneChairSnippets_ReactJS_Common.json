@@ -6,7 +6,7 @@
 	},
 	"Common : PrintToConsole : Group": {
 		"prefix": "cclog_group",
-		"body": ["console.group('${1:__GroupName__}')", "console.log(`${2:__output__}: ${${2:__output__}}`);", "console.groupEnd()"]
+		"body": ["console.group('${1:__GroupName__}')", "console.log(`${1:__output__}:`, ${1:__output__});", "console.groupEnd()"]
 	},
 	"Common : PrintToConsole : Group : withColor": {
 		"prefix": "cclog_group_withColor",
@@ -22,7 +22,7 @@
 	},
 	"Common : PrintToConsole": {
 		"prefix": "cclog",
-		"body": ["console.log(`${1:__output__}: ${${1:__output__}}`);"]
+		"body": ["console.log(`${1:__output__}:`, ${1:__output__});"]
 	},
 	"Common : PrintToConsole : withColor": {
 		"prefix": "cclog_withColor",
