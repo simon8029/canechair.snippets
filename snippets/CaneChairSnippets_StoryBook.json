@@ -1,0 +1,23 @@
+{
+  "StoryBook : stories : Base": {
+    "prefix": "ccStoryBook_Stories_Base",
+    "body": [
+      "import { ${1:__ComponentName__} } from './${1:__ComponentName__}';",
+      "",
+      "export default {",
+      "  component: ${1:__ComponentName__},",
+      "  title: '${1:__ComponentName__}',",
+      "};",
+      "",
+      "const Template = (args) => <${1:__ComponentName__} {...args} />;",
+      "",
+      "export const Default = Template.bind({});",
+      "Default.args = {};",
+      "",
+      "export const Story1 = Template.bind({});",
+      "Story1.args = {};",
+      ""
+    ],
+    "description": "Create a Base StoryBook stories.js file"
+  }
+}
