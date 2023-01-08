@@ -1,5 +1,9 @@
 # Change Log
 
+##### [5.0.1] close issue #153
+
+Update Create Functional Component snippet for tsx
+
 ##### [4.6.0] close issue #139
 
 Adding GoogleCloud : Functions : GeneralCrudApi

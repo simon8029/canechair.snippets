@@ -1,15 +1,25 @@
 {
 	"useState": {
 		"prefix": "ccTypeScript_useState",
-		"body": ["const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = React.useState<${2:__StateDataType__}>(${0});"]
+		"body": [
+			"const [${1:__StateName__}, set${1/^(.)(.*)$/${1:/upcase}${2}/}] = React.useState<${2:__StateDataType__}>(${0});"
+		]
 	},
 	"useMemo": {
 		"prefix": "ccJS_useMemo",
-		"body": ["\tconst ${1:__memoName__} = useMemo(() => {", "\t\t${0}", "\t}, [${2:__deps__}]);"]
+		"body": [
+			"\tconst ${1:__memoName__} = useMemo(() => {",
+			"\t\t${0}",
+			"\t}, [${2:__deps__}]);"
+		]
 	},
 	"useEffect": {
 		"prefix": "ccJS_useEffect",
-		"body": ["useEffect(() => {", "\t\t${0}", "\t}, [${1:__deps__}]);"]
+		"body": [
+			"useEffect(() => {",
+			"\t\t${0}",
+			"\t}, [${1:__deps__}]);"
+		]
 	},
 	"useCustomHook": {
 		"prefix": "ccTypeScript_useCustomHook",
@@ -29,21 +39,36 @@
 		"prefix": "ccTypeScript_FunctionalComponent",
 		"body": [
 			"import React from 'react'",
+			"import { useAppDispatch, useAppSelector } from '../../Redux/store'",
+			"import styled from 'styled-components'",
 			"",
-			"type ${1:__ComponentName__}Props = {}",
+			"type ${1:__ComponentName__}ListProps = {}",
+			"const ${1:__ComponentName__}Container = styled.div`",
+			"  display: flex;",
+			"  flex-direction: column;",
+			"  box-shadow: ${props => props.theme.testBoxShadow};",
+			"  padding: ${props => props.theme.componentPadding};",
+			"`",
 			"",
-			"export const ${1:__ComponentName__} = (props:${1:__ComponentName__}Props) => {",
-			"  return <>${1:__ComponentName__} here.</>",
+			"export const ${1:__ComponentName__}List = (props: ${1:__ComponentName__}ListProps) => {",
+			"  const dispatch = useAppDispatch()",
+			"  const ${1/^(.)(.*)$/${1:/downcase}${2}/}List = useAppSelector(state => state.${1/^(.)(.*)$/${1:/downcase}${2}/}Slice.${1/^(.)(.*)$/${1:/downcase}${2}/}List)",
+			"",
+			"  return (",
+			"    <${1:__ComponentName__}Container>${1:__ComponentName__}List here.</${1:__ComponentName__}Container>",
+			"  )",
 			"}",
-			"",
 			""
 		],
 		"description": "Create Functional Component"
 	},
-
 	"Arrow Function": {
 		"prefix": "ccTypeScript_Arrow_Function",
-		"body": ["\tconst ${1:__FunctionName__} = (${2:__args__}): ${3:__Type__}  => {", "\t\t${0}", "\t};"]
+		"body": [
+			"\tconst ${1:__FunctionName__} = (${2:__args__}): ${3:__Type__}  => {",
+			"\t\t${0}",
+			"\t};"
+		]
 	},
 	"index.tsx": {
 		"prefix": "ccTypeScript_index.tsx",
