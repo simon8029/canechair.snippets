@@ -50,7 +50,7 @@
 			"  padding: ${props => props.theme.componentPadding};",
 			"`",
 			"",
-			"export const ${1:__ComponentName__}List = (props: ${1:__ComponentName__}ListProps) => {",
+			"export const ${1:__ComponentName__} = (props: ${1:__ComponentName__}ListProps) => {",
 			"  const dispatch = useAppDispatch()",
 			"  const ${1/^(.)(.*)$/${1:/downcase}${2}/}List = useAppSelector(state => state.${1/^(.)(.*)$/${1:/downcase}${2}/}Slice.${1/^(.)(.*)$/${1:/downcase}${2}/}List)",
 			"",
