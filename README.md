@@ -2,12 +2,12 @@
 
 ##### (It's time to sit down and enjoy the rocking...)
 
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/Simon8029.canechairsnippets)
 [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/Simon8029.canechairsnippets)]()
-[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version-short/Simon8029.canechairsnippets.svg)]()
-[![GitHub last commit](https://img.shields.io/github/last-commit/simon8029/CaneChair.Snippets.svg)]()
-[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/4w/simon8029/CaneChair.Snippets.svg)]()
-[![GitHub issues](https://img.shields.io/github/issues/simon8029/CaneChair.Snippets.svg)]()
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/simon8029/CaneChair.Snippets.svg?colorB=green)]()
+[![GitHub last commit](https://img.shields.io/github/last-commit/simon8029/CaneChair.Snippets)]()
+[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/4w/simon8029/CaneChair.Snippets)]()
+[![GitHub issues](https://img.shields.io/github/issues/simon8029/CaneChair.Snippets)]()
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/simon8029/CaneChair.Snippets?colorB=green)]()
 
 ---
 
