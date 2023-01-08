@@ -42,7 +42,7 @@
 			"import { useAppDispatch, useAppSelector } from '../../Redux/store'",
 			"import styled from 'styled-components'",
 			"",
-			"type ${1:__ComponentName__}ListProps = {}",
+			"type ${1:__ComponentName__}Props = {}",
 			"const ${1:__ComponentName__}Container = styled.div`",
 			"  display: flex;",
 			"  flex-direction: column;",
@@ -55,7 +55,7 @@
 			"  const ${1/^(.)(.*)$/${1:/downcase}${2}/}List = useAppSelector(state => state.${1/^(.)(.*)$/${1:/downcase}${2}/}Slice.${1/^(.)(.*)$/${1:/downcase}${2}/}List)",
 			"",
 			"  return (",
-			"    <${1:__ComponentName__}Container>${1:__ComponentName__}List here.</${1:__ComponentName__}Container>",
+			"    <${1:__ComponentName__}Container>${1:__ComponentName__} component is here.</${1:__ComponentName__}Container>",
 			"  )",
 			"}",
 			""
