@@ -1,5 +1,9 @@
 # Change Log
 
+##### [5.0.6] (#154)
+
+Add ComponentMain & ComponentBase snippets
+
 ##### [5.0.1] close issue #153
 
 Update Create Functional Component snippet for tsx
