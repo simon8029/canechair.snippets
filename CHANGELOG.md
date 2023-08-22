@@ -1,5 +1,9 @@
 # Change Log
 
+##### [5.0.8] (#154)
+
+Add vite.config.js snippets
+
 ##### [5.0.6] (#154)
 
 Add ComponentMain & ComponentBase snippets
