@@ -1,5 +1,13 @@
 # Change Log
 
+##### [5.0.10] (#154)
+
+Using typescriptreact snippets for javascriptreact
+
+##### [5.0.9] (#154)
+
+Add eslintrc.json snippets
+
 ##### [5.0.8] (#154)
 
 Add vite.config.js snippets
