@@ -1,5 +1,9 @@
 # Change Log
 
+##### [5.0.11] (#154)
+
+Add create microservice init
+
 ##### [5.0.10] (#154)
 
 Using typescriptreact snippets for javascriptreact
