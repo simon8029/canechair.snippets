@@ -11,6 +11,9 @@
 	"AWS_SERVERLESS_CONSTANTS_TS": {
 		"prefix": "ccAws_Serverless_Constants_Ts",
 		"body": [
+			"import { RemovalPolicy } from 'aws-cdk-lib';",
+			"import { BillingMode } from 'aws-cdk-lib/aws-dynamodb';",
+			"",
 			"export const CONSTANT = {",
 			"  TABLE_ID: '${1:__MICROSERVICE_NAME__}Table',",
 			"  TABLE_NAME: 'aws-microservices-${1:__MICROSERVICE_NAME__}',",
@@ -33,9 +36,8 @@
 	"AWS_SERVERLESS_MICROSERVICE_TS": {
 		"prefix": "ccAws_Serverless_microService_Ts",
 		"body": [
-			"import { RemovalPolicy } from 'aws-cdk-lib';",
 			"import { LambdaRestApi } from 'aws-cdk-lib/aws-apigateway';",
-			"import { AttributeType, BillingMode, ITable, Table } from 'aws-cdk-lib/aws-dynamodb';",
+			"import { AttributeType, ITable, Table } from 'aws-cdk-lib/aws-dynamodb';",
 			"import { IFunction, Runtime } from 'aws-cdk-lib/aws-lambda';",
 			"import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs';",
 			"import { Construct } from 'constructs';",
