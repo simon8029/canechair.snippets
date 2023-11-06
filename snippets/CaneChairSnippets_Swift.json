@@ -7,5 +7,48 @@
       "}"
     ],
     "description": "Create a EnvironmentKey"
+  },
+  "Swift : View": {
+    "prefix": "ccSwift_View",
+    "body": [
+      "//  ${1:__ViewName__}.swift",
+      "//  ",
+      "//  Created on $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE.",
+      "//",
+      "",
+      "import SwiftUI",
+      "",
+      "struct ${1:__ViewName__}EnvironmentKey: EnvironmentKey {",
+      "  static var defaultValue = false",
+      "}",
+      "",
+      "extension EnvironmentValues {",
+      "  var environmentValueof${1:__ViewName__}: Bool {",
+      "    get { self[${1:__ViewName__}EnvironmentKey.self] }",
+      "    set { self[${1:__ViewName__}EnvironmentKey.self] = newValue }",
+      "  }",
+      "}",
+      "",
+      "struct ${1:__ViewName__}: View {",
+      "  @State var localState = \"${1:__ViewName__}\"",
+      "  var body: some View {",
+      "    Form {",
+      "      VStack {",
+      "        Spacer()",
+      "        Text(localState)",
+      "          .padding()",
+      "      }",
+      "      .padding()",
+      "    }",
+      "    .cornerRadius(10)",
+      "  }",
+      "}",
+      "",
+      "#Preview {",
+      "  ${1:__ViewName__}()",
+      "}",
+      ""
+    ],
+    "description": "Create a new SwiftUI View."
   }
 }
