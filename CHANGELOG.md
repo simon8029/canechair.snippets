@@ -1,5 +1,11 @@
 # Change Log
 
+##### [6.0.1]
+
+Supporting Swift snippets
+
+Add CaneChairSnippets_AWS_SERVERLESS_TypeScript snippets
+
 ##### [5.1.0]
 
 Add CaneChairSnippets_AWS_SERVERLESS_TypeScript snippets

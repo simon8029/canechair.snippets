@@ -1,0 +1,11 @@
+{
+  "Swift : EnvironmentKey": {
+    "prefix": "ccSwift_environmentKey",
+    "body": [
+      "struct ${1:__EnvoronmentKey__}: EnvironmentKey {",
+      "  static var defaultValue = ${2:__DefaultValue__}",
+      "}"
+    ],
+    "description": "Create a EnvironmentKey"
+  }
+}
