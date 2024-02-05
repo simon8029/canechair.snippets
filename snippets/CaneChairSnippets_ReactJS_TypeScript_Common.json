@@ -43,6 +43,25 @@
 			"\t};"
 		]
 	},
+	"ReactJS_TS_ReduxStore.ts": {
+		"prefix": "ccReactJS_TS_ReduxStore.ts",
+		"body": [
+			"import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';",
+			"",
+			"import { configureStore, createSlice, PayloadAction } from '@reduxjs/toolkit';",
+			"",
+			"export const reduxStore = configureStore({",
+			"\treducer: {},",
+			"});",
+			"",
+			"export type RootState = ReturnType<typeof reduxStore.getState>;",
+			"export type AppDispatch = typeof reduxStore.dispatch;",
+			"export const useAppDispatch = () => useDispatch<AppDispatch>();",
+			"export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector;",
+			""
+		],
+		"description": "Create a Redux Store file."
+	},
 	"index.tsx": {
 		"prefix": "ccTypeScript_index.tsx",
 		"body": [
@@ -218,23 +237,20 @@
 		"prefix": "ccTypeScript_FunctionalComponent",
 		"body": [
 			"import React from 'react'",
-			"import { useAppDispatch, useAppSelector } from '../../Redux/store'",
+			"import { useAppDispatch, useAppSelector } from '../Redux/store'",
 			"import styled from 'styled-components'",
 			"",
 			"type ${1:__ComponentName__}Props = {}",
-			"const ${1:__ComponentName__}Container = styled.div`",
-			"  display: flex;",
-			"  flex-direction: column;",
-			"  box-shadow: ${props => props.theme.testBoxShadow};",
-			"  padding: ${props => props.theme.componentPadding};",
-			"`",
+			"const ${1:__ComponentName__}Container = styled.div` `",
 			"",
 			"export const ${1:__ComponentName__} = (props: ${1:__ComponentName__}Props) => {",
 			"  const dispatch = useAppDispatch()",
-			"  const ${1/^(.)(.*)$/${1:/downcase}${2}/}List = useAppSelector(state => state.${1/^(.)(.*)$/${1:/downcase}${2}/}Slice.${1/^(.)(.*)$/${1:/downcase}${2}/}List)",
+			"  const store = useAppSelector(store => store)",
 			"",
 			"  return (",
-			"    <${1:__ComponentName__}Container>${1:__ComponentName__} component is here.</${1:__ComponentName__}Container>",
+			"    <${1:__ComponentName__}Container>",
+			"      ${1:__ComponentName__}",
+			"    </${1:__ComponentName__}Container>",
 			"  )",
 			"}",
 			""
