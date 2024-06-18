@@ -37,13 +37,9 @@
 		]
 	},
 	"Common : PrintToConsole : withColor": {
-		"prefix": "cclog_withColor",
+		"prefix": "ccclog",
 		"body": [
-			"console.log(",
-			"\t`%c${1:__output__}: %c${${1:__output__}}`,",
-			"\t'color:black;font-weight:bold',",
-			"\t'color:blue; background:lightgrey;padding:3px',",
-			");"
+			"console.log(`%c${1:__output__}: %c${${1:__output__}}`,'color:${2:black}; font-size: ${3:14}px; ${4:font-weight: bold} background:${5:lightgrey};');"
 		]
 	},
 	"Common : Import : Module": {
@@ -158,7 +154,7 @@
 			"  root: 'src'",
 			"});"
 		],
-		"description": "Create a vite.config.js file for a React project",
+		"description": "Create a vite.config.js file for a React project"
 	},
 	"Common : Settings : ESLintrc.json": {
 		"prefix": "ccCommon_Settings_ESLintrc.json",

@@ -1,5 +1,9 @@
 # Change Log
 
+##### [6.0.6]
+
+Update ccclog snippets
+
 ##### [6.0.0]
 
 Supporting Swift snippets
