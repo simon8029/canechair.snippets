@@ -39,7 +39,7 @@
 	"Common : PrintToConsole : withColor": {
 		"prefix": "ccclog",
 		"body": [
-			"console.log('%c ${1:__output__}: ', 'color: font-weight: bold; ${2:black}; font-size: ${3:14}px; background: ${4:none};', ${1:__output__});"
+			"console.log('%c ${1:__output__}: ', 'color: ${2:red}; font-weight: bold; font-size: ${3:14}px; background: ${4:none};', ${1:__output__});"
 		]
 	},
 	"Common : Import : Module": {
